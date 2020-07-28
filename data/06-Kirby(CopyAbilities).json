@@ -1,0 +1,124 @@
+{
+  "name": "06 - Kirby (Copy Abilities)",
+  "moves": {
+    "01 - Fireball": {
+      "Startup": "17",
+      "Total Frames": "49",
+      "": "",
+      "Base Damage": "6.0 / 4.8",
+      "Note that a 20% increase in base damage is normal for Kirby's version of each move.": "Any additional details about these moves should be read from the other characters' pages"
+    },
+    "02 - Giant Punch (partial charge)": {
+      "Startup": "19 (+7)",
+      "Total Frames": "62",
+      "": "",
+      "Base Damage": "12.0 -32.4",
+      "Note that a 20% increase in base damage is normal for Kirby's version of each move.": "Those details are identical unless otherwise stated."
+    },
+    "02 - Giant Punch (full charge)": {
+      "Startup": "19",
+      "Total Frames": "47",
+      "": "",
+      "Base Damage": "33.6",
+      "Note that a 20% increase in base damage is normal for Kirby's version of each move.": "The purpose of this page is just to check if there are any differences between moves"
+    },
+    "03 - Hero's Bow": {
+      "Startup": "16-52",
+      "Total Frames": "44-80",
+      "": "",
+      "Base Damage": "4.8 - 14.4"
+    },
+    "04 - Charge Shot (partial charge)": {
+      "Startup": "3 (+13)",
+      "Total Frames": "31",
+      "": "",
+      "Base Damage": "6.0 - 33.3"
+    },
+    "04 - Charge Shot (full charge)": {
+      "Startup": "16",
+      "Total Frames": "60",
+      "": "",
+      "Base Damage": "33.6"
+    },
+    "05 - Egg Lay": {
+      "Startup": "19",
+      "Total Frames": "59/41",
+      "": "",
+      "Base Damage": "8.4"
+    },
+    "07 - Blaster (ground/air)": {
+      "Startup": "11/9",
+      "Total Frames": "36/34",
+      "": "",
+      "Base Damage": "3.6 / 2.4 / 1.6"
+    },
+    "08 - Thunder Jolt": {
+      "Startup": "19",
+      "Total Frames": "51",
+      "": "",
+      "Base Damage": "7.2 / 5.7"
+    },
+    "09 - Fireball": {
+      "Startup": "17",
+      "Total Frames": "43",
+      "": "",
+      "Base Damage": "7.2 / 6.0"
+    },
+    "10 - PK Flash": {
+      "Startup": "44-121",
+      "Total Frames": "65-142",
+      "": "",
+      "Base Damage": "13.2 - 32.4"
+    },
+    "11 - Falcon Punch": {
+      "Startup": "53/62",
+      "Total Frames": "103/117",
+      "": "",
+      "Base Damage": "30.0 / 33.6"
+    },
+    "12 - Rollout": {
+      "Startup": "33/60",
+      "Total Frames": "",
+      "": "",
+      "Base Damage": "12.0 - 24.0"
+    },
+    "13 - Toad": {
+      "Startup": "",
+      "Total Frames": "62"
+    },
+    "13 - Toad (attack)": {
+      "Startup": "",
+      "Total Frames": "59"
+    },
+    "14 - Fire Breath": {
+      "Startup": "23/30/37/44",
+      "Total Frames": "77",
+      "": "",
+      "Base Damage": "2.1 "
+    },
+    "15 - Ice Shot": {
+      "Startup": "18/19",
+      "Total Frames": "55",
+      "": "",
+      "Base Damage": "4.4 / 4.4"
+    },
+    "16 - Needles (partial charge)": {
+      "Startup": "4/7/10/13/16 (+7)",
+      "Total Frames": "41/35"
+    },
+    "16 - Needles (full charge)": {
+      "Startup": "11/14/17/20/23/26",
+      "Total Frames": "48/42"
+    },
+    "17 - Nayru's Love": {
+      "Startup": "11/15/19/26",
+      "Total Frames": "57"
+    },
+    "18 - Megavitamins": {
+      "Startup": "17",
+      "Total Frames": "49",
+      "": "",
+      "Base Damage": "7.0 / 5.6"
+    }
+  }
+}

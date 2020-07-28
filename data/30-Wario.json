@@ -1,0 +1,354 @@
+{
+  "name": "30 - Wario",
+  "moves": {
+    "Jab 1": {
+      "Startup": "8",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to Jab 2 as early as frame 10.",
+      "Base Damage": "4.0",
+      "Shieldlag": "9",
+      "Shieldstun": "5",
+      "hitbox": "",
+      "Advantage": "-16"
+    },
+    "Jab 2": {
+      "Startup": "4",
+      "Total Frames": "33",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "5.0",
+      "Shieldlag": "12",
+      "Shieldstun": "6",
+      "hitbox": "",
+      "Advantage": "-23"
+    },
+    "F-Tilt ": {
+      "Startup": "12",
+      "Total Frames": "39",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "13.0",
+      "Shieldlag": "9",
+      "Shieldstun": "12",
+      "hitbox": "",
+      "Advantage": "-15"
+    },
+    "U-Tilt": {
+      "Startup": "8",
+      "Total Frames": "27",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "6.0",
+      "Shieldlag": "6",
+      "Shieldstun": "6",
+      "hitbox": "",
+      "Advantage": "-13"
+    },
+    "D-Tilt": {
+      "Startup": "5",
+      "Total Frames": "17",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "4.0",
+      "Shieldlag": "5",
+      "Shieldstun": "5",
+      "hitbox": "",
+      "Advantage": "-7"
+    },
+    "Dash Attack": {
+      "Startup": "5",
+      "Total Frames": "48",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "11.0 / 5.0",
+      "Shieldlag": "8/6",
+      "Shieldstun": "10/6",
+      "hitbox": "Early/Late",
+      "Advantage": "-33"
+    },
+    "F-Smash": {
+      "Startup": "18",
+      "Total Frames": "65",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 4",
+      "Base Damage": "20.0",
+      "Shieldlag": "12",
+      "Shieldstun": "13",
+      "hitbox": "",
+      "Advantage": "-34"
+    },
+    "U-Smash": {
+      "Startup": "11",
+      "Total Frames": "57",
+      "Landing Lag": "",
+      "Additional Notes": "Head intangibility on frame 8-14. Charge hold is frame 4",
+      "Base Damage": "17.0 / 13.0",
+      "Shieldlag": "11/9",
+      "Shieldstun": "11/9",
+      "hitbox": "Close/far",
+      "Advantage": "-35/-37"
+    },
+    "D-Smash": {
+      "Startup": "8",
+      "Total Frames": "61",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 2",
+      "Base Damage": "13.0 / 10.0 / 5.0",
+      "Shieldlag": "9",
+      "Shieldstun": "9",
+      "hitbox": "Early/Late/Later",
+      "Advantage": "-44"
+    },
+    "N-Air": {
+      "Startup": "4/20",
+      "Total Frames": "45",
+      "Landing Lag": "7",
+      "Additional Notes": "Autocancels on frame 1-3 and 43 onward",
+      "Base Damage": "6.0 / 5.0",
+      "Shieldlag": "6/6",
+      "Shieldstun": "3/3",
+      "hitbox": "",
+      "Advantage": "-4/-4"
+    },
+    "F-Air": {
+      "Startup": "5",
+      "Total Frames": "37",
+      "Landing Lag": "10",
+      "Additional Notes": "Autocancels on frame 1-4 and 27 onward",
+      "Base Damage": "7.0 / 4.5",
+      "Shieldlag": "7/5",
+      "Shieldstun": "3/3",
+      "hitbox": "Early/Late",
+      "Advantage": "-7/-7"
+    },
+    "B-Air": {
+      "Startup": "9",
+      "Total Frames": "49",
+      "Landing Lag": "16",
+      "Additional Notes": "Autocancels on frame 1-4 and 34 onward",
+      "Base Damage": "12.0",
+      "Shieldlag": "9",
+      "Shieldstun": "5",
+      "hitbox": "",
+      "Advantage": "-11"
+    },
+    "U-Air": {
+      "Startup": "8",
+      "Total Frames": "46",
+      "Landing Lag": "7",
+      "Additional Notes": "Autocancels on frame 1-3 and 37 onward",
+      "Base Damage": "13.0",
+      "Shieldlag": "9",
+      "Shieldstun": "5",
+      "hitbox": "",
+      "Advantage": "-2 "
+    },
+    "D-Air": {
+      "Startup": "9/11/13/15/17/19/21",
+      "Total Frames": "47",
+      "Landing Lag": "18",
+      "Additional Notes": "Autocancels on frame 1-2 and 42 onward",
+      "Base Damage": "1.3 / 4.0",
+      "Shieldlag": "4/11",
+      "Shieldstun": "2/3",
+      "hitbox": "Multi/Final",
+      "Advantage": "-16/-15"
+    },
+    "Chomp": {
+      "Startup": "8",
+      "Total Frames": "41",
+      "Landing Lag": "",
+      "Additional Notes": "25 endlag from release of the button. "
+    },
+    "Chomp (grab release)": {
+      "Startup": "11",
+      "Total Frames": "19"
+    },
+    "Chomp (eat)": {
+      "Startup": "",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "Can eat projectiles on frame 9-. With the exception of Bike being eaten on frame 2\nAnimation for eating a projectile is 25 frames. 55 for the Bike."
+    },
+    "Wario Bike": {
+      "Startup": "20/24",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "Startup is 24 if mounting a bike laying on the ground\nFrame 20 is the earliest you can jump, turnaround, wheelie\nWario seems to suffer more shieldlag than the defender on any hit. Bug?",
+      "Base Damage": "0.6 - 11.4",
+      "Shieldlag": "4-8 \n6-13 \n(Wario)",
+      "Shieldstun": "2-4"
+    },
+    "Wario Bike (wheelie)": {
+      "Startup": "4/54",
+      "Total Frames": "64",
+      "Landing Lag": "",
+      "Additional Notes": "Bike armor on frame 10. Jump animation takes 28 frames.",
+      "Base Damage": "5.0 / 13.0",
+      "Shieldlag": "8/9\n11/14\n(Wario)",
+      "Shieldstun": "3/5",
+      "hitbox": "",
+      "Advantage": "-60/-10"
+    },
+    "Wario Bike (turnaround)": {
+      "Startup": "6",
+      "Total Frames": "45",
+      "Landing Lag": "",
+      "Additional Notes": "Looking for Bike animation takes 39 frames",
+      "Base Damage": "7.0",
+      "Shieldlag": "8\n12 (Wario)",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-40"
+    },
+    "Corkscrew": {
+      "Startup": "6/8/12/16/20/29",
+      "Total Frames": "",
+      "Landing Lag": "20",
+      "Additional Notes": "Snaps to ledges on frame 9 onward.",
+      "Base Damage": "5.0 / 1.0 / 4.0",
+      "Shieldlag": "6/4/11",
+      "Shieldstun": "-/2/5",
+      "hitbox": "First/multi/Final"
+    },
+    "Wario Waft (first stage)": {
+      "Startup": "16",
+      "Total Frames": "79"
+    },
+    "Wario Waft (second stage)": {
+      "Startup": "10",
+      "Total Frames": "64",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "12.0+",
+      "Shieldlag": "10",
+      "Shieldstun": "13",
+      "hitbox": "",
+      "Advantage": "-41"
+    },
+    "Wario Waft (third stage)": {
+      "Startup": "5",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "20.0+",
+      "Shieldlag": "13",
+      "Shieldstun": "20",
+      "hitbox": "",
+      "Advantage": "-24"
+    },
+    "Wario Waft (final stage)": {
+      "Startup": "9",
+      "Total Frames": "60",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "27.0 / 20.0",
+      "Shieldlag": "19/12",
+      "Shieldstun": "23/18",
+      "hitbox": "Cloud/Body",
+      "Advantage": "-28"
+    },
+    "Grab": {
+      "Startup": "8",
+      "Total Frames": "35"
+    },
+    "Dash Grab ": {
+      "Startup": "11",
+      "Total Frames": "43"
+    },
+    "Pivot Grab": {
+      "Startup": "12",
+      "Total Frames": "38"
+    },
+    "Pummel": {
+      "Startup": "2",
+      "Total Frames": "21",
+      "Landing Lag": "",
+      "Additional Notes": "Total frames includes 15 frames of hitlag (plus one in 1v1)",
+      "Base Damage": "1.6"
+    },
+    "Forward Throw": {
+      "Startup": "20/21",
+      "Total Frames": "54",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "4.0 / 8.0"
+    },
+    "Back Throw": {
+      "Startup": "48",
+      "Total Frames": "70",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.0"
+    },
+    "Up Throw": {
+      "Startup": "24/25",
+      "Total Frames": "43",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "4.0 / 4.0"
+    },
+    "Down Throw": {
+      "Startup": "22/30",
+      "Total Frames": "54",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "4.0 / 7.0"
+    },
+    "Spot Dodge": {
+      "Startup": "",
+      "Total Frames": "21/26",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-17"
+    },
+    "Forward Roll": {
+      "Startup": "",
+      "Total Frames": "30",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 4-15 "
+    },
+    "Back Roll": {
+      "Startup": "",
+      "Total Frames": "35",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 5-16"
+    },
+    "Neutral Air Dodge": {
+      "Startup": "",
+      "Total Frames": "50",
+      "Landing Lag": "10",
+      "Additional Notes": "Invulnerable on frame 3-29 "
+    },
+    "Dir. AD (down)": {
+      "Startup": "",
+      "Total Frames": "66",
+      "Landing Lag": "11-19",
+      "Additional Notes": "invulnerable on frame 3-21"
+    },
+    "Dir. AD (diagonally down)": {
+      "Startup": "",
+      "Total Frames": "75",
+      "Landing Lag": "11-19",
+      "Additional Notes": "invulnerable on frame 3-21"
+    },
+    "Dir. AD (left or right)": {
+      "Startup": "",
+      "Total Frames": "82",
+      "Landing Lag": "11-19",
+      "Additional Notes": "invulnerable on frame 3-21"
+    },
+    "Dir. AD (diagonally up)": {
+      "Startup": "",
+      "Total Frames": "97",
+      "Landing Lag": "11-19",
+      "Additional Notes": "invulnerable on frame 3-21"
+    },
+    "Dir. AD (up)": {
+      "Startup": "",
+      "Total Frames": "104",
+      "Landing Lag": "11-19",
+      "Additional Notes": "invulnerable on frame 3-21"
+    }
+  }
+}

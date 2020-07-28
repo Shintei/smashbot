@@ -1,0 +1,333 @@
+{
+  "name": "64 - Inkling",
+  "moves": {
+    "Jab 1": {
+      "Startup": "3",
+      "Total Frames": "19",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to jab 2 on frame 6",
+      "Base Damage": "2.0",
+      "Shieldlag": "7",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-13"
+    },
+    "Jab 2": {
+      "Startup": "2",
+      "Total Frames": "21",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to jab 3 or rapid jab on frame 8",
+      "Base Damage": "2.0",
+      "Shieldlag": "7",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-16"
+    },
+    "Jab 3": {
+      "Startup": "4",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "3.5",
+      "Shieldlag": "10",
+      "Shieldstun": "4",
+      "hitbox": "",
+      "Advantage": "-21"
+    },
+    "Rapid Jab": {
+      "Startup": "4/7/10...",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "Will not hit opponents when out of Ink",
+      "Base Damage": "0.4",
+      "Shieldlag": "4",
+      "Shieldstun": "3"
+    },
+    "Rapid Finisher": {
+      "Startup": "6",
+      "Total Frames": "48",
+      "Landing Lag": "",
+      "Additional Notes": "Will not hit opponents when out of Ink",
+      "Base Damage": "2.5",
+      "Shieldlag": "10",
+      "Shieldstun": "4",
+      "hitbox": "",
+      "Advantage": "-38"
+    },
+    "F-Tilt": {
+      "Startup": "8",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "9.0",
+      "Shieldlag": "7",
+      "Shieldstun": "9",
+      "hitbox": "",
+      "Advantage": "-17"
+    },
+    "U-Tilt": {
+      "Startup": "7",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "6.0",
+      "Shieldlag": "6",
+      "Shieldstun": "6",
+      "hitbox": "",
+      "Advantage": "-16"
+    },
+    "D-Tilt": {
+      "Startup": "5/12",
+      "Total Frames": "31",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "3.0 / 6.0",
+      "Shieldlag": "5/6",
+      "Shieldstun": "4/6",
+      "hitbox": "",
+      "Advantage": "-13"
+    },
+    "Dash Attack": {
+      "Startup": "8",
+      "Total Frames": "35",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0 / 6.0",
+      "Shieldlag": "7/6",
+      "Shieldstun": "11/9",
+      "hitbox": "",
+      "Advantage": "-16"
+    },
+    "F-Smash ": {
+      "Startup": "16",
+      "Total Frames": "51",
+      "Landing Lag": "",
+      "Additional Notes": "Gets weaker when out of ink. Charge hold is frame 5",
+      "Base Damage": "14.0 / 16.0",
+      "Shieldlag": "10/10",
+      "Shieldstun": "10/11",
+      "hitbox": "close/far",
+      "Advantage": "-25/-24"
+    },
+    "U-Smash": {
+      "Startup": "9/18",
+      "Total Frames": "57",
+      "Landing Lag": "",
+      "Additional Notes": "Gets weaker when out of ink. Charge hold is frame 3",
+      "Base Damage": "4.0 / 15.0 / 10.0",
+      "Shieldlag": "5/10/8",
+      "Shieldstun": "4/10/7",
+      "hitbox": "first/close/far",
+      "Advantage": "-44/-29/-32"
+    },
+    "D-Smash": {
+      "Startup": "11/20",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "Gets weaker when out of ink. Charge hold is frame 2",
+      "Base Damage": "12.5 / 11.0",
+      "Shieldlag": "9/8",
+      "Shieldstun": "9/8",
+      "hitbox": "",
+      "Advantage": "-29/-21"
+    },
+    "N-Air": {
+      "Startup": "6",
+      "Total Frames": "31",
+      "Landing Lag": "5",
+      "Additional Notes": "Autocancels on frame 27 onward",
+      "Base Damage": "7.0",
+      "Shieldlag": "7",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-2"
+    },
+    "F-Air": {
+      "Startup": "10",
+      "Total Frames": "41",
+      "Landing Lag": "12",
+      "Additional Notes": "Autocancels on frame 1-4 and frame 40 onward",
+      "Base Damage": "10.0 / 7.0",
+      "Shieldlag": "8/7",
+      "Shieldstun": "4/3",
+      "hitbox": "early/late",
+      "Advantage": "-8/-9"
+    },
+    "B-Air": {
+      "Startup": "7",
+      "Total Frames": "36",
+      "Landing Lag": "6",
+      "Additional Notes": "Autocancels on frame 1-6 and frame 30 onward",
+      "Base Damage": "10.0 / 7.5",
+      "Shieldlag": "8/7",
+      "Shieldstun": "4/3",
+      "hitbox": "far/close",
+      "Advantage": "-2/-3"
+    },
+    "U-Air": {
+      "Startup": "12/17",
+      "Total Frames": "43",
+      "Landing Lag": "6",
+      "Additional Notes": "Autocancels on frame 40 onward",
+      "Base Damage": "4.5 / 6.5",
+      "Shieldlag": "5/6",
+      "Shieldstun": "3/3",
+      "hitbox": "",
+      "Advantage": "-3/-3"
+    },
+    "D-Air": {
+      "Startup": "16",
+      "Total Frames": "61",
+      "Landing Lag": "10",
+      "Additional Notes": "Autocancels on frame 1-4 and 33 onward",
+      "Base Damage": "12.0 / 10.0",
+      "Shieldlag": "9/8",
+      "Shieldstun": "5/4",
+      "hitbox": "far/close",
+      "Advantage": "-5/-6"
+    },
+    "Splattershot": {
+      "Startup": "12/16/20/24",
+      "Total Frames": "36",
+      "Landing Lag": "",
+      "Additional Notes": "Startup and total frames is the minimum. When out of Ink this move enters the refill state.",
+      "Base Damage": "0.3",
+      "Shieldlag": "4",
+      "Shieldstun": "2",
+      "hitbox": "",
+      "Advantage": "-6"
+    },
+    "Splat Roller": {
+      "Startup": "16",
+      "Total Frames": "17/35",
+      "Landing Lag": "",
+      "Additional Notes": "17 frame animation to jump cancel. 35 animation to cancel on the ground.\nInkling suffers more shieldlag than defender. Advantage assumes buffered jump cancel ",
+      "Base Damage": "4.0-11.0",
+      "Shieldlag": "5-8\n8-13 (inkling)",
+      "Shieldstun": "5-10",
+      "hitbox": "",
+      "Advantage": "-15 to -12"
+    },
+    "Super Jump": {
+      "Startup": "12",
+      "Total Frames": "",
+      "Landing Lag": "40",
+      "Additional Notes": "Inkling will not suffer hitlag from this attack. Landing hitbox on frame 1. Can grab ledges on frame 13",
+      "Base Damage": "8.0 / 6.0",
+      "Shieldlag": "7/6",
+      "Shieldstun": "3/3",
+      "hitbox": "close/far",
+      "Advantage": "-29/-30"
+    },
+    "Splat Bomb": {
+      "Startup": "20-40",
+      "Total Frames": "47-65",
+      "Landing Lag": "",
+      "Additional Notes": "Holding the button allows for a longer yet slower throw. Bombs explode on contact or on frame 99-159.",
+      "Base Damage": "9.4 - 15.0",
+      "Shieldlag": "8-10",
+      "Shieldstun": "4-5"
+    },
+    "Grab": {
+      "Startup": "8",
+      "Total Frames": "34"
+    },
+    "Dash Grab ": {
+      "Startup": "9",
+      "Total Frames": "41"
+    },
+    "Pivot Grab": {
+      "Startup": "10",
+      "Total Frames": "37"
+    },
+    "Pummel": {
+      "Startup": "1",
+      "Total Frames": "18",
+      "Landing Lag": "",
+      "Additional Notes": "Total frames includes 13 frames of hitlag (plus one in 1v1)",
+      "Base Damage": "1.3"
+    },
+    "Forward Throw": {
+      "Startup": "22/23",
+      "Total Frames": "39",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "5.0 / 3.0"
+    },
+    "Back Throw": {
+      "Startup": "17",
+      "Total Frames": "36",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "9.0"
+    },
+    "Up Throw": {
+      "Startup": "21/22",
+      "Total Frames": "36",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "3.0 / 3.0"
+    },
+    "Down Throw": {
+      "Startup": "20",
+      "Total Frames": "40",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.0"
+    },
+    "Spot Dodge": {
+      "Startup": "",
+      "Total Frames": "20/25",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-17"
+    },
+    "Forward Roll": {
+      "Startup": "",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 4-15"
+    },
+    "Back Roll": {
+      "Startup": "",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 5-16"
+    },
+    "Neutral Air Dodge": {
+      "Startup": "",
+      "Total Frames": "50",
+      "Landing Lag": "10",
+      "Additional Notes": "Invulnerable on frame 3-29"
+    },
+    "Dir. AD (down)": {
+      "Startup": "",
+      "Total Frames": "70",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (diagonally down)": {
+      "Startup": "",
+      "Total Frames": "76",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (left or right)": {
+      "Startup": "",
+      "Total Frames": "84",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (diagonally up)": {
+      "Startup": "",
+      "Total Frames": "100",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (up)": {
+      "Startup": "",
+      "Total Frames": "112",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    }
+  }
+}

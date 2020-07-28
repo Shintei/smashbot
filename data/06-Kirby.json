@@ -1,0 +1,352 @@
+{
+  "name": "06 - Kirby",
+  "moves": {
+    "Jab 1": {
+      "Startup": "2",
+      "Total Frames": "14",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to Jab 2 as early as frame 4",
+      "Base Damage": "1.7",
+      "Shieldlag": "8",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-9"
+    },
+    "Jab 2": {
+      "Startup": "3",
+      "Total Frames": "15",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to Rapid Jab as early as frame 5 ",
+      "Base Damage": "1.6",
+      "Shieldlag": "5",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-9"
+    },
+    "Rapid Jab": {
+      "Startup": "7/9/11...",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "0.2",
+      "Shieldlag": "4",
+      "Shieldstun": "-"
+    },
+    "Rapid finisher.": {
+      "Startup": "3",
+      "Total Frames": "39",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "3.0",
+      "Shieldlag": "15",
+      "Shieldstun": "4",
+      "hitbox": "",
+      "Advantage": "-32"
+    },
+    "F-Tilt": {
+      "Startup": "5",
+      "Total Frames": "23",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0 / 7.0",
+      "Shieldlag": "7/7",
+      "Shieldstun": "8/7",
+      "hitbox": "Close/Far",
+      "Advantage": "-14/-15"
+    },
+    "U-Tilt": {
+      "Startup": "4",
+      "Total Frames": "20",
+      "Landing Lag": "",
+      "Additional Notes": "Leg intangibility on frame 4-10",
+      "Base Damage": "5.0 / 4.0",
+      "Shieldlag": "6/5",
+      "Shieldstun": "6/5",
+      "hitbox": "Early/late",
+      "Advantage": "-10"
+    },
+    "D-Tilt": {
+      "Startup": "4",
+      "Total Frames": "20",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "6.0",
+      "Shieldlag": "6",
+      "Shieldstun": "6",
+      "hitbox": "",
+      "Advantage": "-10"
+    },
+    "Dash Attack": {
+      "Startup": "9",
+      "Total Frames": "51",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "12.0 / 9.0 / 6.0",
+      "Shieldlag": "11/7/6",
+      "Shieldstun": "11/9/6",
+      "hitbox": "Early/late/latest",
+      "Advantage": "-31"
+    },
+    "F-Smash ": {
+      "Startup": "13",
+      "Total Frames": "47",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 4",
+      "Base Damage": "15.0 / 11.0",
+      "Shieldlag": "12/8",
+      "Shieldstun": "10/8",
+      "hitbox": "Early/late",
+      "Advantage": "-24"
+    },
+    "U-Smash": {
+      "Startup": "12",
+      "Total Frames": "45",
+      "Landing Lag": "",
+      "Additional Notes": "Leg intangibility on frame 12-17. Charge hold is frame 8.",
+      "Base Damage": "15.0 / 14.0 / 12.0",
+      "Shieldlag": "10/9/9",
+      "Shieldstun": "10/9/8",
+      "hitbox": "close/far/late",
+      "Advantage": "-23/-24"
+    },
+    "D-Smash": {
+      "Startup": "7",
+      "Total Frames": "50",
+      "Landing Lag": "",
+      "Additional Notes": "Leg intangibility on frame 3-11. Charge hold is frame 2.",
+      "Base Damage": "14.0",
+      "Shieldlag": "10",
+      "Shieldstun": "10",
+      "hitbox": "",
+      "Advantage": "-33"
+    },
+    "N-Air": {
+      "Startup": "8",
+      "Total Frames": "52",
+      "Landing Lag": "6",
+      "Additional Notes": "Autocancels on frame 1-4 and 51 onward",
+      "Base Damage": "10.0 / 4.0",
+      "Shieldlag": "8/5",
+      "Shieldstun": "4/3",
+      "hitbox": "Early/late",
+      "Advantage": "-2/-3"
+    },
+    "F-Air": {
+      "Startup": "10/17/25",
+      "Total Frames": "47",
+      "Landing Lag": "8",
+      "Additional Notes": "Autocancels on frame 1-9 and 41 onward",
+      "Base Damage": "4.0 / 4.0 / 6.0",
+      "Shieldlag": "5/5/7",
+      "Shieldstun": "3/3/3",
+      "hitbox": "",
+      "Advantage": "-5/-5/-5"
+    },
+    "B-Air": {
+      "Startup": "6",
+      "Total Frames": "40",
+      "Landing Lag": "10",
+      "Additional Notes": "Autocancels on frame 1-2 and 32 onward",
+      "Base Damage": "13.0 / 8.0",
+      "Shieldlag": "11/7",
+      "Shieldstun": "5/4",
+      "hitbox": "Early/late",
+      "Advantage": "-5/-6"
+    },
+    "U-Air": {
+      "Startup": "8",
+      "Total Frames": "35",
+      "Landing Lag": "7",
+      "Additional Notes": "Autocancels on frame 1-9 and 22 onward",
+      "Base Damage": "10.0",
+      "Shieldlag": "8",
+      "Shieldstun": "4",
+      "hitbox": "",
+      "Advantage": "-3 "
+    },
+    "D-Air": {
+      "Startup": "18/21/24/27/30/34",
+      "Total Frames": "54",
+      "Landing Lag": "16",
+      "Additional Notes": "Landing hit on frame 1. Autocancels on frame 1-17 and 48 onward",
+      "Base Damage": "1.2 / 2.0 / 2.0",
+      "Shieldlag": "4/4/4",
+      "Shieldstun": "2/3/3",
+      "hitbox": "multi/final/landing",
+      "Advantage": "-12"
+    },
+    "Inhale": {
+      "Startup": "10",
+      "Total Frames": "63",
+      "Landing Lag": "",
+      "Additional Notes": "Minimum total frames is 63. Endlag is 19 frames upon release. \nCan eat projectiles. Projectile eat animation is 51 frames long"
+    },
+    "Inhale (copy/spit)": {
+      "Startup": "8/8",
+      "Total Frames": "20/30"
+    },
+    "Hammer Flip (release)": {
+      "Startup": "11 (+15)",
+      "Total Frames": "54",
+      "Landing Lag": "",
+      "Additional Notes": "Startup is 11 from charging state. Takes 15 frames to enter charging state.",
+      "Base Damage": "19.0 - 28.8",
+      "Shieldlag": "14-16",
+      "Shieldstun": "17-25",
+      "hitbox": "",
+      "Advantage": "-26 to -18"
+    },
+    "Hammer Flip (full charge)": {
+      "Startup": "11",
+      "Total Frames": "59",
+      "Landing Lag": "",
+      "Additional Notes": "invulnerable on frame 2-10 if on the ground and Super armor on frame 11-17\nReaches full charge on frame 135.",
+      "Base Damage": "35.0",
+      "Shieldlag": "18",
+      "Shieldstun": "30",
+      "hitbox": "",
+      "Advantage": "-18"
+    },
+    "Hammer Flip (air, no charge)": {
+      "Startup": "28/42",
+      "Total Frames": "71",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "16.0",
+      "Shieldlag": "10/10",
+      "Shieldstun": "14/14"
+    },
+    "Final Cutter": {
+      "Startup": "23/41",
+      "Total Frames": "",
+      "Landing Lag": "30",
+      "Additional Notes": "Projectile appears on frame 1 of landing and disappears on 18.\nSnaps to a ledge on frame 33 onward, and only when Kirby is facing the ledge",
+      "Base Damage": "5.0 / 2.0 / 5.0",
+      "Shieldlag": "6/4/6",
+      "Shieldstun": "6/3/3",
+      "hitbox": "",
+      "Advantage": "-21"
+    },
+    "Stone ": {
+      "Startup": "11",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "Emerging from stone is a 31 frame animation. Stone armor begins on frame 11",
+      "Base Damage": "14.0",
+      "Shieldlag": "10",
+      "Shieldstun": "13"
+    },
+    "Stone (air)": {
+      "Startup": "29",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "Stone armor begins on frame 19",
+      "Base Damage": "18.0",
+      "Shieldlag": "11",
+      "Shieldstun": "16",
+      "hitbox": "",
+      "Advantage": "-15"
+    },
+    "Grab": {
+      "Startup": "6",
+      "Total Frames": "34"
+    },
+    "Dash Grab ": {
+      "Startup": "9",
+      "Total Frames": "41"
+    },
+    "Pivot Grab": {
+      "Startup": "10",
+      "Total Frames": "36"
+    },
+    "Pummel": {
+      "Startup": "1",
+      "Total Frames": "14",
+      "Landing Lag": "",
+      "Additional Notes": "Total frames includes 10 frames of hitlag (plus one in 1v1)",
+      "Base Damage": "1.0"
+    },
+    "Forward Throw": {
+      "Startup": "45",
+      "Total Frames": "58",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "2.0 / 5.0"
+    },
+    "Back Throw": {
+      "Startup": "41",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0"
+    },
+    "Up Throw": {
+      "Startup": "58",
+      "Total Frames": "86",
+      "Landing Lag": "",
+      "Additional Notes": "Startup and total frames assume level ground. Endlag is always 30 after landing.",
+      "Base Damage": "10.0"
+    },
+    "Down Throw": {
+      "Startup": "9/12/15/18/21/\n24/27/30/33/48/50",
+      "Total Frames": "79",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "1.0 / 2.0"
+    },
+    "Spot Dodge": {
+      "Startup": "",
+      "Total Frames": "21/26",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-17"
+    },
+    "Forward Roll": {
+      "Startup": "",
+      "Total Frames": "30",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 4-15"
+    },
+    "Back Roll": {
+      "Startup": "",
+      "Total Frames": "35",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 5-16"
+    },
+    "Neutral Air Dodge": {
+      "Startup": "",
+      "Total Frames": "62",
+      "Landing Lag": "10",
+      "Additional Notes": "Invulnerable on frame 3-29"
+    },
+    "Dir. AD (down)": {
+      "Startup": "",
+      "Total Frames": "82",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (diagonally down)": {
+      "Startup": "",
+      "Total Frames": "91",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (left or right)": {
+      "Startup": "",
+      "Total Frames": "102",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (diagonally up)": {
+      "Startup": "",
+      "Total Frames": "134",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (up)": {
+      "Startup": "",
+      "Total Frames": "141",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    }
+  }
+}

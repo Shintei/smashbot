@@ -1,0 +1,334 @@
+{
+  "name": "39 King Dedede",
+  "moves": {
+    "Jab 1": {
+      "Startup": "10",
+      "Total Frames": "32",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to Jab 2 as early as frame 13 ",
+      "Base Damage": "2.5",
+      "Shieldlag": "7",
+      "Shieldstun": "4",
+      "hitbox": "",
+      "Advantage": "-18"
+    },
+    "Jab 2": {
+      "Startup": "11",
+      "Total Frames": "27",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to Rapid jab as early as frame 22",
+      "Base Damage": "2.2",
+      "Shieldlag": "7",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-13"
+    },
+    "Rapid Jab": {
+      "Startup": "5/8/11...",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "0.5",
+      "Shieldlag": "4",
+      "Shieldstun": "3"
+    },
+    "Rapid Finisher": {
+      "Startup": "4",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "3.0",
+      "Shieldlag": "10",
+      "Shieldstun": "4",
+      "hitbox": "",
+      "Advantage": "-41"
+    },
+    "F-Tilt ": {
+      "Startup": "12/16/20/23",
+      "Total Frames": "48",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "2.0 / 3.0",
+      "Shieldlag": "4/10",
+      "Shieldstun": "3/4",
+      "hitbox": "Multi/final",
+      "Advantage": "-21"
+    },
+    "U-Tilt": {
+      "Startup": "7",
+      "Total Frames": "38",
+      "Landing Lag": "",
+      "Additional Notes": "Head intangible on frame 7-13.",
+      "Base Damage": "11.5 / 9.5",
+      "Shieldlag": "9/8",
+      "Shieldstun": "11/9",
+      "hitbox": "Close/far",
+      "Advantage": "-20/-22"
+    },
+    "D-Tilt": {
+      "Startup": "6",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0 / 6.0",
+      "Shieldlag": "8/6",
+      "Shieldstun": "10/6",
+      "hitbox": "Early/late",
+      "Advantage": "-21"
+    },
+    "Dash Attack": {
+      "Startup": "26",
+      "Total Frames": "66",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "16.0 / 13.0",
+      "Shieldlag": "13/9",
+      "Shieldstun": "14/12",
+      "hitbox": "Early/Late",
+      "Advantage": "-26"
+    },
+    "F-Smash": {
+      "Startup": "40",
+      "Total Frames": "77",
+      "Landing Lag": "",
+      "Additional Notes": "This attack only hits directly above Dedede on 40. Hammer comes down on 43.\nShockwave on 44. Charge hold is frame 33",
+      "Base Damage": "16.0 / 18.5 / 25.0\n/ 11.0",
+      "Shieldlag": "?/12/14/8",
+      "Shieldstun": "?/-/16/8",
+      "hitbox": "Early/close/far/\nShockwave",
+      "Advantage": "?/-/-18/-25"
+    },
+    "U-Smash": {
+      "Startup": "17",
+      "Total Frames": "67",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 6",
+      "Base Damage": "16.0",
+      "Shieldlag": "10",
+      "Shieldstun": "11",
+      "hitbox": "",
+      "Advantage": "-39"
+    },
+    "D-Smash": {
+      "Startup": "12/20",
+      "Total Frames": "52",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 3",
+      "Base Damage": "13.0",
+      "Shieldlag": "9",
+      "Shieldstun": "9",
+      "hitbox": "",
+      "Advantage": "-31/-23"
+    },
+    "N-Air": {
+      "Startup": "7",
+      "Total Frames": "39",
+      "Landing Lag": "9",
+      "Additional Notes": "Autocancels on frame 1-2 and 35 onward",
+      "Base Damage": "12.0 / 7.0",
+      "Shieldlag": "9/7",
+      "Shieldstun": "5/3",
+      "hitbox": "Early/Late",
+      "Advantage": "-4/-6"
+    },
+    "F-Air": {
+      "Startup": "13",
+      "Total Frames": "41",
+      "Landing Lag": "18",
+      "Additional Notes": "Autocancels on frame 1-4 and 40 onward",
+      "Base Damage": "12.0",
+      "Shieldlag": "9",
+      "Shieldstun": "5",
+      "hitbox": "",
+      "Advantage": "-13"
+    },
+    "B-Air": {
+      "Startup": "17",
+      "Total Frames": "37",
+      "Landing Lag": "13",
+      "Additional Notes": "Autocancels on frame 1-4 and 33 onward",
+      "Base Damage": "16.0",
+      "Shieldlag": "13",
+      "Shieldstun": "6",
+      "hitbox": "",
+      "Advantage": "-8"
+    },
+    "U-Air": {
+      "Startup": "10/12/14/16/18/20/22/24",
+      "Total Frames": "44",
+      "Landing Lag": "13",
+      "Additional Notes": "Autocancels on frame 1-4 and 42 onward",
+      "Base Damage": "1.0 / 5.0",
+      "Shieldlag": "4/12",
+      "Shieldstun": "-/3",
+      "hitbox": "Multi/Final",
+      "Advantage": "-10"
+    },
+    "D-Air": {
+      "Startup": "22",
+      "Total Frames": "47",
+      "Landing Lag": "18",
+      "Additional Notes": "Autocancels on frame 1-6 and 44 onward",
+      "Base Damage": "15.0 / 8.0",
+      "Shieldlag": "15/7",
+      "Shieldstun": "5/4",
+      "hitbox": "Sweet/sour",
+      "Advantage": "-13/-14"
+    },
+    "Inhale": {
+      "Startup": "14",
+      "Total Frames": "74",
+      "Landing Lag": "",
+      "Additional Notes": "Startup and total frames refer to minimum usage. 19 endlag after extended usage.\nCan inhale projectiles starting on frame 17 and involuntarily spit them back"
+    },
+    "Inhale (spit)": {
+      "Startup": "6",
+      "Total Frames": "29"
+    },
+    "Gordo Throw": {
+      "Startup": "29",
+      "Total Frames": "60",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0 / 9.5 - 14.0",
+      "Shieldlag": "8/12-15/15",
+      "Shieldstun": "10/4-5/14",
+      "hitbox": "Hammer/gordo/\nboth",
+      "Advantage": "-21/-11/-17"
+    },
+    "Super Dedede Jump": {
+      "Startup": "69",
+      "Total Frames": "",
+      "Landing Lag": "60/30",
+      "Additional Notes": "Cancelling incurs 30 landing lag. Invulnerable on frame 18-21. Super Armor on\nframe 22-? Leg invulnerability on frame 73-landing. Landing hitbox on frame 3. Stars on 5.\nCan grab ledges as early as frame 19 (facing toward) or 23 (facing away)",
+      "Base Damage": "15.0 / 12.0 / 5.0",
+      "Shieldlag": "10/9/6",
+      "Shieldstun": "14/-/3",
+      "hitbox": "Falling/landing/\nstars",
+      "Advantage": "-46"
+    },
+    "Jet Hammer (partial charge)": {
+      "Startup": "10 (+17)",
+      "Total Frames": "59",
+      "Landing Lag": "",
+      "Additional Notes": "10 startup from release. 17 to enter charge state. 136 frames to reach full charge\nHeavy armor on frame 1-14 from release. Only on ground version",
+      "Base Damage": "11.0-29.8 ",
+      "Shieldlag": "8-15",
+      "Shieldstun": "10-25",
+      "hitbox": "",
+      "Advantage": "-39 to - 24"
+    },
+    "Jet Hammer (full charge)": {
+      "Startup": "9",
+      "Total Frames": "69",
+      "Landing Lag": "",
+      "Additional Notes": "Heavy armor on frame 1-14 from release. Only on ground version",
+      "Base Damage": "40.0",
+      "Shieldlag": "16",
+      "Shieldstun": "34",
+      "hitbox": "",
+      "Advantage": "-26"
+    },
+    "Grab": {
+      "Startup": "8",
+      "Total Frames": "39"
+    },
+    "Dash Grab ": {
+      "Startup": "11",
+      "Total Frames": "47"
+    },
+    "Pivot Grab": {
+      "Startup": "12",
+      "Total Frames": "42"
+    },
+    "Pummel": {
+      "Startup": "2",
+      "Total Frames": "21",
+      "Landing Lag": "",
+      "Additional Notes": "Total frames includes 15 frames of hitlag (plus one in 1v1)",
+      "Base Damage": "1.6"
+    },
+    "Forward Throw": {
+      "Startup": "13/14",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "4.0 / 6.0"
+    },
+    "Back Throw": {
+      "Startup": "18/19",
+      "Total Frames": "41",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "4.0 / 9.0"
+    },
+    "Up Throw": {
+      "Startup": "16/19",
+      "Total Frames": "39",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "4.0 / 5.0"
+    },
+    "Down Throw": {
+      "Startup": "26",
+      "Total Frames": "41",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "6.0"
+    },
+    "Spot Dodge": {
+      "Startup": "",
+      "Total Frames": "23/28",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-18"
+    },
+    "Forward Roll": {
+      "Startup": "",
+      "Total Frames": "32",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 4-16"
+    },
+    "Back Roll": {
+      "Startup": "",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 5-17 "
+    },
+    "Neutral Air Dodge": {
+      "Startup": "",
+      "Total Frames": "43",
+      "Landing Lag": "10",
+      "Additional Notes": "Invulnerable on frame 4-32 "
+    },
+    "Dir. AD (down)": {
+      "Startup": "",
+      "Total Frames": "58",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 4-23"
+    },
+    "Dir. AD (diagonally down)": {
+      "Startup": "",
+      "Total Frames": "66",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 4-23"
+    },
+    "Dir. AD (left or right)": {
+      "Startup": "",
+      "Total Frames": "72",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 4-23"
+    },
+    "Dir. AD (diagonally up)": {
+      "Startup": "",
+      "Total Frames": "86",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 4-23"
+    },
+    "Dir. AD (up)": {
+      "Startup": "",
+      "Total Frames": "96",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 4-23"
+    }
+  }
+}

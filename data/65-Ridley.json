@@ -1,0 +1,354 @@
+{
+  "name": "65 - Ridley",
+  "moves": {
+    "Jab 1": {
+      "Startup": "4",
+      "Total Frames": "23",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to Jab 2 on frame 7.",
+      "Base Damage": "2.0",
+      "Shieldlag": "7",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-16"
+    },
+    "Jab 2": {
+      "Startup": "5",
+      "Total Frames": "26",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to Jab 3 on frame 10. Rapid on frame 9.",
+      "Base Damage": "1.5",
+      "Shieldlag": "5",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-18"
+    },
+    "Jab 3": {
+      "Startup": "4",
+      "Total Frames": "35",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "5.0",
+      "Shieldlag": "11",
+      "Shieldstun": "6",
+      "hitbox": "",
+      "Advantage": "-25"
+    },
+    "Rapid Jab": {
+      "Startup": "4/7/10...",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "0.7",
+      "Shieldlag": "4",
+      "Shieldstun": "-"
+    },
+    "Rapid Finisher": {
+      "Startup": "4",
+      "Total Frames": "45",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "2.0",
+      "Shieldlag": "9",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-38"
+    },
+    "F-Tilt": {
+      "Startup": "10",
+      "Total Frames": "32",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0 / 13.0",
+      "Shieldlag": "8/11",
+      "Shieldstun": "10/12",
+      "hitbox": "close/far",
+      "Advantage": "-12/-10"
+    },
+    "U-Tilt": {
+      "Startup": "8",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "Head and arm intangibility on frame 8-9. Wing intangibility on frame 8-12",
+      "Base Damage": "7.0 / 9.0",
+      "Shieldlag": "7/7",
+      "Shieldstun": "7/9",
+      "hitbox": "close/far",
+      "Advantage": "-14/-12"
+    },
+    "D-Tilt": {
+      "Startup": "9",
+      "Total Frames": "30",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "6.0 / 9.0",
+      "Shieldlag": "6/7",
+      "Shieldstun": "6/9",
+      "hitbox": "close/far",
+      "Advantage": "-15/-12"
+    },
+    "Dash Attack": {
+      "Startup": "12",
+      "Total Frames": "39",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "12.0",
+      "Shieldlag": "10",
+      "Shieldstun": "11",
+      "hitbox": "",
+      "Advantage": "-16"
+    },
+    "F-Smash ": {
+      "Startup": "18",
+      "Total Frames": "53",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 5",
+      "Base Damage": "20.0",
+      "Shieldlag": "11",
+      "Shieldstun": "13",
+      "hitbox": "",
+      "Advantage": "-22"
+    },
+    "U-Smash": {
+      "Startup": "12",
+      "Total Frames": "47",
+      "Landing Lag": "",
+      "Additional Notes": "Leg intangibility on frame 12-16. Charge hold is frame 6",
+      "Base Damage": "17.0",
+      "Shieldlag": "10",
+      "Shieldstun": "11",
+      "hitbox": "",
+      "Advantage": "-24"
+    },
+    "D-Smash": {
+      "Startup": "24",
+      "Total Frames": "57",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 2",
+      "Base Damage": "16.0",
+      "Shieldlag": "10",
+      "Shieldstun": "11",
+      "hitbox": "",
+      "Advantage": "-22"
+    },
+    "N-Air": {
+      "Startup": "8",
+      "Total Frames": "39",
+      "Landing Lag": "12",
+      "Additional Notes": "Autocancels on frame 1-2 and 28 onward",
+      "Base Damage": "9.0 / 12.0 / 5.0",
+      "Shieldlag": "7/10/6",
+      "Shieldstun": "4/5/3",
+      "hitbox": "close/far/late",
+      "Advantage": "-8/-7/-9"
+    },
+    "F-Air": {
+      "Startup": "10/13/16",
+      "Total Frames": "41",
+      "Landing Lag": "16",
+      "Additional Notes": "Autocancels on frame 1-2 and 43 onward",
+      "Base Damage": "3.0 / 5.0 / \n5.0 / 7.0",
+      "Shieldlag": "6/6/\n6/8",
+      "Shieldstun": "2/3/\n3/3",
+      "hitbox": "Multi close/far\nFinal close/far",
+      "Advantage": "-14/-13/\n-13/-13"
+    },
+    "B-Air": {
+      "Startup": "10",
+      "Total Frames": "43",
+      "Landing Lag": "17",
+      "Additional Notes": "Autocancels on frame 38 onward",
+      "Base Damage": "16.0",
+      "Shieldlag": "10",
+      "Shieldstun": "6",
+      "hitbox": "",
+      "Advantage": "-11"
+    },
+    "U-Air": {
+      "Startup": "11",
+      "Total Frames": "39",
+      "Landing Lag": "14",
+      "Additional Notes": "Autocancels on frame 1-3 and 35 onward",
+      "Base Damage": "12.0 / 14.0",
+      "Shieldlag": "9/13",
+      "Shieldstun": "5/5",
+      "hitbox": "close/far",
+      "Advantage": "-9/-9"
+    },
+    "D-Air": {
+      "Startup": "11",
+      "Total Frames": "55",
+      "Landing Lag": "32",
+      "Additional Notes": "Autocancels on frame 1-3 and 50 onward",
+      "Base Damage": "14.0 / 12.0",
+      "Shieldlag": "11/9",
+      "Shieldstun": "5/5",
+      "hitbox": "Early meteor/late",
+      "Advantage": "-27/-27"
+    },
+    "Plasma Breath (uncharged | full charge)": {
+      "Startup": "29 | 56/65/73/84/92",
+      "Total Frames": "55 | 102",
+      "Landing Lag": "",
+      "Additional Notes": "If Ridley is hit in the mouth while charging on frame 16-45, he recoils in a 52 frame animation.",
+      "Base Damage": "4.5 / 3.5 | \n5.6 / 4.4",
+      "Shieldlag": "5/5\n6/5",
+      "Shieldstun": "3/2\n3/3",
+      "hitbox": "Early/late |\nEarly/late",
+      "Advantage": "-23 | -1"
+    },
+    "Space Pirate Rush ": {
+      "Startup": "22",
+      "Total Frames": "78"
+    },
+    "Space Pirate Rush (air)": {
+      "Startup": "22",
+      "Total Frames": "60",
+      "Landing Lag": "",
+      "Additional Notes": "Landing hitbox on frame 1 after a grab, then transitions to ground drag"
+    },
+    "Space Pirate Rush (success)": {
+      "Startup": "10/24/28/32...",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "Drag begins on 24. Deals damage every four frames. ",
+      "Base Damage": "4.0 / 2.0",
+      "Shieldlag": "",
+      "Shieldstun": "",
+      "hitbox": "Initial/drag"
+    },
+    "SPR (manual/ledge/air release)": {
+      "Startup": "2/7/2",
+      "Total Frames": "38/42/38",
+      "Landing Lag": "",
+      "Additional Notes": "Can manually release on 48 on the ground. 43 in the air.",
+      "Base Damage": "7.0 / 7.0 / 7.0",
+      "Shieldlag": "",
+      "Shieldstun": "",
+      "hitbox": "ground/ledge/air"
+    },
+    "Wing Blitz (up/horizontal/down)": {
+      "Startup": "34/36/37",
+      "Total Frames": "",
+      "Landing Lag": "32/35",
+      "Additional Notes": "Second landing lag is for a dive directly into the ground. Wing intangibility on frame 34-57 when\ntraveling up. 36-59 when traveling horizontally. Damage dependent on direction travelled. \nLanding hit on frame 1. Advantage is for that. Grabs ledges on frame 35/37/38.",
+      "Base Damage": "18.0 / 16.0 / \n15.0 / 5.0",
+      "Shieldlag": "10/10/10/6",
+      "Shieldstun": "16/14/14/6",
+      "hitbox": "Up/horizontal/\ndown/landing",
+      "Advantage": "-28"
+    },
+    "Skewer": {
+      "Startup": "30/37",
+      "Total Frames": "96/67",
+      "Landing Lag": "",
+      "Additional Notes": "Total frames is 67 when you fail to skewer. Ridley does not suffer hitlag from a grazing hit.",
+      "Base Damage": "5.0 | 45.0 / 10.0",
+      "Shieldlag": "6",
+      "Shieldstun": "2",
+      "hitbox": "graze | skewer",
+      "Advantage": "-29"
+    },
+    "Grab": {
+      "Startup": "8",
+      "Total Frames": "34"
+    },
+    "Dash Grab ": {
+      "Startup": "11",
+      "Total Frames": "42"
+    },
+    "Pivot Grab": {
+      "Startup": "12",
+      "Total Frames": "39"
+    },
+    "Pummel": {
+      "Startup": "2",
+      "Total Frames": "20",
+      "Landing Lag": "",
+      "Additional Notes": "Total frames includes 14 frames of hitlag (plus one in 1v1)",
+      "Base Damage": "1.6"
+    },
+    "Forward Throw": {
+      "Startup": "13",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "9.0"
+    },
+    "Back Throw": {
+      "Startup": "18",
+      "Total Frames": "45",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "11.0"
+    },
+    "Up Throw": {
+      "Startup": "14/19",
+      "Total Frames": "43",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0 / 4..0"
+    },
+    "Down Throw": {
+      "Startup": "25",
+      "Total Frames": "38",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.0"
+    },
+    "Spot Dodge": {
+      "Startup": "",
+      "Total Frames": "23/28",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-18"
+    },
+    "Forward Roll": {
+      "Startup": "",
+      "Total Frames": "32",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 4-16"
+    },
+    "Back Roll": {
+      "Startup": "",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 5-17"
+    },
+    "Neutral Air Dodge": {
+      "Startup": "",
+      "Total Frames": "46",
+      "Landing Lag": "10",
+      "Additional Notes": "Invulnerable on frame 3-31"
+    },
+    "Dir. AD (down)": {
+      "Startup": "",
+      "Total Frames": "64",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-22"
+    },
+    "Dir. AD (diagonally down)": {
+      "Startup": "",
+      "Total Frames": "73",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-22"
+    },
+    "Dir. AD (left or right)": {
+      "Startup": "",
+      "Total Frames": "78",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-22"
+    },
+    "Dir. AD (diagonally up)": {
+      "Startup": "",
+      "Total Frames": "90",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-22"
+    },
+    "Dir. AD (up)": {
+      "Startup": "",
+      "Total Frames": "103",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-22"
+    }
+  }
+}

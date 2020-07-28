@@ -1,0 +1,350 @@
+{
+  "name": "11 - Captain Falcon",
+  "moves": {
+    "Jab 1": {
+      "Startup": "3",
+      "Total Frames": "17",
+      "Landing Lag": "",
+      "Additional Notes": "Transition to Jab 2 as early as frame 5. ",
+      "Base Damage": "1.5",
+      "Shieldlag": "7",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-11"
+    },
+    "Jab 2": {
+      "Startup": "5",
+      "Total Frames": "18",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to Jab 3 or Rapid Jab as early as frame 8. ",
+      "Base Damage": "1.5",
+      "Shieldlag": "5",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-10"
+    },
+    "Jab 3": {
+      "Startup": "6",
+      "Total Frames": "32",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "5.0",
+      "Shieldlag": "12",
+      "Shieldstun": "6",
+      "hitbox": "",
+      "Advantage": "-20"
+    },
+    "Rapid Jab": {
+      "Startup": "5/7/9...",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "0.6",
+      "Shieldlag": "4",
+      "Shieldstun": "-"
+    },
+    "Rapid Finisher": {
+      "Startup": "6",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "3.0",
+      "Shieldlag": "10",
+      "Shieldstun": "4",
+      "hitbox": "",
+      "Advantage": "-39"
+    },
+    "F-Tilt": {
+      "Startup": "7",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "Damage and shieldstun increases by 1.0 when angled",
+      "Base Damage": "8.0 / 9.0",
+      "Shieldlag": "7/7",
+      "Shieldstun": "8/9",
+      "hitbox": "close/far",
+      "Advantage": "-14/-13"
+    },
+    "U-Tilt": {
+      "Startup": "14",
+      "Total Frames": "36",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "11.0",
+      "Shieldlag": "8",
+      "Shieldstun": "10",
+      "hitbox": "",
+      "Advantage": "-12"
+    },
+    "D-Tilt": {
+      "Startup": "11",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0",
+      "Shieldlag": "8",
+      "Shieldstun": "10",
+      "hitbox": "",
+      "Advantage": "-13"
+    },
+    "Dash Attack": {
+      "Startup": "7",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0 / 6.0",
+      "Shieldlag": "10/8",
+      "Shieldstun": "17/11",
+      "hitbox": "early / late",
+      "Advantage": "-10"
+    },
+    "F-Smash ": {
+      "Startup": "19",
+      "Total Frames": "59",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 11",
+      "Base Damage": "19.0 / 20.0",
+      "Shieldlag": "12/12",
+      "Shieldstun": "13/13",
+      "hitbox": "no angle/angled",
+      "Advantage": "-27"
+    },
+    "U-Smash": {
+      "Startup": "22/28",
+      "Total Frames": "45",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 8",
+      "Base Damage": "7.0 / 12.0 / 14.0",
+      "Shieldlag": "7/9/10",
+      "Shieldstun": "6/8/10",
+      "hitbox": "close/far/second",
+      "Advantage": "-7"
+    },
+    "D-Smash": {
+      "Startup": "19/29",
+      "Total Frames": "48",
+      "Landing Lag": "",
+      "Additional Notes": "Leg intangibility on frame 14-16. Charge hold is frame 11",
+      "Base Damage": "14.0 / 18.0",
+      "Shieldlag": "10/11",
+      "Shieldstun": "10/12",
+      "hitbox": "",
+      "Advantage": "-19/-7"
+    },
+    "N-Air": {
+      "Startup": "7/13",
+      "Total Frames": "39",
+      "Landing Lag": "7",
+      "Additional Notes": "Autocancels on frame 1-3 and 32 onward",
+      "Base Damage": "4.0 / 6.0",
+      "Shieldlag": "5/6",
+      "Shieldstun": "3/3",
+      "hitbox": "",
+      "Advantage": "-4/-4"
+    },
+    "F-Air": {
+      "Startup": "14",
+      "Total Frames": "45",
+      "Landing Lag": "18",
+      "Additional Notes": "Autocancels on frame 1-4 and 42 onward",
+      "Base Damage": "22.0 / 3.0",
+      "Shieldlag": "17/5",
+      "Shieldstun": "7/2",
+      "hitbox": "Early/late",
+      "Advantage": "-11/-15"
+    },
+    "B-Air": {
+      "Startup": "10",
+      "Total Frames": "35",
+      "Landing Lag": "10",
+      "Additional Notes": "Autocancels on frame 1-4 and 19 onward",
+      "Base Damage": "13.0 / 8.0",
+      "Shieldlag": "9/6",
+      "Shieldstun": "5/3",
+      "hitbox": "Early/late",
+      "Advantage": "-5/-7"
+    },
+    "U-Air": {
+      "Startup": "7",
+      "Total Frames": "31",
+      "Landing Lag": "10",
+      "Additional Notes": "Autocancels on frame 24 onward",
+      "Base Damage": "10.0 / 9.0 / 8.0",
+      "Shieldlag": "8/7/7",
+      "Shieldstun": "4/4/4",
+      "hitbox": "close/far/late",
+      "Advantage": "-6/-6/-6"
+    },
+    "D-Air": {
+      "Startup": "16",
+      "Total Frames": "44",
+      "Landing Lag": "12",
+      "Additional Notes": "Autocancels on frame 1-3 and 39 onward",
+      "Base Damage": "14.0",
+      "Shieldlag": "10",
+      "Shieldstun": "5",
+      "hitbox": "",
+      "Advantage": "-7"
+    },
+    "Falcon Punch (normal/turnaround)": {
+      "Startup": "53/62",
+      "Total Frames": "103/117",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "25.0 / 28.0",
+      "Shieldlag": "17/17",
+      "Shieldstun": "22/24",
+      "hitbox": "",
+      "Advantage": "-28/-31"
+    },
+    "Raptor Boost": {
+      "Startup": "5 (+10)",
+      "Total Frames": "27/71",
+      "Landing Lag": "",
+      "Additional Notes": "Startup is 6 upon reaching target. On hit total frames is 28. Proximity sensor is active starting on 10.\nTotal frames on a miss is 71. Damage based armor activates on frame 1 of reaching a target.",
+      "Base Damage": "10.0",
+      "Shieldlag": "12",
+      "Shieldstun": "10",
+      "hitbox": "",
+      "Advantage": "-12"
+    },
+    "Raptor Boost (air)": {
+      "Startup": "5 (+19)",
+      "Total Frames": "",
+      "Landing Lag": "22",
+      "Additional Notes": "39 endlag on hit. Startup is 5 upon reaching a target. Proximity sensor active starting on 19.\nCan grab ledges on frame 26 or 8 after proximity sensor activates.",
+      "Base Damage": "10.0",
+      "Shieldlag": "12",
+      "Shieldstun": "10"
+    },
+    "Falcon Dive": {
+      "Startup": "14",
+      "Total Frames": "",
+      "Landing Lag": "24",
+      "Additional Notes": "54 frames endlag when blasting off the victim. Can snap to ledges on frames 10-12. And then 20 \nonward (facing toward) or 37 onward (facing away)"
+    },
+    "Falcon Kick": {
+      "Startup": "13",
+      "Total Frames": "68/65",
+      "Landing Lag": "",
+      "Additional Notes": "Total frames is 70 on the ground or 67 if you go over an edge.",
+      "Base Damage": "15.0 / 11.0 / 7.0",
+      "Shieldlag": "10/8/7",
+      "Shieldstun": "14/10/7",
+      "hitbox": "Early/late/later",
+      "Advantage": "-51"
+    },
+    "Falcon Kick (air)": {
+      "Startup": "14",
+      "Total Frames": "56",
+      "Landing Lag": "35",
+      "Additional Notes": "Landing hit on frame 1.",
+      "Base Damage": "15.0 / 9.0",
+      "Shieldlag": "12/7",
+      "Shieldstun": "14/9",
+      "hitbox": "Early/landing",
+      "Advantage": "-25"
+    },
+    "Grab": {
+      "Startup": "6",
+      "Total Frames": "35"
+    },
+    "Dash Grab ": {
+      "Startup": "9",
+      "Total Frames": "43"
+    },
+    "Pivot Grab": {
+      "Startup": "10",
+      "Total Frames": "38"
+    },
+    "Pummel": {
+      "Startup": "1",
+      "Total Frames": "18",
+      "Landing Lag": "",
+      "Additional Notes": "Total frames includes 13 frames of hitlag (plus one in 1v1)",
+      "Base Damage": "1.3"
+    },
+    "Forward Throw": {
+      "Startup": "11/13",
+      "Total Frames": "32",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "3.5 / 4.0"
+    },
+    "Back Throw": {
+      "Startup": "12/13",
+      "Total Frames": "45",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "3.5 / 4.0"
+    },
+    "Up Throw": {
+      "Startup": "12/14",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "4.0 / 5.0"
+    },
+    "Down Throw": {
+      "Startup": "15",
+      "Total Frames": "33",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "6.0"
+    },
+    "Spot Dodge": {
+      "Startup": "",
+      "Total Frames": "21/26",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-17 "
+    },
+    "Forward Roll": {
+      "Startup": "",
+      "Total Frames": "30",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 4-15"
+    },
+    "Back Roll": {
+      "Startup": "",
+      "Total Frames": "35",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 5-16"
+    },
+    "Neutral Air Dodge": {
+      "Startup": "",
+      "Total Frames": "42",
+      "Landing Lag": "10",
+      "Additional Notes": "Invulnerable on frame 3-30 "
+    },
+    "Dir. AD (down)": {
+      "Startup": "",
+      "Total Frames": "62",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (diagonally down)": {
+      "Startup": "",
+      "Total Frames": "66",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (left or right)": {
+      "Startup": "",
+      "Total Frames": "72",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (diagonally up)": {
+      "Startup": "",
+      "Total Frames": "85",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (up)": {
+      "Startup": "",
+      "Total Frames": "94",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    }
+  }
+}

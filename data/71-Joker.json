@@ -1,0 +1,424 @@
+{
+  "name": "71 - Joker",
+  "moves": {
+    "Jab 1": {
+      "Startup": "4",
+      "Total Frames": "23",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to jab 2 on frame 7",
+      "Base Damage\nNormal | Arsene": "2.0 | 2.7",
+      "Shieldlag\nNormal | Arsene": "7 | 7",
+      "Shieldstun\nNormal | Arsene": "3 | 3",
+      "hitbox": "",
+      "Advantage\nNormal | Arsene": "-16 | -16"
+    },
+    "Jab 2": {
+      "Startup": "3",
+      "Total Frames": "23",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to jab 3 on frame 11",
+      "Base Damage\nNormal | Arsene": "1.5 | 2.2",
+      "Shieldlag\nNormal | Arsene": "7 | 7",
+      "Shieldstun\nNormal | Arsene": "3 | 3",
+      "hitbox": "",
+      "Advantage\nNormal | Arsene": "-17 | -17"
+    },
+    "Jab 3": {
+      "Startup": "3",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage\nNormal | Arsene": "4.0 | 7.1",
+      "Shieldlag\nNormal | Arsene": "9 | 10",
+      "Shieldstun\nNormal | Arsene": "5 | 5",
+      "hitbox": "",
+      "Advantage\nNormal | Arsene": "-26 | -26"
+    },
+    "F-Tilt": {
+      "Startup": "8/13",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage\nNormal | Arsene": "3.0 / 5.0 | 3.0 / 10.0",
+      "Shieldlag\nNormal | Arsene": "5/6 | 5/10",
+      "Shieldstun\nNormal | Arsene": "4/6 | 4/10",
+      "hitbox": "",
+      "Advantage\nNormal | Arsene": "-15 | -11"
+    },
+    "U-Tilt": {
+      "Startup": "8/11/14/17/20",
+      "Total Frames": "40",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage\nNormal | Arsene": "4.0 / 1.0 / 1.0 | \n4.0 / 1.7 / 3.9",
+      "Shieldlag\nNormal | Arsene": "5/4/4 | 5/4/9",
+      "Shieldstun\nNormal | Arsene": "5/2/2 | 5/-/5",
+      "hitbox": "first/multi/final",
+      "Advantage\nNormal | Arsene": "-18 | -15"
+    },
+    "D-Tilt": {
+      "Startup": "8",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage\nNormal | Arsene": "6.0 | 13.0",
+      "Shieldlag\nNormal | Arsene": "6 | 10",
+      "Shieldstun\nNormal | Arsene": "6 | 10",
+      "hitbox": "",
+      "Advantage\nNormal | Arsene": "-23 | -19"
+    },
+    "Dash Attack": {
+      "Startup": "6/15",
+      "Total Frames": "45",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage\nNormal | Arsene": "2.0 / 6.0 | 2.0 / 12.0",
+      "Shieldlag\nNormal | Arsene": "4/6 | 4/10",
+      "Shieldstun\nNormal | Arsene": "3/6 | 3/7",
+      "hitbox": "",
+      "Advantage\nNormal | Arsene": "-24 | -23"
+    },
+    "F-Smash": {
+      "Startup": "16",
+      "Total Frames": "47",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 5",
+      "Base Damage\nNormal | Arsene": "14.0 | 22.0",
+      "Shieldlag\nNormal | Arsene": "10 | 11",
+      "Shieldstun\nNormal | Arsene": "10 | 12",
+      "hitbox": "",
+      "Advantage\nNormal | Arsene": "-21 | -19"
+    },
+    "U-Smash": {
+      "Startup": "10",
+      "Total Frames": "51",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 4",
+      "Base Damage\nNormal | Arsene": "12.0 | 17.0",
+      "Shieldlag\nNormal | Arsene": "9 | 12",
+      "Shieldstun\nNormal | Arsene": "8 | 10",
+      "hitbox": "",
+      "Advantage\nNormal | Arsene": "-33 | -31"
+    },
+    "D-Smash": {
+      "Startup": "12/16",
+      "Total Frames": "45",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 5",
+      "Base Damage\nNormal | Arsene": "12.0 | 18.0",
+      "Shieldlag\nNormal | Arsene": "9 | 11",
+      "Shieldstun\nNormal | Arsene": "8 | 9",
+      "hitbox": "",
+      "Advantage\nNormal | Arsene": "-25/-21 | -24/-20"
+    },
+    "N-Air": {
+      "Startup": "12",
+      "Total Frames": "54",
+      "Landing Lag": "8",
+      "Additional Notes": "Arsene version has a separate hit covering Joker's back \nAutocancels on frame 1-4 and 48 onward",
+      "Base Damage\nNormal | Arsene": "7.0 / - | 7.0 / 4.0",
+      "Shieldlag\nNormal | Arsene": "7 | 7/5",
+      "Shieldstun\nNormal | Arsene": "3 | 3/3",
+      "hitbox": "front/back",
+      "Advantage\nNormal | Arsene": "-5 | -5/-5"
+    },
+    "F-Air": {
+      "Startup": "7/12",
+      "Total Frames": "47",
+      "Landing Lag": "12",
+      "Additional Notes": "Autocancels on frame 1-3 and 42 onward",
+      "Base Damage\nNormal | Arsene": "2.0 / 5.0 | 2.0 / 13.0",
+      "Shieldlag\nNormal | Arsene": "4/6 | 4/11",
+      "Shieldstun\nNormal | Arsene": "2/3 | 2/4",
+      "hitbox": "",
+      "Advantage\nNormal | Arsene": "-10/-9 | -10/-8"
+    },
+    "B-Air": {
+      "Startup": "7",
+      "Total Frames": "31",
+      "Landing Lag": "9",
+      "Additional Notes": "Autocancels on frame 1-3 and 30 onward",
+      "Base Damage\nNormal | Arsene": "9.0 | 16.0",
+      "Shieldlag\nNormal | Arsene": "7 | 10",
+      "Shieldstun\nNormal | Arsene": "4 | 4",
+      "hitbox": "",
+      "Advantage\nNormal | Arsene": "-5 | -5 "
+    },
+    "U-Air": {
+      "Startup": "5/9/13/17/20",
+      "Total Frames": "39",
+      "Landing Lag": "14",
+      "Additional Notes": "Autocancels on frame 1-4 and 40 onward",
+      "Base Damage\nNormal | Arsene": "0.7 / 3.0 | 0.7 / 10.0",
+      "Shieldlag\nNormal | Arsene": "4/5 | 4/11",
+      "Shieldstun\nNormal | Arsene": "2/2 | 2/3",
+      "hitbox": "multi/final",
+      "Advantage\nNormal | Arsene": "-12/-12 | -12/-11"
+    },
+    "D-Air": {
+      "Startup": "13",
+      "Total Frames": "46",
+      "Landing Lag": "11",
+      "Additional Notes": "Arsene version has separate meteor hit on frame 15.\nAutocancels on frame 1-3 and 40 onward",
+      "Base Damage\nNormal | Arsene": "8.0 / - | 8.0 / 8.0",
+      "Shieldlag\nNormal | Arsene": "7 | 7/10",
+      "Shieldstun\nNormal | Arsene": "4 | 4/4",
+      "hitbox": "knife/meteor",
+      "Advantage\nNormal | Arsene": "-7 | -7/-7"
+    },
+    "Gun": {
+      "Startup": "12 | 37 | 65",
+      "Total Frames": "36 | 61 | 92",
+      "Landing Lag": "",
+      "Additional Notes": "Earliest you can input another shot, dash, or jump is frame 26\nEarliest you can input spiral or shoot below is frame 14",
+      "Base Damage\nNormal | Arsene": "5.0 / 3.0 / 1.0",
+      "Shieldlag\nNormal | Arsene": "6/0/0",
+      "Shieldstun\nNormal | Arsene": "6/5/3",
+      "hitbox": "close/med/far",
+      "Advantage\nNormal | Arsene": "-18/-19/-21"
+    },
+    "-Dash Forward": {
+      "Startup": "20",
+      "Total Frames": "39",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 4-13. Is affected by and contributes to dodge staling",
+      "Base Damage\nNormal | Arsene": "6.0 / 4.0 / 2.0",
+      "Shieldlag\nNormal | Arsene": "6/0/0",
+      "Shieldstun\nNormal | Arsene": "6/6/4",
+      "hitbox": "close/med/far",
+      "Advantage\nNormal | Arsene": "-13/-13/-15"
+    },
+    "-Dash back": {
+      "Startup": "23/29/35",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 5-14. Is affected by and contributes to dodge staling",
+      "Base Damage\nNormal | Arsene": "5.0 / 2.0 / 1.0",
+      "Shieldlag\nNormal | Arsene": "0/0/0",
+      "Shieldstun\nNormal | Arsene": "-/4/3",
+      "hitbox": "close/med/far ",
+      "Advantage\nNormal | Arsene": "-10/-11"
+    },
+    "-Jump (from ground only)": {
+      "Startup": "10/13/17/20/24/27/31",
+      "Total Frames": "59",
+      "Landing Lag": "14",
+      "Additional Notes": "Invulnerable on frame 1-6. Is not affected by or contributes to dodge staling\nAdded shots in Arsene version deal just 1.0 damage.",
+      "Base Damage\nNormal | Arsene": "3.0 / 0.8",
+      "Shieldlag\nNormal | Arsene": "5/2",
+      "Shieldstun\nNormal | Arsene": "-/2",
+      "hitbox": "close/far",
+      "Advantage\nNormal | Arsene": "-26  "
+    },
+    "-Spiral (from air only)": {
+      "Startup": "12/15/18/24/27/30/\n36/39/42/48/51/54/",
+      "Total Frames": "69",
+      "Landing Lag": "20",
+      "Additional Notes": "Can be extended for more shots",
+      "Base Damage\nNormal | Arsene": "4.5",
+      "Shieldlag\nNormal | Arsene": "0",
+      "Shieldstun\nNormal | Arsene": "6",
+      "hitbox": "",
+      "Advantage\nNormal | Arsene": "-14"
+    },
+    "-Shoot below (from air only)": {
+      "Startup": "7/14/21/28/35/44",
+      "Total Frames": "48",
+      "Landing Lag": "10",
+      "Additional Notes": "Can be extended for more shots. Added shots in Arsene version deal just 0.8",
+      "Base Damage\nNormal | Arsene": "4.0 / 1.6",
+      "Shieldlag\nNormal | Arsene": "0/0",
+      "Shieldstun\nNormal | Arsene": "6/3",
+      "hitbox": "close/far",
+      "Advantage\nNormal | Arsene": "-4/-7"
+    },
+    "Gun Special (Arsene)": {
+      "Startup": "12/21/27 | 45/51/57 |\n80/86/92",
+      "Total Frames": "44 | 74 | 109",
+      "Landing Lag": "",
+      "Additional Notes": "Earliest you can input another shot, dash, or jump is frame 34\nEarliest you can input spiral or shoot below is frame 15",
+      "Base Damage\nNormal | Arsene": "6.0 / 2.0 / 1.5 / \n1.0",
+      "Shieldlag\nNormal | Arsene": "6/0/0/0",
+      "Shieldstun\nNormal | Arsene": "-/4/4/3",
+      "hitbox": "close/med/far/\nfarthest",
+      "Advantage\nNormal | Arsene": "-13/-13/-14"
+    },
+    "-Dash forward": {
+      "Startup": "21/27/33",
+      "Total Frames": "45",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 4-13. Is affected by and contributes to dodge staling",
+      "Base Damage\nNormal | Arsene": "7.0 / 4.0 / 1.5 / \n1.0",
+      "Shieldlag\nNormal | Arsene": "0/0/0/0",
+      "Shieldstun\nNormal | Arsene": "-/4/4/3",
+      "hitbox": "close/med/far/\nfarthest",
+      "Advantage\nNormal | Arsene": "-8/-8/-9"
+    },
+    "Eiha": {
+      "Startup": "16",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "Erupts a frame after contact, but won't erupt on shields",
+      "Base Damage\nNormal | Arsene": "1.0 / 2.0",
+      "Shieldlag\nNormal | Arsene": "4",
+      "Shieldstun\nNormal | Arsene": "2",
+      "hitbox": "contact/erupt",
+      "Advantage\nNormal | Arsene": "-27"
+    },
+    "-Eigaon (Arsene)": {
+      "Startup": "16 (1/6/11/16)",
+      "Total Frames": "57",
+      "Landing Lag": "",
+      "Additional Notes": "Eruption hits in parenthesis, but won't erupt on shields",
+      "Base Damage\nNormal | Arsene": "1.0 / 0.5 / 2.5",
+      "Shieldlag\nNormal | Arsene": "4",
+      "Shieldstun\nNormal | Arsene": "2",
+      "hitbox": "contact/erupt",
+      "Advantage\nNormal | Arsene": "-35"
+    },
+    "Grappling Hook": {
+      "Startup": "20",
+      "Total Frames": "59/44",
+      "Landing Lag": "",
+      "Additional Notes": "Tethers on frame 12. Second total frames is for the air. Does not induce special fall"
+    },
+    "-Grab success": {
+      "Startup": "6",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "The air version cannot grab, instead hitting the target for 5.0 damage.",
+      "Base Damage\nNormal | Arsene": "11.0"
+    },
+    "Wings of Rebellion (Arsene)": {
+      "Startup": "",
+      "Total Frames": "",
+      "Landing Lag": "30",
+      "Additional Notes": "Invulnerable on frame 1-25. Grabs ledge on frame 17 onward."
+    },
+    "Rebel's Guard": {
+      "Startup": "",
+      "Total Frames": "52",
+      "Landing Lag": "",
+      "Additional Notes": "Total frames is for minimum usage. 33 endlag for extended usage\nBegins blocking on frame 3. Can only counterattack after a block"
+    },
+    "-counterattack": {
+      "Startup": "4",
+      "Total Frames": "38",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 1-7 in addition to counter freeze frames"
+    },
+    "Tetrakarn/Makarakarn (Arsene)": {
+      "Startup": "",
+      "Total Frames": "53",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3. Counters/reflects on frame 4-31"
+    },
+    "-reflect": {
+      "Startup": "",
+      "Total Frames": "41",
+      "Landing Lag": "",
+      "Additional Notes": "Arm intangible on frame 1-29"
+    },
+    "Grab": {
+      "Startup": "6",
+      "Total Frames": "34"
+    },
+    "Dash Grab": {
+      "Startup": "8",
+      "Total Frames": "42"
+    },
+    "Pivot Grab": {
+      "Startup": "9",
+      "Total Frames": "37"
+    },
+    "Pummel": {
+      "Startup": "1",
+      "Total Frames": "19",
+      "Landing Lag": "",
+      "Additional Notes": "Total frames includes 14 frames of hitlag (plus one in 1v1)",
+      "Base Damage\nNormal | Arsene": "1.5"
+    },
+    "Forward Throw": {
+      "Startup": "9",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage\nNormal | Arsene": "8.0"
+    },
+    "Back Throw": {
+      "Startup": "14",
+      "Total Frames": "39",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage\nNormal | Arsene": "10.0"
+    },
+    "Up Throw": {
+      "Startup": "16",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage\nNormal | Arsene": "7.0"
+    },
+    "Down Throw": {
+      "Startup": "23",
+      "Total Frames": "40",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage\nNormal | Arsene": "7.0"
+    },
+    "Spot Dodge": {
+      "Startup": "",
+      "Total Frames": "20/25",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-17"
+    },
+    "Forward Roll": {
+      "Startup": "",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 4-15"
+    },
+    "Back Roll": {
+      "Startup": "",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 5-16"
+    },
+    "Neutral Air Dodge": {
+      "Startup": "",
+      "Total Frames": "47",
+      "Landing Lag": "10",
+      "Additional Notes": "Invulnerable on frame 3-30"
+    },
+    "Dir. AD (down)": {
+      "Startup": "",
+      "Total Frames": "67",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (diagonally down)": {
+      "Startup": "",
+      "Total Frames": "73",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (left or right)": {
+      "Startup": "",
+      "Total Frames": "83",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (diagonally up)": {
+      "Startup": "",
+      "Total Frames": "90",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (up)": {
+      "Startup": "",
+      "Total Frames": "100",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    }
+  }
+}

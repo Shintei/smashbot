@@ -1,0 +1,348 @@
+{
+  "name": "67 - King K Rool",
+  "moves": {
+    "Jab 1": {
+      "Startup": "4",
+      "Total Frames": "24",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "2.5",
+      "Shieldlag": "9",
+      "Shieldstun": "4",
+      "hitbox": "",
+      "Advantage": "-16"
+    },
+    "Jab 2": {
+      "Startup": "3",
+      "Total Frames": "27",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "2.5",
+      "Shieldlag": "6",
+      "Shieldstun": "4",
+      "hitbox": "",
+      "Advantage": "-20"
+    },
+    "Jab 3": {
+      "Startup": "5",
+      "Total Frames": "33",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.0",
+      "Shieldlag": "13",
+      "Shieldstun": "7",
+      "hitbox": "",
+      "Advantage": "-21"
+    },
+    "F-Tilt": {
+      "Startup": "12",
+      "Total Frames": "42",
+      "Landing Lag": "",
+      "Additional Notes": "Belly armor on frame 5-11",
+      "Base Damage": "11.0 / 13.0",
+      "Shieldlag": "12/13",
+      "Shieldstun": "10/12",
+      "hitbox": "Close/far",
+      "Advantage": "-20/-18"
+    },
+    "U-Tilt": {
+      "Startup": "5",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "Arm intangibility on frame 4-9",
+      "Base Damage": "11.5 / 8.2 / 6.8",
+      "Shieldlag": "10/9/8",
+      "Shieldstun": "11/8/7",
+      "hitbox": "Early/\nLate far/close",
+      "Advantage": "-21"
+    },
+    "D-Tilt ": {
+      "Startup": "14",
+      "Total Frames": "42",
+      "Landing Lag": "",
+      "Additional Notes": "Hits on frame 13 against airborne or shielding opponents",
+      "Base Damage": "13.0 / 8.0 / 7.0",
+      "Shieldlag": "9/8/7",
+      "Shieldstun": "12/10/7",
+      "hitbox": "frame 13/close/far",
+      "Advantage": "-17"
+    },
+    "Dash Attack": {
+      "Startup": "7",
+      "Total Frames": "60",
+      "Landing Lag": "",
+      "Additional Notes": "Belly armor on frame 7-28",
+      "Base Damage": "15.0 / 11.0",
+      "Shieldlag": "11/9",
+      "Shieldstun": "15/10",
+      "hitbox": "Early/late",
+      "Advantage": "-38"
+    },
+    "F-Smash ": {
+      "Startup": "19",
+      "Total Frames": "61",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold on frame 9",
+      "Base Damage": "19.0 / 16.5\n19.5 / 16.9\n19.9 / 17.3",
+      "Shieldlag": "13/-\n14/-\n14/12",
+      "Shieldstun": "13/-\n13/-\n13/12",
+      "hitbox": "neutral far/close\nDown far/close\nUp far/close",
+      "Advantage": "-29/?\n-29/?\n-29/-30"
+    },
+    "U-Smash": {
+      "Startup": "6/19/22",
+      "Total Frames": "71",
+      "Landing Lag": "",
+      "Additional Notes": "Head intangibility on frame 6-11. Belly armor on frame 6-19.  Charge hold is frame 2",
+      "Base Damage": "17.0 / 3.0 / 10.0",
+      "Shieldlag": "12/0/10",
+      "Shieldstun": "11/-/7",
+      "hitbox": "",
+      "Advantage": "-54/-42"
+    },
+    "D-Smash": {
+      "Startup": "22",
+      "Total Frames": "63",
+      "Landing Lag": "",
+      "Additional Notes": "Belly armor on frame 8-21. Charge hold is frame 1",
+      "Base Damage": "18.0 / 4.0 ",
+      "Shieldlag": "10/5",
+      "Shieldstun": "12/4",
+      "hitbox": "body/shockwave",
+      "Advantage": "-29 "
+    },
+    "N-Air": {
+      "Startup": "7",
+      "Total Frames": "45",
+      "Landing Lag": "9",
+      "Additional Notes": "Belly armor on frame 6-30. Autocancels on frame 1-3 and 40 onward",
+      "Base Damage": "12.0 / 8.0",
+      "Shieldlag": "9/7",
+      "Shieldstun": "5/4",
+      "hitbox": "Early/late",
+      "Advantage": "-8/-9"
+    },
+    "F-Air": {
+      "Startup": "11",
+      "Total Frames": "57",
+      "Landing Lag": "11",
+      "Additional Notes": "Autocancels on frame 1-2 and 40 onward",
+      "Base Damage": "15.5 / 13.5\n10.0 / 8.0",
+      "Shieldlag": "10/9\n8/7",
+      "Shieldstun": "6/5\n4/4",
+      "hitbox": "Early far/close\nLate far/close",
+      "Advantage": "-5/-6\n-7/-7"
+    },
+    "B-Air": {
+      "Startup": "18",
+      "Total Frames": "49",
+      "Landing Lag": "14",
+      "Additional Notes": "Autocancels on frame 1-3 and 50 onward",
+      "Base Damage": "19.0 / 14.5",
+      "Shieldlag": "13/10",
+      "Shieldstun": "7/5",
+      "hitbox": "far/close",
+      "Advantage": "-7/-9"
+    },
+    "U-Air": {
+      "Startup": "7",
+      "Total Frames": "71",
+      "Landing Lag": "13",
+      "Additional Notes": "Head intangibility on frame 7-13. Belly armor on frame 6-20. Autocancels on frame 1-2 and 70 onward",
+      "Base Damage": "14.0 / 10.0",
+      "Shieldlag": "10/8",
+      "Shieldstun": "5/4",
+      "hitbox": "early/late",
+      "Advantage": "-8/-9"
+    },
+    "D-Air": {
+      "Startup": "14",
+      "Total Frames": "61",
+      "Landing Lag": "14",
+      "Additional Notes": "Belly armor on frame 14-25. Autocancels on frame 1-3 and 40 onward",
+      "Base Damage": "12.0 / 9.0",
+      "Shieldlag": "9/7",
+      "Shieldstun": "5/4",
+      "hitbox": "early/late",
+      "Advantage": "-9/-10"
+    },
+    "Blunderbuss": {
+      "Startup": "25",
+      "Total Frames": "64",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to Vacuum on frame 45. K Rool can pass under platforms during any stage of this attack.",
+      "Base Damage": "13.0",
+      "Shieldlag": "9",
+      "Shieldstun": "5",
+      "hitbox": "",
+      "Advantage": "-25"
+    },
+    "Blunderbuss (vacuum)": {
+      "Startup": "6"
+    },
+    "Blunderbuss (second shot)": {
+      "Startup": "27",
+      "Total Frames": "46",
+      "Landing Lag": "",
+      "Additional Notes": "12.0 damage dealt to vacuumed victim on frame 26",
+      "Base Damage": "18.0 / 17.0",
+      "Shieldlag": "11/11",
+      "Shieldstun": "16/5",
+      "hitbox": "person/cannonball",
+      "Advantage": "|+7|/-4"
+    },
+    "Blunderbuss (second shot up)": {
+      "Startup": "27",
+      "Total Frames": "53",
+      "Landing Lag": "",
+      "Additional Notes": "12.0 damage dealt to vacuumed victim on frame 26",
+      "Base Damage": "18.0 / 17.0",
+      "Shieldlag": "11/11",
+      "Shieldstun": "16/5",
+      "hitbox": "person/cannonball",
+      "Advantage": "[+1]/-10"
+    },
+    "Blunderbuss (second shot back)": {
+      "Startup": "33",
+      "Total Frames": "59",
+      "Landing Lag": "",
+      "Additional Notes": "12.0 damage dealt to vacuumed victim on frame 32",
+      "Base Damage": "18.0 / 17.0",
+      "Shieldlag": "11/11",
+      "Shieldstun": "16/5",
+      "hitbox": "person/cannonball",
+      "Advantage": "[+1]/-10"
+    },
+    "Crownerang": {
+      "Startup": "26",
+      "Total Frames": "63",
+      "Landing Lag": "",
+      "Additional Notes": "17 frame animation of catching the crown. Knockback based armor on frame 6-63",
+      "Base Damage": "9.0 / 7.0",
+      "Shieldlag": "7/7",
+      "Shieldstun": "4/3",
+      "hitbox": "going/returning",
+      "Advantage": "-26"
+    },
+    "Propellerpack": {
+      "Startup": "11-",
+      "Total Frames": "",
+      "Landing Lag": "30",
+      "Additional Notes": "Seems to have rehit rate of 14 frames. K Rool does not suffer hitlag from this attack\nCan grab ledges on frame 12 onward",
+      "Base Damage": "3.0",
+      "Shieldlag": "5",
+      "Shieldstun": "4"
+    },
+    "Gut Check": {
+      "Startup": "",
+      "Total Frames": "62",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 4-15. Counters or reflects on 5-28. Must be facing attacker to activate."
+    },
+    "Gut Check (counterattack)": {
+      "Startup": "2",
+      "Total Frames": "41"
+    },
+    "Grab": {
+      "Startup": "8",
+      "Total Frames": "40"
+    },
+    "Dash Grab ": {
+      "Startup": "11",
+      "Total Frames": "48"
+    },
+    "Pivot Grab": {
+      "Startup": "12",
+      "Total Frames": "43"
+    },
+    "Pummel": {
+      "Startup": "2",
+      "Total Frames": "21",
+      "Landing Lag": "",
+      "Additional Notes": "Total frames includes 15 frames of hitlag (plus one in 1v1)",
+      "Base Damage": "1.6"
+    },
+    "Forward Throw": {
+      "Startup": "28",
+      "Total Frames": "39",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0"
+    },
+    "Back Throw": {
+      "Startup": "32",
+      "Total Frames": "62",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "11.0"
+    },
+    "Up Throw": {
+      "Startup": "67",
+      "Total Frames": "103",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "16.0"
+    },
+    "Down Throw": {
+      "Startup": "40",
+      "Total Frames": "73",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "5.0"
+    },
+    "Spot Dodge": {
+      "Startup": "",
+      "Total Frames": "23/28",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-18"
+    },
+    "Forward Roll": {
+      "Startup": "",
+      "Total Frames": "32",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 4-16"
+    },
+    "Back Roll": {
+      "Startup": "",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 5-17"
+    },
+    "Neutral Air Dodge": {
+      "Startup": "",
+      "Total Frames": "46",
+      "Landing Lag": "10",
+      "Additional Notes": "Invulnerable on frame 4-30"
+    },
+    "Dir. AD (down)": {
+      "Startup": "",
+      "Total Frames": "64",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 4-22"
+    },
+    "Dir. AD (diagonally down)": {
+      "Startup": "",
+      "Total Frames": "74",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 4-22"
+    },
+    "Dir. AD (left or right)": {
+      "Startup": "",
+      "Total Frames": "78",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 4-22"
+    },
+    "Dir. AD (diagonally up)": {
+      "Startup": "",
+      "Total Frames": "88",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 4-22"
+    },
+    "Dir. AD (up)": {
+      "Startup": "",
+      "Total Frames": "102",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 4-22"
+    }
+  }
+}

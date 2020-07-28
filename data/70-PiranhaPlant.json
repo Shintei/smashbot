@@ -1,0 +1,359 @@
+{
+  "name": "70 - Piranha Plant",
+  "moves": {
+    "Jab 1": {
+      "Startup": "2",
+      "Total Frames": "19",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to jab 2 as early as frame 5",
+      "Base Damage": "2.4",
+      "Shieldlag": "10",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-14"
+    },
+    "Jab 2": {
+      "Startup": "2",
+      "Total Frames": "20",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to jab 3 as early as frame 8 and rapid as early as frame 7",
+      "Base Damage": "2.2",
+      "Shieldlag": "5",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-15"
+    },
+    "Jab 3": {
+      "Startup": "7",
+      "Total Frames": "25",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "4.4",
+      "Shieldlag": "10",
+      "Shieldstun": "5",
+      "hitbox": "",
+      "Advantage": "-13"
+    },
+    "Rapid Jab": {
+      "Startup": "6/10/14...",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "0.6",
+      "Shieldlag": "4",
+      "Shieldstun": "5"
+    },
+    "Rapid Finisher": {
+      "Startup": "7",
+      "Total Frames": "40",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "3.4",
+      "Shieldlag": "15",
+      "Shieldstun": "4",
+      "hitbox": "",
+      "Advantage": "-29"
+    },
+    "F-Tilt": {
+      "Startup": "7",
+      "Total Frames": "27",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to F-tilt 2 as early as frame 12",
+      "Base Damage": "5.5",
+      "Shieldlag": "8",
+      "Shieldstun": "6",
+      "hitbox": "",
+      "Advantage": "-14"
+    },
+    "F-Tilt 2": {
+      "Startup": "5",
+      "Total Frames": "31",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "6.0",
+      "Shieldlag": "9",
+      "Shieldstun": "6",
+      "hitbox": "",
+      "Advantage": "-20"
+    },
+    "U-Tilt": {
+      "Startup": "6",
+      "Total Frames": "26",
+      "Landing Lag": "",
+      "Additional Notes": "Head intangibility on frame 6-13",
+      "Base Damage": "9.0 / 7.0",
+      "Shieldlag": "7/7",
+      "Shieldstun": "9/7",
+      "hitbox": "head/body",
+      "Advantage": "-11/-13"
+    },
+    "D-Tilt ": {
+      "Startup": "9",
+      "Total Frames": "28",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "6.0 / 7.0",
+      "Shieldlag": "6/7",
+      "Shieldstun": "6/7",
+      "hitbox": "close/far",
+      "Advantage": "-13/-12"
+    },
+    "Dash Attack": {
+      "Startup": "7",
+      "Total Frames": "47",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0 / 7.0",
+      "Shieldlag": "8/7",
+      "Shieldstun": "12/9",
+      "hitbox": "Early/late",
+      "Advantage": "-28"
+    },
+    "F-Smash ": {
+      "Startup": "16",
+      "Total Frames": "51",
+      "Landing Lag": "",
+      "Additional Notes": "Head intangibility on frame 16-17. Charge hold is frame 5",
+      "Base Damage": "15.0 / 19.0",
+      "Shieldlag": "10/13",
+      "Shieldstun": "10/13",
+      "hitbox": "Close/far",
+      "Advantage": "-25/-22"
+    },
+    "U-Smash": {
+      "Startup": "12/16",
+      "Total Frames": "51",
+      "Landing Lag": "",
+      "Additional Notes": "Head intangibility on frame 12-18. Charge hold is frame 6",
+      "Base Damage": "3.0 / 12.0",
+      "Shieldlag": "5/10",
+      "Shieldstun": "3/8",
+      "hitbox": "",
+      "Advantage": "-27"
+    },
+    "D-Smash": {
+      "Startup": "10/14",
+      "Total Frames": "43",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 5",
+      "Base Damage": "12.0 / 14.0",
+      "Shieldlag": "9/10",
+      "Shieldstun": "8/10",
+      "hitbox": "",
+      "Advantage": "-25/-19"
+    },
+    "N-Air": {
+      "Startup": "8/11/14/17/18",
+      "Total Frames": "47",
+      "Landing Lag": "15",
+      "Additional Notes": "Autocancels on frame 1-4 and 40 onward",
+      "Base Damage": "2.0 / 3.0",
+      "Shieldlag": "4/9",
+      "Shieldstun": "2/2",
+      "hitbox": "multi/final",
+      "Advantage": "-13/-13"
+    },
+    "F-Air": {
+      "Startup": "7",
+      "Total Frames": "44",
+      "Landing Lag": "13",
+      "Additional Notes": "Autocancels on frame 1-2 and 39 onward",
+      "Base Damage": "9.0 / 11.0",
+      "Shieldlag": "7/8",
+      "Shieldstun": "4/4",
+      "hitbox": "close/far",
+      "Advantage": "-9/-9"
+    },
+    "B-Air": {
+      "Startup": "14",
+      "Total Frames": "61",
+      "Landing Lag": "16",
+      "Additional Notes": "Autocancels on frame 1-4 and 43 onward",
+      "Base Damage": "14.5",
+      "Shieldlag": "10",
+      "Shieldstun": "5",
+      "hitbox": "",
+      "Advantage": "-11"
+    },
+    "U-Air": {
+      "Startup": "7",
+      "Total Frames": "38",
+      "Landing Lag": "10",
+      "Additional Notes": "Autocancels on frame 22 onward. Head intangibility on frame 7-9",
+      "Base Damage": "10.0",
+      "Shieldlag": "8",
+      "Shieldstun": "4",
+      "hitbox": "",
+      "Advantage": "-6"
+    },
+    "D-Air": {
+      "Startup": "9",
+      "Total Frames": "44",
+      "Landing Lag": "18",
+      "Additional Notes": "Autocancels on frame 1-2 and 33 onward",
+      "Base Damage": "11.0 / 9.0",
+      "Shieldlag": "8/7",
+      "Shieldstun": "4/4",
+      "hitbox": "early/late",
+      "Advantage": "-14/-14"
+    },
+    "Ptooie": {
+      "Startup": "9",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "To blow away is 41 total frames. Earliest you can blow away is on 22. \nEndlag is 18 if projectile makes contact. Eating projectile is 44 frames or 30 if it's close to you.",
+      "Base Damage": "14.0 / 18.0\n15.3",
+      "Shieldlag": "12/14/12",
+      "Shieldstun": "13/6/5",
+      "hitbox": "initial/blown away/\nafter bounce",
+      "Advantage": "|+7|/ ?"
+    },
+    "Poison Breath": {
+      "Startup": "11 (+10)",
+      "Total Frames": "35",
+      "Landing Lag": "",
+      "Additional Notes": "10 frames to enter charge state, 13 startup from charge. Lasts about ~110 frames at no charge",
+      "Base Damage": "",
+      "Shieldlag": "0",
+      "Shieldstun": "3"
+    },
+    "Poison Breath (full charge)": {
+      "Startup": "21",
+      "Total Frames": "45",
+      "Landing Lag": "",
+      "Additional Notes": "Cloud deals damage every 4 frames at first then every 7 towards the end. Lasts about\n ~150 frames. Takes 95 frames to reach full charge. Takes 2 frames to cancel charge with shield.",
+      "Base Damage": "",
+      "Shieldlag": "0",
+      "Shieldstun": "3"
+    },
+    "Piranhacopter": {
+      "Startup": "13/16/22/28/34/\n40/46/52/58/64",
+      "Total Frames": "",
+      "Landing Lag": "20",
+      "Additional Notes": "Can grab ledges as early as frame 2",
+      "Base Damage": "1.2 / 4.0",
+      "Shieldlag": "4/",
+      "Shieldstun": "2/",
+      "hitbox": "mutli/final"
+    },
+    "Long-Stem Strike": {
+      "Startup": "2 (+18)",
+      "Total Frames": "39/44 \n(on-hit endlag)\n64-115/120\n(total frames)",
+      "Landing Lag": "",
+      "Additional Notes": "startup is 2 upon reaching target. Reaches full charge on frame 67. Takes 18 frames to enter charge state\nEndlag on hit is 39, or 44 if you tipped over. Total frames on whiff is 49 or 54 if you tipped over.\nHead intangibility begins on frame 3 of travel or frame 1 of reaching a target, whichever comes first.\nPot armor begins on frame 18.",
+      "Base Damage": "8.4 - 26.0",
+      "Shieldlag": "7-17",
+      "Shieldstun": "8-22",
+      "hitbox": "",
+      "Advantage": "-31 to -17\n(-5 more when \ntipped over)"
+    },
+    "Footstool attack": {
+      "Startup": "13",
+      "Total Frames": "22",
+      "Landing Lag": "",
+      "Additional Notes": "Occurs whenever Piranha Plant is footstooled while crouching.",
+      "Base Damage": "4.0"
+    },
+    "Grab": {
+      "Startup": "6",
+      "Total Frames": "34"
+    },
+    "Dash Grab ": {
+      "Startup": "9",
+      "Total Frames": "42"
+    },
+    "Pivot Grab": {
+      "Startup": "9",
+      "Total Frames": "36"
+    },
+    "Pummel": {
+      "Startup": "1",
+      "Total Frames": "18",
+      "Landing Lag": "",
+      "Additional Notes": "Total frames includes 13 frames of hitlag (plus one in 1v1)",
+      "Base Damage": "1.4"
+    },
+    "Forward Throw": {
+      "Startup": "13/14",
+      "Total Frames": "31",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "3.0 / 8.0"
+    },
+    "Back Throw": {
+      "Startup": "19",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "11.0"
+    },
+    "Up Throw": {
+      "Startup": "20",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "12.0"
+    },
+    "Down Throw": {
+      "Startup": "20/30/31",
+      "Total Frames": "47",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "2.5 / 2.5 / 3.0"
+    },
+    "Spot Dodge": {
+      "Startup": "",
+      "Total Frames": "20/25",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-17"
+    },
+    "Forward Roll": {
+      "Startup": "",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 4-15"
+    },
+    "Back Roll": {
+      "Startup": "",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 5-16"
+    },
+    "Neutral Air Dodge": {
+      "Startup": "",
+      "Total Frames": "42",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-30"
+    },
+    "Dir. AD (down)": {
+      "Startup": "",
+      "Total Frames": "58",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (diagonally down)": {
+      "Startup": "",
+      "Total Frames": "66",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (left or right)": {
+      "Startup": "",
+      "Total Frames": "69",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (diagonally up)": {
+      "Startup": "",
+      "Total Frames": "81",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (up)": {
+      "Startup": "",
+      "Total Frames": "88",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    }
+  }
+}

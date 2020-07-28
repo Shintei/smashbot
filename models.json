@@ -1,0 +1,5 @@
+{
+    "classes": [
+        "Swordsman", "Archer", "Gunner", "Pugilist", "Elementalist", "Cleric", "Mechanic", "Mage"
+    ]
+}

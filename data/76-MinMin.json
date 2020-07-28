@@ -1,0 +1,372 @@
+{
+  "name": "76 - Min Min",
+  "moves": {
+    "Jab 1 (tap)": {
+      "Startup": "5",
+      "Total Frames": "24",
+      "Landing Lag": "",
+      "Additional Notes": "Startup and total frames assumes player presses and releases A/B in one frame,\nor buffers the attack. Transitions to jab 2 on frame 10",
+      "Base Damage": "2.5",
+      "Shieldlag": "7",
+      "Shieldstun": "4",
+      "hitbox": "",
+      "Advantage": "-15"
+    },
+    "Jab 2": {
+      "Startup": "8",
+      "Total Frames": "31",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to rapid jab on frame 14 or jab 3 on frame 15",
+      "Base Damage": "2.0",
+      "Shieldlag": "6",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-20"
+    },
+    "Jab 3": {
+      "Startup": "6",
+      "Total Frames": "35",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "5.5",
+      "Shieldlag": "14",
+      "Shieldstun": "6",
+      "hitbox": "",
+      "Advantage": "-23"
+    },
+    "Rapid Jab": {
+      "Startup": "6/8/10...",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "0.5",
+      "Shieldlag": "4",
+      "Shieldstun": "-"
+    },
+    "Rapid Finisher": {
+      "Startup": "7",
+      "Total Frames": "41",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "5.0",
+      "Shieldlag": "15",
+      "Shieldstun": "6",
+      "hitbox": "",
+      "Advantage": "-28"
+    },
+    "Left punch (no smash A)": {
+      "Startup": "14",
+      "Total Frames": "58/53 (air)",
+      "Landing Lag": "",
+      "Additional Notes": "Endlag on hit is 28. Endlag on block is 39.\nCan fire other arm beginning on frame 17. \nMin Min can move and jump at any point of the animation",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "8",
+      "hitbox": "",
+      "Advantage": "-31"
+    },
+    "Left punch (Smash A)": {
+      "Startup": "16/40 (beam)",
+      "Total Frames": "65/62 (air)\nBeam: 85/82 (air)",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold frame 8. Can fire other arm beginning on frame 17. Endlag on hit is 30\nEndlag on block is 40-41 depending on how far the arm must retract.\nYou cannot fire the beam if you already made contact with a shield or clanked",
+      "Base Damage": "12.0 / 16.0 / 13.0/\n7.0",
+      "Shieldlag": "9/10/9/\n7",
+      "Shieldstun": "8/11/9/\n3",
+      "hitbox": "close/medium/far/\nbeam",
+      "Advantage": "-32/-29/-30\n-35 (beam)"
+    },
+    "Right punch (Ramram)": {
+      "Startup": "14/22",
+      "Total Frames": "51/47 (air)",
+      "Landing Lag": "",
+      "Additional Notes": "Can fire other arm beginning on frame 17. Projectile does not launch if blocked\nEndlag is 37 if blocked.",
+      "Base Damage": "5.0 / 2.5",
+      "Shieldlag": "6/5",
+      "Shieldstun": "6/2",
+      "hitbox": "arm/projectile",
+      "Advantage": "-31"
+    },
+    "Right punch (Ramram)(Smash)": {
+      "Startup": "16/26",
+      "Total Frames": "57/55 (air)",
+      "Landing Lag": "",
+      "Additional Notes": "Can fire other arm beginning on frame 17. Projectile does not launch if blocked\nEndlag is 39 if blocked. Charge hold frame 8.",
+      "Base Damage": "10.0 / 12.0 / 2.5",
+      "Shieldlag": "8/9/5",
+      "Shieldstun": "7/8/2",
+      "hitbox": "close/far/projectile",
+      "Advantage": "-32/-31"
+    },
+    "Right punch (Megawatt)": {
+      "Startup": "14",
+      "Total Frames": "67/59 (air)",
+      "Landing Lag": "",
+      "Additional Notes": "Can fire other arm beginning on frame 17\nEndlag on hit is 22-29 depending on how far the arm must retract\nEndlag on block is 40-44 depending on how far the arm must retract",
+      "Base Damage": "11.0",
+      "Shieldlag": "10",
+      "Shieldstun": "10",
+      "hitbox": "",
+      "Advantage": "-30 to -34"
+    },
+    "Right punch (Megawatt)(Smash)": {
+      "Startup": "16",
+      "Total Frames": "75/70 (air)",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold frame 8. Can fire other arm beginning on frame 17\nEndlag on hit is 22-31 depending on how far the arm must retract\nEndlag on block is 41-47 depending on how far the arm must retract",
+      "Base Damage": "19.0 / 21.0 / 19.0",
+      "Shieldlag": "12/14/12",
+      "Shieldstun": "13/14/13",
+      "hitbox": "close/medium/far",
+      "Advantage": "-28 to-34"
+    },
+    "Right punch (Dragon) ": {
+      "Startup": "14",
+      "Total Frames": "58/53 (air)",
+      "Landing Lag": "",
+      "Additional Notes": "Can fire other arm beginning on frame 17\nEndlag on hit is 28. Endlag on block is 39.",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "8",
+      "hitbox": "",
+      "Advantage": "-31"
+    },
+    "Right punch (Dragon) (Smash)": {
+      "Startup": "16/40 (beam)",
+      "Total Frames": "65/62(air)\nBeam: 85/82 (air)",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold frame 8. Can fire other arm beginning on frame 17. Endlag on hit is 30 \nEndlag on block is 40-41 depending on how far the arm must retract.\nYou cannot fire the beam if you already made contact with a shield or clanked",
+      "Base Damage": "12.0 / 16.0 / 13.0/\n7.0",
+      "Shieldlag": "9/10/9/\n7",
+      "Shieldstun": "8/11/9/\n3",
+      "hitbox": "close/medium/far",
+      "Advantage": "-32/-29/-30\n-35 (beam)"
+    },
+    "U-tilt ": {
+      "Startup": "5",
+      "Total Frames": "41",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "4.0 / 5.0 / 6.0 /\n7.0",
+      "Shieldlag": "5/6/6/7",
+      "Shieldstun": "5/6/6/7",
+      "hitbox": "close/medium/far/\nfarthest",
+      "Advantage": "-31/-30/-29"
+    },
+    "D-Tilt": {
+      "Startup": "10",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "leg intangibility on frame 10-14",
+      "Base Damage": "5.0 / 7.0 / 5.5",
+      "Shieldlag": "6/7/6",
+      "Shieldstun": "6/7/6",
+      "hitbox": "close/far/late",
+      "Advantage": "-18/-17"
+    },
+    "Dash Attack": {
+      "Startup": "7",
+      "Total Frames": "38",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0 / 10.0 / 8.0",
+      "Shieldlag": "7/10/7",
+      "Shieldstun": "8/10/8",
+      "hitbox": "early/late/latest",
+      "Advantage": "-23"
+    },
+    "U-Smash": {
+      "Startup": "7",
+      "Total Frames": "52",
+      "Landing Lag": "",
+      "Additional Notes": "leg intangibility on frame 7-15. Reflects on frame 6-15. Charge hold frame 2",
+      "Base Damage": "16.0 / 14.0 / \n12.0 / 10.0",
+      "Shieldlag": "10/11/\n10/9",
+      "Shieldstun": "10/11/\n10/8",
+      "hitbox": "early close/far\nlate close/far",
+      "Advantage": "-35/-34"
+    },
+    "D-Smash": {
+      "Startup": "6",
+      "Total Frames": "48",
+      "Landing Lag": "",
+      "Additional Notes": "leg intangibility on frame 6-8. Charge hold frame 2",
+      "Base Damage": "13.0 / 15.0",
+      "Shieldlag": "9/10",
+      "Shieldstun": "9/10",
+      "hitbox": "close/far ",
+      "Advantage": "-33/-32"
+    },
+    "N-air (either Dragon)": {
+      "Startup": "10",
+      "Total Frames": "37",
+      "Landing Lag": "10",
+      "Additional Notes": "arm intangible on frame 10-23. autocancels on frame 1-3 and 37 onward",
+      "Base Damage": "8.5",
+      "Shieldlag": "7",
+      "Shieldstun": "4",
+      "hitbox": "",
+      "Advantage": "-6"
+    },
+    "N-air (Ramram)": {
+      "Startup": "8",
+      "Total Frames": "28",
+      "Landing Lag": "10",
+      "Additional Notes": "arm intangible on frame 8-18. autocancels on frame 1-3 and 28 onward",
+      "Base Damage": "6.0",
+      "Shieldlag": "6",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-7"
+    },
+    "N-air (Megawatt)": {
+      "Startup": "14",
+      "Total Frames": "50",
+      "Landing Lag": "10",
+      "Additional Notes": "arm intangible on frame 14-32. autocancels on frame 1-5 and 50 onward",
+      "Base Damage": "12.0",
+      "Shieldlag": "10",
+      "Shieldstun": "5",
+      "hitbox": "",
+      "Advantage": "-5"
+    },
+    "U-air": {
+      "Startup": "7",
+      "Total Frames": "38",
+      "Landing Lag": "8",
+      "Additional Notes": "autocancels on frame 29 onward",
+      "Base Damage": "6.5",
+      "Shieldlag": "5",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-5"
+    },
+    "D-air": {
+      "Startup": "15",
+      "Total Frames": "54",
+      "Landing Lag": "25",
+      "Additional Notes": "landing hit on frame 1 of landing. Autocancels on frame 41 onward",
+      "Base Damage": "11.0 / 9.0 / 3.0",
+      "Shieldlag": "8/7/5",
+      "Shieldstun": "4/4/4",
+      "hitbox": "early/late/landing",
+      "Advantage": "-20"
+    },
+    "ARMS Jump": {
+      "Startup": "",
+      "Total Frames": "25/37 (charged)",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 8-13 (normal) or 18-25 (charged)"
+    },
+    "ARMS Hook": {
+      "Startup": "12",
+      "Total Frames": "54",
+      "Landing Lag": "",
+      "Additional Notes": "Tethers to ledge on frame 5\nEndlag on hit is 22-32 depending on how far the arm must restract\nEndlag on block is 40-42 depending on how far the arm must restract",
+      "Base Damage": "9.0",
+      "Shieldlag": "7",
+      "Shieldstun": "9"
+    },
+    "Grab": {
+      "Startup": "18",
+      "Total Frames": "56"
+    },
+    "Dash Grab": {
+      "Startup": "18",
+      "Total Frames": "56"
+    },
+    "Pivot Grab": {
+      "Startup": "18",
+      "Total Frames": "56"
+    },
+    "Pummel": {
+      "Startup": "1",
+      "Total Frames": "19",
+      "Landing Lag": "",
+      "Additional Notes": "total frames includes 14 frames of hitlag (plus one in 1v1)",
+      "Base Damage": "1.5"
+    },
+    "Forward Throw": {
+      "Startup": "12/13",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "5.0 / 4.0"
+    },
+    "Back Throw": {
+      "Startup": "27/31",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "14.0 / 0.0"
+    },
+    "Up Throw": {
+      "Startup": "10/11",
+      "Total Frames": "54",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "2.0 / 8.0"
+    },
+    "Down Throw": {
+      "Startup": "15/16",
+      "Total Frames": "45",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "4.0 / 4.0"
+    },
+    "Spot Dodge": {
+      "Startup": "",
+      "Total Frames": "20/25",
+      "Landing Lag": "",
+      "Additional Notes": "invulnerable on frame 3-17"
+    },
+    "Forward Roll": {
+      "Startup": "",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "invulnerable on frame 4-15"
+    },
+    "Back Roll": {
+      "Startup": "",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "invulnerable on frame 5-16"
+    },
+    "Neutral Air Dodge": {
+      "Startup": "",
+      "Total Frames": "39",
+      "Landing Lag": "",
+      "Additional Notes": "invulnerable on frame 3-30"
+    },
+    "Dir. AD Down": {
+      "Startup": "",
+      "Total Frames": "71",
+      "Landing Lag": "",
+      "Additional Notes": "invulnerable on frame 3-21"
+    },
+    "Dir. AD Diagonally Down": {
+      "Startup": "",
+      "Total Frames": "78",
+      "Landing Lag": "",
+      "Additional Notes": "invulnerable on frame 3-21"
+    },
+    "Dir. AD left or right": {
+      "Startup": "",
+      "Total Frames": "85",
+      "Landing Lag": "",
+      "Additional Notes": "invulnerable on frame 3-21"
+    },
+    "Dir. AD Diagonally Up": {
+      "Startup": "",
+      "Total Frames": "97",
+      "Landing Lag": "",
+      "Additional Notes": "invulnerable on frame 3-21"
+    },
+    "Dir. AD Up": {
+      "Startup": "",
+      "Total Frames": "107",
+      "Landing Lag": "",
+      "Additional Notes": "invulnerable on frame 3-21"
+    }
+  }
+}

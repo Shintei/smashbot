@@ -1,0 +1,400 @@
+{
+  "name": "26 - Mr. Game & Watch",
+  "moves": {
+    "Jab ": {
+      "Startup": "4",
+      "Total Frames": "15",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to rapid jab as early as 7.",
+      "Base Damage": "3.0",
+      "Shieldlag": "7",
+      "Shieldstun": "4",
+      "hitbox": "",
+      "Advantage": "-7"
+    },
+    "Rapid Jab": {
+      "Startup": "5/11/17...",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "0.8",
+      "Shieldlag": "4",
+      "Shieldstun": "-"
+    },
+    "Rapid Finisher": {
+      "Startup": "2",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "3.0",
+      "Shieldlag": "11",
+      "Shieldstun": "4",
+      "hitbox": "",
+      "Advantage": "-28"
+    },
+    "F-Tilt": {
+      "Startup": "8",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "12.0",
+      "Shieldlag": "9",
+      "Shieldstun": "11",
+      "hitbox": "",
+      "Advantage": "-18"
+    },
+    "U-Tilt": {
+      "Startup": "10/20",
+      "Total Frames": "33",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.0 / 7.0",
+      "Shieldlag": "7/7",
+      "Shieldstun": "7/7",
+      "hitbox": "",
+      "Advantage": "-16/-6"
+    },
+    "D-Tilt": {
+      "Startup": "6",
+      "Total Frames": "42",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "9.0",
+      "Shieldlag": "7",
+      "Shieldstun": "9",
+      "hitbox": "",
+      "Advantage": "-27"
+    },
+    "Dash Attack": {
+      "Startup": "6",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0 / 6.5",
+      "Shieldlag": "8/6",
+      "Shieldstun": "10/7",
+      "hitbox": "Early/Late",
+      "Advantage": "-21"
+    },
+    "F-Smash": {
+      "Startup": "17",
+      "Total Frames": "42",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 7",
+      "Base Damage": "14.0 / 18.0",
+      "Shieldlag": "10/11",
+      "Shieldstun": "10/12",
+      "hitbox": "Close/Far",
+      "Advantage": "-15/-13"
+    },
+    "U-Smash": {
+      "Startup": "21",
+      "Total Frames": "38",
+      "Landing Lag": "",
+      "Additional Notes": "Invincible on frame 21-25. Charge hold is frame 15",
+      "Base Damage": "16.0",
+      "Shieldlag": "10",
+      "Shieldstun": "11",
+      "hitbox": "",
+      "Advantage": "-6"
+    },
+    "D-Smash": {
+      "Startup": "12",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 6",
+      "Base Damage": "13.0 / 15.0",
+      "Shieldlag": "9/10",
+      "Shieldstun": "9/10",
+      "hitbox": "Close/Far",
+      "Advantage": "-16/-15"
+    },
+    "N-Air": {
+      "Startup": "7/12/17/22",
+      "Total Frames": "42",
+      "Landing Lag": "7",
+      "Additional Notes": "Autocancels on frame 1-2 and 40 onward",
+      "Base Damage": "3.0 / 4.0",
+      "Shieldlag": "5/11",
+      "Shieldstun": "2/3",
+      "hitbox": "Multi/Final",
+      "Advantage": "-5/-4"
+    },
+    "F-Air": {
+      "Startup": "10/44",
+      "Total Frames": "47",
+      "Landing Lag": "17",
+      "Additional Notes": "Bomb leaves his hands on 14, exploding automatically on 44 or upon touching ground.\nAutocancels on frame 42 onward. Advantage assumes landing on the same frame as bomb.",
+      "Base Damage": "3.0 / 12.0",
+      "Shieldlag": "5/9",
+      "Shieldstun": "2/5",
+      "hitbox": "",
+      "Advantage": "-3"
+    },
+    "B-Air": {
+      "Startup": "10/14/18/22",
+      "Total Frames": "39",
+      "Landing Lag": "18",
+      "Additional Notes": "landing hit on frame 1. Autocancels on frame 1-9 and 38 onward",
+      "Base Damage": "2.0 / 3.0 / 3.0",
+      "Shieldlag": "4/13/5",
+      "Shieldstun": "2/2/4",
+      "hitbox": "Multi/Final/landing",
+      "Advantage": "-13"
+    },
+    "U-Air": {
+      "Startup": "9/15/21/27/33/37",
+      "Total Frames": "42",
+      "Landing Lag": "12",
+      "Additional Notes": "Attack is a projectile. Autocancels on frame 44 onward",
+      "Base Damage": "1.7 / 3.0",
+      "Shieldlag": "3/3",
+      "Shieldstun": "0/0",
+      "hitbox": "Multi/Final "
+    },
+    "D-Air": {
+      "Startup": "12",
+      "Total Frames": "49",
+      "Landing Lag": "22",
+      "Additional Notes": "landing hit on frame 1. Autocancels on frame 1-5 and 50 onward",
+      "Base Damage": "11.0 / 3.5",
+      "Shieldlag": "8/5",
+      "Shieldstun": "4/4",
+      "hitbox": "",
+      "Advantage": "-17"
+    },
+    "Chef": {
+      "Startup": "18",
+      "Total Frames": "54",
+      "Landing Lag": "",
+      "Additional Notes": "Projectile and melee attack generate on same frame. Generates new sausage every 32 frames",
+      "Base Damage": "5.0 / 13.0",
+      "Shieldlag": "6/7",
+      "Shieldstun": "3/8",
+      "hitbox": "sausage/pan",
+      "Advantage": "-28"
+    },
+    "Judge 1": {
+      "Startup": "16",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "Deals 12.0 recoil damage and no knockback",
+      "Base Damage": "2.0",
+      "Shieldlag": "4",
+      "Shieldstun": "3",
+      "hitbox": "",
+      "Advantage": "-30"
+    },
+    "Judge 2": {
+      "Startup": "16",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "4.0",
+      "Shieldlag": "5",
+      "Shieldstun": "5",
+      "hitbox": "",
+      "Advantage": "-28"
+    },
+    "Judge 3": {
+      "Startup": "16",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "Bonus shield damage",
+      "Base Damage": "6.0",
+      "Shieldlag": "6",
+      "Shieldstun": "6",
+      "hitbox": "",
+      "Advantage": "-27"
+    },
+    "Judge 4": {
+      "Startup": "16",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "8",
+      "hitbox": "",
+      "Advantage": "-25"
+    },
+    "Judge 5": {
+      "Startup": "16/19/22/25",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "3.0",
+      "Shieldlag": "7",
+      "Shieldstun": "4",
+      "hitbox": "",
+      "Advantage": "-20"
+    },
+    "Judge 6": {
+      "Startup": "16",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "12.0",
+      "Shieldlag": "9",
+      "Shieldstun": "11",
+      "hitbox": "",
+      "Advantage": "-22"
+    },
+    "Judge 7": {
+      "Startup": "16",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "spawns three food items",
+      "Base Damage": "14.0",
+      "Shieldlag": "10",
+      "Shieldstun": "13",
+      "hitbox": "",
+      "Advantage": "-20"
+    },
+    "Judge 8": {
+      "Startup": "16",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "freezes the opponent",
+      "Base Damage": "13.0",
+      "Shieldlag": "9",
+      "Shieldstun": "12",
+      "hitbox": "",
+      "Advantage": "-21"
+    },
+    "Judge 9": {
+      "Startup": "16",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "32.0",
+      "Shieldlag": "21",
+      "Shieldstun": "27",
+      "hitbox": "",
+      "Advantage": "-6"
+    },
+    "Fire": {
+      "Startup": "3",
+      "Total Frames": "",
+      "Landing Lag": "7",
+      "Additional Notes": "Invulnerable frame 5-13 Takes 7 frames to exit parachute by pressing down and avoiding landing lag.\nCan cancel directly with attacks as well. Opens parachute on frame 37. Grabs ledges on frame 15",
+      "Base Damage": "3.0 / 6.0",
+      "Shieldlag": "7/6",
+      "Shieldstun": "4/6",
+      "hitbox": "Early/Late"
+    },
+    "Oil Panic ": {
+      "Startup": "",
+      "Total Frames": "43",
+      "Landing Lag": "",
+      "Additional Notes": "Begins absorbing/reflecting on frame 6. Takes 13 frames to put away bucket after extended usage."
+    },
+    "Oil Panic (overload)": {
+      "Startup": "2",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "Successful absorbs incur a 24 frame animation that is completely invulnerable."
+    },
+    "Grab": {
+      "Startup": "6",
+      "Total Frames": "34"
+    },
+    "Dash Grab ": {
+      "Startup": "9",
+      "Total Frames": "42"
+    },
+    "Pivot Grab": {
+      "Startup": "10",
+      "Total Frames": "37"
+    },
+    "Pummel": {
+      "Startup": "1",
+      "Total Frames": "18",
+      "Landing Lag": "",
+      "Additional Notes": "Total frames includes 13 frames of hitlag (plus one in 1v1)",
+      "Base Damage": "1.3"
+    },
+    "Forward Throw": {
+      "Startup": "26",
+      "Total Frames": "40",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0"
+    },
+    "Back Throw": {
+      "Startup": "26",
+      "Total Frames": "40",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0"
+    },
+    "Up Throw": {
+      "Startup": "26",
+      "Total Frames": "40",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "12.0"
+    },
+    "Down Throw": {
+      "Startup": "35",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "4.0"
+    },
+    "Spot Dodge": {
+      "Startup": "",
+      "Total Frames": "21/25",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-17 "
+    },
+    "Forward Roll": {
+      "Startup": "",
+      "Total Frames": "30",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 4-15 "
+    },
+    "Back Roll": {
+      "Startup": "",
+      "Total Frames": "35",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 5-16"
+    },
+    "Neutral Air Dodge": {
+      "Startup": "",
+      "Total Frames": "59",
+      "Landing Lag": "10",
+      "Additional Notes": "Invulnerable on frame 3-28 "
+    },
+    "Dir. AD (down)": {
+      "Startup": "",
+      "Total Frames": "84",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (diagonally down)": {
+      "Startup": "",
+      "Total Frames": "93",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (left or right)": {
+      "Startup": "",
+      "Total Frames": "100",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (diagonally up)": {
+      "Startup": "",
+      "Total Frames": "123",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    },
+    "Dir. AD (up)": {
+      "Startup": "",
+      "Total Frames": "132",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
+    }
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "name": "02 - Donkey Kong",
+  "moves": {
+    "Jab 1": {
+      "Startup": "5",
+      "Total Frames": "24",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to Jab 2 as early as frame 8. ",
+      "Base Damage": "4.0",
+      "Shieldlag": "8",
+      "Shieldstun": "5",
+      "hitbox": "",
+      "Advantage": "-14"
+    },
+    "Jab 2": {
+      "Startup": "4",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "6.0",
+      "Shieldlag": "11",
+      "Shieldstun": "6",
+      "hitbox": "",
+      "Advantage": "-24"
+    },
+    "F-Tilt": {
+      "Startup": "7",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "Arm intangibility on frame 6-9",
+      "Base Damage": "8.0 / 9.0",
+      "Shieldlag": "7/7",
+      "Shieldstun": "8/9",
+      "hitbox": "No angle/angled",
+      "Advantage": "-19/-18"
+    },
+    "U-Tilt": {
+      "Startup": "5",
+      "Total Frames": "38",
+      "Landing Lag": "",
+      "Additional Notes": "Arm intangibility on frame 5-11",
+      "Base Damage": "10.0",
+      "Shieldlag": "8",
+      "Shieldstun": "10",
+      "hitbox": "",
+      "Advantage": "-23"
+    },
+    "D-Tilt": {
+      "Startup": "6",
+      "Total Frames": "24",
+      "Landing Lag": "",
+      "Additional Notes": "Arm intangibility on frame 5-7",
+      "Base Damage": "6.0",
+      "Shieldlag": "6",
+      "Shieldstun": "6",
+      "hitbox": "",
+      "Advantage": "-12"
+    },
+    "Dash Attack": {
+      "Startup": "9",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "12.0 / 9.0",
+      "Shieldlag": "11/9",
+      "Shieldstun": "11/9",
+      "hitbox": "Early/Late",
+      "Advantage": "-14"
+    },
+    "F-Smash": {
+      "Startup": "22",
+      "Total Frames": "54",
+      "Landing Lag": "",
+      "Additional Notes": "Arm and head intangibility on frame 20-26. Charge hold is frame 14.",
+      "Base Damage": "22.0 / 21.0",
+      "Shieldlag": "16",
+      "Shieldstun": "14",
+      "hitbox": "Far/Close",
+      "Advantage": "-18"
+    },
+    "U-Smash": {
+      "Startup": "14",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "Arm and head intangibility on frame 12-15. Charge hold is frame 6",
+      "Base Damage": "19.0",
+      "Shieldlag": "12",
+      "Shieldstun": "13",
+      "hitbox": "",
+      "Advantage": "-22"
+    },
+    "D-Smash": {
+      "Startup": "11",
+      "Total Frames": "55",
+      "Landing Lag": "",
+      "Additional Notes": "Arm intangibility on frame 11-14. Charge hold is frame 2",
+      "Base Damage": "17.0",
+      "Shieldlag": "11",
+      "Shieldstun": "11",
+      "hitbox": "",
+      "Advantage": "-33"
+    },
+    "N-Air": {
+      "Startup": "10",
+      "Total Frames": "38",
+      "Landing Lag": "10",
+      "Additional Notes": "Autocancels on frame 1-9 and 27 onward",
+      "Base Damage": "12.0 / 9.0",
+      "Shieldlag": "9/7",
+      "Shieldstun": "5/4",
+      "hitbox": "Early/Late",
+      "Advantage": "-5/-6"
+    },
+    "F-Air": {
+      "Startup": "18",
+      "Total Frames": "55",
+      "Landing Lag": "17",
+      "Additional Notes": "Autocancels on frame 56 onward",
+      "Base Damage": "16.0/15.0",
+      "Shieldlag": "10/15",
+      "Shieldstun": "6/5",
+      "hitbox": "Early/Meteor",
+      "Advantage": "-11/-12"
+    },
+    "B-Air": {
+      "Startup": "7",
+      "Total Frames": "31",
+      "Landing Lag": "11",
+      "Additional Notes": "Autocancels on frame 1-6 and 31 onward",
+      "Base Damage": "13.0 / 8.0",
+      "Shieldlag": "9/7",
+      "Shieldstun": "5/4",
+      "hitbox": "Early/Late",
+      "Advantage": "-6/-7"
+    },
+    "U-Air": {
+      "Startup": "6",
+      "Total Frames": "37",
+      "Landing Lag": "15",
+      "Additional Notes": "Head intangibility on frame 5-10. Autocancels on frame 1-5 and 26 onward",
+      "Base Damage": "13.0",
+      "Shieldlag": "9",
+      "Shieldstun": "5",
+      "hitbox": "",
+      "Advantage": "-10"
+    },
+    "D-Air": {
+      "Startup": "14",
+      "Total Frames": "54",
+      "Landing Lag": "14",
+      "Additional Notes": "Autocancels on frame 1-2 and 50 onward",
+      "Base Damage": "16.0",
+      "Shieldlag": "10",
+      "Shieldstun": "6",
+      "hitbox": "",
+      "Advantage": "-8"
+    },
+    "Giant Punch": {
+      "Startup": "19 (+7)",
+      "Total Frames": "62",
+      "Landing Lag": "",
+      "Additional Notes": "Entering charge window takes 7 frames. 4 to cancel with shield.\nArm intangibility on frame 4-20.",
+      "Base Damage": "10.0 - 27.0",
+      "Shieldlag": "8-14",
+      "Shieldstun": "10-22",
+      "hitbox": "",
+      "Advantage": "-33 to -21"
+    },
+    "Giant Punch (full charge)": {
+      "Startup": "19",
+      "Total Frames": "47",
+      "Landing Lag": "",
+      "Additional Notes": "Super armor on frame 11-20 on the ground. Takes 121 frames to reach full charge",
+      "Base Damage": "28.0",
+      "Shieldlag": "15",
+      "Shieldstun": "24",
+      "hitbox": "",
+      "Advantage": "-4"
+    },
+    "Headbutt": {
+      "Startup": "20",
+      "Total Frames": "62",
+      "Landing Lag": "",
+      "Additional Notes": "Super armor on frame 5-14 on the ground and in the air.",
+      "Base Damage": "10.0",
+      "Shieldlag": "8",
+      "Shieldstun": "10",
+      "hitbox": "",
+      "Advantage": "-32"
+    },
+    "Spinning Kong": {
+      "Startup": "19/25/32/40/49/55/62",
+      "Total Frames": "104",
+      "Landing Lag": "",
+      "Additional Notes": "Super armor on frame 5-17. Arm intangibility on frame 19-24",
+      "Base Damage": "5.0 / 1.3 / 4.0",
+      "Shieldlag": "6/4/11",
+      "Shieldstun": "6/3/5",
+      "hitbox": "First/multi/Final",
+      "Advantage": "-37"
+    },
+    "Spinning Kong (air)": {
+      "Startup": "4/12...",
+      "Total Frames": "",
+      "Landing Lag": "38",
+      "Additional Notes": "Past frame 12, this move hits once every 1, 2, or 3 frames, seems inconsistent. \nArm intangibility from frame 10-38. Will snap to a ledge as early as frame 14 onward",
+      "Base Damage": "5.0 / 1.0 / 2.0",
+      "Shieldlag": "6/4/4",
+      "Shieldstun": "6/2/3",
+      "hitbox": "First/multi/Final"
+    },
+    "Hand Slap": {
+      "Startup": "12/23",
+      "Total Frames": "46",
+      "Landing Lag": "",
+      "Additional Notes": "Each additional rep takes another 26 frames as you mash.",
+      "Base Damage": "14.0",
+      "Shieldlag": "10",
+      "Shieldstun": "8",
+      "hitbox": "",
+      "Advantage": "-15"
+    },
+    "Hand Slap (air)": {
+      "Startup": "19/28",
+      "Total Frames": "49",
+      "Landing Lag": "10",
+      "Additional Notes": "",
+      "Base Damage": "5.0 / 6.0",
+      "Shieldlag": "6/6",
+      "Shieldstun": "6/6",
+      "hitbox": "First/Second",
+      "Advantage": "-4"
+    },
+    "Grab": {
+      "Startup": "8",
+      "Total Frames": "38"
+    },
+    "Dash Grab ": {
+      "Startup": "11",
+      "Total Frames": "46"
+    },
+    "Pivot Grab": {
+      "Startup": "12",
+      "Total Frames": "41"
+    },
+    "Pummel": {
+      "Startup": "2",
+      "Total Frames": "21",
+      "Landing Lag": "",
+      "Additional Notes": "Total frames includes 15 frames of hitlag (plus one in 1v1)",
+      "Base Damage": "1.6"
+    },
+    "Cargo Forward Throw": {
+      "Startup": "15",
+      "Total Frames": "45",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "12.0"
+    },
+    "Cargo Back Throw": {
+      "Startup": "16",
+      "Total Frames": "42",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "13.0"
+    },
+    "Cargo Up Throw": {
+      "Startup": "15",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "12.0"
+    },
+    "Cargo Down Throw": {
+      "Startup": "17",
+      "Total Frames": "44",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "11.0"
+    },
+    "Back Throw": {
+      "Startup": "15",
+      "Total Frames": "39",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "11.0"
+    },
+    "Up Throw": {
+      "Startup": "14",
+      "Total Frames": "43",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "9.0"
+    },
+    "Down Throw": {
+      "Startup": "19",
+      "Total Frames": "54",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.0"
+    },
+    "Spot Dodge": {
+      "Startup": "",
+      "Total Frames": "21/26",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-17 "
+    },
+    "Forward Roll": {
+      "Startup": "",
+      "Total Frames": "30",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 4-15"
+    },
+    "Back Roll": {
+      "Startup": "",
+      "Total Frames": "35",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 5-16"
+    },
+    "Neutral Air Dodge": {
+      "Startup": "",
+      "Total Frames": "48",
+      "Landing Lag": "10",
+      "Additional Notes": "Invulnerable on frame 4-32"
+    },
+    "Dir. AD (down)": {
+      "Startup": "",
+      "Total Frames": "66",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 4-22"
+    },
+    "Dir. AD (diagonally down)": {
+      "Startup": "",
+      "Total Frames": "73",
+      "Landing Lag": "11-19"
+    },
+    "Dir. AD (left or right)": {
+      "Startup": "",
+      "Total Frames": "82",
+      "Landing Lag": "11-19"
+    },
+    "Dir. AD (diagonally up)": {
+      "Startup": "",
+      "Total Frames": "88",
+      "Landing Lag": "11-19"
+    },
+    "Dir. AD (up)": {
+      "Startup": "",
+      "Total Frames": "109",
+      "Landing Lag": "11-19"
+    }
+  }
+}
