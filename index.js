@@ -34,6 +34,11 @@ client.on('message', message => {
             GetCharacterData();
             console.log('back from calling getcharacterdata');
         }
+        else if(message.content.startsWith(`${prefix}testCharMapping`)){
+            console.log('calling getcharactermapping');
+            GetMappings();
+            console.log('back from calling getcharactermapping');
+        }
         else if(message.content.startsWith(`${prefix}show`)){
             console.log('hit this block');
             const contentArray = message.content.split(' ').filter((val) => {return val != ''});
