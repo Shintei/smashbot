@@ -1,11 +1,16 @@
 const firebase = require('firebase/app');
 require('fuzzySet.js');
 require('firebase/database');
+const characterData = require('./data');
 const { prefix, frameDataApiBaseUrl, token, firebaseConfig } = require('./config.json');
 const { ULTIMATE_CHARACTERS, MOVE_LIST } = require('./Constants.js');
 const { Attachment } = require('discord.js');
 
 module.exports = {
+    GetCharacterData: GetCharacterData = () => {
+        console.log(characterData);
+    },
+
     GetCharacterObjectDetails: GetCharacterObjectDetails = (charName) => {
         return new Promise((resolve, reject) => {
             const closestMatch = GetClosestMatch(charName.toUpperCase(), ULTIMATE_CHARACTERS);

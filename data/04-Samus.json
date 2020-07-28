@@ -1,5 +1,5 @@
 {
-  "name": "04 -Samus/Dark Samus",
+  "name": "04 -Samus",
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -291,13 +291,13 @@
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 3-17"
     },
-    "Forward Roll (Samus/Dark Samus)": {
+    "Forward Roll": {
       "Startup": "",
       "Total Frames": "34/31",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 4-18 "
     },
-    "Back Roll (Samus/Dark Samus)": {
+    "Back Roll": {
       "Startup": "",
       "Total Frames": "39/36",
       "Landing Lag": "",

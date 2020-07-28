@@ -11,7 +11,7 @@ const BotFunctions = require('./BotFunctions.js');
 const ClassFunctions = require('./ClassFunctions.js');
 const SpawnFunctions = require('./SpawnFunctions.js');
 const Constants = require('./Constants.js');
-const { GetCharacterMoveName, GetCharacterObjectDetails, GetCharacterMoveVisual } = require('./BotFunctions.js');
+const { GetCharacterMoveName, GetCharacterObjectDetails, GetCharacterMoveVisual, GetCharacterData } = require('./BotFunctions.js');
 const assetsLocation = './assets';
 const characterModelsLocation = './assets/characterModels';
 let firebaseDB = null;
@@ -28,6 +28,11 @@ client.on('message', message => {
     if(message.content.startsWith(prefix)){
         if(message.channel.type !== 'text'){ //text for normal channels, dm for private messages and group for groups
             console.log('not my problem');
+        }
+        else if(message.content.startsWith(`${prefix}testCharData`)){
+            console.log('calling getcharacterdata');
+            GetCharacterData();
+            console.log('back from calling getcharacterdata');
         }
         else if(message.content.startsWith(`${prefix}show`)){
             console.log('hit this block');

@@ -1,4 +1,9 @@
 module.exports = {
+    CHARACTER_MAPPER : {
+        BANJO: '73-Banjo&Kazooie.json',
+        get BANJOANDKAZOOIE(){ return this.BANJO },
+        BAYO: '63-Bayonetta.json'
+    },
     ULTIMATE_CHARACTERS : {        
         BANJO: {
             dataFiles: ['73-Banjo&Kazooie.json'],

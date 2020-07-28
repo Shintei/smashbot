@@ -1,5 +1,5 @@
 {
-  "name": "28 - Pit/Dark Pit",
+  "name": "28 - Pit",
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -186,7 +186,7 @@
       "hitbox": "",
       "Advantage": "-10"
     },
-    "Palutena's Bow (Pit)": {
+    "Palutena's Bow": {
       "Startup": "16-76",
       "Total Frames": "46-106",
       "Landing Lag": "",
@@ -197,18 +197,7 @@
       "hitbox": "",
       "Advantage": "-23 to -20"
     },
-    "Silver Bow (Dark Pit)": {
-      "Startup": "16-76",
-      "Total Frames": "46-106",
-      "Landing Lag": "",
-      "Additional Notes": "Total frames reduced by 3 in the air.",
-      "Base Damage": "5.5 - 14.0",
-      "Shieldlag": "6-10",
-      "Shieldstun": "3-5",
-      "hitbox": "",
-      "Advantage": "-21 to -15"
-    },
-    "Upperdash Arm (Pit)": {
+    "Upperdash Arm": {
       "Startup": "18",
       "Total Frames": "79/49",
       "Landing Lag": "",
@@ -219,35 +208,13 @@
       "hitbox": "",
       "Advantage": "-37"
     },
-    "Electroshock Arm (Dark Pit)": {
-      "Startup": "18",
-      "Total Frames": "79/49",
-      "Landing Lag": "",
-      "Additional Notes": "Startup is 2 upon reaching a target. 47 endlag on the swing.\nSuper Armor begins on frame 11 and ends on the frame he begins swing",
-      "Base Damage": "12.0",
-      "Shieldlag": "16",
-      "Shieldstun": "11",
-      "hitbox": "",
-      "Advantage": "-36"
-    },
-    "Uppderdash Arm (air) (Pit)": {
+    "Uppderdash Arm (air)": {
       "Startup": "21",
       "Total Frames": "104/51",
       "Landing Lag": "30",
       "Additional Notes": "Startup is 2 upon reaching a target. 49 endlag on the swing if you don't land",
       "Base Damage": "9.0",
       "Shieldlag": "15",
-      "Shieldstun": "9",
-      "hitbox": "",
-      "Advantage": "-40"
-    },
-    "Electroshock Arm (air) (Dark Pit)": {
-      "Startup": "21",
-      "Total Frames": "104/51",
-      "Landing Lag": "30",
-      "Additional Notes": "Startup is 2 upon reaching a target. 49 endlag on the swing if you don't land",
-      "Base Damage": "9.5",
-      "Shieldlag": "12",
       "Shieldstun": "9",
       "hitbox": "",
       "Advantage": "-40"
