@@ -1,7 +1,7 @@
 {
   "name": "21e - Lucina",
   "moves": {
-    "Jab ": {
+    "Jab": {
       "Startup": "5",
       "Total Frames": "25",
       "Landing Lag": "",
@@ -67,7 +67,7 @@
       "hitbox": "",
       "Advantage": "-21"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "10",
       "Total Frames": "51",
       "Landing Lag": "",

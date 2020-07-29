@@ -1,7 +1,7 @@
 {
   "name": "21 - Marth",
   "moves": {
-    "Jab ": {
+    "Jab": {
       "Startup": "5",
       "Total Frames": "25",
       "Landing Lag": "",
@@ -67,7 +67,7 @@
       "hitbox": "Close/tipper",
       "Advantage": "-22/-20"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "10",
       "Total Frames": "51",
       "Landing Lag": "",

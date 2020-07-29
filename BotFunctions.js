@@ -1,5 +1,5 @@
 const firebase = require('firebase/app');
-require('fuzzySet.js');
+require('fuzzyset');
 require('firebase/database');
 const characterMappings = require('./utils/characterMapper.js');
 const characterData = require('./data');
@@ -36,10 +36,16 @@ module.exports = {
                 if(actualCharMoveData == null){reject('move data is null');}
                 const charMoveNameKey = actualCharMoveData.searchKey;
                 let attachmentUrl;
-                if(!(charMoveNameKey in GENERIC_MOVE_ALIASES_UFD)){
-
+                if(charMoveNameKey in GENERIC_MOVE_ALIASES_UFD === false){
+                    console.log('inside non generic block')
+                    console.log(actualCharMoveData);
+                    const ufdName = actualCharMoveData.payload.ufdName;
+                    console.log(`ufd name is ${ufdName}`);
+                    if(ufdName == null || ufdName == undefined) { reject('no image found') }
+                    attachmentUrl = `${frameDataApiBaseUrl}/hitboxes/${character.uriComponent}/${character.movePrefix}${ufdName}`;
                 }
                 else { //generically named move, we can finish
+                    console.log('inside generic block')
                     const ufdName = GENERIC_MOVE_ALIASES_UFD[charMoveNameKey];
                     attachmentUrl = `${frameDataApiBaseUrl}/hitboxes/${character.uriComponent}/${character.movePrefix}${ufdName}.gif`;
                 }

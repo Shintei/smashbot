@@ -1,7 +1,7 @@
 {
   "name": "08 - Pikachu",
   "moves": {
-    "Jab ": {
+    "Jab": {
       "Startup": "2",
       "Total Frames": "17",
       "Landing Lag": "",
@@ -56,7 +56,7 @@
       "hitbox": "Early/Late",
       "Advantage": "-12"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "15",
       "Total Frames": "53",
       "Landing Lag": "",

@@ -1,7 +1,7 @@
 {
   "name": "25 - Roy",
   "moves": {
-    "Jab ": {
+    "Jab": {
       "Startup": "5",
       "Total Frames": "22",
       "Landing Lag": "",
@@ -254,7 +254,7 @@
       "hitbox": "Multi/final",
       "Advantage": "-46 "
     },
-    "Blazer ": {
+    "Blazer": {
       "Startup": "9/11/14/17/20",
       "Total Frames": "",
       "Landing Lag": "30",

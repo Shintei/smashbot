@@ -56,7 +56,7 @@
       "hitbox": "",
       "Advantage": "-19"
     },
-    "D-Tilt ": {
+    "D-Tilt": {
       "Startup": "9",
       "Total Frames": "29",
       "Landing Lag": "",
@@ -78,7 +78,7 @@
       "hitbox": "Early/late",
       "Advantage": "-21"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "16",
       "Total Frames": "51",
       "Landing Lag": "",

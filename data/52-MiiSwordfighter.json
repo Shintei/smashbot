@@ -78,7 +78,7 @@
       "hitbox": "",
       "Advantage": "-18"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "15",
       "Total Frames": "59",
       "Landing Lag": "",
@@ -112,7 +112,7 @@
       "Advantage": "-38/-28"
     },
     "N-Air": {
-      "Startup": "10 ",
+      "Startup": "10",
       "Total Frames": "48",
       "Landing Lag": "9",
       "Additional Notes": "Autocancels on frame 1-5 and 32 onward",

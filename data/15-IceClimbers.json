@@ -38,7 +38,7 @@
       "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "",
       "Player | AI": "6 | 5"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "": "6",
       "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Charge hold is frame 4",
       "Player | AI": "8 | 7"

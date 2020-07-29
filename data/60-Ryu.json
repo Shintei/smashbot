@@ -122,7 +122,7 @@
       "Shieldstun": "11/8",
       "hitbox": "early/late"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "15",
       "Total Frames": "45",
       "Landing Lag": "",

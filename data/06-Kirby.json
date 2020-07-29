@@ -87,7 +87,7 @@
       "hitbox": "Early/late/latest",
       "Advantage": "-31"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "13",
       "Total Frames": "47",
       "Landing Lag": "",
@@ -227,7 +227,7 @@
       "hitbox": "",
       "Advantage": "-21"
     },
-    "Stone ": {
+    "Stone": {
       "Startup": "11",
       "Total Frames": "",
       "Landing Lag": "",

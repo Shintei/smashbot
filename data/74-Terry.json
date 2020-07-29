@@ -52,7 +52,7 @@
       "Shieldlag": "10",
       "Shieldstun": "10"
     },
-    "D-Tilt ": {
+    "D-Tilt": {
       "Startup": "6",
       "Total Frames": "16",
       "Landing Lag": "",
@@ -73,7 +73,7 @@
       "Shieldstun": "12/10",
       "hitbox": "early/late"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "18",
       "Total Frames": "50",
       "Landing Lag": "",

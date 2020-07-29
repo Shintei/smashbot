@@ -1,7 +1,7 @@
 {
   "name": "23 - Ganondorf",
   "moves": {
-    "Jab ": {
+    "Jab": {
       "Startup": "7",
       "Total Frames": "26",
       "Landing Lag": "",

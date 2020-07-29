@@ -7,7 +7,7 @@
       "Landing Lag": "",
       "Additional Notes": "Transitions to jab 2 as early as frame 9",
       "Base Damage": "2.0",
-      "Shieldlag": "7 ",
+      "Shieldlag": "7",
       "Shieldstun": "3",
       "hitbox": "",
       "Advantage": "-12"
@@ -180,7 +180,7 @@
       "Shieldlag": "8 (+5)",
       "Shieldstun": "2"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "16",
       "Total Frames": "51",
       "Landing Lag": "",

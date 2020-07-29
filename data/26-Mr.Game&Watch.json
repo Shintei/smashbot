@@ -1,7 +1,7 @@
 {
   "name": "26 - Mr. Game & Watch",
   "moves": {
-    "Jab ": {
+    "Jab": {
       "Startup": "4",
       "Total Frames": "15",
       "Landing Lag": "",

@@ -78,7 +78,7 @@
       "hitbox": "",
       "Advantage": "-10"
     },
-    "D-Tilt ": {
+    "D-Tilt": {
       "Startup": "12",
       "Total Frames": "37",
       "Landing Lag": "",
@@ -100,7 +100,7 @@
       "hitbox": "early/late",
       "Advantage": "-16"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "19",
       "Total Frames": "52",
       "Landing Lag": "",
@@ -189,10 +189,11 @@
       "Advantage": "-23"
     },
     "NeutralB": {      
+      "ufdName": "EggFiring.png", 
       "Startup": "13",
       "Total Frames": "49",
       "Landing Lag": "",
-      "Additional Notes": "Transitions to Blaster on frame 20.",
+      "Additional Notes": "Transitions to Breegull Blaster on frame 20.",
       "Base Damage": "5.4 / 4.6 / 3.8",
       "Shieldlag": "6/6/5",
       "Shieldstun": "3/3/2",
@@ -200,11 +201,11 @@
       "Advantage": "-27"
     },
     "Egg Firing": {     
-      "ufdName": "", 
+      "ufdName": "EggFiring.png", 
       "Startup": "13",
       "Total Frames": "49",
       "Landing Lag": "",
-      "Additional Notes": "Transitions to Blaster on frame 20.",
+      "Additional Notes": "Transitions to Breegull Blaster on frame 20.",
       "Base Damage": "5.4 / 4.6 / 3.8",
       "Shieldlag": "6/6/5",
       "Shieldstun": "3/3/2",
@@ -212,6 +213,7 @@
       "Advantage": "-27"
     },
     "Breegull Blaster": {
+      "ufdName": "BreegullBlaster1-6.png",
       "Startup": "4 (+28)",
       "Total Frames": "24",
       "Landing Lag": "",
@@ -222,7 +224,8 @@
       "hitbox": "",
       "Advantage": "-13 to -14"
     },
-    "Wonderwing": {
+    "SideB": {
+      "ufdName": "Wonderwing.gif",
       "Startup": "18",
       "Total Frames": "82",
       "Landing Lag": "",
@@ -233,7 +236,20 @@
       "hitbox": "Early/late",
       "Advantage": "-54"
     },
-    "Shock Spring Jump": {
+    "Wonderwing": {
+      "ufdName": "Wonderwing.gif",
+      "Startup": "18",
+      "Total Frames": "82",
+      "Landing Lag": "",
+      "Additional Notes": "Invincible on frames 18-53",
+      "Base Damage": "22.0 / 16.0",
+      "Shieldlag": "16/11",
+      "Shieldstun": "10/5",
+      "hitbox": "Early/late",
+      "Advantage": "-54"
+    },
+    "UpB": {
+      "ufdName": "ShockSpringJump.gif",
       "Startup": "15",
       "Total Frames": "42",
       "Landing Lag": "",
@@ -244,7 +260,32 @@
       "hitbox": "",
       "Advantage": "-20"
     },
+    "Shock Spring Jump": {
+      "ufdName": "ShockSpringJump.gif",
+      "Startup": "15",
+      "Total Frames": "42",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 15-17. Can be charged an additional 16 frames",
+      "Base Damage": "3.0",
+      "Shieldlag": "5",
+      "Shieldstun": "2",
+      "hitbox": "",
+      "Advantage": "-20"
+    },
+    "DownB": {
+      "ufdName": "RearEggExplode.png",
+      "Startup": "10",
+      "Total Frames": "44",
+      "Landing Lag": "",
+      "Additional Notes": "Damage varies slightly based on velocity. Explodes a frame after contact.",
+      "Base Damage": "0.5 / 8.5",
+      "Shieldlag": "-/7",
+      "Shieldstun": "-/3",
+      "hitbox": "contact/explosion",
+      "Advantage": "-23"
+    },
     "Rear Egg": {
+      "ufdName": "RearEggExplode.png",
       "Startup": "10",
       "Total Frames": "44",
       "Landing Lag": "",

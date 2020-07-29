@@ -98,7 +98,7 @@
       "hitbox": "Early/late",
       "Advantage": "-23"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "16",
       "Total Frames": "57",
       "Landing Lag": "",
@@ -287,7 +287,7 @@
       "Base Damage": "9.0"
     },
     "Down Throw": {
-      "Startup": "16 ",
+      "Startup": "16",
       "Total Frames": "37",
       "Landing Lag": "",
       "Additional Notes": "",

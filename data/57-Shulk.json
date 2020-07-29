@@ -78,7 +78,7 @@
       "hitbox": "blade/beam",
       "Advantage": "-16/-18"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "14/23",
       "Total Frames": "67",
       "Landing Lag": "",

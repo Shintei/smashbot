@@ -1,7 +1,7 @@
 {
   "name": "17 - Zelda",
   "moves": {
-    "Jab ": {
+    "Jab": {
       "Startup": "4/7",
       "Total Frames": "24",
       "Landing Lag": "",
@@ -76,7 +76,7 @@
       "hitbox": "Early/late",
       "Advantage": "-18"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "16/18/20/22/24",
       "Total Frames": "49",
       "Landing Lag": "",

@@ -98,7 +98,7 @@
       "hitbox": "early / late",
       "Advantage": "-10"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "19",
       "Total Frames": "59",
       "Landing Lag": "",

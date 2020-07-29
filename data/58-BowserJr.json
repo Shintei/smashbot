@@ -87,7 +87,7 @@
       "hitbox": "multi/final",
       "Advantage": "-17"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "18/21/24/27/30/35",
       "Total Frames": "55",
       "Landing Lag": "",

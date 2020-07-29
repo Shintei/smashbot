@@ -12,6 +12,7 @@ const ClassFunctions = require('./ClassFunctions.js');
 const SpawnFunctions = require('./SpawnFunctions.js');
 const Constants = require('./Constants.js');
 const { GetCharacterMoveName, GetCharacterObjectDetails, GetCharacterMoveVisual, GetCharacterData, GetCharacterMove } = require('./BotFunctions.js');
+const { GetNotFoundReactionUrl, GetLaughingReactionUrl } = require('./tenorFunctions');
 const assetsLocation = './assets';
 const characterModelsLocation = './assets/characterModels';
 let firebaseDB = null;
@@ -33,6 +34,23 @@ client.on('message', message => {
             console.log('calling getcharacterdata');
             GetCharacterData();
             console.log('back from calling getcharacterdata');
+        }
+        else if(message.content.startsWith(`${prefix}tr`)){
+            const contentArray = message.content.split(' ').filter((val) => {return val != ''});
+            const queryString = contentArray[1];
+            let numResults;
+            if(contentArray.length > 2) {
+                numResults = contentArray[2];
+            }
+            GetReaction(queryString, numResults)
+                .then((response) => {
+                    console.log('result is ');
+                    console.log(response);
+                    console.log('done retrieving reaction');
+                })
+                .catch((err) => {
+                    console.log(`call threw error: ${err}`)
+                })            
         }
         else if(message.content.startsWith(`${prefix}move`)){
             const contentArray = message.content.split(' ').filter((val) => {return val != ''});
@@ -71,8 +89,23 @@ client.on('message', message => {
                     message.channel.send(message.author, attachment)
                 })
                 .catch((err) => {
-                    console.log(`call to GetCharacterObjectDetails threw error: ${err}`)
-                    message.channel.send(`show usage: ${prefix}show {characterName} {characterMove}, ex: ${prefix}show Ike Fsmash`)
+                    if(err === 'no image found'){
+                        GetNotFoundReactionUrl()
+                            .then((reactionUrl) => {
+                                const attachment = new Discord.Attachment(reactionUrl);
+                                message.channel.send(message.author, attachment)
+                                message.channel.send(`Sorry fam, I could not find a hitbox visualization for ${charNameInput}'s ${charMoveInput}`);
+                            })
+                            .catch((err) => {
+                                console.log(err);
+                                message.channel.send(`Sorry fam, I could not find a hitbox visualization for ${charNameInput}'s ${charMoveInput}`);
+                            })
+                    }
+                    else {
+                        console.log(`call to GetCharacterObjectDetails threw error: ${err}`)
+                        message.channel.send(`show usage: ${prefix}show {characterName} {characterMove}, ex: ${prefix}show Ike Fsmash`)
+                    }
+                    
                 })
         }
         

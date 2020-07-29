@@ -1,7 +1,7 @@
 {
   "name": "68 - Isabelle",
   "moves": {
-    "Jab ": {
+    "Jab": {
       "Startup": "3",
       "Total Frames": "19",
       "Landing Lag": "",
@@ -34,7 +34,7 @@
       "hitbox": "",
       "Advantage": "-15"
     },
-    "D-Tilt ": {
+    "D-Tilt": {
       "Startup": "9",
       "Total Frames": "34",
       "Landing Lag": "",
@@ -56,7 +56,7 @@
       "hitbox": "Early/late",
       "Advantage": "-20"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "14",
       "Total Frames": "45",
       "Landing Lag": "",

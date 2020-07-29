@@ -1,7 +1,7 @@
 {
   "name": "24 - Mewtwo",
   "moves": {
-    "Jab ": {
+    "Jab": {
       "Startup": "5",
       "Total Frames": "21",
       "Landing Lag": "",

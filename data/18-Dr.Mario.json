@@ -1,7 +1,7 @@
 {
   "name": "18 - Dr. Mario",
   "moves": {
-    "Jab ": {
+    "Jab": {
       "Startup": "2",
       "Total Frames": "19",
       "Landing Lag": "",
@@ -78,7 +78,7 @@
       "hitbox": "Early/late",
       "Advantage": "-12"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "15",
       "Total Frames": "47",
       "Landing Lag": "",
