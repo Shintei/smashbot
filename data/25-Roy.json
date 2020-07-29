@@ -67,7 +67,7 @@
       "hitbox": "Close/med/far",
       "Advantage": "-27/-29/-32"
     },
-    "U-Smash ": {
+    "U-Smash": {
       "Startup": "12/15/17/19/22",
       "Total Frames": "58",
       "Landing Lag": "",

@@ -88,6 +88,7 @@ module.exports = {
     get GAMEANDWATCH() {return this.MRGAMEANDWATCH},
     NESS: characterData.Ness,
     OLIMAR: characterData.Olimar,
+    get ZAPBRANNIGAN(){ return this.OLIMAR },
     PACMAN: characterData.Pacman,
     PALUTENA: characterData.Palutena,
     get PALU(){ return this.PALUTENA},

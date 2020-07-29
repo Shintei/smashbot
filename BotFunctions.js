@@ -28,28 +28,43 @@ module.exports = {
 
     GetCharacterMoveVisualEndpoint: GetCharacterMoveVisualEndpoint = (charName, charMove) => {
         return new Promise((resolve, reject) => {
+            const returnObj = {};
             if(charName == null){ reject('char name cant be null'); }
             GetCharacterMappings(charName)
             .then((character) => {
                 if(character == null){ reject('couldnt find a character match'); }
-                const actualCharMoveData = GetCharacterMoveFromCharacter(charMove, character);
+                returnObj.characterName = character.name;
+                const actualCharMoveData = GetCharacterMoveFromCharacter(charMove, character);                
                 if(actualCharMoveData == null){reject('move data is null');}
+                returnObj.moveDetails = actualCharMoveData;
                 const charMoveNameKey = actualCharMoveData.searchKey;
-                let attachmentUrl;
-                if(charMoveNameKey in GENERIC_MOVE_ALIASES_UFD === false){
+
+                //first check if the move has the ufdName
+                const ufdName = actualCharMoveData.payload.ufdName;                
+                const resultArr = [];
+                if(ufdName != null){
+                    const hasMultipleResults = Array.isArray(ufdName);
+                    if(hasMultipleResults){
+                        ufdName.forEach(moveName => {
+                            resultArr.push(`${frameDataApiBaseUrl}/hitboxes/${character.uriComponent}/${character.movePrefix}${moveName}`);
+                        });
+                    }
+                    else{
+                        console.log(`ufd name is ${ufdName}`);
+                        resultArr.push(`${frameDataApiBaseUrl}/hitboxes/${character.uriComponent}/${character.movePrefix}${ufdName}`);                        
+                    }                                        
+                }
+                else if(charMoveNameKey in GENERIC_MOVE_ALIASES_UFD === false){ //no ufdname in move and move is not generic, yikes!
                     console.log('inside non generic block')
-                    console.log(actualCharMoveData);
-                    const ufdName = actualCharMoveData.payload.ufdName;
-                    console.log(`ufd name is ${ufdName}`);
-                    if(ufdName == null || ufdName == undefined) { reject('no image found') }
-                    attachmentUrl = `${frameDataApiBaseUrl}/hitboxes/${character.uriComponent}/${character.movePrefix}${ufdName}`;
+                    reject('no image found');                    
                 }
                 else { //generically named move, we can finish
                     console.log('inside generic block')
                     const ufdName = GENERIC_MOVE_ALIASES_UFD[charMoveNameKey];
-                    attachmentUrl = `${frameDataApiBaseUrl}/hitboxes/${character.uriComponent}/${character.movePrefix}${ufdName}.gif`;
+                    resultArr.push(`${frameDataApiBaseUrl}/hitboxes/${character.uriComponent}/${character.movePrefix}${ufdName}.gif`);
                 }
-                resolve(attachmentUrl);
+                returnObj.imageUrls = resultArr;
+                resolve(returnObj);
             })
             .catch((err) => {
                 console.error(err)

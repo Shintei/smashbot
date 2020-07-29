@@ -11,6 +11,7 @@ const BotFunctions = require('./BotFunctions.js');
 const ClassFunctions = require('./ClassFunctions.js');
 const SpawnFunctions = require('./SpawnFunctions.js');
 const Constants = require('./Constants.js');
+const embedUtil = require('./utils/embedUtil');
 const { GetCharacterMoveName, GetCharacterObjectDetails, GetCharacterMoveVisual, GetCharacterData, GetCharacterMove } = require('./BotFunctions.js');
 const { GetNotFoundReactionUrl, GetLaughingReactionUrl } = require('./tenorFunctions');
 const assetsLocation = './assets';
@@ -83,10 +84,10 @@ client.on('message', message => {
             console.log(`input move is ${charMoveInput}`)
             let charContext = GetCharacterMoveVisualEndpoint(charNameInput, charMoveInput)
                 .then((response) => {
-                    console.log(`successful response `)                    
-                    console.log(response)
-                    const attachment = new Discord.Attachment(response);
-                    message.channel.send(message.author, attachment)
+                    console.log(`successful response `);
+                    console.log(response);
+                    const messageEmbed = GetMoveVisualEmbed(response);
+                    message.channel.send(message.author, messageEmbed);
                 })
                 .catch((err) => {
                     if(err === 'no image found'){

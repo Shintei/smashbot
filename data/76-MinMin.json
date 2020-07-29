@@ -142,7 +142,7 @@
       "hitbox": "close/medium/far",
       "Advantage": "-32/-29/-30\n-35 (beam)"
     },
-    "U-tilt ": {
+    "U-tilt": {
       "Startup": "5",
       "Total Frames": "41",
       "Landing Lag": "",

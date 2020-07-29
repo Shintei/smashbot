@@ -23,7 +23,7 @@
       "hitbox": "Close/Far",
       "Advantage\nR/Y/B/W/P": "-9/-8"
     },
-    "F-Tilt ": {
+    "F-Tilt": {
       "Startup": "15",
       "Total Frames": "35",
       "Landing Lag": "",
