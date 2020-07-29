@@ -188,7 +188,19 @@
       "hitbox": "falling/landing",
       "Advantage": "-23"
     },
-    "Egg Firing": {
+    "NeutralB": {      
+      "Startup": "13",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "Transitions to Blaster on frame 20.",
+      "Base Damage": "5.4 / 4.6 / 3.8",
+      "Shieldlag": "6/6/5",
+      "Shieldstun": "3/3/2",
+      "hitbox": "early/late/latest",
+      "Advantage": "-27"
+    },
+    "Egg Firing": {     
+      "ufdName": "", 
       "Startup": "13",
       "Total Frames": "49",
       "Landing Lag": "",

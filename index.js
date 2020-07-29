@@ -11,7 +11,7 @@ const BotFunctions = require('./BotFunctions.js');
 const ClassFunctions = require('./ClassFunctions.js');
 const SpawnFunctions = require('./SpawnFunctions.js');
 const Constants = require('./Constants.js');
-const { GetCharacterMoveName, GetCharacterObjectDetails, GetCharacterMoveVisual, GetCharacterData } = require('./BotFunctions.js');
+const { GetCharacterMoveName, GetCharacterObjectDetails, GetCharacterMoveVisual, GetCharacterData, GetCharacterMove } = require('./BotFunctions.js');
 const assetsLocation = './assets';
 const characterModelsLocation = './assets/characterModels';
 let firebaseDB = null;
@@ -34,9 +34,26 @@ client.on('message', message => {
             GetCharacterData();
             console.log('back from calling getcharacterdata');
         }
+        else if(message.content.startsWith(`${prefix}move`)){
+            const contentArray = message.content.split(' ').filter((val) => {return val != ''});
+            const charNameInput = contentArray[1];
+            const charMoveInput = contentArray[2];
+            console.log(`attempting move retrieval for move ${charMoveInput} and char ${charNameInput}`);
+            GetCharacterMove(charNameInput, charMoveInput)
+                .then((response) => {
+                    console.log('char move result is ');
+                    console.log(response);
+                    console.log('done retrieving move');
+                })
+                .catch((err) => {
+                    console.log(`call to GetCharacterMove threw error: ${err}`)
+                })            
+        }
         else if(message.content.startsWith(`${prefix}testCharMapping`)){
-            console.log('calling getcharactermapping');
-            GetMappings();
+            const contentArray = message.content.split(' ').filter((val) => {return val != ''});
+            const charNameInput = contentArray[1];
+            console.log(`calling getcharactermapping with param ${charNameInput}`);
+            GetMappings(charNameInput);
             console.log('back from calling getcharactermapping');
         }
         else if(message.content.startsWith(`${prefix}show`)){

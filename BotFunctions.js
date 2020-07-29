@@ -4,7 +4,7 @@ require('firebase/database');
 const characterMappings = require('./utils/characterMapper.js');
 const characterData = require('./data');
 const { prefix, frameDataApiBaseUrl, token, firebaseConfig } = require('./config.json');
-const { ULTIMATE_CHARACTERS, MOVE_LIST } = require('./Constants.js');
+const { ULTIMATE_CHARACTERS, MOVE_LIST, GENERIC_MOVE_ALIASES_UFD } = require('./Constants.js');
 const { Attachment } = require('discord.js');
 
 module.exports = {
@@ -12,8 +12,77 @@ module.exports = {
         console.log(characterData);
     },
 
-    GetMappings: GetMappings = () => {
-        console.log(characterMappings);
+    GetCharacterMappings: GetCharacterMappings = (charName) => {
+        return new Promise((resolve, reject) => {
+            if(charName == null){
+                reject('char name cant be null');
+            }
+            const closestMatch = GetClosestMatch(charName.toUpperCase(), characterMappings);
+            if(closestMatch == null){
+                reject(`couldnt find character match for ${charName}`);
+            }
+            console.log(closestMatch);
+            resolve(characterMappings[closestMatch]);
+        });
+    },
+
+    GetCharacterMoveVisualEndpoint: GetCharacterMoveVisualEndpoint = (charName, charMove) => {
+        return new Promise((resolve, reject) => {
+            if(charName == null){ reject('char name cant be null'); }
+            GetCharacterMappings(charName)
+            .then((character) => {
+                if(character == null){ reject('couldnt find a character match'); }
+                const actualCharMoveData = GetCharacterMoveFromCharacter(charMove, character);
+                if(actualCharMoveData == null){reject('move data is null');}
+                const charMoveNameKey = actualCharMoveData.searchKey;
+                let attachmentUrl;
+                if(!(charMoveNameKey in GENERIC_MOVE_ALIASES_UFD)){
+
+                }
+                else { //generically named move, we can finish
+                    const ufdName = GENERIC_MOVE_ALIASES_UFD[charMoveNameKey];
+                    attachmentUrl = `${frameDataApiBaseUrl}/hitboxes/${character.uriComponent}/${character.movePrefix}${ufdName}.gif`;
+                }
+                resolve(attachmentUrl);
+            })
+            .catch((err) => {
+                console.error(err)
+            })               
+        });        
+    },
+
+    GetCharacterMove: GetCharacterMove = (charName, charMove) => {
+        return new Promise((resolve, reject) => {
+            if(charName == null){ reject('char name cant be null'); }
+            GetCharacterMappings(charName)
+            .then((character) => {
+                if(character == null){ reject('couldnt find a character match'); }
+                const actualCharMoveData = GetCharacterMoveFromCharacter(charMove, character);
+                if(actualCharMoveData == null){reject('move data is null');}
+                resolve(actualCharMoveData.payload);
+            })
+            .catch((err) => {
+                console.error(err)
+            })               
+        });        
+    },
+
+    GetCharacterMoveFromCharacter: GetCharacterMoveFromCharacter = (charMove, charDetails) => {
+        if(charDetails == null){
+            return null;
+        }
+        const possibleCharMoves = charDetails.moves;
+        if(possibleCharMoves == null){
+            return null;
+        }
+        const chosenMove = GetClosestMatch(charMove, possibleCharMoves);
+        if(chosenMove == null){
+            return null;
+        }
+        let result = {};
+        result.searchKey = chosenMove;
+        result.payload = possibleCharMoves[chosenMove];
+        return result;
     },
 
     GetCharacterObjectDetails: GetCharacterObjectDetails = (charName) => {
@@ -25,7 +94,7 @@ module.exports = {
             resolve(ULTIMATE_CHARACTERS[closestMatch]);
         });
     },
-
+/*
     GetCharacterMoveVisualEndpoint: GetCharacterMoveVisualEndpoint = (charName, charMove) => {
         return new Promise((resolve, reject) => {
             GetCharacterObjectDetails(charName)
@@ -51,7 +120,7 @@ module.exports = {
                 })  
         });
     },
-
+*/
     GetCharacterMoveName: GetCharacterMoveName = (charMove, contextCharacter) => {
         const characterMoves = contextCharacter.uniqueMoves;   
         const quickMatch = GetClosestMatch(charMove.toUpperCase(), contextCharacter.uniqueMoves);
