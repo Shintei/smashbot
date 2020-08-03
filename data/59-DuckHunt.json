@@ -1,5 +1,7 @@
 {
   "name": "59 - Duck Hunt",
+  "uriComponent": "duck_hunt",
+  "movePrefix": "DuckHunt",
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -9,7 +11,7 @@
       "Base Damage": "1.5",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-18"
     },
     "Jab 2": {
@@ -20,7 +22,7 @@
       "Base Damage": "1.5",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19"
     },
     "Jab 3": {
@@ -31,7 +33,7 @@
       "Base Damage": "5.0",
       "Shieldlag": "12",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21"
     },
     "Rapid Jab": {
@@ -51,7 +53,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "10",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-36"
     },
     "F-Tilt": {
@@ -62,7 +64,29 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
+      "Advantage": "-15"
+    },
+    "F-TiltUp": {
+      "Startup": "8",
+      "Total Frames": "31",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "8",
+      "Hitbox": "",
+      "Advantage": "-15"
+    },
+    "F-TiltDown": {
+      "Startup": "8",
+      "Total Frames": "31",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "8",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "U-Tilt": {
@@ -73,7 +97,7 @@
       "Base Damage": "7.0",
       "Shieldlag": "7",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "D-Tilt": {
@@ -84,7 +108,7 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Dash Attack": {
@@ -95,7 +119,7 @@
       "Base Damage": "10.0 / 7.0",
       "Shieldlag": "8/7",
       "Shieldstun": "10/7",
-      "hitbox": "early/late",
+      "Hitbox": "early/late",
       "Advantage": "-23"
     },
     "F-Smash": {
@@ -106,7 +130,7 @@
       "Base Damage": "4.0 / 9.0",
       "Shieldlag": "5/7",
       "Shieldstun": "4/7",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-30"
     },
     "U-Smash": {
@@ -117,7 +141,7 @@
       "Base Damage": "2.5 / 10.0",
       "Shieldlag": "5/8",
       "Shieldstun": "3/7",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-22"
     },
     "D-Smash": {
@@ -128,7 +152,7 @@
       "Base Damage": "5.0 / 6.0",
       "Shieldlag": "6/6",
       "Shieldstun": "4/5",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-24"
     },
     "N-Air": {
@@ -139,7 +163,7 @@
       "Base Damage": "11.0 / 5.0",
       "Shieldlag": "8/6",
       "Shieldstun": "4/3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6/-7"
     },
     "F-Air": {
@@ -150,7 +174,7 @@
       "Base Damage": "10.0 / 6.5 / 7.5",
       "Shieldlag": "10/6/8",
       "Shieldstun": "4/3/3",
-      "hitbox": "far/close/late",
+      "Hitbox": "far/close/late",
       "Advantage": "-5/-6/-6"
     },
     "B-Air": {
@@ -161,7 +185,7 @@
       "Base Damage": "12.5 / 10.0",
       "Shieldlag": "11/8",
       "Shieldstun": "5/4",
-      "hitbox": "far/close",
+      "Hitbox": "far/close",
       "Advantage": "-9/-10"
     },
     "U-Air": {
@@ -172,7 +196,7 @@
       "Base Damage": "3.0 / 6.0",
       "Shieldlag": "5/6",
       "Shieldstun": "2/3",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-9/-8"
     },
     "D-Air": {
@@ -183,10 +207,11 @@
       "Base Damage": "5.0 / 10.0",
       "Shieldlag": "6/8",
       "Shieldstun": "3/4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12/-11"
     },
-    "Trick Shot": {
+    "NeutralB": {
+      "ufdName":["TrickShotStand.png","TrickShotFly.png","TrickShotExplosion.png"],
       "Startup": "16",
       "Total Frames": "41",
       "Landing Lag": "",
@@ -194,9 +219,32 @@
       "Base Damage": "~2.0 / 10.0",
       "Shieldlag": "-/8",
       "Shieldstun": "-/4",
-      "hitbox": "can/explosion"
+      "Hitbox": "can/explosion"
     },
-    "Clay Shooting": {
+    "Can": {
+      "ufdName":["TrickShotStand.png","TrickShotFly.png","TrickShotExplosion.png"],
+      "Startup": "16",
+      "Total Frames": "41",
+      "Landing Lag": "",
+      "Additional Notes": "Explodes next frame after making contact Can shoot the can every 12 frames. Can generates on frame 1. \nAfter eighth shot, can will auto explode after 76 frames but can still be manipulated.",
+      "Base Damage": "~2.0 / 10.0",
+      "Shieldlag": "-/8",
+      "Shieldstun": "-/4",
+      "Hitbox": "can/explosion"
+    },
+    "Trick Shot": {
+      "ufdName":["TrickShotStand.png","TrickShotFly.png","TrickShotExplosion.png"],
+      "Startup": "16",
+      "Total Frames": "41",
+      "Landing Lag": "",
+      "Additional Notes": "Explodes next frame after making contact Can shoot the can every 12 frames. Can generates on frame 1. \nAfter eighth shot, can will auto explode after 76 frames but can still be manipulated.",
+      "Base Damage": "~2.0 / 10.0",
+      "Shieldlag": "-/8",
+      "Shieldstun": "-/4",
+      "Hitbox": "can/explosion"
+    },
+    "SideB": {
+      "ufdName":"ClayShooting.png",
       "Startup": "17",
       "Total Frames": "64",
       "Landing Lag": "",
@@ -205,7 +253,18 @@
       "Shieldlag": "9",
       "Shieldstun": "2"
     },
-    "Clay Shooting (detonate)": {
+    "Clay Shooting": {
+      "ufdName":"ClayShooting.png",
+      "Startup": "17",
+      "Total Frames": "64",
+      "Landing Lag": "",
+      "Additional Notes": "Can only detonate when clay is immobile or rebounding after a hit. \"Missed shots\" occur on frame 4.",
+      "Base Damage": "2.0 ",
+      "Shieldlag": "9",
+      "Shieldstun": "2"
+    },
+    "SideBExplosion": {
+      "ufdName":"ClayShootingBurst.png",
       "Startup": "4/5/14/23",
       "Total Frames": "",
       "Landing Lag": "",
@@ -213,13 +272,36 @@
       "Base Damage": "2.5 / 3.0",
       "Shieldlag": "7/5",
       "Shieldstun": "2/2",
-      "hitbox": "multi/final"
+      "Hitbox": "multi/final"
+    },
+    "Clay Shooting (detonate)": {
+      "ufdName":"ClayShootingBurst.png",
+      "Startup": "4/5/14/23",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "2.5 / 3.0",
+      "Shieldlag": "7/5",
+      "Shieldstun": "2/2",
+      "Hitbox": "multi/final"
+    },
+    "UpB": {
+      "Startup": "",
+      "Total Frames": "",
+      "Landing Lag": "30",
+      "Additional Notes": "Can cancel into air dodge or attacks as early as frame 51. Can grab ledges as early as frame 7.\nCancels will avoid the special fall state and landing lag."
     },
     "Duck Jump": {
       "Startup": "",
       "Total Frames": "",
       "Landing Lag": "30",
       "Additional Notes": "Can cancel into air dodge or attacks as early as frame 51. Can grab ledges as early as frame 7.\nCancels will avoid the special fall state and landing lag."
+    },
+    "DownB": {
+      "Startup": "",
+      "Total Frames": "41",
+      "Landing Lag": "",
+      "Additional Notes": "Gunman appears on frame 6"
     },
     "Wild Gunman": {
       "Startup": "",

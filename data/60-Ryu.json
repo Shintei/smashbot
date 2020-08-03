@@ -120,7 +120,7 @@
       "Base Damage": "12.0 / 8.0",
       "Shieldlag": "12/10",
       "Shieldstun": "11/8",
-      "hitbox": "early/late"
+      "Hitbox": "early/late"
     },
     "F-Smash": {
       "Startup": "15",
@@ -131,7 +131,7 @@
       "Base Damage": "16.0 / 17.5",
       "Shieldlag": "15/16",
       "Shieldstun": "11/12",
-      "hitbox": "close/far"
+      "Hitbox": "close/far"
     },
     "U-Smash": {
       "Startup": "9",
@@ -142,7 +142,7 @@
       "Base Damage": "17.0 / 13.5",
       "Shieldlag": "16/13",
       "Shieldstun": "11/9",
-      "hitbox": "early/late"
+      "Hitbox": "early/late"
     },
     "D-Smash": {
       "Startup": "5",
@@ -163,7 +163,7 @@
       "Base Damage": "8.0 / 4.5",
       "Shieldlag": "10/8",
       "Shieldstun": "4/3",
-      "hitbox": "early/late"
+      "Hitbox": "early/late"
     },
     "F-Air": {
       "Startup": "8",
@@ -174,7 +174,7 @@
       "Base Damage": "9.0 / 14.0\n8.0 / 12.0",
       "Shieldlag": "10/14\n10/12",
       "Shieldstun": "4/5\n4/5",
-      "hitbox": "Early close/far\nLate close/far"
+      "Hitbox": "Early close/far\nLate close/far"
     },
     "B-Air": {
       "Startup": "8",
@@ -185,7 +185,7 @@
       "Base Damage": "16.0 / 13.0",
       "Shieldlag": "15/13",
       "Shieldstun": "6/5",
-      "hitbox": "close/far"
+      "Hitbox": "close/far"
     },
     "U-Air": {
       "Startup": "6/9",
@@ -266,7 +266,7 @@
       "Base Damage": "13.0 - 15.0 / 7.0",
       "Shieldlag": "18-20 / 10",
       "Shieldstun": "12-14 / 7",
-      "hitbox": "early/late"
+      "Hitbox": "early/late"
     },
     "True Shoryuken": {
       "Startup": "6",
@@ -277,7 +277,7 @@
       "Base Damage": "15.6 - 18.0 / 8.4",
       "Shieldlag": "20-21 / 10",
       "Shieldstun": "14-15 / 8",
-      "hitbox": "early/late"
+      "Hitbox": "early/late"
     },
     "Focus Attack (stage 1)": {
       "Startup": "11 (+21)",

@@ -1,5 +1,7 @@
 {
   "name": "62 - Corrin",
+  "uriComponent": "corrin",
+  "movePrefix": "Corrin",
   "moves": {
     "Jab 1": {
       "Startup": "5",
@@ -9,7 +11,7 @@
       "Base Damage": "2.0 / 2.5",
       "Shieldlag": "7/8",
       "Shieldstun": "3/4",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-19/-18"
     },
     "Jab 2": {
@@ -20,7 +22,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-22"
     },
     "Jab 3": {
@@ -31,7 +33,7 @@
       "Base Damage": "3.0 / 4.0",
       "Shieldlag": "9/10",
       "Shieldstun": "4/5",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-20/-19"
     },
     "Rapid Jab": {
@@ -51,7 +53,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "14",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-32"
     },
     "F-Tilt": {
@@ -62,7 +64,7 @@
       "Base Damage": "10.5",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "U-Tilt": {
@@ -73,7 +75,7 @@
       "Base Damage": "9.0",
       "Shieldlag": "7",
       "Shieldstun": "9",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19"
     },
     "D-Tilt": {
@@ -84,7 +86,7 @@
       "Base Damage": "7.5",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "Dash Attack": {
@@ -95,8 +97,20 @@
       "Base Damage": "2.0 / 3.0",
       "Shieldlag": "4/9",
       "Shieldstun": "-/4",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-22"
+    },
+    "F-SmashCharge": {
+      "ufdName":"FSmashCharge.gif",
+      "Startup": "17",
+      "Total Frames": "56",
+      "Landing Lag": "",
+      "Additional Notes": "Charging hold is frame 12 and includes a hitbox that hits every 5 frames",
+      "Base Damage": "0.5 / 11.0 / \n12.0 / 15.2",
+      "Shieldlag": "4/9/9/16",
+      "Shieldstun": "2/13/13/17",
+      "Hitbox": "charging/close/\nfar/tipper",
+      "Advantage": "-26/-26/-22"
     },
     "F-Smash": {
       "Startup": "17",
@@ -106,7 +120,7 @@
       "Base Damage": "0.5 / 11.0 / \n12.0 / 15.2",
       "Shieldlag": "4/9/9/16",
       "Shieldstun": "2/13/13/17",
-      "hitbox": "charging/close/\nfar/tipper",
+      "Hitbox": "charging/close/\nfar/tipper",
       "Advantage": "-26/-26/-22"
     },
     "U-Smash": {
@@ -117,7 +131,7 @@
       "Base Damage": "10.0 / 13.0 / 15.0",
       "Shieldlag": "8/9/14",
       "Shieldstun": "7/9/10",
-      "hitbox": "close/far/tipper",
+      "Hitbox": "close/far/tipper",
       "Advantage": "-31/-29/-28"
     },
     "D-Smash": {
@@ -128,7 +142,7 @@
       "Base Damage": "11.0 / 9.0 / 14.0",
       "Shieldlag": "8/7/14",
       "Shieldstun": "8/7/10",
-      "hitbox": "front/back/tipper",
+      "Hitbox": "front/back/tipper",
       "Advantage": "-27/-28/-25"
     },
     "N-Air": {
@@ -139,7 +153,7 @@
       "Base Damage": "7.0 / 5.5",
       "Shieldlag": "7/6",
       "Shieldstun": "3/3",
-      "hitbox": "early/late",
+      "Hitbox": "early/late",
       "Advantage": "-7/-7"
     },
     "F-Air": {
@@ -150,7 +164,7 @@
       "Base Damage": "9.0",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-4"
     },
     "B-Air": {
@@ -161,7 +175,7 @@
       "Base Damage": "12.0 / 9.0",
       "Shieldlag": "9/7",
       "Shieldstun": "5/4",
-      "hitbox": "early/late",
+      "Hitbox": "early/late",
       "Advantage": "-8/-9"
     },
     "U-Air": {
@@ -172,10 +186,11 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5"
     },
     "D-Air": {
+      "ufdName":["DAir.gif","DAirLanding.gif"],
       "Startup": "12/14/16/18/20/22/24/26/28",
       "Total Frames": "51",
       "Landing Lag": "26",
@@ -183,8 +198,17 @@
       "Base Damage": "2.0 / 3.0",
       "Shieldlag": "4/5",
       "Shieldstun": "2/4",
-      "hitbox": "falling/landing",
+      "Hitbox": "falling/landing",
       "Advantage": "-21"
+    },
+    "NeutralB": {
+      "Startup": "17-47",
+      "Total Frames": "61-95-122",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "4.0 - 11.0",
+      "Shieldlag": "5-8",
+      "Shieldstun": "2-4"
     },
     "Dragon Fang Shot": {
       "Startup": "17-47",
@@ -195,6 +219,17 @@
       "Shieldlag": "5-8",
       "Shieldstun": "2-4"
     },
+    "NeutralB2": {
+      "Startup": "24-54-85",
+      "Total Frames": "61-95-122",
+      "Landing Lag": "",
+      "Additional Notes": "Chomp can be charged an additional 30 frames independently of shot for more damage.",
+      "Base Damage": "10.0 - 20.0",
+      "Shieldlag": "8-20",
+      "Shieldstun": "10-18",
+      "Hitbox": "",
+      "Advantage": "-31 to -19"
+    },
     "Dragon Fang Shot (chomp)": {
       "Startup": "24-54-85",
       "Total Frames": "61-95-122",
@@ -203,10 +238,11 @@
       "Base Damage": "10.0 - 20.0",
       "Shieldlag": "8-20",
       "Shieldstun": "10-18",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-31 to -19"
     },
-    "Dragon Lunge (Pin)": {
+    "SideB": {
+      "ufdName":"DragonLunge.png",
       "Startup": "4",
       "Total Frames": "",
       "Landing Lag": "",
@@ -214,10 +250,23 @@
       "Base Damage": "7.0",
       "Shieldlag": "7",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
-    "Dragon Lunge (air)": {
+    "Dragon Lunge (Pin)": {
+      "ufdName":"DragonLunge.png",
+      "Startup": "4",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "After pinning the ground, 13 frame waiting period before you can select one of the options\nEmpty hop on the ground without Pin is 45 frames. Cannot pin a shielding target.",
+      "Base Damage": "7.0",
+      "Shieldlag": "7",
+      "Shieldstun": "7",
+      "Hitbox": "",
+      "Advantage": "-6"
+    },
+    "AirSideB": {
+      "ufdName":"DragonLunge.png",
       "Startup": "10",
       "Total Frames": "37",
       "Landing Lag": "22",
@@ -225,7 +274,24 @@
       "Base Damage": "8.0 / 15.0",
       "Shieldlag": "7/10",
       "Shieldstun": "8/14",
-      "hitbox": "close/tipper"
+      "Hitbox": "close/tipper"
+    },
+    "Dragon Lunge (air)": {
+      "ufdName":"DragonLunge.png",
+      "Startup": "10",
+      "Total Frames": "37",
+      "Landing Lag": "22",
+      "Additional Notes": "",
+      "Base Damage": "8.0 / 15.0",
+      "Shieldlag": "7/10",
+      "Shieldstun": "8/14",
+      "Hitbox": "close/tipper"
+    },
+    "SideBCancel": {
+      "Startup": "",
+      "Total Frames": "~35/19",
+      "Landing Lag": "19",
+      "Additional Notes": "Second total frames is if you don't land on the ground"
     },
     "Dragon Lunge (Pin cancel)": {
       "Startup": "",
@@ -233,13 +299,20 @@
       "Landing Lag": "19",
       "Additional Notes": "Second total frames is if you don't land on the ground"
     },
+    "SideBJump": {
+      "Startup": "",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 2-7"
+    },
     "Dragon Lunge (Pin Jump)": {
       "Startup": "",
       "Total Frames": "29",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 2-7"
     },
-    "Dragon Lunge (Pin Kick)": {
+    "SideBKick": {
+      "ufdName":"DragonLungeKick.gif",
       "Startup": "10",
       "Total Frames": "56/45",
       "Landing Lag": "",
@@ -247,10 +320,47 @@
       "Base Damage": "12.0 / 7.0",
       "Shieldlag": "10/7",
       "Shieldstun": "11/7",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-35"
     },
-    "Dragon Lunge (Back kick)": {
+    "SideBKickForward": {
+      "ufdName":"DragonLungeKick.gif",
+      "Startup": "10",
+      "Total Frames": "56/45",
+      "Landing Lag": "",
+      "Additional Notes": "Second total frames is if you go over an edge.",
+      "Base Damage": "12.0 / 7.0",
+      "Shieldlag": "10/7",
+      "Shieldstun": "11/7",
+      "Hitbox": "Early/late",
+      "Advantage": "-35"
+    },
+    "SideB2": {
+      "ufdName":"DragonLungeKick.gif",
+      "Startup": "10",
+      "Total Frames": "56/45",
+      "Landing Lag": "",
+      "Additional Notes": "Second total frames is if you go over an edge.",
+      "Base Damage": "12.0 / 7.0",
+      "Shieldlag": "10/7",
+      "Shieldstun": "11/7",
+      "Hitbox": "Early/late",
+      "Advantage": "-35"
+    },
+    "Dragon Lunge (Pin Kick)": {
+      "ufdName":"DragonLungeKick.gif",
+      "Startup": "10",
+      "Total Frames": "56/45",
+      "Landing Lag": "",
+      "Additional Notes": "Second total frames is if you go over an edge.",
+      "Base Damage": "12.0 / 7.0",
+      "Shieldlag": "10/7",
+      "Shieldstun": "11/7",
+      "Hitbox": "Early/late",
+      "Advantage": "-35"
+    },
+    "SideBKickBackwards": {
+      "ufdName":"DragonLungeKickBack.gif",
       "Startup": "6",
       "Total Frames": "60/45",
       "Landing Lag": "",
@@ -258,10 +368,35 @@
       "Base Damage": "5.0 / 7.0",
       "Shieldlag": "6/7",
       "Shieldstun": "6/7",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-48"
     },
-    "Dragon Ascent": {
+    "SideB2Back": {
+      "ufdName":"DragonLungeKickBack.gif",
+      "Startup": "6",
+      "Total Frames": "60/45",
+      "Landing Lag": "",
+      "Additional Notes": "Second total frames is if you go over an edge.",
+      "Base Damage": "5.0 / 7.0",
+      "Shieldlag": "6/7",
+      "Shieldstun": "6/7",
+      "Hitbox": "Early/late",
+      "Advantage": "-48"
+    },
+    "Dragon Lunge (Back kick)": {
+      "ufdName":"DragonLungeKickBack.gif",
+      "Startup": "6",
+      "Total Frames": "60/45",
+      "Landing Lag": "",
+      "Additional Notes": "Second total frames is if you go over an edge.",
+      "Base Damage": "5.0 / 7.0",
+      "Shieldlag": "6/7",
+      "Shieldstun": "6/7",
+      "Hitbox": "Early/late",
+      "Advantage": "-48"
+    },
+    "UpB": {
+      "ufdName":"DragonAscent.gif",
       "Startup": "18/20/22/24/26/28/30",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -269,15 +404,56 @@
       "Base Damage": "4.5 / 1.2 / 3.0",
       "Shieldlag": "8/4/10",
       "Shieldstun": "-/2/4",
-      "hitbox": "first/multi/final"
+      "Hitbox": "first/multi/final"
     },
-    "Counter Surge": {
+    "Dragon Ascent": {
+      "ufdName":"DragonAscent.gif",
+      "Startup": "18/20/22/24/26/28/30",
+      "Total Frames": "",
+      "Landing Lag": "30",
+      "Additional Notes": "Invulnerable on frame 7-17. Grabs ledges on frame 24 (facing toward) or 32 (facing away)\nOr 2-19 if descending or immediately after a jump.",
+      "Base Damage": "4.5 / 1.2 / 3.0",
+      "Shieldlag": "8/4/10",
+      "Shieldstun": "-/2/4",
+      "Hitbox": "first/multi/final"
+    },
+    "DownB": {
+      "ufdName":"CounterSurge.gif",
       "Startup": "",
       "Total Frames": "66",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 6. Counters on 7-26"
     },
+    "Counter": {
+      "ufdName":"CounterSurge.gif",
+      "Startup": "",
+      "Total Frames": "66",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 6. Counters on 7-26"
+    },
+    "Counter Surge": {
+      "ufdName":"CounterSurge.gif",
+      "Startup": "",
+      "Total Frames": "66",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 6. Counters on 7-26"
+    },
+    "DownBAttack": {
+      "ufdName":"CounterSurgeHit.gif",
+      "Startup": "26",
+      "Total Frames": "66",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 1-50.  Attacker frozen until frame 12"
+    },
+    "CounterAttack": {
+      "ufdName":"CounterSurgeHit.gif",
+      "Startup": "26",
+      "Total Frames": "66",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 1-50.  Attacker frozen until frame 12"
+    },
     "Counter Surge (attack)": {
+      "ufdName":"CounterSurgeHit.gif",
       "Startup": "26",
       "Total Frames": "66",
       "Landing Lag": "",

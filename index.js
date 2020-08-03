@@ -85,7 +85,7 @@ client.on('message', message => {
             let charContext = GetCharacterMoveVisualEndpoint(charNameInput, charMoveInput)
                 .then((response) => {
                     console.log(`successful response `);
-                    console.log(response);
+                    //console.log(response);
                     const messageEmbed = GetMoveVisualEmbed(response);
                     message.channel.send(message.author, messageEmbed);
                 })

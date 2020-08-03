@@ -9,7 +9,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "5",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Jab 2": {
@@ -20,7 +20,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "10",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "F-Tilt": {
@@ -31,7 +31,7 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-18"
     },
     "U-Tilt": {
@@ -42,7 +42,7 @@
       "Base Damage": "3.0 / 5.0",
       "Shieldlag": "5/6",
       "Shieldstun": "4/6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-14"
     },
     "D-Tilt": {
@@ -53,7 +53,7 @@
       "Base Damage": "5.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5"
     },
     "Dash Attack": {
@@ -64,7 +64,7 @@
       "Base Damage": "7.0",
       "Shieldlag": "7",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "F-Smash": {
@@ -75,7 +75,7 @@
       "Base Damage": "15.0 / 11.5 / 6.0",
       "Shieldlag": "15/13/9",
       "Shieldstun": "10/8/5",
-      "hitbox": "Close/far/farther",
+      "Hitbox": "Close/far/farther",
       "Advantage": "-28/-30/-33"
     },
     "U-Smash": {
@@ -86,7 +86,7 @@
       "Base Damage": "3.0 / 14.0",
       "Shieldlag": "5/10",
       "Shieldstun": "3/10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-35/-24"
     },
     "D-Smash": {
@@ -97,7 +97,7 @@
       "Base Damage": "3.5 / 5.0",
       "Shieldlag": "5/12",
       "Shieldstun": "3/4",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-25"
     },
     "N-Air": {
@@ -108,7 +108,7 @@
       "Base Damage": "7.5 / 9.5",
       "Shieldlag": "7/8",
       "Shieldstun": "3/4",
-      "hitbox": "Close/final",
+      "Hitbox": "Close/final",
       "Advantage": "-4/-3"
     },
     "F-Air": {
@@ -119,7 +119,7 @@
       "Base Damage": "7.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
     "B-Air": {
@@ -130,7 +130,7 @@
       "Base Damage": "15.0 / 13.0 / 9.0",
       "Shieldlag": "12/11/9",
       "Shieldstun": "5/5/4",
-      "hitbox": "Close/Far/Late",
+      "Hitbox": "Close/Far/Late",
       "Advantage": "-8/-9"
     },
     "U-Air": {
@@ -141,7 +141,7 @@
       "Base Damage": "1.5 / 4.0",
       "Shieldlag": "4/11",
       "Shieldstun": "2/3",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-11/-10"
     },
     "D-Air": {
@@ -152,7 +152,7 @@
       "Base Damage": "12.0 / 11.0 / 6.0",
       "Shieldlag": "9/8/6",
       "Shieldstun": "5/4/3",
-      "hitbox": "Close/Far/farther",
+      "Hitbox": "Close/Far/farther",
       "Advantage": "-44/-45/-46"
     },
     "Robo Beam (Small)": {
@@ -163,7 +163,7 @@
       "Base Damage": "7.0 / 4.5 / 11.5",
       "Shieldlag": "7/5/7",
       "Shieldstun": "7/3/7",
-      "hitbox": "Melee/beam/both",
+      "Hitbox": "Melee/beam/both",
       "Advantage": "-17/-16/-17"
     },
     "Robo Beam (Large)": {
@@ -174,7 +174,7 @@
       "Base Damage": "7.0 / 15.0 / 22.0",
       "Shieldlag": "7/13/13",
       "Shieldstun": "7/5/14",
-      "hitbox": "Melee/beam/both",
+      "Hitbox": "Melee/beam/both",
       "Advantage": "-17/-6/-10"
     },
     "Arm Rotor": {
@@ -185,7 +185,7 @@
       "Base Damage": "1.5 / 3.0",
       "Shieldlag": "4/12",
       "Shieldstun": "3/4",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-37"
     },
     "Arm Rotor (mashing)": {
@@ -196,7 +196,7 @@
       "Base Damage": "1.5 / 3.0",
       "Shieldlag": "4/12",
       "Shieldstun": "3/4",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-37"
     },
     "Robo Burner": {
@@ -213,7 +213,7 @@
       "Base Damage": "3.6 - 10.7",
       "Shieldlag": "5-8",
       "Shieldstun": "2-4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26 to -21"
     },
     "Gyro (full charge)": {
@@ -224,7 +224,7 @@
       "Base Damage": "10.7",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21"
     },
     "Grab": {

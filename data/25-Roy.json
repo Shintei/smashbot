@@ -1,5 +1,7 @@
 {
   "name": "25 - Roy",
+  "uriComponent": "roy",
+  "movePrefix": "Roy",
   "moves": {
     "Jab": {
       "Startup": "5",
@@ -9,7 +11,7 @@
       "Base Damage": "7.5 / 4.8",
       "Shieldlag": "9/6",
       "Shieldstun": "8/5",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-9/-12"
     },
     "F-Tilt": {
@@ -20,7 +22,7 @@
       "Base Damage": "12.5 / 9.0 / 8.0",
       "Shieldlag": "12/7/7",
       "Shieldstun": "12/9/8",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-13/-16/-17"
     },
     "U-Tilt": {
@@ -31,7 +33,7 @@
       "Base Damage": "12.0 / 7.0",
       "Shieldlag": "12/7",
       "Shieldstun": "11/7",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-21/-25"
     },
     "D-Tilt": {
@@ -42,7 +44,7 @@
       "Base Damage": "11.0 / 6.5",
       "Shieldlag": "11/6",
       "Shieldstun": "10/7",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-4/-7"
     },
     "Dash Attack": {
@@ -53,7 +55,7 @@
       "Base Damage": "13.0 / 9.0",
       "Shieldlag": "12/7",
       "Shieldstun": "15/11",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-17/-21"
     },
     "F-Smash": {
@@ -64,7 +66,7 @@
       "Base Damage": "20.0 / 17.0 / 12.0",
       "Shieldlag": "15/11/9",
       "Shieldstun": "13/11/8",
-      "hitbox": "Close/med/far",
+      "Hitbox": "Close/med/far",
       "Advantage": "-27/-29/-32"
     },
     "U-Smash": {
@@ -75,7 +77,7 @@
       "Base Damage": "1.0 / 2.0 / 10.0",
       "Shieldlag": "6/7/10",
       "Shieldstun": "2/-/7",
-      "hitbox": "first/multi/final",
+      "Hitbox": "first/multi/final",
       "Advantage": "-29"
     },
     "D-Smash": {
@@ -86,7 +88,7 @@
       "Base Damage": "15.0 / 10.0\n17.0 / 11.0",
       "Shieldlag": "13/8/\n14/8",
       "Shieldstun": "10/7/\n11/8",
-      "hitbox": "first close/far\nsecond close/far",
+      "Hitbox": "first close/far\nsecond close/far",
       "Advantage": "-46/-49/\n-30/-33"
     },
     "N-Air": {
@@ -97,7 +99,7 @@
       "Base Damage": "6.0 / 4.0\n8.5 / 5.0",
       "Shieldlag": "8/5/10/6",
       "Shieldstun": "3/3/4/3",
-      "hitbox": "first close/far\nsecond close/far",
+      "Hitbox": "first close/far\nsecond close/far",
       "Advantage": "-6/-6/-5/-6"
     },
     "F-Air": {
@@ -108,7 +110,7 @@
       "Base Damage": "11.0 / 7.0",
       "Shieldlag": "11/7",
       "Shieldstun": "4/3",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-4/-5"
     },
     "B-Air": {
@@ -119,7 +121,7 @@
       "Base Damage": "12.0 / 9.0",
       "Shieldlag": "12/7",
       "Shieldstun": "5/4",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-5/-6"
     },
     "U-Air": {
@@ -130,7 +132,7 @@
       "Base Damage": "9.0 / 6.0",
       "Shieldlag": "10/6",
       "Shieldstun": "4/3",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-4/-5"
     },
     "D-Air": {
@@ -141,10 +143,11 @@
       "Base Damage": "15.0 / 10.0",
       "Shieldlag": "13/8",
       "Shieldstun": "5/4",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-9/-10"
     },
-    "Flare Blade": {
+    "NeutralB": {
+      "ufdName":["FlareBlade.gif", "FlareBladeMax.gif"],
       "Startup": "21-260",
       "Total Frames": "44-283",
       "Landing Lag": "",
@@ -152,10 +155,23 @@
       "Base Damage": "8.0 - 50.0",
       "Shieldlag": "7-22",
       "Shieldstun": "8-",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15 to shieldbreak"
     },
-    "Double Edged Dance": {
+    "Flare Blade": {
+      "ufdName":["FlareBlade.gif", "FlareBladeMax.gif"],
+      "Startup": "21-260",
+      "Total Frames": "44-283",
+      "Landing Lag": "",
+      "Additional Notes": "Startup is 10 from release. 11 frames to enter charge state.",
+      "Base Damage": "8.0 - 50.0",
+      "Shieldlag": "7-22",
+      "Shieldstun": "8-",
+      "Hitbox": "",
+      "Advantage": "-15 to shieldbreak"
+    },
+    "SideB": {
+      "ufdName":"DoubleEdgedDance1.gif",
       "Startup": "9",
       "Total Frames": "39/29",
       "Landing Lag": "",
@@ -163,10 +179,23 @@
       "Base Damage": "3.0 / 2.0",
       "Shieldlag": "5/4",
       "Shieldstun": "4/3",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-26/-16 (air)"
     },
-    "Double Edged Dance 2 Neutral": {
+    "Double Edged Dance": {
+      "ufdName":"DoubleEdgedDance1.gif",
+      "Startup": "9",
+      "Total Frames": "39/29",
+      "Landing Lag": "",
+      "Additional Notes": "Second total frames is from the air. Can transition to next slash as early as frame 12.",
+      "Base Damage": "3.0 / 2.0",
+      "Shieldlag": "5/4",
+      "Shieldstun": "4/3",
+      "Hitbox": "Close/far",
+      "Advantage": "-26/-16 (air)"
+    },
+    "SideB2Neutral": {
+      "ufdName": "DoubleEdgedDance2.gif",
       "Startup": "5",
       "Total Frames": "38",
       "Landing Lag": "",
@@ -174,10 +203,23 @@
       "Base Damage": "3.0 / 2.0",
       "Shieldlag": "5/4",
       "Shieldstun": "4/3",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-29/-30"
     },
-    "Double Edged Dance 3 Neutral": {
+    "Double Edged Dance 2 Neutral": {
+      "ufdName": "DoubleEdgedDance2.gif",
+      "Startup": "5",
+      "Total Frames": "38",
+      "Landing Lag": "",
+      "Additional Notes": "Can transition to next slash as early as frame 8.",
+      "Base Damage": "3.0 / 2.0",
+      "Shieldlag": "5/4",
+      "Shieldstun": "4/3",
+      "Hitbox": "Close/far",
+      "Advantage": "-29/-30"
+    },
+    "SideB3Neutral": {
+      "ufdName": "DoubleEdgedDance3.gif",
       "Startup": "4",
       "Total Frames": "43",
       "Landing Lag": "",
@@ -185,10 +227,23 @@
       "Base Damage": "4.0 / 3.0",
       "Shieldlag": "5/5",
       "Shieldstun": "5/4",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-34/-35"
     },
-    "Double Edged Dance 4 Neutral": {
+    "Double Edged Dance 3 Neutral": {
+      "ufdName": "DoubleEdgedDance3.gif",
+      "Startup": "4",
+      "Total Frames": "43",
+      "Landing Lag": "",
+      "Additional Notes": "Can transition to next slash as early as frame 7.",
+      "Base Damage": "4.0 / 3.0",
+      "Shieldlag": "5/5",
+      "Shieldstun": "5/4",
+      "Hitbox": "Close/far",
+      "Advantage": "-34/-35"
+    },
+    "SideB4Neutral": {
+      "ufdName": "DoubleEdgedDance4.gif",
       "Startup": "7",
       "Total Frames": "58",
       "Landing Lag": "",
@@ -196,10 +251,23 @@
       "Base Damage": "6.0 / 4.0",
       "Shieldlag": "11/5",
       "Shieldstun": "6/5",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-45/46"
     },
-    "Double Edged Dance 2 Up": {
+    "Double Edged Dance 4 Neutral": {
+      "ufdName": "DoubleEdgedDance4.gif",
+      "Startup": "7",
+      "Total Frames": "58",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "6.0 / 4.0",
+      "Shieldlag": "11/5",
+      "Shieldstun": "6/5",
+      "Hitbox": "Close/far",
+      "Advantage": "-45/46"
+    },
+    "SideB2Up": {
+      "ufdName":"DoubleEdgedDance2Up.gif",
       "Startup": "4",
       "Total Frames": "38",
       "Landing Lag": "",
@@ -207,10 +275,23 @@
       "Base Damage": "3.0 / 2.0",
       "Shieldlag": "5/4",
       "Shieldstun": "4/3",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-34/-35"
     },
-    "Double Edged Dance 3 Up": {
+    "Double Edged Dance 2 Up": {
+      "ufdName":"DoubleEdgedDance2Up.gif",
+      "Startup": "4",
+      "Total Frames": "38",
+      "Landing Lag": "",
+      "Additional Notes": "Can transition to next slash as early as frame 8.",
+      "Base Damage": "3.0 / 2.0",
+      "Shieldlag": "5/4",
+      "Shieldstun": "4/3",
+      "Hitbox": "Close/far",
+      "Advantage": "-34/-35"
+    },
+    "SideB3Up": {
+      "ufdName":"DoubleEdgedDance3Up.gif",
       "Startup": "5",
       "Total Frames": "43",
       "Landing Lag": "",
@@ -218,10 +299,23 @@
       "Base Damage": "4.0 / 3.0",
       "Shieldlag": "5/5",
       "Shieldstun": "5/4",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-33/-34"
     },
-    "Double Edged Dance 4 Up": {
+    "Double Edged Dance 3 Up": {
+      "ufdName":"DoubleEdgedDance3Up.gif",
+      "Startup": "5",
+      "Total Frames": "43",
+      "Landing Lag": "",
+      "Additional Notes": "Can transition to next slash as early as frame 8.",
+      "Base Damage": "4.0 / 3.0",
+      "Shieldlag": "5/5",
+      "Shieldstun": "5/4",
+      "Hitbox": "Close/far",
+      "Advantage": "-33/-34"
+    },
+    "SideB4Up": {
+      "ufdName":"DoubleEdgedDance3Up.gif",
       "Startup": "6",
       "Total Frames": "44",
       "Landing Lag": "",
@@ -229,10 +323,23 @@
       "Base Damage": "7.0 / 5.0",
       "Shieldlag": "9/8",
       "Shieldstun": "7/6",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
+      "Advantage": "-31/-32"
+    },    
+    "Double Edged Dance 4 Up": {
+      "ufdName":"DoubleEdgedDance3Up.gif",
+      "Startup": "6",
+      "Total Frames": "44",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.0 / 5.0",
+      "Shieldlag": "9/8",
+      "Shieldstun": "7/6",
+      "Hitbox": "Close/far",
       "Advantage": "-31/-32"
     },
-    "Double Edged Dance 3 Down": {
+    "SideB3Down": {
+      "ufdName":"DoubleEdgedDance3Down.gif",
       "Startup": "5",
       "Total Frames": "44",
       "Landing Lag": "",
@@ -240,10 +347,23 @@
       "Base Damage": "4.0 / 3.0",
       "Shieldlag": "5/5",
       "Shieldstun": "5/4",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-34/-35"
     },
-    "Double Edged Dance 4 Down": {
+    "Double Edged Dance 3 Down": {
+      "ufdName":"DoubleEdgedDance3Down.gif",
+      "Startup": "5",
+      "Total Frames": "44",
+      "Landing Lag": "",
+      "Additional Notes": "Can transition to next slash as early as frame 8",
+      "Base Damage": "4.0 / 3.0",
+      "Shieldlag": "5/5",
+      "Shieldstun": "5/4",
+      "Hitbox": "Close/far",
+      "Advantage": "-34/-35"
+    },
+    "SideB4Down": {
+      "ufdName":"DoubleEdgedDance4Down.gif",
       "Startup": "7/10/13/16/19",
       "Total Frames": "71",
       "Landing Lag": "",
@@ -251,10 +371,23 @@
       "Base Damage": "2.0 / 5.0",
       "Shieldlag": "4/9",
       "Shieldstun": "-/6",
-      "hitbox": "Multi/final",
+      "Hitbox": "Multi/final",
       "Advantage": "-46 "
     },
-    "Blazer": {
+    "Double Edged Dance 4 Down": {
+      "ufdName":"DoubleEdgedDance4Down.gif",
+      "Startup": "7/10/13/16/19",
+      "Total Frames": "71",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "2.0 / 5.0",
+      "Shieldlag": "4/9",
+      "Shieldstun": "-/6",
+      "Hitbox": "Multi/final",
+      "Advantage": "-46 "
+    },
+    "UpB": {
+      "ufdName":"RoyBlazerG.gif",
       "Startup": "9/11/14/17/20",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -262,15 +395,42 @@
       "Base Damage": "5.5 / 1.1 / 8.0",
       "Shieldlag": "6/4/15",
       "Shieldstun": "-/2/8",
-      "hitbox": "First/multi/final"
+      "Hitbox": "First/multi/final"
     },
-    "Counter": {
+    "Blazer": {
+      "ufdName":["RoyBlazerG.gif","BlazerA.gif"],
+      "Startup": "9/11/14/17/20",
+      "Total Frames": "",
+      "Landing Lag": "30",
+      "Additional Notes": "Super Armor on frame 4-10 from the ground. Invulnerable on frame 9\nCan grab ledges as early as frame 24 (facing toward) or 51 (facing away)",
+      "Base Damage": "5.5 / 1.1 / 8.0",
+      "Shieldlag": "6/4/15",
+      "Shieldstun": "-/2/8",
+      "Hitbox": "First/multi/final"
+    },
+    "DownB": {
+      "ufdName":"Counter.gif",
       "Startup": "",
       "Total Frames": "67",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 7. Counters on 8-29 from 8-27."
     },
+    "Counter": {
+      "ufdName":"Counter.gif",
+      "Startup": "",
+      "Total Frames": "67",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 7. Counters on 8-29 from 8-27."
+    },
+    "DownBAttack": {
+      "ufdName":"CounterHit.gif",
+      "Startup": "4",
+      "Total Frames": "40",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 1-5. In addition to counter freeze frames"
+    },
     "Counter (attack)": {
+      "ufdName":"CounterHit.gif",
       "Startup": "4",
       "Total Frames": "40",
       "Landing Lag": "",

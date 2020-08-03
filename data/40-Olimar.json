@@ -9,7 +9,7 @@
       "Base Damage\nR/Y/B/W/P": "3.0 / 4.0",
       "Shieldlag\nR/Y/B/W/P": "8/9",
       "Shieldstun\nR/Y/B/W/P": "4/5",
-      "hitbox": "Close/Far",
+      "Hitbox": "Close/Far",
       "Advantage\nR/Y/B/W/P": "-11/-10"
     },
     "Jab 2": {
@@ -20,7 +20,7 @@
       "Base Damage\nR/Y/B/W/P": "3.0 / 4.0",
       "Shieldlag\nR/Y/B/W/P": "5/5",
       "Shieldstun\nR/Y/B/W/P": "4/5",
-      "hitbox": "Close/Far",
+      "Hitbox": "Close/Far",
       "Advantage\nR/Y/B/W/P": "-9/-8"
     },
     "F-Tilt": {
@@ -31,7 +31,7 @@
       "Base Damage\nR/Y/B/W/P": "11.0",
       "Shieldlag\nR/Y/B/W/P": "8",
       "Shieldstun\nR/Y/B/W/P": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-10"
     },
     "U-Tilt": {
@@ -42,7 +42,7 @@
       "Base Damage\nR/Y/B/W/P": "0.6 / 4.0",
       "Shieldlag\nR/Y/B/W/P": "4/5",
       "Shieldstun\nR/Y/B/W/P": "2/5",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage\nR/Y/B/W/P": "-17"
     },
     "D-Tilt": {
@@ -53,7 +53,7 @@
       "Base Damage\nR/Y/B/W/P": "6.0",
       "Shieldlag\nR/Y/B/W/P": "6",
       "Shieldstun\nR/Y/B/W/P": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-17"
     },
     "Dash Attack": {
@@ -64,7 +64,7 @@
       "Base Damage\nR/Y/B/W/P": "7.0 / 4.0",
       "Shieldlag\nR/Y/B/W/P": "7/5",
       "Shieldstun\nR/Y/B/W/P": "-/5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-21"
     },
     "F-Smash (early)": {
@@ -75,7 +75,7 @@
       "Base Damage\nR/Y/B/W/P": "20.3/14.5/14.5/\n11.6/23.2",
       "Shieldlag\nR/Y/B/W/P": "12/15/10/9/14",
       "Shieldstun\nR/Y/B/W/P": "6/5/5/4/7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-13/-11/-16/-18/-10"
     },
     "-late": {
@@ -86,7 +86,7 @@
       "Base Damage\nR/Y/B/W/P": "14.0/10.0/10.0/\n8.0/16.0",
       "Shieldlag\nR/Y/B/W/P": "10/12/8/7/10",
       "Shieldstun\nR/Y/B/W/P": "5/4/4/3/5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-14/-13/-17/-19/-14"
     },
     "-later": {
@@ -97,7 +97,7 @@
       "Base Damage\nR/Y/B/W/P": "8.4/6.0/6.0/\n4.8/9.6",
       "Shieldlag\nR/Y/B/W/P": "7/9/6/6/8",
       "Shieldstun\nR/Y/B/W/P": "3/3/3/3/4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-12/-10/-13/-13/-10"
     },
     "U-Smash (close)": {
@@ -108,7 +108,7 @@
       "Base Damage\nR/Y/B/W/P": "18.2/13.0/13.0/\n10.4/20.8",
       "Shieldlag\nR/Y/B/W/P": "11/14/9/8/13",
       "Shieldstun\nR/Y/B/W/P": "6/5/5/4/6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-10/-8/-13/-15/-8"
     },
     "-Far": {
@@ -119,7 +119,7 @@
       "Base Damage\nR/Y/B/W/P": "14.0/10.0/10.0/\n8.0/16.0",
       "Shieldlag\nR/Y/B/W/P": "10/12/8/7/10",
       "Shieldstun\nR/Y/B/W/P": "5/4/4/3/5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-12/-11/-15/-17/-12"
     },
     "-Late": {
@@ -130,7 +130,7 @@
       "Base Damage\nR/Y/B/W/P": "12.6/9.0/9.0/\n7.2/14.4",
       "Shieldlag\nR/Y/B/W/P": "9/11/7/7/9",
       "Shieldstun\nR/Y/B/W/P": "4/4/4/3/5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-11/-9/-13/-14/-10"
     },
     "D-Smash (early)": {
@@ -141,7 +141,7 @@
       "Base Damage\nR/Y/B/W/P": "15.4/11.0/11.0/\n8.8/17.6",
       "Shieldlag\nR/Y/B/W/P": "10/13/8/7/11",
       "Shieldstun\nR/Y/B/W/P": "5/4/4/4/6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-13/-11/-16/-17/-11"
     },
     "N-Air": {
@@ -152,7 +152,7 @@
       "Base Damage\nR/Y/B/W/P": "1.5 / 2.0",
       "Shieldlag\nR/Y/B/W/P": "4/4",
       "Shieldstun\nR/Y/B/W/P": "2/2",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage\nR/Y/B/W/P": "-11/-11"
     },
     "F-Air": {
@@ -163,7 +163,7 @@
       "Base Damage\nR/Y/B/W/P": "11.9/8.5/8.5/\n6.8/13.6",
       "Shieldlag\nR/Y/B/W/P": "9/11/8/7/9",
       "Shieldstun\nR/Y/B/W/P": "5/4/4/3/5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-4/-5/-5/-6/-4"
     },
     "B-Air": {
@@ -174,7 +174,7 @@
       "Base Damage\nR/Y/B/W/P": "15.1/10.8/10.8/\n8.6/17.2",
       "Shieldlag\nR/Y/B/W/P": "10/13/8/7/11",
       "Shieldstun\nR/Y/B/W/P": "5/4/4/4/6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-4/-5/-5/-5/-3"
     },
     "U-Air": {
@@ -185,7 +185,7 @@
       "Base Damage\nR/Y/B/W/P": "12.6/9.0/9.0/\n7.2/14.4",
       "Shieldlag\nR/Y/B/W/P": "9/11/7/7/10",
       "Shieldstun\nR/Y/B/W/P": "5/4/4/3/5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-13/-14/-14/-15/-13"
     },
     "D-Air": {
@@ -196,7 +196,7 @@
       "Base Damage\nR/Y/B/W/P": "12.6/9.0/9.0/\n7.2/14.4",
       "Shieldlag\nR/Y/B/W/P": "9/11/7/7/10",
       "Shieldstun\nR/Y/B/W/P": "5/4/4/3/5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-13/-14/-14/-15/-13"
     },
     "Pikmin Pluck": {
@@ -219,7 +219,7 @@
       "Base Damage\nR/Y/B/W/P": "6.0",
       "Shieldlag\nR/Y/B/W/P": "6",
       "Shieldstun\nR/Y/B/W/P": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-6"
     },
     "Winged Pikmin": {

@@ -1,5 +1,29 @@
 {
   "name": "76 - Min Min",
+  "uriComponent": "minmin",
+  "movePrefix": "MinMin",
+  "moveMappings": [
+    { "N-Air": "Dragon N-air" },     
+    { "F-Tilt": "Left punch (no smash A)" },    
+    { "RamramF-Tilt": "Right punch (Ramram)" },    
+    { "MegawattF-Tilt": "Right punch (Megawatt)" },    
+    { "DragonF-Tilt": "Right punch (Dragon)" },    
+    { "F-Smash": "Left punch (Smash A)" },    
+    { "RamramF-Smash": "Right punch (Ramram)(Smash)" },    
+    { "MegawattF-Smash": "Right punch (Megawatt)(Smash)" },    
+    { "DragonF-Smash": "Right punch (Dragon)(Smash)" },    
+    { "SideB": "Right punch (Ramram)" },
+    { "RamramSideB": "Right punch (Ramram)" },
+    { "MegawattSideB": "Right punch (Megawatt)" },
+    { "DragonSideB": "Right punch (Dragon)" },
+    { "SmashSideB": "Right punch (Ramram)" },
+    { "RamramSmashSideB": "Right punch (Ramram)(Smash)" },
+    { "MegawattSmashSideB": "Right punch (Megawatt)(Smash)" },
+    { "DragonSmashSideB": "Right punch (Dragon)(Smash)" },
+    { "UpB": "ARMS Jump" },
+    { "AirUpB": "ARMS Hook" },
+    { "DownB": "ARMS Change" }
+  ],
   "moves": {
     "Jab 1 (tap)": {
       "Startup": "5",
@@ -9,7 +33,7 @@
       "Base Damage": "2.5",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "Jab 2": {
@@ -20,7 +44,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "6",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20"
     },
     "Jab 3": {
@@ -31,7 +55,7 @@
       "Base Damage": "5.5",
       "Shieldlag": "14",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-23"
     },
     "Rapid Jab": {
@@ -51,10 +75,11 @@
       "Base Damage": "5.0",
       "Shieldlag": "15",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28"
     },
     "Left punch (no smash A)": {
+      "ufdName":"DragonJab.gif",
       "Startup": "14",
       "Total Frames": "58/53 (air)",
       "Landing Lag": "",
@@ -62,10 +87,11 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-31"
     },
     "Left punch (Smash A)": {
+      "ufdName":"DragonFSmash.gif",
       "Startup": "16/40 (beam)",
       "Total Frames": "65/62 (air)\nBeam: 85/82 (air)",
       "Landing Lag": "",
@@ -73,10 +99,11 @@
       "Base Damage": "12.0 / 16.0 / 13.0/\n7.0",
       "Shieldlag": "9/10/9/\n7",
       "Shieldstun": "8/11/9/\n3",
-      "hitbox": "close/medium/far/\nbeam",
+      "Hitbox": "close/medium/far/\nbeam",
       "Advantage": "-32/-29/-30\n-35 (beam)"
     },
-    "Right punch (Ramram)": {
+    "Ramram Right punch": {
+      "ufdName":"RamRamJab.gif",
       "Startup": "14/22",
       "Total Frames": "51/47 (air)",
       "Landing Lag": "",
@@ -84,10 +111,11 @@
       "Base Damage": "5.0 / 2.5",
       "Shieldlag": "6/5",
       "Shieldstun": "6/2",
-      "hitbox": "arm/projectile",
+      "Hitbox": "arm/projectile",
       "Advantage": "-31"
     },
     "Right punch (Ramram)(Smash)": {
+      "ufdName":"RamRamFSmashUncharged.gif",
       "Startup": "16/26",
       "Total Frames": "57/55 (air)",
       "Landing Lag": "",
@@ -95,10 +123,11 @@
       "Base Damage": "10.0 / 12.0 / 2.5",
       "Shieldlag": "8/9/5",
       "Shieldstun": "7/8/2",
-      "hitbox": "close/far/projectile",
+      "Hitbox": "close/far/projectile",
       "Advantage": "-32/-31"
     },
     "Right punch (Megawatt)": {
+      "ufdName":"MegawattJab.gif",
       "Startup": "14",
       "Total Frames": "67/59 (air)",
       "Landing Lag": "",
@@ -106,32 +135,35 @@
       "Base Damage": "11.0",
       "Shieldlag": "10",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-30 to -34"
     },
     "Right punch (Megawatt)(Smash)": {
+      "ufdName":"MegawattFSmashUncharged.gif",
       "Startup": "16",
       "Total Frames": "75/70 (air)",
       "Landing Lag": "",
-      "Additional Notes": "Charge hold frame 8. Can fire other arm beginning on frame 17\nEndlag on hit is 22-31 depending on how far the arm must retract\nEndlag on block is 41-47 depending on how far the arm must retract",
+      "Additional Notes": "Charge hold frame 8. Can fire other arm beginning on frame 17.\nEndlag on hit is 22-31 depending on how far the arm must retract\nEndlag on block is 41-47 depending on how far the arm must retract",
       "Base Damage": "19.0 / 21.0 / 19.0",
       "Shieldlag": "12/14/12",
       "Shieldstun": "13/14/13",
-      "hitbox": "close/medium/far",
-      "Advantage": "-28 to-34"
+      "Hitbox": "close/medium/far",
+      "Advantage": "-28 to -34"
     },
     "Right punch (Dragon) ": {
+      "ufdName":"DragonJab.gif",
       "Startup": "14",
       "Total Frames": "58/53 (air)",
       "Landing Lag": "",
-      "Additional Notes": "Can fire other arm beginning on frame 17\nEndlag on hit is 28. Endlag on block is 39.",
+      "Additional Notes": "Can fire other arm beginning on frame 17.\nEndlag on hit is 28. Endlag on block is 39.",
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-31"
     },
-    "Right punch (Dragon) (Smash)": {
+    "Right punch (Dragon)(Smash)": {
+      "ufdName":"DragonFSmash.gif",
       "Startup": "16/40 (beam)",
       "Total Frames": "65/62(air)\nBeam: 85/82 (air)",
       "Landing Lag": "",
@@ -139,7 +171,7 @@
       "Base Damage": "12.0 / 16.0 / 13.0/\n7.0",
       "Shieldlag": "9/10/9/\n7",
       "Shieldstun": "8/11/9/\n3",
-      "hitbox": "close/medium/far",
+      "Hitbox": "close/medium/far",
       "Advantage": "-32/-29/-30\n-35 (beam)"
     },
     "U-tilt": {
@@ -150,7 +182,7 @@
       "Base Damage": "4.0 / 5.0 / 6.0 /\n7.0",
       "Shieldlag": "5/6/6/7",
       "Shieldstun": "5/6/6/7",
-      "hitbox": "close/medium/far/\nfarthest",
+      "Hitbox": "close/medium/far/\nfarthest",
       "Advantage": "-31/-30/-29"
     },
     "D-Tilt": {
@@ -161,7 +193,7 @@
       "Base Damage": "5.0 / 7.0 / 5.5",
       "Shieldlag": "6/7/6",
       "Shieldstun": "6/7/6",
-      "hitbox": "close/far/late",
+      "Hitbox": "close/far/late",
       "Advantage": "-18/-17"
     },
     "Dash Attack": {
@@ -172,7 +204,7 @@
       "Base Damage": "8.0 / 10.0 / 8.0",
       "Shieldlag": "7/10/7",
       "Shieldstun": "8/10/8",
-      "hitbox": "early/late/latest",
+      "Hitbox": "early/late/latest",
       "Advantage": "-23"
     },
     "U-Smash": {
@@ -183,7 +215,7 @@
       "Base Damage": "16.0 / 14.0 / \n12.0 / 10.0",
       "Shieldlag": "10/11/\n10/9",
       "Shieldstun": "10/11/\n10/8",
-      "hitbox": "early close/far\nlate close/far",
+      "Hitbox": "early close/far\nlate close/far",
       "Advantage": "-35/-34"
     },
     "D-Smash": {
@@ -194,10 +226,11 @@
       "Base Damage": "13.0 / 15.0",
       "Shieldlag": "9/10",
       "Shieldstun": "9/10",
-      "hitbox": "close/far ",
+      "Hitbox": "close/far ",
       "Advantage": "-33/-32"
     },
-    "N-air (either Dragon)": {
+    "Dragon N-Air": {
+      "ufdName":"NAirDragonLeft.gif",
       "Startup": "10",
       "Total Frames": "37",
       "Landing Lag": "10",
@@ -205,10 +238,11 @@
       "Base Damage": "8.5",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
-    "N-air (Ramram)": {
+    "Ramram N-Air": {
+      "ufdName":"NAirRamRam.gif",
       "Startup": "8",
       "Total Frames": "28",
       "Landing Lag": "10",
@@ -216,10 +250,11 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-7"
     },
-    "N-air (Megawatt)": {
+    "Megawatt N-Air": {
+      "ufdName":"NAirMegawatt.gif",
       "Startup": "14",
       "Total Frames": "50",
       "Landing Lag": "10",
@@ -227,10 +262,10 @@
       "Base Damage": "12.0",
       "Shieldlag": "10",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5"
     },
-    "U-air": {
+    "U-Air": {
       "Startup": "7",
       "Total Frames": "38",
       "Landing Lag": "8",
@@ -238,10 +273,10 @@
       "Base Damage": "6.5",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5"
     },
-    "D-air": {
+    "D-Air": {
       "Startup": "15",
       "Total Frames": "54",
       "Landing Lag": "25",
@@ -249,7 +284,7 @@
       "Base Damage": "11.0 / 9.0 / 3.0",
       "Shieldlag": "8/7/5",
       "Shieldstun": "4/4/4",
-      "hitbox": "early/late/landing",
+      "Hitbox": "early/late/landing",
       "Advantage": "-20"
     },
     "ARMS Jump": {
@@ -259,6 +294,7 @@
       "Additional Notes": "Invulnerable on frame 8-13 (normal) or 18-25 (charged)"
     },
     "ARMS Hook": {
+      "ufdName":"ARMSHookDragonGrounded.gif",
       "Startup": "12",
       "Total Frames": "54",
       "Landing Lag": "",
@@ -266,6 +302,11 @@
       "Base Damage": "9.0",
       "Shieldlag": "7",
       "Shieldstun": "9"
+    },
+    "ARMS Change": {
+      "Startup": "",
+      "Total Frames": "1",
+      "Additional Notes": "Instaneous"
     },
     "Grab": {
       "Startup": "18",

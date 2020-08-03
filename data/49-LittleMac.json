@@ -1,5 +1,16 @@
 {
   "name": "49 - Little Mac",
+  "uriComponent": "little_mac",
+  "movePrefix": "LittleMac",
+  "moveMappings": [
+    { "NeutralB": "Straight Lunge (partial charge)" },
+    { "NeutralBCharged": "Straight Lunge (full charge)" },
+    { "SideB": "Jolt Haymaker" },
+    { "AirSideB": "Jolt Haymaker (air)" },
+    { "UpB": "Rising Uppercut" },
+    { "DownB": "Slip Counter" },
+    { "DownBAttack": "Slip Counter (attack)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "1",
@@ -9,7 +20,7 @@
       "Base Damage": "1.5",
       "Shieldlag": "8",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "Jab 2": {
@@ -20,7 +31,7 @@
       "Base Damage": "1.5",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "Jab 3": {
@@ -31,7 +42,7 @@
       "Base Damage": "5.0",
       "Shieldlag": "12",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19"
     },
     "Rapid jab": {
@@ -51,7 +62,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "13",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-25"
     },
     "F-Tilt": {
@@ -62,7 +73,7 @@
       "Base Damage": "4.0 / 8.0",
       "Shieldlag": "5/9",
       "Shieldstun": "5/8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "U-Tilt": {
@@ -73,7 +84,7 @@
       "Base Damage": "6.5",
       "Shieldlag": "6",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-18"
     },
     "D-Tilt": {
@@ -84,7 +95,7 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-14"
     },
     "Dash Attack": {
@@ -95,7 +106,7 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "F-Smash": {
@@ -106,7 +117,7 @@
       "Base Damage": "20.0",
       "Shieldlag": "15",
       "Shieldstun": "13",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "F-Smash (up)": {
@@ -117,7 +128,7 @@
       "Base Damage": "20.0",
       "Shieldlag": "15",
       "Shieldstun": "13",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "F-Smash (down)": {
@@ -128,7 +139,7 @@
       "Base Damage": "24.0",
       "Shieldlag": "16",
       "Shieldstun": "15",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "U-Smash": {
@@ -139,7 +150,7 @@
       "Base Damage": "21.0 / 15.0",
       "Shieldlag": "17/14",
       "Shieldstun": "14/11",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-23"
     },
     "D-Smash": {
@@ -150,7 +161,7 @@
       "Base Damage": "13.0",
       "Shieldlag": "9",
       "Shieldstun": "9",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-23/-16"
     },
     "N-Air": {
@@ -161,7 +172,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "4",
       "Shieldstun": "2",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-8"
     },
     "F-Air": {
@@ -172,7 +183,7 @@
       "Base Damage": "5.0",
       "Shieldlag": "6",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-10"
     },
     "B-Air": {
@@ -183,7 +194,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "U-Air": {
@@ -194,7 +205,7 @@
       "Base Damage": "5.0",
       "Shieldlag": "6",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-10"
     },
     "D-Air": {
@@ -205,10 +216,11 @@
       "Base Damage": "5.0 / 4.0",
       "Shieldlag": "6/5",
       "Shieldstun": "3/3",
-      "hitbox": "strong/weak",
+      "Hitbox": "strong/weak",
       "Advantage": "-15/-15"
     },
     "Straight Lunge (partial charge)": {
+      "ufdName":"StraightLungeG.gif",
       "Startup": "4 (+32)",
       "Total Frames": "44",
       "Landing Lag": "",
@@ -216,7 +228,7 @@
       "Base Damage": "12.0 - 28.6",
       "Shieldlag": "9-17",
       "Shieldstun": "11-26",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-34 to -19"
     },
     "Straight Lunge (full charge)": {
@@ -227,10 +239,11 @@
       "Base Damage": "30.0",
       "Shieldlag": "17",
       "Shieldstun": "26",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-82"
     },
     "KO Punch": {
+      "ufdName":"KOPunchG.gif",
       "Startup": "9",
       "Total Frames": "76/75",
       "Landing Lag": "",
@@ -238,10 +251,11 @@
       "Base Damage": "35.0 / 13.0",
       "Shieldlag": "-/14",
       "Shieldstun": "-/12",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-/-54"
     },
-    "Jolt Haymaker (earliest/latest)": {
+    "Jolt Haymaker": {
+      "ufdName":"JoltHaymakerG.gif",
       "Startup": "8/25",
       "Total Frames": "60/74",
       "Landing Lag": "",
@@ -249,10 +263,11 @@
       "Base Damage": "14.0",
       "Shieldlag": "12",
       "Shieldstun": "13",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-39 to -36"
     },
-    "Jolt Haymaker (air) (earliest/latest)": {
+    "Jolt Haymaker (air)": {
+      "ufdName":"JoltHaymakerA.gif",
       "Startup": "8/25",
       "Total Frames": "53/69",
       "Landing Lag": "",
@@ -260,10 +275,11 @@
       "Base Damage": "14.0",
       "Shieldlag": "12",
       "Shieldstun": "13",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-32 to -31"
     },
     "Rising Uppercut": {
+      "ufdName":"RisingUppercut.gif",
       "Startup": "3/7/11/15/19/27",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -273,12 +289,14 @@
       "Shieldstun": "4/2/4"
     },
     "Slip Counter": {
+      "ufdName":"SlipCounter.gif",
       "Startup": "",
       "Total Frames": "56",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 4. Counters on frame 5-27"
     },
     "Slip Counter (attack)": {
+      "ufdName":"SlipCounterHitG.gif",
       "Startup": "16",
       "Total Frames": "47",
       "Landing Lag": "",

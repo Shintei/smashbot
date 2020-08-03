@@ -9,7 +9,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21"
     },
     "Jab 2": {
@@ -20,7 +20,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-23"
     },
     "Rapid Jab": {
@@ -40,7 +40,7 @@
       "Base Damage": "2.5",
       "Shieldlag": "10",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-37"
     },
     "Whip Dangle": {
@@ -51,7 +51,7 @@
       "Base Damage": "1.0 / 1.5",
       "Shieldlag": "0/0",
       "Shieldstun": "3/3",
-      "hitbox": "chain/ball"
+      "Hitbox": "chain/ball"
     },
     "F-Tilt": {
       "Startup": "12",
@@ -61,7 +61,7 @@
       "Base Damage": "10.0 / 12.0",
       "Shieldlag": "8/9",
       "Shieldstun": "10/11",
-      "hitbox": "chain/ball",
+      "Hitbox": "chain/ball",
       "Advantage": "-8/-7"
     },
     "U-Tilt": {
@@ -72,7 +72,7 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "D-Tilt 1": {
@@ -83,7 +83,7 @@
       "Base Damage": "5.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-31"
     },
     "D-Tilt 2": {
@@ -94,7 +94,7 @@
       "Base Damage": "7.0 / 3.5",
       "Shieldlag": "8/5",
       "Shieldstun": "7/4",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-42/-28"
     },
     "Dash Attack": {
@@ -105,7 +105,7 @@
       "Base Damage": "1.7 / 3.5",
       "Shieldlag": "4/5",
       "Shieldstun": "-/4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26"
     },
     "F-Smash": {
@@ -116,7 +116,7 @@
       "Base Damage": "14.0 / 18.0",
       "Shieldlag": "11/13",
       "Shieldstun": "10/12",
-      "hitbox": "chain/ball",
+      "Hitbox": "chain/ball",
       "Advantage": "-28/-26"
     },
     "U-Smash": {
@@ -127,7 +127,7 @@
       "Base Damage": "14.0 / 16.0",
       "Shieldlag": "10/10",
       "Shieldstun": "10/11",
-      "hitbox": "chain/ball",
+      "Hitbox": "chain/ball",
       "Advantage": "-27/-26"
     },
     "D-Smash": {
@@ -138,7 +138,7 @@
       "Base Damage": "12.0 / 16.0",
       "Shieldlag": "9/10",
       "Shieldstun": "8/11",
-      "hitbox": "chain/ball",
+      "Hitbox": "chain/ball",
       "Advantage": "-33/-30\n-27/-24"
     },
     "N-Air": {
@@ -149,7 +149,7 @@
       "Base Damage": "1.0 / 4.0",
       "Shieldlag": "4/5",
       "Shieldstun": "2/3",
-      "hitbox": "multi.final",
+      "Hitbox": "multi.final",
       "Advantage": "-12/-11"
     },
     "F-Air": {
@@ -160,7 +160,7 @@
       "Base Damage": "10.0 / 12.0 / 2.0",
       "Shieldlag": "8/9/4",
       "Shieldstun": "4/5/2",
-      "hitbox": "chain/ball/arm",
+      "Hitbox": "chain/ball/arm",
       "Advantage": "-6/-5/-8"
     },
     "B-Air": {
@@ -171,7 +171,7 @@
       "Base Damage": "10.0 / 12.0 / 2.0",
       "Shieldlag": "8/9/4",
       "Shieldstun": "4/5/2",
-      "hitbox": "chain/ball/arm",
+      "Hitbox": "chain/ball/arm",
       "Advantage": "-6/-5/-8"
     },
     "U-Air": {
@@ -182,7 +182,7 @@
       "Base Damage": "10.0 / 12.0 / 2.0",
       "Shieldlag": "8/9/4",
       "Shieldstun": "4/5/2",
-      "hitbox": "chain/ball/arm",
+      "Hitbox": "chain/ball/arm",
       "Advantage": "-6/-5/-8"
     },
     "D-Air": {
@@ -193,7 +193,7 @@
       "Base Damage": "12.0 / 7.0",
       "Shieldlag": "10/7",
       "Shieldstun": "5/3",
-      "hitbox": "early/late",
+      "Hitbox": "early/late",
       "Advantage": "-21/-23"
     },
     "Axe": {
@@ -204,7 +204,7 @@
       "Base Damage": "15.0",
       "Shieldlag": "15",
       "Shieldstun": "15",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6 "
     },
     "Cross": {
@@ -215,7 +215,7 @@
       "Base Damage": "8.0 / 6.0 / 5.0",
       "Shieldlag": "7/7/6",
       "Shieldstun": "3/3/3",
-      "hitbox": "smash/tilt/return",
+      "Hitbox": "smash/tilt/return",
       "Advantage": "-15"
     },
     "Uppercut": {
@@ -226,7 +226,7 @@
       "Base Damage": "2.0 / 1.5 / 6.0",
       "Shieldlag": "6/4/6",
       "Shieldstun": "-/3/6",
-      "hitbox": "first/multi/final"
+      "Hitbox": "first/multi/final"
     },
     "Holy Water": {
       "Startup": "18",

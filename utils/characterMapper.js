@@ -1,9 +1,32 @@
 const characterData = require('.././data');
 
+CreateCharacterData = (characterInit) => {
+    const charData = characterInit;
+    if(charData == null){
+        return null;
+    }
+    const moveMappings = charData.moveMappings;
+    if(moveMappings == null){
+        return charData;
+    }
+    let logicalName, key;
+    moveMappings.forEach(
+        moveMapping => {
+            key = Object.keys(moveMapping)[0];
+            logicalName = moveMapping[key];
+            if(logicalName != null){
+                charData.moves[key] = charData.moves[logicalName];
+                charData.moves[key].Name = logicalName;
+            }            
+        }
+    );    
+    return charData;
+}
+
 module.exports = {
-    BANJO: characterData.BanjoAndKazooie,
-    get BANJOANDKAZOOIE(){ return this.BANJO },
-    BAYO: characterData.Bayonetta,
+    get BANJO(){ return CreateCharacterData(characterData.BanjoAndKazooie) },
+    get BANJOANDKAZOOIE(){ return this.BANJO },        
+    get BAYO(){ return CreateCharacterData(characterData.Bayonetta ) },
     get BAYONETTA(){ return this.BAYO },
     get DARYN() {return this.BAYO },
     BOWSER: characterData.Bowser,
@@ -46,24 +69,26 @@ module.exports = {
     JIGGLYPUFF: characterData.Jigglypuff,
     get JIGGS() {return this.JIGGLYPUFF},
     get PUFF(){ return this.JIGGLYPUFF},
-    JOKER: characterData.Joker,
-    KEN: characterData.Ken,
+
+    get JOKER() { return CreateCharacterData(characterData.Joker) },
+    get ARSENE() { return CreateCharacterData(characterData.Arsene) },
+    get KEN() { return CreateCharacterData(characterData.Ken) },
     get XAVIER() {return this.KEN},
-    KINGDEDEDE: characterData.KingDedede,
+    get KINGDEDEDE() { return CreateCharacterData(characterData.KingDedede) },
     get DDD() {return this.KINGDEDEDE},
     get D3() {return this.KINGDEDEDE},
     get DeDeDe() {return this.KINGDEDEDE},
     get KingDDD() {return this.KINGDEDEDE},
-    KINGKROOL: characterData.KingKRool,
+    get KINGKROOL() { return CreateCharacterData(characterData.KingKRool) },
     get KROOL() {return this.KINGKROOL},
-    KIRBY: characterData.Kirby,
-    LINK: characterData.Link,
+    get KIRBY() { return CreateCharacterData(characterData.Kirby) },
+    get LINK() { return CreateCharacterData(characterData.Link) },
     get DWAYNE(){ return this.LINK },
-    LITTLEMAC: characterData.LittleMac,
+    get LITTLEMAC() { return CreateCharacterData(characterData.LittleMac) },
     get LILMAC() {return this.LITTLEMAC},
     get MAC() {return this.LITTLEMAC },
-    LUCARIO: characterData.Lucario,
-    LUCAS: characterData.Lucas,
+    get LUCARIO() { return CreateCharacterData(characterData.LittleMac) },
+    get LUCAS() { return CreateCharacterData(characterData.Lucas) },
     get C(){ return this.LUCAS },
     LUCINA: characterData.Lucina,
     LUIGI: characterData.Luigi,
@@ -82,7 +107,7 @@ module.exports = {
     MIISWORDFIGHTER: characterData.MiiSwordfighter,
     get SWORDFIGHTER(){ return this.MIISWORDFIGHTER},
     get MIISWORD(){ return this.MIISWORDFIGHTER },
-    MINMIN: characterData.MinMin,
+    get MINMIN(){ return CreateCharacterData(characterData.MinMin ) },
     MRGAMEANDWATCH: characterData.MrGameAndWatch,
     get GW(){ return this.MRGAMEANDWATCH},
     get GAMEANDWATCH() {return this.MRGAMEANDWATCH},

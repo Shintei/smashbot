@@ -1,5 +1,7 @@
 {
   "name": "21 - Marth",
+  "uriComponent": "marth",
+  "movePrefix": "Marth",
   "moves": {
     "Jab": {
       "Startup": "5",
@@ -9,7 +11,7 @@
       "Base Damage": "3.0 / 5.0",
       "Shieldlag": "6/10",
       "Shieldstun": "4/6",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-16/-14"
     },
     "Jab 2": {
@@ -20,7 +22,7 @@
       "Base Damage": "4.0 / 6.0",
       "Shieldlag": "7/11",
       "Shieldstun": "5/6",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-19/-18"
     },
     "F-Tilt": {
@@ -31,7 +33,7 @@
       "Base Damage": "9.0 / 12.0",
       "Shieldlag": "7/11",
       "Shieldstun": "9/11",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-16/-14"
     },
     "U-Tilt": {
@@ -42,7 +44,7 @@
       "Base Damage": "6.0 / 9.0",
       "Shieldlag": "6/9",
       "Shieldstun": "6/9",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-21/-18"
     },
     "D-Tilt": {
@@ -53,7 +55,7 @@
       "Base Damage": "7.0 / 10.0",
       "Shieldlag": "7/10",
       "Shieldstun": "7/10",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-9/-6"
     },
     "Dash Attack": {
@@ -64,7 +66,7 @@
       "Base Damage": "9.0 / 12.0",
       "Shieldlag": "8/14",
       "Shieldstun": "14/16",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-22/-20"
     },
     "F-Smash": {
@@ -75,7 +77,7 @@
       "Base Damage": "13.0 / 18.0",
       "Shieldlag": "9/15",
       "Shieldstun": "9/12",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-32/-29"
     },
     "U-Smash": {
@@ -86,7 +88,7 @@
       "Base Damage": "3.0 / 13.0 / 17.0",
       "Shieldlag": "0/9/?",
       "Shieldstun": "4/9/?",
-      "hitbox": "body/close/tipper",
+      "Hitbox": "body/close/tipper",
       "Advantage": "-41/-36"
     },
     "D-Smash": {
@@ -97,7 +99,7 @@
       "Base Damage": "8.0 / 12.0 / 12.0 /\n17.0",
       "Shieldlag": "7/13/9/15",
       "Shieldstun": "6/8/8/11",
-      "hitbox": "Close/tipper/\nclose/tipper",
+      "Hitbox": "Close/tipper/\nclose/tipper",
       "Advantage": "-43/-41/-26/-23"
     },
     "N-Air": {
@@ -108,7 +110,7 @@
       "Base Damage": "3.5 / 5.0 / 7.0 /\n9.5",
       "Shieldlag": "5/7/7/10",
       "Shieldstun": "2/3/3/4",
-      "hitbox": "Close/tipper/\nclose/tipper",
+      "Hitbox": "Close/tipper/\nclose/tipper",
       "Advantage": "-5/-4/-3"
     },
     "F-Air": {
@@ -119,7 +121,7 @@
       "Base Damage": "8.0 / 11.5",
       "Shieldlag": "7/11",
       "Shieldstun": "4/5",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-6/-5"
     },
     "B-Air": {
@@ -130,7 +132,7 @@
       "Base Damage": "9.0 / 12.5",
       "Shieldlag": "7/11",
       "Shieldstun": "4/5",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-6/-5"
     },
     "U-Air": {
@@ -141,7 +143,7 @@
       "Base Damage": "9.5 / 13.0",
       "Shieldlag": "8/12",
       "Shieldstun": "4/5",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-4/-3"
     },
     "D-Air": {
@@ -152,10 +154,11 @@
       "Base Damage": "12.0 / 15.0 / 14.0",
       "Shieldlag": "9/13/12",
       "Shieldstun": "5/5/5",
-      "hitbox": "Close/meteor/tipper",
+      "Hitbox": "Close/meteor/tipper",
       "Advantage": "-9/-9/-9"
     },
-    "Shieldbreaker": {
+    "NeutralB": {
+      "ufdName":"Shieldbreaker.gif",
       "Startup": "19-78",
       "Total Frames": "50-109",
       "Landing Lag": "",
@@ -163,10 +166,71 @@
       "Base Damage": "8.0 - 24.0",
       "Shieldlag": "10-18",
       "Shieldstun": "8-",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-23 to shieldbreak"
     },
-    "Dancing Blade 1": {
+    "Shieldbreaker": {
+      "ufdName":"Shieldbreaker.gif",
+      "Startup": "19-78",
+      "Total Frames": "50-109",
+      "Landing Lag": "",
+      "Additional Notes": "On release, startup is 8 and total frames is 39",
+      "Base Damage": "8.0 - 24.0",
+      "Shieldlag": "10-18",
+      "Shieldstun": "8-",
+      "Hitbox": "",
+      "Advantage": "-23 to shieldbreak"
+    },
+    "NeutralBUp": {
+      "ufdName":"ShieldbreakerUp.gif",
+      "Startup": "19-78",
+      "Total Frames": "50-109",
+      "Landing Lag": "",
+      "Additional Notes": "On release, startup is 8 and total frames is 39",
+      "Base Damage": "8.0 - 24.0",
+      "Shieldlag": "10-18",
+      "Shieldstun": "8-",
+      "Hitbox": "",
+      "Advantage": "-23 to shieldbreak"
+    },
+    "ShieldbreakerUp": {
+      "ufdName":"ShieldbreakerUp.gif",
+      "Startup": "19-78",
+      "Total Frames": "50-109",
+      "Landing Lag": "",
+      "Additional Notes": "On release, startup is 8 and total frames is 39",
+      "Base Damage": "8.0 - 24.0",
+      "Shieldlag": "10-18",
+      "Shieldstun": "8-",
+      "Hitbox": "",
+      "Advantage": "-23 to shieldbreak"
+    },
+    "NeutralBDown": {
+      "ufdName":"ShieldbreakerDown.gif",
+      "Startup": "19-78",
+      "Total Frames": "50-109",
+      "Landing Lag": "",
+      "Additional Notes": "On release, startup is 8 and total frames is 39",
+      "Base Damage": "8.0 - 24.0",
+      "Shieldlag": "10-18",
+      "Shieldstun": "8-",
+      "Hitbox": "",
+      "Advantage": "-23 to shieldbreak"
+    },
+    "ShieldbreakerDown": {
+      "ufdName":"ShieldbreakerDown.gif",
+      "Startup": "19-78",
+      "Total Frames": "50-109",
+      "Landing Lag": "",
+      "Additional Notes": "On release, startup is 8 and total frames is 39",
+      "Base Damage": "8.0 - 24.0",
+      "Shieldlag": "10-18",
+      "Shieldstun": "8-",
+      "Hitbox": "",
+      "Advantage": "-23 to shieldbreak"
+    },
+    "SideB": {
+      "ufdName":"DancingBlade1.gif",
       "Startup": "9",
       "Total Frames": "39/29",
       "Landing Lag": "",
@@ -174,10 +238,23 @@
       "Base Damage": "2.5 / 3.0",
       "Shieldlag": "5/5",
       "Shieldstun": "4/4",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-26 / -16 (air)"
     },
-    "Dancing Blade 2 Neutral": {
+    "Dancing Blade 1": {
+      "ufdName":"DancingBlade1.gif",
+      "Startup": "9",
+      "Total Frames": "39/29",
+      "Landing Lag": "",
+      "Additional Notes": "Second total frames is the air version. Can transition to next slash on frame 12",
+      "Base Damage": "2.5 / 3.0",
+      "Shieldlag": "5/5",
+      "Shieldstun": "4/4",
+      "Hitbox": "Close/tipper",
+      "Advantage": "-26 / -16 (air)"
+    },
+    "SideB2Neutral": {
+      "ufdName":"DancingBlade2.gif",
       "Startup": "5",
       "Total Frames": "38",
       "Landing Lag": "",
@@ -185,10 +262,23 @@
       "Base Damage": "2.5 / 3.0",
       "Shieldlag": "5/5",
       "Shieldstun": "4/4",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-29/-29"
     },
-    "Dancing Blade 3 Neutral": {
+    "Dancing Blade 2 Neutral": {
+      "ufdName":"DancingBlade2.gif",
+      "Startup": "5",
+      "Total Frames": "38",
+      "Landing Lag": "",
+      "Additional Notes": "Can transition to next slash on frame 8",
+      "Base Damage": "2.5 / 3.0",
+      "Shieldlag": "5/5",
+      "Shieldstun": "4/4",
+      "Hitbox": "Close/tipper",
+      "Advantage": "-29/-29"
+    },
+    "SideB3Neutral": {
+      "ufdName":"DancingBlade3.gif",
       "Startup": "4",
       "Total Frames": "43",
       "Landing Lag": "",
@@ -196,10 +286,23 @@
       "Base Damage": "3.0 / 4.0",
       "Shieldlag": "5/5",
       "Shieldstun": "4/5",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-35/-34"
     },
-    "Dancing Blade 4 Neutral": {
+    "Dancing Blade 3 Neutral": {
+      "ufdName":"DancingBlade3.gif",
+      "Startup": "4",
+      "Total Frames": "43",
+      "Landing Lag": "",
+      "Additional Notes": "Can transition to next slash on frame 7",
+      "Base Damage": "3.0 / 4.0",
+      "Shieldlag": "5/5",
+      "Shieldstun": "4/5",
+      "Hitbox": "Close/tipper",
+      "Advantage": "-35/-34"
+    },
+    "SideB4Neutral": {
+      "ufdName":"DancingBlade4.gif",
       "Startup": "7",
       "Total Frames": "55",
       "Landing Lag": "",
@@ -207,10 +310,23 @@
       "Base Damage": "4.0 / 6.0",
       "Shieldlag": "5/9",
       "Shieldstun": "5/6",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-43/-42"
     },
-    "Dancing Blade 2 Up": {
+    "Dancing Blade 4 Neutral": {
+      "ufdName":"DancingBlade4.gif",
+      "Startup": "7",
+      "Total Frames": "55",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "4.0 / 6.0",
+      "Shieldlag": "5/9",
+      "Shieldstun": "5/6",
+      "Hitbox": "Close/tipper",
+      "Advantage": "-43/-42"
+    },
+    "SideB2Up": {
+      "ufdName":"DancingBlade2Up.gif",
       "Startup": "4",
       "Total Frames": "38",
       "Landing Lag": "",
@@ -218,10 +334,23 @@
       "Base Damage": "2.5 / 3.0",
       "Shieldlag": "5/5",
       "Shieldstun": "4/4",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-30/-30"
     },
-    "Dancing Blade 3 Up": {
+    "Dancing Blade 2 Up": {
+      "ufdName":"DancingBlade2Up.gif",
+      "Startup": "4",
+      "Total Frames": "38",
+      "Landing Lag": "",
+      "Additional Notes": "Can transition to next slash on frame 8",
+      "Base Damage": "2.5 / 3.0",
+      "Shieldlag": "5/5",
+      "Shieldstun": "4/4",
+      "Hitbox": "Close/tipper",
+      "Advantage": "-30/-30"
+    },
+    "SideB3Up": {
+      "ufdName":"DancingBlade3Up.gif",
       "Startup": "5",
       "Total Frames": "43",
       "Landing Lag": "",
@@ -229,10 +358,23 @@
       "Base Damage": "3.0 / 4.0",
       "Shieldlag": "5/5",
       "Shieldstun": "4/5",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-34/-33"
     },
-    "Dancing Blade 4 Up": {
+    "Dancing Blade 3 Up": {
+      "ufdName":"DancingBlade3Up.gif",
+      "Startup": "5",
+      "Total Frames": "43",
+      "Landing Lag": "",
+      "Additional Notes": "Can transition to next slash on frame 8",
+      "Base Damage": "3.0 / 4.0",
+      "Shieldlag": "5/5",
+      "Shieldstun": "4/5",
+      "Hitbox": "Close/tipper",
+      "Advantage": "-34/-33"
+    },
+    "SideB4Up": {
+      "ufdName":"DancingBlade4Up.gif",
       "Startup": "6",
       "Total Frames": "44",
       "Landing Lag": "",
@@ -240,10 +382,23 @@
       "Base Damage": "5.0 / 7.0",
       "Shieldlag": "6/7",
       "Shieldstun": "6/7",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-32/-31"
     },
-    "Dancing Blade 3 Down": {
+    "Dancing Blade 4 Up": {
+      "ufdName":"DancingBlade4Up.gif",
+      "Startup": "6",
+      "Total Frames": "44",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "5.0 / 7.0",
+      "Shieldlag": "6/7",
+      "Shieldstun": "6/7",
+      "Hitbox": "Close/tipper",
+      "Advantage": "-32/-31"
+    },
+    "SideB3Down": {
+      "ufdName":"DancingBlade3Down.gif",
       "Startup": "5",
       "Total Frames": "43",
       "Landing Lag": "",
@@ -251,10 +406,23 @@
       "Base Damage": "3.0 / 4.0",
       "Shieldlag": "5/5",
       "Shieldstun": "4/5",
-      "hitbox": "Close/tipper",
+      "Hitbox": "Close/tipper",
       "Advantage": "-34/-33"
     },
-    "Dancing Blade 4 Down": {
+    "Dancing Blade 3 Down": {
+      "ufdName":"DancingBlade3Down.gif",
+      "Startup": "5",
+      "Total Frames": "43",
+      "Landing Lag": "",
+      "Additional Notes": "Can transition to next slash on frame 8",
+      "Base Damage": "3.0 / 4.0",
+      "Shieldlag": "5/5",
+      "Shieldstun": "4/5",
+      "Hitbox": "Close/tipper",
+      "Advantage": "-34/-33"
+    },
+    "SideB4Down": {
+      "ufdName":"DancingBlade3Down.gif",
       "Startup": "7/10/13/16/19",
       "Total Frames": "74",
       "Landing Lag": "",
@@ -262,10 +430,23 @@
       "Base Damage": "2.0 / 4.0 / 5.0",
       "Shieldlag": "4/5/6",
       "Shieldstun": "-/5/6",
-      "hitbox": "Multi/final/final \ntipper",
+      "Hitbox": "Multi/final/final \ntipper",
       "Advantage": "-50/-49"
     },
-    "Dolphin Slash": {
+    "Dancing Blade 4 Down": {
+      "ufdName":"DancingBlade3Down.gif",
+      "Startup": "7/10/13/16/19",
+      "Total Frames": "74",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "2.0 / 4.0 / 5.0",
+      "Shieldlag": "4/5/6",
+      "Shieldstun": "-/5/6",
+      "Hitbox": "Multi/final/final \ntipper",
+      "Advantage": "-50/-49"
+    },
+    "UpB": {
+      "ufdName":"MarthDolphinSlashG.gif",
       "Startup": "5",
       "Total Frames": "",
       "Landing Lag": "24",
@@ -273,15 +454,42 @@
       "Base Damage": "11.0 / 7.0",
       "Shieldlag": "8/7",
       "Shieldstun": "10/7",
-      "hitbox": "Early/late"
+      "Hitbox": "Early/late"
     },
-    "Counter": {
+    "Dolphin Slash": {
+      "ufdName":"MarthDolphinSlashG.gif",
+      "Startup": "5",
+      "Total Frames": "",
+      "Landing Lag": "24",
+      "Additional Notes": "Invulnerable on frame 4-5. 1-5 in the air. Can grab ledges as early as frame \n8 (facing toward) or 41 (facing away). And frames 2-5 if descending or very recently jumped",
+      "Base Damage": "11.0 / 7.0",
+      "Shieldlag": "8/7",
+      "Shieldstun": "10/7",
+      "Hitbox": "Early/late"
+    },
+    "DownB": {
+      "ufdName":"Counter.gif",
       "Startup": "",
       "Total Frames": "64",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 5. Counter window 6-27."
     },
+    "Counter": {
+      "ufdName":"Counter.gif",
+      "Startup": "",
+      "Total Frames": "64",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 5. Counter window 6-27."
+    },
+    "DownBAttack": {
+      "ufdName":"CounterHit.gif",
+      "Startup": "4",
+      "Total Frames": "40",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 1-7 in addition to counter freeze frames."
+    },
     "Counter (attack)": {
+      "ufdName":"CounterHit.gif",
       "Startup": "4",
       "Total Frames": "40",
       "Landing Lag": "",

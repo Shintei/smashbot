@@ -9,7 +9,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-24"
     },
     "Jab 2": {
@@ -20,7 +20,7 @@
       "Base Damage": "1.5",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26"
     },
     "Jab 3": {
@@ -31,7 +31,7 @@
       "Base Damage": "5.0",
       "Shieldlag": "12",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-23"
     },
     "Rapid Jab": {
@@ -51,7 +51,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "14",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-39"
     },
     "F-Tilt": {
@@ -62,7 +62,7 @@
       "Base Damage": "7.5",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "U-Tilt": {
@@ -73,7 +73,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20"
     },
     "D-Tilt": {
@@ -84,7 +84,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-8"
     },
     "Dash Attack": {
@@ -95,7 +95,7 @@
       "Base Damage": "10.0 / 6.0",
       "Shieldlag": "9/7",
       "Shieldstun": "10/6",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-23"
     },
     "F-Smash": {
@@ -106,7 +106,7 @@
       "Base Damage": "16.0 / 10.0 / 9.6",
       "Shieldlag": "15/12/8",
       "Shieldstun": "11/7/7",
-      "hitbox": "Early/late/Bronze",
+      "Hitbox": "Early/late/Bronze",
       "Advantage": "-30/-34"
     },
     "U-Smash": {
@@ -117,7 +117,7 @@
       "Base Damage": "10.0 / 15.0 / 9.0",
       "Shieldlag": "12/15/7",
       "Shieldstun": "7/10/7",
-      "hitbox": "Close/far/bronze",
+      "Hitbox": "Close/far/bronze",
       "Advantage": "-33/-30/-33"
     },
     "D-Smash": {
@@ -128,7 +128,7 @@
       "Base Damage": "15.0 / 12.0 / 8.0",
       "Shieldlag": "15/13/7",
       "Shieldstun": "-/8/6",
-      "hitbox": "Sword/spark/bronze",
+      "Hitbox": "Sword/spark/bronze",
       "Advantage": "-28/-34"
     },
     "N-Air": {
@@ -139,7 +139,7 @@
       "Base Damage": "11.5 / 6.9",
       "Shieldlag": "13/7",
       "Shieldstun": "5/3",
-      "hitbox": "Levin/bronze",
+      "Hitbox": "Levin/bronze",
       "Advantage": "-6/-8"
     },
     "F-Air": {
@@ -150,7 +150,7 @@
       "Base Damage": "12.5 / 7.5",
       "Shieldlag": "14/7",
       "Shieldstun": "5/3",
-      "hitbox": "Levin/bronze",
+      "Hitbox": "Levin/bronze",
       "Advantage": "-6/-8"
     },
     "B-Air": {
@@ -161,7 +161,7 @@
       "Base Damage": "15.0 / 5.0 / 9.0",
       "Shieldlag": "15/9/7",
       "Shieldstun": "5/3/4",
-      "hitbox": "Early/late/bronze",
+      "Hitbox": "Early/late/bronze",
       "Advantage": "-6/-8/-7"
     },
     "U-Air": {
@@ -172,7 +172,7 @@
       "Base Damage": "13.0 / 5.0 / 7.8",
       "Shieldlag": "14/9/7",
       "Shieldstun": "5/3/4",
-      "hitbox": "Early/late/bronze",
+      "Hitbox": "Early/late/bronze",
       "Advantage": "-6/-8/-7"
     },
     "D-Air": {
@@ -183,7 +183,7 @@
       "Base Damage": "11.0 / 8.0 / \n7.2 / 6.0 ",
       "Shieldlag": "16/11/7/6",
       "Shieldstun": "4/4/3/3",
-      "hitbox": "Levin Early/late\nBronze Early/late",
+      "Hitbox": "Levin Early/late\nBronze Early/late",
       "Advantage": "-7/-7/-8/-8"
     },
     "Thunder/Elthunder/Arcthunder": {
@@ -194,7 +194,7 @@
       "Base Damage": "5.5 / 11.0",
       "Shieldlag": "9/13",
       "Shieldstun": "3/4",
-      "hitbox": "Thunder/Elthunder",
+      "Hitbox": "Thunder/Elthunder",
       "Advantage": "-12/-13"
     },
     "Arcthunder (vortex) ": {
@@ -205,7 +205,7 @@
       "Base Damage": "6.0 / 2.4 / 8.0",
       "Shieldlag": "-/-/11",
       "Shieldstun": "-/-/3",
-      "hitbox": "first/multi/final",
+      "Hitbox": "first/multi/final",
       "Advantage": "|+0|"
     },
     "Thoron": {
@@ -216,7 +216,7 @@
       "Base Damage": "2.6 / 2.6",
       "Shieldlag": "-/7",
       "Shieldstun": "-/2",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-20"
     },
     "Arcfire": {
@@ -227,7 +227,7 @@
       "Base Damage": "2.0 / 1.3 / 4.0",
       "Shieldlag": "6/4/11",
       "Shieldstun": "2/2/2",
-      "hitbox": "First/multi/final",
+      "Hitbox": "First/multi/final",
       "Advantage": "|+13|"
     },
     "Elwind": {
@@ -238,7 +238,7 @@
       "Base Damage": "7.0 / 5.0",
       "Shieldlag": "7/6",
       "Shieldstun": "3/3",
-      "hitbox": "Early/late"
+      "Hitbox": "Early/late"
     },
     "Nosferatu": {
       "Startup": "15",

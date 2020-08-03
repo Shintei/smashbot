@@ -9,7 +9,7 @@
       "Base Damage": "4.0",
       "Shieldlag": "9",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "Jab 2": {
@@ -20,7 +20,7 @@
       "Base Damage": "5.0",
       "Shieldlag": "12",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-23"
     },
     "F-Tilt": {
@@ -31,7 +31,7 @@
       "Base Damage": "13.0",
       "Shieldlag": "9",
       "Shieldstun": "12",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "U-Tilt": {
@@ -42,7 +42,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "D-Tilt": {
@@ -53,7 +53,7 @@
       "Base Damage": "4.0",
       "Shieldlag": "5",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-7"
     },
     "Dash Attack": {
@@ -64,7 +64,7 @@
       "Base Damage": "11.0 / 5.0",
       "Shieldlag": "8/6",
       "Shieldstun": "10/6",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-33"
     },
     "F-Smash": {
@@ -75,7 +75,7 @@
       "Base Damage": "20.0",
       "Shieldlag": "12",
       "Shieldstun": "13",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-34"
     },
     "U-Smash": {
@@ -86,7 +86,7 @@
       "Base Damage": "17.0 / 13.0",
       "Shieldlag": "11/9",
       "Shieldstun": "11/9",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-35/-37"
     },
     "D-Smash": {
@@ -97,7 +97,7 @@
       "Base Damage": "13.0 / 10.0 / 5.0",
       "Shieldlag": "9",
       "Shieldstun": "9",
-      "hitbox": "Early/Late/Later",
+      "Hitbox": "Early/Late/Later",
       "Advantage": "-44"
     },
     "N-Air": {
@@ -108,7 +108,7 @@
       "Base Damage": "6.0 / 5.0",
       "Shieldlag": "6/6",
       "Shieldstun": "3/3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-4/-4"
     },
     "F-Air": {
@@ -119,7 +119,7 @@
       "Base Damage": "7.0 / 4.5",
       "Shieldlag": "7/5",
       "Shieldstun": "3/3",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-7/-7"
     },
     "B-Air": {
@@ -130,7 +130,7 @@
       "Base Damage": "12.0",
       "Shieldlag": "9",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-11"
     },
     "U-Air": {
@@ -141,7 +141,7 @@
       "Base Damage": "13.0",
       "Shieldlag": "9",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-2 "
     },
     "D-Air": {
@@ -152,7 +152,7 @@
       "Base Damage": "1.3 / 4.0",
       "Shieldlag": "4/11",
       "Shieldstun": "2/3",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-16/-15"
     },
     "Chomp": {
@@ -188,7 +188,7 @@
       "Base Damage": "5.0 / 13.0",
       "Shieldlag": "8/9\n11/14\n(Wario)",
       "Shieldstun": "3/5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-60/-10"
     },
     "Wario Bike (turnaround)": {
@@ -199,7 +199,7 @@
       "Base Damage": "7.0",
       "Shieldlag": "8\n12 (Wario)",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-40"
     },
     "Corkscrew": {
@@ -210,7 +210,7 @@
       "Base Damage": "5.0 / 1.0 / 4.0",
       "Shieldlag": "6/4/11",
       "Shieldstun": "-/2/5",
-      "hitbox": "First/multi/Final"
+      "Hitbox": "First/multi/Final"
     },
     "Wario Waft (first stage)": {
       "Startup": "16",
@@ -224,7 +224,7 @@
       "Base Damage": "12.0+",
       "Shieldlag": "10",
       "Shieldstun": "13",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-41"
     },
     "Wario Waft (third stage)": {
@@ -235,7 +235,7 @@
       "Base Damage": "20.0+",
       "Shieldlag": "13",
       "Shieldstun": "20",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-24"
     },
     "Wario Waft (final stage)": {
@@ -246,7 +246,7 @@
       "Base Damage": "27.0 / 20.0",
       "Shieldlag": "19/12",
       "Shieldstun": "23/18",
-      "hitbox": "Cloud/Body",
+      "Hitbox": "Cloud/Body",
       "Advantage": "-28"
     },
     "Grab": {

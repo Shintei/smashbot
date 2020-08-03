@@ -1,5 +1,7 @@
 {
   "name": "32 - Ike",
+  "uriComponent": "ike",
+  "movePrefix": "Ike",
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -9,7 +11,7 @@
       "Base Damage": "2.5",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "Jab 2": {
@@ -20,7 +22,7 @@
       "Base Damage": "2.5",
       "Shieldlag": "6",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20"
     },
     "Jab 3": {
@@ -31,7 +33,7 @@
       "Base Damage": "5.0",
       "Shieldlag": "12",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-29"
     },
     "F-Tilt": {
@@ -42,7 +44,29 @@
       "Base Damage": "12.5",
       "Shieldlag": "9",
       "Shieldstun": "12",
-      "hitbox": "",
+      "Hitbox": "",
+      "Advantage": "-17"
+    },
+    "F-TiltUp": {
+      "Startup": "12",
+      "Total Frames": "41",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "12.5",
+      "Shieldlag": "9",
+      "Shieldstun": "12",
+      "Hitbox": "",
+      "Advantage": "-17"
+    },
+    "F-TiltDown": {
+      "Startup": "12",
+      "Total Frames": "41",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "12.5",
+      "Shieldlag": "9",
+      "Shieldstun": "12",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "U-Tilt": {
@@ -53,7 +77,7 @@
       "Base Damage": "12.0",
       "Shieldlag": "9",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "D-Tilt": {
@@ -64,7 +88,7 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Dash Attack": {
@@ -75,7 +99,7 @@
       "Base Damage": "14.0",
       "Shieldlag": "12",
       "Shieldstun": "15",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "F-Smash": {
@@ -86,7 +110,7 @@
       "Base Damage": "19.0 / 22.0",
       "Shieldlag": "12/13",
       "Shieldstun": "13/14",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-39/-36"
     },
     "U-Smash": {
@@ -97,7 +121,7 @@
       "Base Damage": "17.0",
       "Shieldlag": "11",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-34"
     },
     "D-Smash": {
@@ -108,7 +132,7 @@
       "Base Damage": "16.0 / 19.0",
       "Shieldlag": "10/12",
       "Shieldstun": "11/13",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-46/-25"
     },
     "N-Air": {
@@ -119,7 +143,7 @@
       "Base Damage": "7.5 / 6.0",
       "Shieldlag": "7/6",
       "Shieldstun": "3/3",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-5"
     },
     "F-Air": {
@@ -130,7 +154,7 @@
       "Base Damage": "13.0",
       "Shieldlag": "9",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-9"
     },
     "B-Air": {
@@ -141,7 +165,7 @@
       "Base Damage": "14.0",
       "Shieldlag": "10",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
     "U-Air": {
@@ -152,7 +176,7 @@
       "Base Damage": "11.0",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5"
     },
     "D-Air": {
@@ -163,10 +187,11 @@
       "Base Damage": "15.0",
       "Shieldlag": "10",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-9"
     },
-    "Eruption": {
+    "NeutralB": {
+      "ufdName":"Eruption.gif",
       "Startup": "30-239",
       "Total Frames": "78-287",
       "Landing Lag": "",
@@ -174,10 +199,47 @@
       "Base Damage": "10.0 - 35.0",
       "Shieldlag": "8-16",
       "Shieldstun": "10-",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-38 to shieldbreak"
     },
-    "Quick Draw": {
+    "Eruption": {
+      "ufdName":"Eruption.gif",
+      "Startup": "30-239",
+      "Total Frames": "78-287",
+      "Landing Lag": "",
+      "Additional Notes": "On release, startup is 11 and total frames is 59",
+      "Base Damage": "10.0 - 35.0",
+      "Shieldlag": "8-16",
+      "Shieldstun": "10-",
+      "Hitbox": "",
+      "Advantage": "-38 to shieldbreak"
+    },
+    "NeutralBCharged": {
+      "ufdName":"EruptionMax.gif",
+      "Startup": "30-239",
+      "Total Frames": "78-287",
+      "Landing Lag": "",
+      "Additional Notes": "On release, startup is 11 and total frames is 59",
+      "Base Damage": "10.0 - 35.0",
+      "Shieldlag": "8-16",
+      "Shieldstun": "10-",
+      "Hitbox": "",
+      "Advantage": "-38 to shieldbreak"
+    },
+    "Eruption Charged": {
+      "ufdName":"EruptionMax.gif",
+      "Startup": "30-239",
+      "Total Frames": "78-287",
+      "Landing Lag": "",
+      "Additional Notes": "On release, startup is 11 and total frames is 59",
+      "Base Damage": "10.0 - 35.0",
+      "Shieldlag": "8-16",
+      "Shieldstun": "10-",
+      "Hitbox": "",
+      "Advantage": "-38 to shieldbreak"
+    },
+    "SideB": {
+      "ufdName":"QuickDraw.gif",
       "Startup": "16",
       "Total Frames": "53/34/44",
       "Landing Lag": "30",
@@ -185,10 +247,23 @@
       "Base Damage": "6.0 - 13.0",
       "Shieldlag": "6-9",
       "Shieldstun": "6-12",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28 to -22"
     },
-    "Aether": {
+    "Quick Draw": {
+      "ufdName":"QuickDraw.gif",
+      "Startup": "16",
+      "Total Frames": "53/34/44",
+      "Landing Lag": "30",
+      "Additional Notes": "Reaches max charge around 85. Startup is 2 upon reaching a target. Swing total frames\nis 34, or 44 from the air. Landing lag only occurs after entering special fall. \nCan continue recovery options after an air swing on frame 44",
+      "Base Damage": "6.0 - 13.0",
+      "Shieldlag": "6-9",
+      "Shieldstun": "6-12",
+      "Hitbox": "",
+      "Advantage": "-28 to -22"
+    },
+    "UpB": {
+      "ufdName":["AetherG.gif","AetherSword.gif"],
       "Startup": "15/44/51//61",
       "Total Frames": "",
       "Landing Lag": "36",
@@ -196,16 +271,44 @@
       "Base Damage": "6.0 / 1.0 / 3.0 / \n6.0",
       "Shieldlag": "6/4/5/6",
       "Shieldstun": "6/2/4/6",
-      "hitbox": "First/multi/falling/\nlanding",
+      "Hitbox": "First/multi/falling/\nlanding",
       "Advantage": "-29"
     },
-    "Counter": {
+    "Aether": {
+      "ufdName":["AetherG.gif","AetherSword.gif"],
+      "Startup": "15/44/51//61",
+      "Total Frames": "",
+      "Landing Lag": "36",
+      "Additional Notes": "Landing hit on frame 1. Super armor on frame 5-35. Frame 15-35 for the air version. \nGrabs ledges on frame 59 onward assuming he is facing the ledge",
+      "Base Damage": "6.0 / 1.0 / 3.0 / \n6.0",
+      "Shieldlag": "6/4/5/6",
+      "Shieldstun": "6/2/4/6",
+      "Hitbox": "First/multi/falling/\nlanding",
+      "Advantage": "-29"
+    },
+    "DownB": {
+      "ufdName":"Counter.gif",
       "Startup": "",
       "Total Frames": "73",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 8. Counters on frame 9-33"
     },
+    "Counter": {
+      "ufdName":"Counter.gif",
+      "Startup": "",
+      "Total Frames": "73",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 8. Counters on frame 9-33"
+    },
+    "DownBAttack": {
+      "ufdName":"CounterHit.gif",
+      "Startup": "4",
+      "Total Frames": "43",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 1-4 in addition to counter freeze frames"
+    },
     "Counter (attack)": {
+      "ufdName":"CounterHit.gif",
       "Startup": "4",
       "Total Frames": "43",
       "Landing Lag": "",

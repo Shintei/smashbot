@@ -1,5 +1,7 @@
 {
   "name": "23 - Ganondorf",
+  "uriComponent": "ganondorf",
+  "movePrefix": "Ganondorf",
   "moves": {
     "Jab": {
       "Startup": "7",
@@ -9,7 +11,7 @@
       "Base Damage": "11.0",
       "Shieldlag": "13",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-9 "
     },
     "F-Tilt": {
@@ -20,7 +22,19 @@
       "Base Damage": "13.0 / 14.0",
       "Shieldlag": "9/10",
       "Shieldstun": "12/13",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
+      "Advantage": "-17/-16"
+    },
+    "SpartaKick": {
+      "ufdName":"FTilt.gif",
+      "Startup": "10",
+      "Total Frames": "39",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "13.0 / 14.0",
+      "Shieldlag": "9/10",
+      "Shieldstun": "12/13",
+      "Hitbox": "Close/far",
       "Advantage": "-17/-16"
     },
     "U-Tilt": {
@@ -31,7 +45,7 @@
       "Base Damage": "24.0 / 13.0",
       "Shieldlag": "14/9",
       "Shieldstun": "21/12",
-      "hitbox": "explosion/flames",
+      "Hitbox": "explosion/flames",
       "Advantage": "-14"
     },
     "D-Tilt": {
@@ -42,7 +56,19 @@
       "Base Damage": "14.0 ",
       "Shieldlag": "10",
       "Shieldstun": "13",
-      "hitbox": "",
+      "Hitbox": "",
+      "Advantage": "-12"
+    },
+    "BabySpartaKick": {
+      "ufdName":"DTilt.gif",
+      "Startup": "10",
+      "Total Frames": "35",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "14.0 ",
+      "Shieldlag": "10",
+      "Shieldstun": "13",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "Dash Attack": {
@@ -53,7 +79,7 @@
       "Base Damage": "15.0 / 11.0",
       "Shieldlag": "10/8",
       "Shieldstun": "14/13",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-13"
     },
     "F-Smash": {
@@ -64,7 +90,7 @@
       "Base Damage": "24.0",
       "Shieldlag": "14",
       "Shieldstun": "15",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-25"
     },
     "U-Smash": {
@@ -75,7 +101,7 @@
       "Base Damage": "24.0 / 21.0",
       "Shieldlag": "14/13",
       "Shieldstun": "15/14",
-      "hitbox": "Far/close",
+      "Hitbox": "Far/close",
       "Advantage": "-26/-27"
     },
     "D-Smash": {
@@ -86,7 +112,7 @@
       "Base Damage": "5.0 / 15.0",
       "Shieldlag": "6/10",
       "Shieldstun": "4/10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-40/-24"
     },
     "N-Air": {
@@ -97,7 +123,7 @@
       "Base Damage": "7.0 / 5.25 / \n12.0 / 9.5",
       "Shieldlag": "7/6/\n11/9",
       "Shieldstun": "3/3/\n5/4",
-      "hitbox": "First Early/late\nSecond early/late",
+      "Hitbox": "First Early/late\nSecond early/late",
       "Advantage": "-7/-7\n-5/-6"
     },
     "F-Air": {
@@ -108,7 +134,7 @@
       "Base Damage": "17.0 / 18.0",
       "Shieldlag": "11/13",
       "Shieldstun": "6/6",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-7/-7"
     },
     "B-Air": {
@@ -119,7 +145,7 @@
       "Base Damage": "17.0 / 18.5",
       "Shieldlag": "11/14",
       "Shieldstun": "6/6",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-5/-5"
     },
     "U-Air": {
@@ -130,7 +156,7 @@
       "Base Damage": "13.0 / 12.0\n12.0 / 10.0\n8.0 / 6.0",
       "Shieldlag": "9/9\n9/8\n7/6",
       "Shieldstun": "5/5\n5/4\n4/3",
-      "hitbox": "Early close/far\nlate close/far\nlater close/far",
+      "Hitbox": "Early close/far\nlate close/far\nlater close/far",
       "Advantage": "-6/-6\n-6/-7\n-7/-8"
     },
     "D-Air": {
@@ -141,10 +167,11 @@
       "Base Damage": "19.0 / 17.0",
       "Shieldlag": "15/15",
       "Shieldstun": "7/6",
-      "hitbox": "legs/waist",
+      "Hitbox": "legs/waist",
       "Advantage": "-9/-10"
     },
-    "Warlock Punch (normal/reversed)": {
+    "NeutralB": {
+      "ufdName":"WarlockPunchG.gif",
       "Startup": "70/80",
       "Total Frames": "117/127",
       "Landing Lag": "",
@@ -152,10 +179,23 @@
       "Base Damage": "30.0 / 37.0",
       "Shieldlag": "15/16",
       "Shieldstun": "26/31",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21/-16"
     },
-    "Warlock Punch (air) (normal/reversed)": {
+    "Warlock Punch": {
+      "ufdName":"WarlockPunchG.gif",
+      "Startup": "70/80",
+      "Total Frames": "117/127",
+      "Landing Lag": "",
+      "Additional Notes": "Super armor on frame 11-66 ",
+      "Base Damage": "30.0 / 37.0",
+      "Shieldlag": "15/16",
+      "Shieldstun": "26/31",
+      "Hitbox": "",
+      "Advantage": "-21/-16"
+    },
+    "AirNeutralB": {
+      "ufdName":"WarlockPunchA.gif",
       "Startup": "70/80",
       "Total Frames": "117/127",
       "Landing Lag": "",
@@ -163,36 +203,85 @@
       "Base Damage": "38.0 / 40.0",
       "Shieldlag": "16/16",
       "Shieldstun": "32/34",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15/-13"
     },
-    "Flame Choke": {
+    "Warlock Punch (air)": {
+      "ufdName":"WarlockPunchA.gif",
+      "Startup": "70/80",
+      "Total Frames": "117/127",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "38.0 / 40.0",
+      "Shieldlag": "16/16",
+      "Shieldstun": "32/34",
+      "Hitbox": "",
+      "Advantage": "-15/-13"
+    },
+    "SideB": {
+      "ufdName":"FlameChokeG.gif",
       "Startup": "16",
       "Total Frames": "59",
       "Landing Lag": "",
-      "Additional Notes": "Damage dealt 32 frames after a grab. 57 total frames."
+      "Additional Notes": "Damage dealt 32 frames after a grab. 57 total frames.",
+      "FIU Advice": "Just block it, bro"
     },
-    "Flame Choke (success)": {
+    "Flame Choke": {
+      "ufdName":"FlameChokeG.gif",
+      "Startup": "16",
+      "Total Frames": "59",
+      "Landing Lag": "",
+      "Additional Notes": "Damage dealt 32 frames after a grab. 57 total frames.",
+      "FIU Advice": "Just block it, bro"
+    },
+    "SideBGrab": {
+      "ufdName":"FlameChoke.gif",
       "Startup": "32",
       "Total Frames": "57",
       "Landing Lag": "",
       "Additional Notes": "Armor on frame 18-41",
       "Base Damage": "12.0"
     },
-    "Flame Choke (air)": {
+    "Flame Choke (success)": {
+      "ufdName":"FlameChoke.gif",
+      "Startup": "32",
+      "Total Frames": "57",
+      "Landing Lag": "",
+      "Additional Notes": "Armor on frame 18-41",
+      "Base Damage": "12.0"
+    },
+    "AirSideB": {
+      "ufdName":"FlameChokeA.gif",
       "Startup": "16",
       "Total Frames": "",
       "Landing Lag": "29/20",
       "Additional Notes": "29 landing lag if you don't enter special fall. 20 if you do."
     },
-    "Flame Choke (air success)": {
+    "Flame Choke (air)": {
+      "ufdName":"FlameChokeA.gif",
+      "Startup": "16",
+      "Total Frames": "",
+      "Landing Lag": "29/20",
+      "Additional Notes": "29 landing lag if you don't enter special fall. 20 if you do."
+    },
+    "AirSideBGrab": {
+      "ufdName":"FlameChokeA.gif",
       "Startup": "",
       "Total Frames": "",
       "Landing Lag": "37",
       "Additional Notes": "Damage dealt on frame 1 of landing.",
       "Base Damage": "15.0"
     },
-    "Dark Dive": {
+    "Flame Choke (air success)": {
+      "ufdName":"FlameChokeA.gif",
+      "Startup": "",
+      "Total Frames": "",
+      "Landing Lag": "37",
+      "Additional Notes": "Damage dealt on frame 1 of landing.",
+      "Base Damage": "15.0"
+    },
+    "UpB": {
+      "ufdName":"DarkDive.gif",
       "Startup": "14/34",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -201,7 +290,18 @@
       "Shieldlag": "7",
       "Shieldstun": "7"
     },
-    "Dark Dive (grab success)": {
+    "Dark Dive": {
+      "ufdName":"DarkDive.gif",
+      "Startup": "14/34",
+      "Total Frames": "",
+      "Landing Lag": "30",
+      "Additional Notes": "First startup is for the grab. Can grab ledges on frame \n19 (facing toward) or 38 (facing away)",
+      "Base Damage": "7.0",
+      "Shieldlag": "7",
+      "Shieldstun": "7"
+    },
+    "UpBGrab": {
+      "ufdName":"DarkDiveCatch.gif",
       "Startup": "3/11/19/27/32",
       "Total Frames": "80",
       "Landing Lag": "",
@@ -209,9 +309,21 @@
       "Base Damage": "1.9 / 9.0",
       "Shieldlag": "",
       "Shieldstun": "",
-      "hitbox": "multi/final"
+      "Hitbox": "multi/final"
     },
-    "Wizard's Foot": {
+    "Dark Dive (grab success)": {
+      "ufdName":"DarkDiveCatch.gif",
+      "Startup": "3/11/19/27/32",
+      "Total Frames": "80",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "1.9 / 9.0",
+      "Shieldlag": "",
+      "Shieldstun": "",
+      "Hitbox": "multi/final"
+    },
+    "DownB": {
+      "ufdName":"WizardsFootG.gif",
       "Startup": "16",
       "Total Frames": "60/68",
       "Landing Lag": "",
@@ -219,10 +331,23 @@
       "Base Damage": "14.0 / 16.0",
       "Shieldlag": "10/10",
       "Shieldstun": "13/14",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-31/-30"
     },
-    "Wizard's Foot (air)": {
+    "Wizard's Foot": {
+      "ufdName":"WizardsFootG.gif",
+      "Startup": "16",
+      "Total Frames": "60/68",
+      "Landing Lag": "",
+      "Additional Notes": "Total frames is 68 if you go over an edge.",
+      "Base Damage": "14.0 / 16.0",
+      "Shieldlag": "10/10",
+      "Shieldstun": "13/14",
+      "Hitbox": "close/far",
+      "Advantage": "-31/-30"
+    },
+    "AirDownB": {
+      "ufdName":"WizardsFootA.gif",
       "Startup": "16",
       "Total Frames": "57",
       "Landing Lag": "44",
@@ -230,7 +355,19 @@
       "Base Damage": "15.0 / 14.0 / 8.0",
       "Shieldlag": "10/10",
       "Shieldstun": "14/13/8",
-      "hitbox": "Close/far/landing",
+      "Hitbox": "Close/far/landing",
+      "Advantage": "-34"
+    },
+    "Wizard's Foot (air)": {
+      "ufdName":"WizardsFootA.gif",
+      "Startup": "16",
+      "Total Frames": "57",
+      "Landing Lag": "44",
+      "Additional Notes": "Hitbox on frame 2 of landing.",
+      "Base Damage": "15.0 / 14.0 / 8.0",
+      "Shieldlag": "10/10",
+      "Shieldstun": "14/13/8",
+      "Hitbox": "Close/far/landing",
       "Advantage": "-34"
     },
     "Grab": {

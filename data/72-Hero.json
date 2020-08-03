@@ -1,5 +1,7 @@
 {
   "name": "72 - Hero",
+  "uriComponent": "hero",
+  "movePrefix": "Hero",
   "moves": {
     "Jab 1": {
       "Startup": "6",
@@ -9,7 +11,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "6",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "Jab 2": {
@@ -20,7 +22,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "5",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "Jab 3": {
@@ -31,7 +33,7 @@
       "Base Damage": "4.0",
       "Shieldlag": "10",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-25"
     },
     "F-Tilt 1": {
@@ -42,7 +44,7 @@
       "Base Damage": "5.0",
       "Shieldlag": "8",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21"
     },
     "F-Tilt 2": {
@@ -53,7 +55,7 @@
       "Base Damage": "8.0",
       "Shieldlag": "8",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-30"
     },
     "U-Tilt": {
@@ -64,7 +66,7 @@
       "Base Damage": "11.0",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-23"
     },
     "D-Tilt": {
@@ -75,7 +77,7 @@
       "Base Damage": "7.0",
       "Shieldlag": "7",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19"
     },
     "Dash Attack": {
@@ -86,7 +88,7 @@
       "Base Damage": "13.0 / 15.0",
       "Shieldlag": "9/11",
       "Shieldstun": "12/14",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-18/16"
     },
     "F-Smash": {
@@ -97,7 +99,7 @@
       "Base Damage": "18.0 / 36.0",
       "Shieldlag": "14/27",
       "Shieldstun": "12/22",
-      "hitbox": "normal/critical",
+      "Hitbox": "normal/critical",
       "Advantage": "-36/-26"
     },
     "U-Smash": {
@@ -108,7 +110,7 @@
       "Base Damage": "16.0 / 32.0",
       "Shieldlag": "13/27",
       "Shieldstun": "11/20",
-      "hitbox": "normal/critical",
+      "Hitbox": "normal/critical",
       "Advantage": "-29/-20"
     },
     "D-Smash": {
@@ -119,7 +121,7 @@
       "Base Damage": "11.0 / 13.0\n22.0 / 26.0",
       "Shieldlag": "8/9\n25/27",
       "Shieldstun": "8/9\n14/17",
-      "hitbox": "normal close/far\ncritical close/far"
+      "Hitbox": "normal close/far\ncritical close/far"
     },
     "N-Air": {
       "Startup": "8",
@@ -129,7 +131,7 @@
       "Base Damage": "9.0",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
     "F-Air": {
@@ -140,7 +142,7 @@
       "Base Damage": "12.0 / 10.0",
       "Shieldlag": "10/9",
       "Shieldstun": "5/4",
-      "hitbox": "far/close",
+      "Hitbox": "far/close",
       "Advantage": "-7/-8"
     },
     "B-Air": {
@@ -151,7 +153,7 @@
       "Base Damage": "14.0 / 12.0",
       "Shieldlag": "10/9",
       "Shieldstun": "5/5",
-      "hitbox": "far/close",
+      "Hitbox": "far/close",
       "Advantage": "-9/-9"
     },
     "U-Air": {
@@ -162,7 +164,7 @@
       "Base Damage": "7.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5"
     },
     "D-Air": {
@@ -173,7 +175,7 @@
       "Base Damage": "16.0 / 10.0",
       "Shieldlag": "12/8",
       "Shieldstun": "6/4",
-      "hitbox": "early/late",
+      "Hitbox": "early/late",
       "Advantage": "-12/-14"
     },
     "Frizz": {
@@ -184,7 +186,7 @@
       "Base Damage": "9.0",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-22"
     },
     "Frizzle": {
@@ -195,7 +197,7 @@
       "Base Damage": "18.0",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28"
     },
     "Kafrizz": {
@@ -206,10 +208,11 @@
       "Base Damage": "19.0 / 3.0",
       "Shieldlag": "25",
       "Shieldstun": "2",
-      "hitbox": "projectile/eruption",
+      "Hitbox": "projectile/eruption",
       "Advantage": "-24"
     },
-    "Zap": {
+    "SideB": {
+      "ufdName":"Zap.gif",
       "Startup": "9/13 (+7)",
       "Total Frames": "38",
       "Landing Lag": "",
@@ -217,10 +220,23 @@
       "Base Damage": "5.0 / 3.0 / 9.0",
       "Shieldlag": "11/7",
       "Shieldstun": "6/4",
-      "hitbox": "close/far/bolt",
+      "Hitbox": "close/far/bolt",
+      "Advantage": "-12 "
+    },
+    "Zap": {
+      "ufdName":"Zap.gif",
+      "Startup": "9/13 (+7)",
+      "Total Frames": "38",
+      "Landing Lag": "",
+      "Additional Notes": "7 frames to enter charge state. Bolt does not occur on block. Cost: 8MP",
+      "Base Damage": "5.0 / 3.0 / 9.0",
+      "Shieldlag": "11/7",
+      "Shieldstun": "6/4",
+      "Hitbox": "close/far/bolt",
       "Advantage": "-12 "
     },
     "Zapple": {
+      "ufdName":"Zapple.gif",
       "Startup": "10/15 (+16)",
       "Total Frames": "50",
       "Landing Lag": "",
@@ -228,10 +244,11 @@
       "Base Damage": "6.0 / 14.0",
       "Shieldlag": "9",
       "Shieldstun": "6",
-      "hitbox": "first/second bolt",
+      "Hitbox": "first/second bolt",
       "Advantage": "-25"
     },
-    "Kazap": {
+    "SideBCharged": {
+      "ufdName":"Kazap.gif",
       "Startup": "50/72/81/85",
       "Total Frames": "126",
       "Landing Lag": "",
@@ -239,8 +256,29 @@
       "Base Damage": "4.0 / 6.0 / \n12.0 / 16.0",
       "Shieldlag": "14/9/12",
       "Shieldstun": "4/-/4",
-      "hitbox": "first/second/\nthird/bolt",
+      "Hitbox": "first/second/\nthird/bolt",
       "Advantage": "-29"
+    },
+    "Kazap": {
+      "ufdName":"Kazap.gif",
+      "Startup": "50/72/81/85",
+      "Total Frames": "126",
+      "Landing Lag": "",
+      "Additional Notes": "Final hit does not occur on a blocking opponent. Cost: 42MP",
+      "Base Damage": "4.0 / 6.0 / \n12.0 / 16.0",
+      "Shieldlag": "14/9/12",
+      "Shieldstun": "4/-/4",
+      "Hitbox": "first/second/\nthird/bolt",
+      "Advantage": "-29"
+    },
+    "UpB": {
+      "Startup": "4 (+3)",
+      "Total Frames": "",
+      "Landing Lag": "12",
+      "Additional Notes": "Takes 3 frames to enter charge state. Cost: 5MP. Can grab ledges on frame 15",
+      "Base Damage": "7.0",
+      "Shieldlag": "7",
+      "Shieldstun": "3"
     },
     "Woosh": {
       "Startup": "4 (+3)",
@@ -259,7 +297,17 @@
       "Base Damage": "3.0 / 4.0",
       "Shieldlag": "5/5",
       "Shieldstun": "2/2",
-      "hitbox": "multi/final"
+      "Hitbox": "multi/final"
+    },
+    "UpBCharged": {
+      "Startup": "39/49/59/69/79/89",
+      "Total Frames": "",
+      "Landing Lag": "29",
+      "Additional Notes": "Cost: 18 MP. Failing to cast any level of charge results in 12 landing lag.\nCan grab ledges on frame 19",
+      "Base Damage": "3.0 / 4.0",
+      "Shieldlag": "5/5",
+      "Shieldstun": "2/2",
+      "Hitbox": "multi/final"
     },
     "Kaswoosh": {
       "Startup": "39/49/59/69/79/89",
@@ -269,7 +317,13 @@
       "Base Damage": "3.0 / 4.0",
       "Shieldlag": "5/5",
       "Shieldstun": "2/2",
-      "hitbox": "multi/final"
+      "Hitbox": "multi/final"
+    },
+    "DownB": {
+      "Startup": "",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "19 frames before a chosen spell can begin. Takes 4 frames to exit command list."
     },
     "Command Selection": {
       "Startup": "",
@@ -285,7 +339,7 @@
       "Base Damage": "1.5 / 14.0",
       "Shieldlag": "-/11",
       "Shieldstun": "-/5",
-      "hitbox": "projectile/explosion",
+      "Hitbox": "projectile/explosion",
       "Advantage": "-16"
     },
     "--Kaboom": {
@@ -296,7 +350,7 @@
       "Base Damage": "2.0 / 26.0 ",
       "Shieldlag": "4/15",
       "Shieldstun": "2/8",
-      "hitbox": "projectile/explosion",
+      "Hitbox": "projectile/explosion",
       "Advantage": "|+2|"
     },
     "-Sizz": {
@@ -307,7 +361,7 @@
       "Base Damage": "1.5 / 12.0",
       "Shieldlag": "5",
       "Shieldstun": "2",
-      "hitbox": "projectile/explosion",
+      "Hitbox": "projectile/explosion",
       "Advantage": "-26"
     },
     "--Sizzle": {
@@ -318,7 +372,7 @@
       "Base Damage": "3.0 / 22.0",
       "Shieldlag": "5",
       "Shieldstun": "2",
-      "hitbox": "projectile/explosion",
+      "Hitbox": "projectile/explosion",
       "Advantage": "-30"
     },
     "-Whack": {
@@ -329,7 +383,7 @@
       "Base Damage": "1.0 ",
       "Shieldlag": "4",
       "Shieldstun": "2",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-29"
     },
     "--Thwack": {
@@ -340,7 +394,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "5",
       "Shieldstun": "2",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28"
     },
     "-Kamikaze": {
@@ -358,7 +412,7 @@
       "Base Damage": "1.0 - 4.2 / \n2.7 - 11.0",
       "Shieldlag": "4-5/\n7-13",
       "Shieldstun": "2-4/\n4-10",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-36 to -24"
     },
     "-Snooze": {
@@ -417,7 +471,7 @@
       "Base Damage": "22.0",
       "Shieldlag": "12",
       "Shieldstun": "19",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "-Kacrackle Slash": {
@@ -428,7 +482,7 @@
       "Base Damage": "17.0",
       "Shieldlag": "10",
       "Shieldstun": "15",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-14"
     },
     "-Hatchet Man": {
@@ -448,7 +502,7 @@
       "Base Damage": "1.0",
       "Shieldlag": "4",
       "Shieldstun": "2",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26"
     },
     "-Psyche Up": {
@@ -457,7 +511,6 @@
       "Landing Lag": "",
       "Additional Notes": "Cost: 14MP "
     },
-    "undefined": {},
     "Grab": {
       "Startup": "6",
       "Total Frames": "34"

@@ -1,5 +1,7 @@
 {
   "name": "68 - Isabelle",
+  "uriComponent": "isabelle",
+  "movePrefix": "Isabelle",
   "moves": {
     "Jab": {
       "Startup": "3",
@@ -9,7 +11,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "4",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "F-Tilt": {
@@ -20,7 +22,7 @@
       "Base Damage": "9.0",
       "Shieldlag": "7",
       "Shieldstun": "9",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19"
     },
     "U-Tilt": {
@@ -31,7 +33,7 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "D-Tilt": {
@@ -42,7 +44,7 @@
       "Base Damage": "13.0 / 8.0",
       "Shieldlag": "9/7",
       "Shieldstun": "12/8",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-14/-18"
     },
     "Dash Attack": {
@@ -53,7 +55,7 @@
       "Base Damage": "10.0 / 6.0 ",
       "Shieldlag": "8/6",
       "Shieldstun": "4/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-20"
     },
     "F-Smash": {
@@ -64,7 +66,7 @@
       "Base Damage": "17.0",
       "Shieldlag": "10",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20"
     },
     "U-Smash": {
@@ -75,7 +77,7 @@
       "Base Damage": "2.0 / 12.0",
       "Shieldlag": "0/11",
       "Shieldstun": "4/8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "D-Smash": {
@@ -86,7 +88,7 @@
       "Base Damage": "10.0 / 8.0",
       "Shieldlag": "8/7",
       "Shieldstun": "7/6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28/-25"
     },
     "N-Air": {
@@ -97,7 +99,7 @@
       "Base Damage": "10.0 / 6.0",
       "Shieldlag": "8/6",
       "Shieldstun": "4/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-2/-3"
     },
     "F-Air": {
@@ -108,7 +110,7 @@
       "Base Damage": "7.0 / 4.0 / 2.5",
       "Shieldlag": "7/5/5",
       "Shieldstun": "3/3/2",
-      "hitbox": "Early/late/later",
+      "Hitbox": "Early/late/later",
       "Advantage": "-4"
     },
     "B-Air": {
@@ -119,7 +121,7 @@
       "Base Damage": "9.0 / 5.0 / 3.0",
       "Shieldlag": "7/6/5",
       "Shieldstun": "4/3/2",
-      "hitbox": "Early/late/later",
+      "Hitbox": "Early/late/later",
       "Advantage": "-3"
     },
     "U-Air": {
@@ -130,7 +132,7 @@
       "Base Damage": "10.0 / 5.0",
       "Shieldlag": "8/6",
       "Shieldstun": "4/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-5/-6"
     },
     "D-Air": {
@@ -141,10 +143,18 @@
       "Base Damage": "10.0 / 5.0",
       "Shieldlag": "8/6",
       "Shieldstun": "4/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-5/-6"
     },
+    "NeutralB": {
+      "ufdName":"Pocket.gif",
+      "Startup": "",
+      "Total Frames": "50",
+      "Landing Lag": "",
+      "Additional Notes": "invulnerable on frame 5-23. Pockets projectiles on frame 9-23."
+    },
     "Pocket": {
+      "ufdName":"Pocket.gif",
       "Startup": "",
       "Total Frames": "50",
       "Landing Lag": "",
@@ -156,6 +166,12 @@
       "Landing Lag": "",
       "Additional Notes": "This is not the same throw as with a holdable item"
     },
+    "SideB": {
+      "Startup": "21",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "Frame 46 is the earliest you can reel in. Tethers on frame 18"
+    },
     "Fishing Rod": {
       "Startup": "21",
       "Total Frames": "",
@@ -166,41 +182,86 @@
       "Startup": "3",
       "Total Frames": "38"
     },
-    "Fishing Rod Throw Forward": {
+    "SideBForward": {
+      "ufdName":"FishingRodFThrow.gif",
       "Startup": "15",
       "Total Frames": "45",
       "Landing Lag": "",
       "Additional Notes": "",
       "Base Damage": "14.1 - 16.5"
     },
-    "Fishing Rod Throw Back": {
+    "Fishing Rod Throw Forward": {
+      "ufdName":"FishingRodFThrow.gif",
+      "Startup": "15",
+      "Total Frames": "45",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "14.1 - 16.5"
+    },
+    "SideBBack": {
+      "ufdName":"FishingRodBThrow.gif",
       "Startup": "13",
       "Total Frames": "35",
       "Landing Lag": "",
       "Additional Notes": "",
       "Base Damage": "11.0 - 13.9"
     },
-    "Fishing Rod Throw Up": {
+    "Fishing Rod Throw Back": {
+      "ufdName":"FishingRodBThrow.gif",
+      "Startup": "13",
+      "Total Frames": "35",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "11.0 - 13.9"
+    },
+    "SideBUp": {
+      "ufdName":"FishingRodUThrow.gif",
       "Startup": "22",
       "Total Frames": "43",
       "Landing Lag": "",
       "Additional Notes": "",
       "Base Damage": "12.0 - 14.6"
     },
-    "Fishing Rod Throw Down": {
+    "Fishing Rod Throw Up": {
+      "ufdName":"FishingRodUThrow.gif",
+      "Startup": "22",
+      "Total Frames": "43",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "12.0 - 14.6"
+    },
+    "SideBDown": {
+      "ufdName":"FishingRodDThrow.gif",
       "Startup": "18/22",
       "Total Frames": "39",
       "Landing Lag": "",
       "Additional Notes": "",
       "Base Damage": "1.0 - 4.0/ 8.5-11.4"
     },
-    "Balloon Trip": {
+    "Fishing Rod Throw Down": {
+      "ufdName":"FishingRodDThrow.gif",
+      "Startup": "18/22",
+      "Total Frames": "39",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "1.0 - 4.0/ 8.5-11.4"
+    },
+    "UpB": {
+      "ufdName":"BalloonHurtbox.png",
       "Startup": "",
       "Total Frames": "",
       "Landing Lag": "20/30",
       "Additional Notes": "20 landing lag if you land inside the swing. 30 if you land from special fall.\nCan grab ledges as early as frame 7"
     },
-    "Lloid Trap": {
+    "Balloon Trip": {
+      "ufdName":"BalloonHurtbox.png",
+      "Startup": "",
+      "Total Frames": "",
+      "Landing Lag": "20/30",
+      "Additional Notes": "20 landing lag if you land inside the swing. 30 if you land from special fall.\nCan grab ledges as early as frame 7"
+    },
+    "DownB": {
+      "ufdName":"LloidTrap.gif",
       "Startup": "9/17/25/34/43/51",
       "Total Frames": "49/26",
       "Landing Lag": "",
@@ -208,7 +269,18 @@
       "Base Damage": "1.6 / 0.9 / 12.0",
       "Shieldlag": "4/4/11",
       "Shieldstun": "2/2/4",
-      "hitbox": "Hits 1-2/3-5/6"
+      "Hitbox": "Hits 1-2/3-5/6"
+    },
+    "Lloid Trap": {
+      "ufdName":"LloidTrap.gif",
+      "Startup": "9/17/25/34/43/51",
+      "Total Frames": "49/26",
+      "Landing Lag": "",
+      "Additional Notes": "Proximity activation as early as 51. 49 total frames to plant. 26 total frames to manually activate. ",
+      "Base Damage": "1.6 / 0.9 / 12.0",
+      "Shieldlag": "4/4/11",
+      "Shieldstun": "2/2/4",
+      "Hitbox": "Hits 1-2/3-5/6"
     },
     "Grab": {
       "Startup": "14",

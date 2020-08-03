@@ -1,5 +1,7 @@
 {
   "name": "04 -Samus",
+  "uriComponent": "samus",
+  "movePrefix": "Samus",
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -9,7 +11,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "5",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-10"
     },
     "Jab 2": {
@@ -20,7 +22,7 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "F-Tilt": {
@@ -31,7 +33,7 @@
       "Base Damage": "8.0 / 9.0 / 10.0",
       "Shieldlag": "7/7/8",
       "Shieldstun": "8/9/10",
-      "hitbox": "close/middle/far",
+      "Hitbox": "close/middle/far",
       "Advantage": "-17/-16/-15"
     },
     "U-Tilt": {
@@ -42,7 +44,7 @@
       "Base Damage": "13.0",
       "Shieldlag": "9",
       "Shieldstun": "12",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "D-Tilt": {
@@ -53,7 +55,7 @@
       "Base Damage": "12.0",
       "Shieldlag": "9",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-27"
     },
     "Dash Attack": {
@@ -64,7 +66,7 @@
       "Base Damage": "10.0 / 6.0",
       "Shieldlag": "8/6",
       "Shieldstun": "10/6",
-      "hitbox": "Early/late/later",
+      "Hitbox": "Early/late/later",
       "Advantage": "-23"
     },
     "F-Smash": {
@@ -75,7 +77,29 @@
       "Base Damage": "12.0 / 14.0",
       "Shieldlag": "9/10",
       "Shieldstun": "8/10",
-      "hitbox": "Close/Far",
+      "Hitbox": "Close/Far",
+      "Advantage": "-30/-28"
+    },
+    "F-SmashUp": {
+      "Startup": "10",
+      "Total Frames": "48",
+      "Landing Lag": "",
+      "Additional Notes": "Deals 1.0 more damage when angled up, 1.0 less when angled down. Charge hold frame is 3.",
+      "Base Damage": "12.0 / 14.0",
+      "Shieldlag": "9/10",
+      "Shieldstun": "8/10",
+      "Hitbox": "Close/Far",
+      "Advantage": "-30/-28"
+    },
+    "F-SmashDown": {
+      "Startup": "10",
+      "Total Frames": "48",
+      "Landing Lag": "",
+      "Additional Notes": "Deals 1.0 more damage when angled up, 1.0 less when angled down. Charge hold frame is 3.",
+      "Base Damage": "12.0 / 14.0",
+      "Shieldlag": "9/10",
+      "Shieldstun": "8/10",
+      "Hitbox": "Close/Far",
       "Advantage": "-30/-28"
     },
     "U-Smash": {
@@ -86,7 +110,7 @@
       "Base Damage": "3.0 / 6.0",
       "Shieldlag": "5/6",
       "Shieldstun": "3/5",
-      "hitbox": "Multihit/final",
+      "Hitbox": "Multihit/final",
       "Advantage": "-24"
     },
     "D-Smash": {
@@ -97,7 +121,7 @@
       "Base Damage": "10.0 / 12.0",
       "Shieldlag": "8/9",
       "Shieldstun": "7/8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28/-19"
     },
     "N-Air": {
@@ -108,7 +132,7 @@
       "Base Damage": "10.0 / 9.0",
       "Shieldlag": "8/7",
       "Shieldstun": "4/4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5/-5"
     },
     "F-Air": {
@@ -119,7 +143,7 @@
       "Base Damage": "3.0 / 1.6 / 5.0",
       "Shieldlag": "5/4/12",
       "Shieldstun": "2/2/3",
-      "hitbox": "First/multi/final",
+      "Hitbox": "First/multi/final",
       "Advantage": "-12/-12/-11"
     },
     "B-Air": {
@@ -130,7 +154,7 @@
       "Base Damage": "14.0 / 9.0",
       "Shieldlag": "11/7",
       "Shieldstun": "5/4",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-9/-10"
     },
     "U-Air": {
@@ -141,7 +165,7 @@
       "Base Damage": "3.0 / 1.2 / 4.0",
       "Shieldlag": "5/3/10",
       "Shieldstun": "2/2/3",
-      "hitbox": "First/multi/final",
+      "Hitbox": "First/multi/final",
       "Advantage": "-16/-16/-15"
     },
     "D-Air": {
@@ -152,7 +176,7 @@
       "Base Damage": "10.0 / 14.0",
       "Shieldlag": "8/10",
       "Shieldstun": "4/5",
-      "hitbox": "Early/ meteor",
+      "Hitbox": "Early/ meteor",
       "Advantage": "-8/-7"
     },
     "Z-Air": {
@@ -163,10 +187,11 @@
       "Base Damage": "2.5 / 4.0",
       "Shieldlag": "7/8",
       "Shieldstun": "4/5",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-4/-3"
     },
-    "Charge Shot (partial charge)": {
+    "NeutralB": {
+      "ufdName":"ChargeShotMin.gif",
       "Startup": "3 (+13)",
       "Total Frames": "31",
       "Landing Lag": "",
@@ -174,10 +199,35 @@
       "Base Damage": "5.0 - 27.7",
       "Shieldlag": "9-24",
       "Shieldstun": "3-8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16 to |+4|"
     },
-    "Charge Shot (full charge)": {
+    "Charge Shot": {
+      "ufdName":"ChargeShotMin.gif",
+      "Startup": "3 (+13)",
+      "Total Frames": "31",
+      "Landing Lag": "",
+      "Additional Notes": "Startup is 3 from charge state. Takes 13 frames to enter charge state.",
+      "Base Damage": "5.0 - 27.7",
+      "Shieldlag": "9-24",
+      "Shieldstun": "3-8",
+      "Hitbox": "",
+      "Advantage": "-16 to |+4|"
+    },
+    "Charge Shot (partial charge)": {
+      "ufdName":"ChargeShotMin.gif",
+      "Startup": "3 (+13)",
+      "Total Frames": "31",
+      "Landing Lag": "",
+      "Additional Notes": "Startup is 3 from charge state. Takes 13 frames to enter charge state.",
+      "Base Damage": "5.0 - 27.7",
+      "Shieldlag": "9-24",
+      "Shieldstun": "3-8",
+      "Hitbox": "",
+      "Advantage": "-16 to |+4|"
+    },
+    "NeutralBCharged": {
+      "ufdName":"ChargeShotMax.gif",
       "Startup": "16",
       "Total Frames": "60",
       "Landing Lag": "",
@@ -185,10 +235,23 @@
       "Base Damage": "28.0",
       "Shieldlag": "24",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
-    "Homing Missile": {
+    "Charge Shot (full charge)": {
+      "ufdName":"ChargeShotMax.gif",
+      "Startup": "16",
+      "Total Frames": "60",
+      "Landing Lag": "",
+      "Additional Notes": "Takes 125 frames to reach full charge",
+      "Base Damage": "28.0",
+      "Shieldlag": "24",
+      "Shieldstun": "8",
+      "Hitbox": "",
+      "Advantage": "-12"
+    },
+    "SideB": {
+      "ufdName":"Missile.png",
       "Startup": "18",
       "Total Frames": "54/59",
       "Landing Lag": "",
@@ -196,10 +259,23 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26"
     },
-    "Super Missile": {
+    "Homing Missile": {
+      "ufdName":"Missile.png",
+      "Startup": "18",
+      "Total Frames": "54/59",
+      "Landing Lag": "",
+      "Additional Notes": "Projectile lasts until frame 118. Total frames is 59 in the air for either missile type.",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "3",
+      "Hitbox": "",
+      "Advantage": "-26"
+    },
+    "SmashSideB": {
+      "ufdName":"SuperMissile.png",
       "Startup": "21",
       "Total Frames": "57/59",
       "Landing Lag": "",
@@ -207,10 +283,23 @@
       "Base Damage": "12.0",
       "Shieldlag": "9",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-24"
     },
-    "Screw Attack": {
+    "Super Missile": {
+      "ufdName":"SuperMissile.png",
+      "Startup": "21",
+      "Total Frames": "57/59",
+      "Landing Lag": "",
+      "Additional Notes": "Projectile lasts until frame 87. Starts moving forward around frame 50, allowing for followups.",
+      "Base Damage": "12.0",
+      "Shieldlag": "9",
+      "Shieldstun": "4",
+      "Hitbox": "",
+      "Advantage": "-24"
+    },
+    "UpB": {
+      "ufdName":"ScrewAttackG.gif",
       "Startup": "4/7/10/12/15/\n18/21/24/25",
       "Total Frames": "",
       "Landing Lag": "24",
@@ -218,9 +307,32 @@
       "Base Damage": "3.0 / 1.0 / 2.0",
       "Shieldlag": "5/4",
       "Shieldstun": "4/2",
-      "hitbox": "First/multi/final"
+      "Hitbox": "First/multi/final"
     },
-    "Screw Attack (air)": {
+    "EjectButton": {
+      "ufdName":"ScrewAttackG.gif",
+      "Startup": "4/7/10/12/15/\n18/21/24/25",
+      "Total Frames": "",
+      "Landing Lag": "24",
+      "Additional Notes": "Invulnerable on frame 3-6",
+      "Base Damage": "3.0 / 1.0 / 2.0",
+      "Shieldlag": "5/4",
+      "Shieldstun": "4/2",
+      "Hitbox": "First/multi/final"
+    },
+    "Screw Attack": {
+      "ufdName":"ScrewAttackG.gif",
+      "Startup": "4/7/10/12/15/\n18/21/24/25",
+      "Total Frames": "",
+      "Landing Lag": "24",
+      "Additional Notes": "Invulnerable on frame 3-6",
+      "Base Damage": "3.0 / 1.0 / 2.0",
+      "Shieldlag": "5/4",
+      "Shieldstun": "4/2",
+      "Hitbox": "First/multi/final"
+    },
+    "AirUpB": {
+      "ufdName":"ScrewAttackA.gif",
       "Startup": "5/7/9/11/13/15/\n17/19/21/23/25/27",
       "Total Frames": "",
       "Landing Lag": "24",
@@ -229,7 +341,28 @@
       "Shieldlag": "4",
       "Shieldstun": "2"
     },
+    "Screw Attack (air)": {
+      "ufdName":"ScrewAttackA.gif",
+      "Startup": "5/7/9/11/13/15/\n17/19/21/23/25/27",
+      "Total Frames": "",
+      "Landing Lag": "24",
+      "Additional Notes": "Invulnerable on frame 3-4. Will snap to a ledge as early as frame 6 (facing toward) or 30 \n(facing away)",
+      "Base Damage": "1.0",
+      "Shieldlag": "4",
+      "Shieldstun": "2"
+    },
+    "DownB": {
+      "ufdName":"BombExplosion.png",
+      "Startup": "36-80/81",
+      "Total Frames": "47/44/48",
+      "Landing Lag": "",
+      "Additional Notes": "Explosion occurs one frame after touching a target. Bomb explodes automatically on frame 81.\nTotal frames is 44 if the player is holding down.  And 48 in the air with no way to reduce it",
+      "Base Damage": "4.0 / 5.0",
+      "Shieldlag": "5",
+      "Shieldstun": "2"
+    },
     "Bomb": {
+      "ufdName":"BombExplosion.png",
       "Startup": "36-80/81",
       "Total Frames": "47/44/48",
       "Landing Lag": "",

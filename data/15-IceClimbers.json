@@ -1,5 +1,7 @@
 {
   "name": "15 - Ice Climbers",
+  "uriComponent": "ice_climbers",
+  "movePrefix": "Popo",
   "moves": {
     "": {
       "": "Hitlag delay",

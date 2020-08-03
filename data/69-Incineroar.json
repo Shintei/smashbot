@@ -1,5 +1,7 @@
 {
   "name": "69 - Incineroar",
+  "uriComponent": "incineroar",
+  "movePrefix": "Incineroar",
   "moves": {
     "Jab 1": {
       "Startup": "5",
@@ -9,7 +11,7 @@
       "Base Damage": "2.5",
       "Shieldlag": "5",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-14"
     },
     "Jab 2": {
@@ -20,7 +22,7 @@
       "Base Damage": "2.8",
       "Shieldlag": "6",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-23"
     },
     "Jab 3": {
@@ -31,7 +33,7 @@
       "Base Damage": "6.7",
       "Shieldlag": "6",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26"
     },
     "F-Tilt": {
@@ -42,7 +44,29 @@
       "Base Damage": "13.0",
       "Shieldlag": "11",
       "Shieldstun": "12",
-      "hitbox": "",
+      "Hitbox": "",
+      "Advantage": "-12"
+    },
+    "F-TiltUp": {
+      "Startup": "12",
+      "Total Frames": "36",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "13.0",
+      "Shieldlag": "11",
+      "Shieldstun": "12",
+      "Hitbox": "",
+      "Advantage": "-12"
+    },
+    "F-TiltDown": {
+      "Startup": "12",
+      "Total Frames": "36",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "13.0",
+      "Shieldlag": "11",
+      "Shieldstun": "12",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "U-Tilt": {
@@ -53,7 +77,7 @@
       "Base Damage": "9.0",
       "Shieldlag": "7",
       "Shieldstun": "9",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19"
     },
     "D-Tilt": {
@@ -64,7 +88,7 @@
       "Base Damage": "9.0",
       "Shieldlag": "7",
       "Shieldstun": "9",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-11"
     },
     "Dash Attack": {
@@ -75,7 +99,7 @@
       "Base Damage": "13.0 / 9.0",
       "Shieldlag": "9/7",
       "Shieldstun": "12/9",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-21"
     },
     "F-Smash": {
@@ -86,7 +110,7 @@
       "Base Damage": "20.0 / 16.0",
       "Shieldlag": "14/10",
       "Shieldstun": "13/11",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-22/-24"
     },
     "U-Smash": {
@@ -97,7 +121,7 @@
       "Base Damage": "17.0",
       "Shieldlag": "10",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-23"
     },
     "D-Smash": {
@@ -108,7 +132,7 @@
       "Base Damage": "16.0",
       "Shieldlag": "10",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28"
     },
     "N-Air": {
@@ -119,7 +143,7 @@
       "Base Damage": "13.0 / 7.0",
       "Shieldlag": "9/7",
       "Shieldstun": "5/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-6/-8"
     },
     "F-Air": {
@@ -130,7 +154,7 @@
       "Base Damage": "12.0 / 13.0\n9.0 / 9.6",
       "Shieldlag": "9/10\n7/9",
       "Shieldstun": "5/5\n4/4",
-      "hitbox": "Early close/far\nLate close/far",
+      "Hitbox": "Early close/far\nLate close/far",
       "Advantage": "-9/-9\n-10/-10"
     },
     "B-Air": {
@@ -141,7 +165,7 @@
       "Base Damage": "11.0 / 13.0",
       "Shieldlag": "8/10",
       "Shieldstun": "4/5",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-7/-6"
     },
     "U-Air": {
@@ -152,7 +176,7 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-4"
     },
     "D-Air": {
@@ -163,10 +187,11 @@
       "Base Damage": "15.0 / 14.0 / 9.0",
       "Shieldlag": "10/10/7",
       "Shieldstun": "5/5/4",
-      "hitbox": "meteor/close/late",
+      "Hitbox": "meteor/close/late",
       "Advantage": "-11/-11/-12"
     },
-    "Darkest Lariat": {
+    "NeutralB": {
+      "ufdName":"DarkestLariatG.gif",
       "Startup": "5",
       "Total Frames": "84",
       "Landing Lag": "",
@@ -174,10 +199,28 @@
       "Base Damage": "17.0 - 6.0",
       "Shieldlag": "12-7",
       "Shieldstun": "15-8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-64"
     },
-    "Alolan Whip (grab)": {
+    "Darkest Lariat": {
+      "ufdName":"DarkestLariatG.gif",
+      "Startup": "5",
+      "Total Frames": "84",
+      "Landing Lag": "",
+      "Additional Notes": "On the ground, Invincible on frame 5-6 and Arm invicibility on frame 7-57",
+      "Base Damage": "17.0 - 6.0",
+      "Shieldlag": "12-7",
+      "Shieldstun": "15-8",
+      "Hitbox": "",
+      "Advantage": "-64"
+    },    
+    "SideB": {
+      "ufdName":["AlolanWhipG.gif","AlolanWhipA.gif"],
+      "Startup": "16",
+      "Total Frames": "57"
+    },
+    "Alolan Whip": {
+      "ufdName":["AlolanWhipG.gif","AlolanWhipA.gif"],
       "Startup": "16",
       "Total Frames": "57"
     },
@@ -202,7 +245,8 @@
       "Additional Notes": "4.0 recoil damage",
       "Base Damage": "4.0"
     },
-    "Cross Chop": {
+    "UpB": {
+      "ufdName":"CrossChopRise.gif",
       "Startup": "11/38",
       "Total Frames": "79",
       "Landing Lag": "61/35",
@@ -210,16 +254,37 @@
       "Base Damage": "3.0 / 7.0 / \n11.0 / 9.0",
       "Shieldlag": "9/10/10/10",
       "Shieldstun": "4/7/10/9",
-      "hitbox": "rising/falling early\nfalling late/landing",
+      "Hitbox": "rising/falling early\nfalling late/landing",
       "Advantage": "-51"
     },
+    "Cross Chop": {
+      "ufdName":"CrossChopRise.gif",
+      "Startup": "11/38",
+      "Total Frames": "79",
+      "Landing Lag": "61/35",
+      "Additional Notes": "landing hitbox on frame 1. Arm intangibility on frame 13-26. Some kind of armor on frame 4-15\nTotal frames is if you never land during the dive. Second landing lag is if you land too late.\nCan grab ledges as early as frame 14 (facing toward) or 21 (facing away)",
+      "Base Damage": "3.0 / 7.0 / \n11.0 / 9.0",
+      "Shieldlag": "9/10/10/10",
+      "Shieldstun": "4/7/10/9",
+      "Hitbox": "rising/falling early\nfalling late/landing",
+      "Advantage": "-51"
+    },
+    "DownB": {
+      "ufdName":"Revenge.gif",
+      "Startup": "",
+      "Total Frames": "49",
+      "Landing Lag": "",
+      "Additional Notes": "Counter window 3-27. Next attack's damage increased by about 40% when successful"
+    },
     "Revenge": {
+      "ufdName":"Revenge.gif",
       "Startup": "",
       "Total Frames": "49",
       "Landing Lag": "",
       "Additional Notes": "Counter window 3-27. Next attack's damage increased by about 40% when successful"
     },
     "Revenge (activation)": {
+      "ufdName":"Revenge.gif",
       "Startup": "7",
       "Total Frames": "25",
       "Landing Lag": "",

@@ -1,5 +1,7 @@
 {
   "name": "64 - Inkling",
+  "uriComponent": "inkling",
+  "movePrefix": "Inkling",
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -9,7 +11,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Jab 2": {
@@ -20,7 +22,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "Jab 3": {
@@ -31,7 +33,7 @@
       "Base Damage": "3.5",
       "Shieldlag": "10",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21"
     },
     "Rapid Jab": {
@@ -51,7 +53,7 @@
       "Base Damage": "2.5",
       "Shieldlag": "10",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-38"
     },
     "F-Tilt": {
@@ -62,7 +64,7 @@
       "Base Damage": "9.0",
       "Shieldlag": "7",
       "Shieldstun": "9",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "U-Tilt": {
@@ -73,7 +75,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "D-Tilt": {
@@ -84,7 +86,7 @@
       "Base Damage": "3.0 / 6.0",
       "Shieldlag": "5/6",
       "Shieldstun": "4/6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Dash Attack": {
@@ -95,7 +97,7 @@
       "Base Damage": "8.0 / 6.0",
       "Shieldlag": "7/6",
       "Shieldstun": "11/9",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "F-Smash": {
@@ -106,7 +108,7 @@
       "Base Damage": "14.0 / 16.0",
       "Shieldlag": "10/10",
       "Shieldstun": "10/11",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-25/-24"
     },
     "U-Smash": {
@@ -117,7 +119,7 @@
       "Base Damage": "4.0 / 15.0 / 10.0",
       "Shieldlag": "5/10/8",
       "Shieldstun": "4/10/7",
-      "hitbox": "first/close/far",
+      "Hitbox": "first/close/far",
       "Advantage": "-44/-29/-32"
     },
     "D-Smash": {
@@ -128,7 +130,7 @@
       "Base Damage": "12.5 / 11.0",
       "Shieldlag": "9/8",
       "Shieldstun": "9/8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-29/-21"
     },
     "N-Air": {
@@ -139,7 +141,7 @@
       "Base Damage": "7.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-2"
     },
     "F-Air": {
@@ -150,7 +152,7 @@
       "Base Damage": "10.0 / 7.0",
       "Shieldlag": "8/7",
       "Shieldstun": "4/3",
-      "hitbox": "early/late",
+      "Hitbox": "early/late",
       "Advantage": "-8/-9"
     },
     "B-Air": {
@@ -161,7 +163,7 @@
       "Base Damage": "10.0 / 7.5",
       "Shieldlag": "8/7",
       "Shieldstun": "4/3",
-      "hitbox": "far/close",
+      "Hitbox": "far/close",
       "Advantage": "-2/-3"
     },
     "U-Air": {
@@ -172,7 +174,7 @@
       "Base Damage": "4.5 / 6.5",
       "Shieldlag": "5/6",
       "Shieldstun": "3/3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-3/-3"
     },
     "D-Air": {
@@ -183,8 +185,19 @@
       "Base Damage": "12.0 / 10.0",
       "Shieldlag": "9/8",
       "Shieldstun": "5/4",
-      "hitbox": "far/close",
+      "Hitbox": "far/close",
       "Advantage": "-5/-6"
+    },
+    "NeutralB": {
+      "Startup": "12/16/20/24",
+      "Total Frames": "36",
+      "Landing Lag": "",
+      "Additional Notes": "Startup and total frames is the minimum. When out of Ink this move enters the refill state.",
+      "Base Damage": "0.3",
+      "Shieldlag": "4",
+      "Shieldstun": "2",
+      "Hitbox": "",
+      "Advantage": "-6"
     },
     "Splattershot": {
       "Startup": "12/16/20/24",
@@ -194,10 +207,11 @@
       "Base Damage": "0.3",
       "Shieldlag": "4",
       "Shieldstun": "2",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
-    "Splat Roller": {
+    "SideB": {
+      "ufdName":"SplatRollerA.png",
       "Startup": "16",
       "Total Frames": "17/35",
       "Landing Lag": "",
@@ -205,10 +219,23 @@
       "Base Damage": "4.0-11.0",
       "Shieldlag": "5-8\n8-13 (inkling)",
       "Shieldstun": "5-10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15 to -12"
     },
-    "Super Jump": {
+    "Splat Roller": {
+      "ufdName":"SplatRollerA.png",
+      "Startup": "16",
+      "Total Frames": "17/35",
+      "Landing Lag": "",
+      "Additional Notes": "17 frame animation to jump cancel. 35 animation to cancel on the ground.\nInkling suffers more shieldlag than defender. Advantage assumes buffered jump cancel ",
+      "Base Damage": "4.0-11.0",
+      "Shieldlag": "5-8\n8-13 (inkling)",
+      "Shieldstun": "5-10",
+      "Hitbox": "",
+      "Advantage": "-15 to -12"
+    },
+    "UpB": {
+      "ufdName":"SuperJump.gif",
       "Startup": "12",
       "Total Frames": "",
       "Landing Lag": "40",
@@ -216,10 +243,33 @@
       "Base Damage": "8.0 / 6.0",
       "Shieldlag": "7/6",
       "Shieldstun": "3/3",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-29/-30"
     },
+    "Super Jump": {
+      "ufdName":"SuperJump.gif",
+      "Startup": "12",
+      "Total Frames": "",
+      "Landing Lag": "40",
+      "Additional Notes": "Inkling will not suffer hitlag from this attack. Landing hitbox on frame 1. Can grab ledges on frame 13",
+      "Base Damage": "8.0 / 6.0",
+      "Shieldlag": "7/6",
+      "Shieldstun": "3/3",
+      "Hitbox": "close/far",
+      "Advantage": "-29/-30"
+    },
+    "DownB": {
+      "ufdName":"SplatBomb.gif",
+      "Startup": "20-40",
+      "Total Frames": "47-65",
+      "Landing Lag": "",
+      "Additional Notes": "Holding the button allows for a longer yet slower throw. Bombs explode on contact or on frame 99-159.",
+      "Base Damage": "9.4 - 15.0",
+      "Shieldlag": "8-10",
+      "Shieldstun": "4-5"
+    },
     "Splat Bomb": {
+      "ufdName":"SplatBomb.gif",
       "Startup": "20-40",
       "Total Frames": "47-65",
       "Landing Lag": "",

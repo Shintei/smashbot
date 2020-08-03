@@ -1,5 +1,7 @@
 {
   "name": "13 - Peach",
+  "uriComponent": "Peach",
+  "movePrefix": "Peach",
   "moves": {
     "Jab 1": {
       "Startup": "2",
@@ -9,7 +11,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-22"
     },
     "Jab 2": {
@@ -20,7 +22,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "9",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-23"
     },
     "F-Tilt": {
@@ -31,7 +33,7 @@
       "Base Damage": "7.0 / 8.0",
       "Shieldlag": "7/7",
       "Shieldstun": "7/8",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-22/-21"
     },
     "U-Tilt": {
@@ -42,7 +44,7 @@
       "Base Damage": "8.0 / 10.0",
       "Shieldlag": "7/8",
       "Shieldstun": "8/10",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-20/-18"
     },
     "D-Tilt": {
@@ -53,7 +55,7 @@
       "Base Damage": "7.0",
       "Shieldlag": "7",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-8"
     },
     "Dash Attack": {
@@ -64,10 +66,11 @@
       "Base Damage": "4.0 / 6.0",
       "Shieldlag": "5/7",
       "Shieldstun": "-/6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-14"
     },
     "F-Smash": {
+      "ufdName":["FSmashGolfClub.gif","FSmashFryingPan.gif","FSmashTennisRacket.gif"],
       "Startup": "15",
       "Total Frames": "45",
       "Landing Lag": "",
@@ -75,7 +78,7 @@
       "Base Damage": "15.0 / 13.5 / 18.0",
       "Shieldlag": "10/10/11",
       "Shieldstun": "10/9/12",
-      "hitbox": "Golf/tennis/pan",
+      "Hitbox": "Golf/tennis/pan",
       "Advantage": "-20/-21/-18"
     },
     "U-Smash": {
@@ -86,7 +89,7 @@
       "Base Damage": "12.0 / 17.0",
       "Shieldlag": "10/11",
       "Shieldstun": "10/11",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-20/-19"
     },
     "D-Smash": {
@@ -97,7 +100,7 @@
       "Base Damage": "2.0 / 3.0",
       "Shieldlag": "4/15",
       "Shieldstun": "3/3",
-      "hitbox": "Multi/final",
+      "Hitbox": "Multi/final",
       "Advantage": "-21"
     },
     "N-Air": {
@@ -108,7 +111,7 @@
       "Base Damage": "13.0 / 6.0",
       "Shieldlag": "9/6",
       "Shieldstun": "5/3",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-2/-4"
     },
     "F-Air": {
@@ -119,7 +122,7 @@
       "Base Damage": "14.0 / 15.0",
       "Shieldlag": "10/10",
       "Shieldstun": "5/5",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-8/-8"
     },
     "B-Air": {
@@ -130,7 +133,7 @@
       "Base Damage": "12.0 / 7.0",
       "Shieldlag": "9/7",
       "Shieldstun": "5/3",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-6/-8"
     },
     "U-Air": {
@@ -141,7 +144,7 @@
       "Base Damage": "4.0 / 6.0",
       "Shieldlag": "6/7",
       "Shieldstun": "3/3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-4/-4"
     },
     "D-Air": {
@@ -152,20 +155,35 @@
       "Base Damage": "2.0 / 5.0",
       "Shieldlag": "4/6",
       "Shieldstun": "2/3",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-6/-5"
     },
-    "Toad": {
+    "NeutralB": {
+      "ufdName":"Toad.gif",
       "Startup": "",
       "Total Frames": "62",
       "Landing Lag": "",
       "Additional Notes": "Counter window 9-34. Also invulnerable on frame 8."
     },
-    "Toad (attack)": {
+    "Toad": {
+      "ufdName":"Toad.gif",
+      "Startup": "",
+      "Total Frames": "62",
+      "Landing Lag": "",
+      "Additional Notes": "Counter window 9-34. Also invulnerable on frame 8."
+    },
+    "NeutralBAttack": {
+      "ufdName":"Toad.gif",
       "Startup": "2/6/8/12/14/17",
       "Total Frames": "59"
     },
-    "Peach Bomber": {
+    "Toad (attack)": {
+      "ufdName":"Toad.gif",
+      "Startup": "2/6/8/12/14/17",
+      "Total Frames": "59"
+    },
+    "SideB": {
+      "ufdName":"PeachBomberHit.gif",
       "Startup": "15",
       "Total Frames": "62/87",
       "Landing Lag": "",
@@ -173,10 +191,23 @@
       "Base Damage": "12.0",
       "Shieldlag": "9",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
-    "Peach Bomber (air)": {
+    "Peach Bomber": {
+      "ufdName":"PeachBomberHit.gif",
+      "Startup": "15",
+      "Total Frames": "62/87",
+      "Landing Lag": "",
+      "Additional Notes": "Startup is 2 upon reaching a target. 24 endlag on hit. Total frames is 62 on \nlevel ground when you miss. And 87 if you miss and go over an edge",
+      "Base Damage": "12.0",
+      "Shieldlag": "9",
+      "Shieldstun": "11",
+      "Hitbox": "",
+      "Advantage": "-13"
+    },
+    "AirSideB": {
+      "ufdName":"PeachBomberHit.gif",
       "Startup": "13",
       "Total Frames": "87",
       "Landing Lag": "35",
@@ -184,10 +215,23 @@
       "Base Damage": "12.0",
       "Shieldlag": "9",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
-    "Peach Parasol": {
+    "Peach Bomber (air)": {
+      "ufdName":"PeachBomberHit.gif",
+      "Startup": "13",
+      "Total Frames": "87",
+      "Landing Lag": "35",
+      "Additional Notes": "Startup is 2 upon reaching a target. 24 endlag on hit. Can grab ledges on frame 16-37",
+      "Base Damage": "12.0",
+      "Shieldlag": "9",
+      "Shieldstun": "11",
+      "Hitbox": "",
+      "Advantage": "-13"
+    },
+    "UpB": {
+      "ufdName":"PeachParasol.gif",
       "Startup": "7/11/16/21/26/31",
       "Total Frames": "",
       "Landing Lag": "26/40",
@@ -195,9 +239,52 @@
       "Base Damage": "3.0 / 1.0 / 4.0",
       "Shieldlag": "5/4/15",
       "Shieldstun": "4/2/5",
-      "hitbox": "First/multi/final"
+      "Hitbox": "First/multi/final"
+    },
+    "Umbrella": {
+      "ufdName":"PeachParasol.gif",
+      "Startup": "7/11/16/21/26/31",
+      "Total Frames": "",
+      "Landing Lag": "26/40",
+      "Additional Notes": "40 landing lag from special fall. Or 26 if still holding umbrella. Will grab ledges as early \nas frame 17 (facing toward). Can only grab ledges from behind if umbrella is closed",
+      "Base Damage": "3.0 / 1.0 / 4.0",
+      "Shieldlag": "5/4/15",
+      "Shieldstun": "4/2/5",
+      "Hitbox": "First/multi/final"
+    },
+    "Peach Parasol": {
+      "ufdName":"PeachParasol.gif",
+      "Startup": "7/11/16/21/26/31",
+      "Total Frames": "",
+      "Landing Lag": "26/40",
+      "Additional Notes": "40 landing lag from special fall. Or 26 if still holding umbrella. Will grab ledges as early \nas frame 17 (facing toward). Can only grab ledges from behind if umbrella is closed",
+      "Base Damage": "3.0 / 1.0 / 4.0",
+      "Shieldlag": "5/4/15",
+      "Shieldstun": "4/2/5",
+      "Hitbox": "First/multi/final"
+    },
+    "DownB": {
+      "ufdName":"Turnip.png",
+      "Startup": "",
+      "Total Frames": "39",
+      "Landing Lag": "",
+      "Additional Notes": "Turnip damage depends both on the type and how it is thrown. \nZ-Drop damage depends on distance fallen.",
+      "Base Damage": "8.3 - 27.6",
+      "Shieldlag": "7-15",
+      "Shieldstun": "3-8"
+    },
+    "Turnip": {
+      "ufdName":"Turnip.png",
+      "Startup": "",
+      "Total Frames": "39",
+      "Landing Lag": "",
+      "Additional Notes": "Turnip damage depends both on the type and how it is thrown. \nZ-Drop damage depends on distance fallen.",
+      "Base Damage": "8.3 - 27.6",
+      "Shieldlag": "7-15",
+      "Shieldstun": "3-8"
     },
     "Vegetable": {
+      "ufdName":"Turnip.png",
       "Startup": "",
       "Total Frames": "39",
       "Landing Lag": "",

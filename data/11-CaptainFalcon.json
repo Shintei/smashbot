@@ -1,5 +1,7 @@
 {
   "name": "11 - Captain Falcon",
+  "uriComponent": "captain_falcon",
+  "movePrefix": "CaptainFalcon",
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -9,7 +11,7 @@
       "Base Damage": "1.5",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-11"
     },
     "Jab 2": {
@@ -20,7 +22,7 @@
       "Base Damage": "1.5",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-10"
     },
     "Jab 3": {
@@ -31,7 +33,7 @@
       "Base Damage": "5.0",
       "Shieldlag": "12",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20"
     },
     "Rapid Jab": {
@@ -51,7 +53,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "10",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-39"
     },
     "F-Tilt": {
@@ -62,7 +64,29 @@
       "Base Damage": "8.0 / 9.0",
       "Shieldlag": "7/7",
       "Shieldstun": "8/9",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
+      "Advantage": "-14/-13"
+    },
+    "F-TiltUp": {
+      "Startup": "7",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "Damage and shieldstun increases by 1.0 when angled",
+      "Base Damage": "8.0 / 9.0",
+      "Shieldlag": "7/7",
+      "Shieldstun": "8/9",
+      "Hitbox": "close/far",
+      "Advantage": "-14/-13"
+    },
+    "F-TiltDown": {
+      "Startup": "7",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "Damage and shieldstun increases by 1.0 when angled",
+      "Base Damage": "8.0 / 9.0",
+      "Shieldlag": "7/7",
+      "Shieldstun": "8/9",
+      "Hitbox": "close/far",
       "Advantage": "-14/-13"
     },
     "U-Tilt": {
@@ -73,7 +97,7 @@
       "Base Damage": "11.0",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "D-Tilt": {
@@ -84,7 +108,7 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Dash Attack": {
@@ -95,7 +119,7 @@
       "Base Damage": "10.0 / 6.0",
       "Shieldlag": "10/8",
       "Shieldstun": "17/11",
-      "hitbox": "early / late",
+      "Hitbox": "early / late",
       "Advantage": "-10"
     },
     "F-Smash": {
@@ -106,7 +130,29 @@
       "Base Damage": "19.0 / 20.0",
       "Shieldlag": "12/12",
       "Shieldstun": "13/13",
-      "hitbox": "no angle/angled",
+      "Hitbox": "no angle/angled",
+      "Advantage": "-27"
+    },
+    "F-SmashUp": {
+      "Startup": "19",
+      "Total Frames": "59",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 11",
+      "Base Damage": "19.0 / 20.0",
+      "Shieldlag": "12/12",
+      "Shieldstun": "13/13",
+      "Hitbox": "no angle/angled",
+      "Advantage": "-27"
+    },
+    "F-SmashDown": {
+      "Startup": "19",
+      "Total Frames": "59",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 11",
+      "Base Damage": "19.0 / 20.0",
+      "Shieldlag": "12/12",
+      "Shieldstun": "13/13",
+      "Hitbox": "no angle/angled",
       "Advantage": "-27"
     },
     "U-Smash": {
@@ -117,7 +163,7 @@
       "Base Damage": "7.0 / 12.0 / 14.0",
       "Shieldlag": "7/9/10",
       "Shieldstun": "6/8/10",
-      "hitbox": "close/far/second",
+      "Hitbox": "close/far/second",
       "Advantage": "-7"
     },
     "D-Smash": {
@@ -128,7 +174,7 @@
       "Base Damage": "14.0 / 18.0",
       "Shieldlag": "10/11",
       "Shieldstun": "10/12",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19/-7"
     },
     "N-Air": {
@@ -139,7 +185,7 @@
       "Base Damage": "4.0 / 6.0",
       "Shieldlag": "5/6",
       "Shieldstun": "3/3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-4/-4"
     },
     "F-Air": {
@@ -150,7 +196,7 @@
       "Base Damage": "22.0 / 3.0",
       "Shieldlag": "17/5",
       "Shieldstun": "7/2",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-11/-15"
     },
     "B-Air": {
@@ -161,7 +207,7 @@
       "Base Damage": "13.0 / 8.0",
       "Shieldlag": "9/6",
       "Shieldstun": "5/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-5/-7"
     },
     "U-Air": {
@@ -172,7 +218,7 @@
       "Base Damage": "10.0 / 9.0 / 8.0",
       "Shieldlag": "8/7/7",
       "Shieldstun": "4/4/4",
-      "hitbox": "close/far/late",
+      "Hitbox": "close/far/late",
       "Advantage": "-6/-6/-6"
     },
     "D-Air": {
@@ -183,10 +229,11 @@
       "Base Damage": "14.0",
       "Shieldlag": "10",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-7"
     },
-    "Falcon Punch (normal/turnaround)": {
+    "NeutralB": {
+      "ufdName":"FalconPunchG.gif",
       "Startup": "53/62",
       "Total Frames": "103/117",
       "Landing Lag": "",
@@ -194,10 +241,23 @@
       "Base Damage": "25.0 / 28.0",
       "Shieldlag": "17/17",
       "Shieldstun": "22/24",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28/-31"
     },
-    "Raptor Boost": {
+    "Falcon Punch": {
+      "ufdName":"FalconPunchG.gif",
+      "Startup": "53/62",
+      "Total Frames": "103/117",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "25.0 / 28.0",
+      "Shieldlag": "17/17",
+      "Shieldstun": "22/24",
+      "Hitbox": "",
+      "Advantage": "-28/-31"
+    },
+    "SideB": {
+      "ufdName": "RaptorBoostHitG.gif",
       "Startup": "5 (+10)",
       "Total Frames": "27/71",
       "Landing Lag": "",
@@ -205,10 +265,23 @@
       "Base Damage": "10.0",
       "Shieldlag": "12",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
-    "Raptor Boost (air)": {
+    "Raptor Boost": {
+      "ufdName": "RaptorBoostHitG.gif",
+      "Startup": "5 (+10)",
+      "Total Frames": "27/71",
+      "Landing Lag": "",
+      "Additional Notes": "Startup is 6 upon reaching target. On hit total frames is 28. Proximity sensor is active starting on 10.\nTotal frames on a miss is 71. Damage based armor activates on frame 1 of reaching a target.",
+      "Base Damage": "10.0",
+      "Shieldlag": "12",
+      "Shieldstun": "10",
+      "Hitbox": "",
+      "Advantage": "-12"
+    },
+    "AirSideB": {
+      "ufdName": "RaptorBoostHitA.gif",
       "Startup": "5 (+19)",
       "Total Frames": "",
       "Landing Lag": "22",
@@ -217,13 +290,32 @@
       "Shieldlag": "12",
       "Shieldstun": "10"
     },
-    "Falcon Dive": {
+    "Raptor Boost (air)": {
+      "ufdName": "RaptorBoostHitA.gif",
+      "Startup": "5 (+19)",
+      "Total Frames": "",
+      "Landing Lag": "22",
+      "Additional Notes": "39 endlag on hit. Startup is 5 upon reaching a target. Proximity sensor active starting on 19.\nCan grab ledges on frame 26 or 8 after proximity sensor activates.",
+      "Base Damage": "10.0",
+      "Shieldlag": "12",
+      "Shieldstun": "10"
+    },
+    "UpB": {
+      "ufdName": "FalconDiveG.gif",
       "Startup": "14",
       "Total Frames": "",
       "Landing Lag": "24",
       "Additional Notes": "54 frames endlag when blasting off the victim. Can snap to ledges on frames 10-12. And then 20 \nonward (facing toward) or 37 onward (facing away)"
     },
-    "Falcon Kick": {
+    "Falcon Dive": {
+      "ufdName": "FalconDiveG.gif",
+      "Startup": "14",
+      "Total Frames": "",
+      "Landing Lag": "24",
+      "Additional Notes": "54 frames endlag when blasting off the victim. Can snap to ledges on frames 10-12. And then 20 \nonward (facing toward) or 37 onward (facing away)"
+    },
+    "DownB": {
+      "ufdName":"FalconKickG.gif",
       "Startup": "13",
       "Total Frames": "68/65",
       "Landing Lag": "",
@@ -231,10 +323,23 @@
       "Base Damage": "15.0 / 11.0 / 7.0",
       "Shieldlag": "10/8/7",
       "Shieldstun": "14/10/7",
-      "hitbox": "Early/late/later",
+      "Hitbox": "Early/late/later",
       "Advantage": "-51"
     },
-    "Falcon Kick (air)": {
+    "Falcon Kick": {
+      "ufdName":"FalconKickG.gif",
+      "Startup": "13",
+      "Total Frames": "68/65",
+      "Landing Lag": "",
+      "Additional Notes": "Total frames is 70 on the ground or 67 if you go over an edge.",
+      "Base Damage": "15.0 / 11.0 / 7.0",
+      "Shieldlag": "10/8/7",
+      "Shieldstun": "14/10/7",
+      "Hitbox": "Early/late/later",
+      "Advantage": "-51"
+    },
+    "AirDownB": {
+      "ufdName":["FalconKickA.gif","FalconKickALanding.gif"],
       "Startup": "14",
       "Total Frames": "56",
       "Landing Lag": "35",
@@ -242,7 +347,19 @@
       "Base Damage": "15.0 / 9.0",
       "Shieldlag": "12/7",
       "Shieldstun": "14/9",
-      "hitbox": "Early/landing",
+      "Hitbox": "Early/landing",
+      "Advantage": "-25"
+    },
+    "Falcon Kick (air)": {
+      "ufdName":["FalconKickA.gif","FalconKickALanding.gif"],
+      "Startup": "14",
+      "Total Frames": "56",
+      "Landing Lag": "35",
+      "Additional Notes": "Landing hit on frame 1.",
+      "Base Damage": "15.0 / 9.0",
+      "Shieldlag": "12/7",
+      "Shieldstun": "14/9",
+      "Hitbox": "Early/landing",
       "Advantage": "-25"
     },
     "Grab": {

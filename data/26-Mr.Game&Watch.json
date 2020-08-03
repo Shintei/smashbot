@@ -9,7 +9,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-7"
     },
     "Rapid Jab": {
@@ -29,7 +29,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "11",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28"
     },
     "F-Tilt": {
@@ -40,7 +40,7 @@
       "Base Damage": "12.0",
       "Shieldlag": "9",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-18"
     },
     "U-Tilt": {
@@ -51,7 +51,7 @@
       "Base Damage": "7.0 / 7.0",
       "Shieldlag": "7/7",
       "Shieldstun": "7/7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16/-6"
     },
     "D-Tilt": {
@@ -62,7 +62,7 @@
       "Base Damage": "9.0",
       "Shieldlag": "7",
       "Shieldstun": "9",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-27"
     },
     "Dash Attack": {
@@ -73,7 +73,7 @@
       "Base Damage": "10.0 / 6.5",
       "Shieldlag": "8/6",
       "Shieldstun": "10/7",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-21"
     },
     "F-Smash": {
@@ -84,7 +84,7 @@
       "Base Damage": "14.0 / 18.0",
       "Shieldlag": "10/11",
       "Shieldstun": "10/12",
-      "hitbox": "Close/Far",
+      "Hitbox": "Close/Far",
       "Advantage": "-15/-13"
     },
     "U-Smash": {
@@ -95,7 +95,7 @@
       "Base Damage": "16.0",
       "Shieldlag": "10",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
     "D-Smash": {
@@ -106,7 +106,7 @@
       "Base Damage": "13.0 / 15.0",
       "Shieldlag": "9/10",
       "Shieldstun": "9/10",
-      "hitbox": "Close/Far",
+      "Hitbox": "Close/Far",
       "Advantage": "-16/-15"
     },
     "N-Air": {
@@ -117,7 +117,7 @@
       "Base Damage": "3.0 / 4.0",
       "Shieldlag": "5/11",
       "Shieldstun": "2/3",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-5/-4"
     },
     "F-Air": {
@@ -128,7 +128,7 @@
       "Base Damage": "3.0 / 12.0",
       "Shieldlag": "5/9",
       "Shieldstun": "2/5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-3"
     },
     "B-Air": {
@@ -139,7 +139,7 @@
       "Base Damage": "2.0 / 3.0 / 3.0",
       "Shieldlag": "4/13/5",
       "Shieldstun": "2/2/4",
-      "hitbox": "Multi/Final/landing",
+      "Hitbox": "Multi/Final/landing",
       "Advantage": "-13"
     },
     "U-Air": {
@@ -150,7 +150,7 @@
       "Base Damage": "1.7 / 3.0",
       "Shieldlag": "3/3",
       "Shieldstun": "0/0",
-      "hitbox": "Multi/Final "
+      "Hitbox": "Multi/Final "
     },
     "D-Air": {
       "Startup": "12",
@@ -160,7 +160,7 @@
       "Base Damage": "11.0 / 3.5",
       "Shieldlag": "8/5",
       "Shieldstun": "4/4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "Chef": {
@@ -171,7 +171,7 @@
       "Base Damage": "5.0 / 13.0",
       "Shieldlag": "6/7",
       "Shieldstun": "3/8",
-      "hitbox": "sausage/pan",
+      "Hitbox": "sausage/pan",
       "Advantage": "-28"
     },
     "Judge 1": {
@@ -182,7 +182,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "4",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-30"
     },
     "Judge 2": {
@@ -193,7 +193,7 @@
       "Base Damage": "4.0",
       "Shieldlag": "5",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28"
     },
     "Judge 3": {
@@ -204,7 +204,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-27"
     },
     "Judge 4": {
@@ -215,7 +215,7 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-25"
     },
     "Judge 5": {
@@ -226,7 +226,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20"
     },
     "Judge 6": {
@@ -237,7 +237,7 @@
       "Base Damage": "12.0",
       "Shieldlag": "9",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-22"
     },
     "Judge 7": {
@@ -248,7 +248,7 @@
       "Base Damage": "14.0",
       "Shieldlag": "10",
       "Shieldstun": "13",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20"
     },
     "Judge 8": {
@@ -259,7 +259,7 @@
       "Base Damage": "13.0",
       "Shieldlag": "9",
       "Shieldstun": "12",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21"
     },
     "Judge 9": {
@@ -270,7 +270,7 @@
       "Base Damage": "32.0",
       "Shieldlag": "21",
       "Shieldstun": "27",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
     "Fire": {
@@ -281,7 +281,7 @@
       "Base Damage": "3.0 / 6.0",
       "Shieldlag": "7/6",
       "Shieldstun": "4/6",
-      "hitbox": "Early/Late"
+      "Hitbox": "Early/Late"
     },
     "Oil Panic ": {
       "Startup": "",

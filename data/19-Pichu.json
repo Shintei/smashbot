@@ -9,7 +9,7 @@
       "Base Damage": "1.2",
       "Shieldlag": "4",
       "Shieldstun": "2",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "F-Tilt": {
@@ -20,7 +20,7 @@
       "Base Damage": "8.0",
       "Shieldlag": "11",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-11"
     },
     "U-Tilt": {
@@ -31,7 +31,7 @@
       "Base Damage": "5.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-10"
     },
     "D-Tilt": {
@@ -42,7 +42,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5"
     },
     "Dash Attack": {
@@ -53,7 +53,7 @@
       "Base Damage": "8.0 / 6.0",
       "Shieldlag": "7/6",
       "Shieldstun": "8/6",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-20"
     },
     "F-Smash": {
@@ -64,7 +64,7 @@
       "Base Damage": "2.0 / 8.0",
       "Shieldlag": "7/11",
       "Shieldstun": "-/6",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-16"
     },
     "U-Smash": {
@@ -75,7 +75,7 @@
       "Base Damage": "14.0",
       "Shieldlag": "10",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21"
     },
     "D-Smash": {
@@ -86,7 +86,7 @@
       "Base Damage": "1.5 / 8.0",
       "Shieldlag": "7/11",
       "Shieldstun": "2/6",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-21"
     },
     "N-Air": {
@@ -97,7 +97,7 @@
       "Base Damage": "7.0 / 5.0",
       "Shieldlag": "7/6",
       "Shieldstun": "3/3",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-4/-4"
     },
     "F-Air": {
@@ -108,7 +108,7 @@
       "Base Damage": "3.5 / 3.5",
       "Shieldlag": "8/8",
       "Shieldstun": "2/2",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-10/-10"
     },
     "B-Air": {
@@ -119,7 +119,7 @@
       "Base Damage": "2.0 / 2.5",
       "Shieldlag": "7/7",
       "Shieldstun": "2/2",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-16/-16"
     },
     "U-Air": {
@@ -130,7 +130,7 @@
       "Base Damage": "4.0",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-8"
     },
     "D-Air": {
@@ -141,7 +141,7 @@
       "Base Damage": "13.0 / 12.0 / 4.0",
       "Shieldlag": "14/13/8",
       "Shieldstun": "5/5/5",
-      "hitbox": "Early/Late/\nLanding",
+      "Hitbox": "Early/Late/\nLanding",
       "Advantage": "-16"
     },
     "Thunder Jolt (projectile/arc)": {
@@ -152,7 +152,7 @@
       "Base Damage": "10.0 / 7.0 - 5.0",
       "Shieldlag": "12/10-9",
       "Shieldstun": "4/3-3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-29/-30"
     },
     "Skull Bash": {
@@ -163,7 +163,7 @@
       "Base Damage": "4.0 - 33.0",
       "Shieldlag": "8-18",
       "Shieldstun": "5-28",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20 to +3"
     },
     "Agility": {
@@ -180,7 +180,7 @@
       "Base Damage": "4.0 / 14.0",
       "Shieldlag": "8/15",
       "Shieldstun": "2/13",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-27"
     },
     "Grab": {

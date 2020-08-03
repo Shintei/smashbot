@@ -1,5 +1,7 @@
 {
   "name": "58 - Bowser Jr",
+  "uriComponent": "bowser_jr",
+  "movePrefix": "BowserJr",
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -9,7 +11,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "Jab 2": {
@@ -20,7 +22,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-22"
     },
     "Rapid Jab": {
@@ -40,7 +42,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "10",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-32"
     },
     "F-Tilt": {
@@ -51,7 +53,29 @@
       "Base Damage": "6.0 / 8.0",
       "Shieldlag": "6/7",
       "Shieldstun": "6/8",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
+      "Advantage": "-18/-16"
+    },
+    "F-TiltUp": {
+      "Startup": "7",
+      "Total Frames": "31",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "6.0 / 8.0",
+      "Shieldlag": "6/7",
+      "Shieldstun": "6/8",
+      "Hitbox": "close/far",
+      "Advantage": "-18/-16"
+    },
+    "F-TiltDown": {
+      "Startup": "7",
+      "Total Frames": "31",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "6.0 / 8.0",
+      "Shieldlag": "6/7",
+      "Shieldstun": "6/8",
+      "Hitbox": "close/far",
       "Advantage": "-18/-16"
     },
     "U-Tilt": {
@@ -62,7 +86,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "7",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "D-Tilt": {
@@ -73,7 +97,7 @@
       "Base Damage": "2.0 / 6.0",
       "Shieldlag": "4/7",
       "Shieldstun": "3/6",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-11"
     },
     "Dash Attack": {
@@ -84,7 +108,7 @@
       "Base Damage": "1.8 / 4.0",
       "Shieldlag": "4/8",
       "Shieldstun": "3/5",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-17"
     },
     "F-Smash": {
@@ -95,7 +119,29 @@
       "Base Damage": "1.0 / 11.0",
       "Shieldlag": "4/13",
       "Shieldstun": "2/8",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
+      "Advantage": "-12"
+    },
+    "F-SmashUp": {
+      "Startup": "18/21/24/27/30/35",
+      "Total Frames": "55",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 5",
+      "Base Damage": "1.0 / 11.0",
+      "Shieldlag": "4/13",
+      "Shieldstun": "2/8",
+      "Hitbox": "multi/final",
+      "Advantage": "-12"
+    },
+    "F-SmashDown": {
+      "Startup": "18/21/24/27/30/35",
+      "Total Frames": "55",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 5",
+      "Base Damage": "1.0 / 11.0",
+      "Shieldlag": "4/13",
+      "Shieldstun": "2/8",
+      "Hitbox": "multi/final",
       "Advantage": "-12"
     },
     "U-Smash": {
@@ -106,7 +152,7 @@
       "Base Damage": "1.0 / 1.3 / 6.0",
       "Shieldlag": "4/4/11",
       "Shieldstun": "-/2/5",
-      "hitbox": "first/multi/final",
+      "Hitbox": "first/multi/final",
       "Advantage": "-26"
     },
     "D-Smash": {
@@ -117,7 +163,7 @@
       "Base Damage": "18.0",
       "Shieldlag": "14",
       "Shieldstun": "12",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-32"
     },
     "N-Air": {
@@ -128,7 +174,7 @@
       "Base Damage": "6.5 / 5.5 / 3.5\n8.0 / 7.0 / 5.0",
       "Shieldlag": "6/6/5\n7/7/6",
       "Shieldstun": "3/3/2\n4/3/3",
-      "hitbox": "close early/late/later\nfar early/late/later",
+      "Hitbox": "close early/late/later\nfar early/late/later",
       "Advantage": "-6/-7/-7\n-5/-6/-6"
     },
     "F-Air": {
@@ -139,7 +185,7 @@
       "Base Damage": "11.0 / 7.0 / 2.0",
       "Shieldlag": "8/7/9",
       "Shieldstun": "4/3/3",
-      "hitbox": "Early/late/landing",
+      "Hitbox": "Early/late/landing",
       "Advantage": "-11"
     },
     "B-Air": {
@@ -150,7 +196,7 @@
       "Base Damage": "14.0 / 8.0",
       "Shieldlag": "10/7",
       "Shieldstun": "5/4",
-      "hitbox": "Far/close",
+      "Hitbox": "Far/close",
       "Advantage": "-9/-10"
     },
     "U-Air": {
@@ -161,10 +207,11 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5"
     },
     "D-Air": {
+      "ufdName": ["DAir.gif","DAirLanding.gif"],
       "Startup": "15/18/21/24/27/30/33/36/39",
       "Total Frames": "56",
       "Landing Lag": "15",
@@ -172,10 +219,11 @@
       "Base Damage": "1.5 / 2.5 / 2.0",
       "Shieldlag": "4/10/9",
       "Shieldstun": "2/2/3",
-      "hitbox": "multi/final/landing",
+      "Hitbox": "multi/final/landing",
       "Advantage": "-11"
     },
-    "Clown Cannon": {
+    "NeutralB": {
+      "ufdName": "ClownCannon.gif",
       "Startup": "37-97",
       "Total Frames": "72-132",
       "Landing Lag": "",
@@ -183,10 +231,23 @@
       "Base Damage": "10.0 - 20.0 /\n7.0 - 14.0",
       "Shieldlag": "8-12\n7-10",
       "Shieldstun": "4-6\n3-5",
-      "hitbox": "Early /\nlate",
+      "Hitbox": "Early /\nlate",
       "Advantage": "-23 to -17\n"
     },
-    "Clown Kart Dash": {
+    "Clown Cannon": {
+      "ufdName": "ClownCannon.gif",
+      "Startup": "37-97",
+      "Total Frames": "72-132",
+      "Landing Lag": "",
+      "Additional Notes": "\"late\" hitbox is when the cannonball starts losing altitude",
+      "Base Damage": "10.0 - 20.0 /\n7.0 - 14.0",
+      "Shieldlag": "8-12\n7-10",
+      "Shieldstun": "4-6\n3-5",
+      "Hitbox": "Early /\nlate",
+      "Advantage": "-23 to -17\n"
+    },
+    "SideB": {
+      "ufdName": "ClownKartDashG.gif",
       "Startup": "20",
       "Total Frames": "",
       "Landing Lag": "",
@@ -195,7 +256,18 @@
       "Shieldlag": "7-9",
       "Shieldstun": "6-9"
     },
-    "Clown Kart Dash (spinout)": {
+    "Clown Kart Dash": {
+      "ufdName": "ClownKartDashG.gif",
+      "Startup": "20",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "Damage based heavy armor begins on frame 20.\nKart Jump can be cancelled into any attack on any frame but \nis otherwise a 33 frame animation. Damage depends on travel speed",
+      "Base Damage": "5.2 - 8.8",
+      "Shieldlag": "7-9",
+      "Shieldstun": "6-9"
+    },
+    "SideBSpinout": {
+      "ufdName": "ClownKartDashSpinout.gif",
       "Startup": "3",
       "Total Frames": "58",
       "Landing Lag": "",
@@ -203,10 +275,23 @@
       "Base Damage": "16.3 - 10.0",
       "Shieldlag": "11-8",
       "Shieldstun": "15-10",
-      "hitbox": "Early - latest",
+      "Hitbox": "Early - latest",
       "Advantage": "-40"
     },
-    "Abandon Ship": {
+    "Clown Kart Dash (spinout)": {
+      "ufdName": "ClownKartDashSpinout.gif",
+      "Startup": "3",
+      "Total Frames": "58",
+      "Landing Lag": "",
+      "Additional Notes": "Damage also depends on travel speed",
+      "Base Damage": "16.3 - 10.0",
+      "Shieldlag": "11-8",
+      "Shieldstun": "15-10",
+      "Hitbox": "Early - latest",
+      "Advantage": "-40"
+    },
+    "UpB": {
+      "ufdName": ["AbandonShip.gif","AbandonShipExplosion.png"],
       "Startup": "21/56",
       "Total Frames": "",
       "Landing Lag": "26",
@@ -215,7 +300,18 @@
       "Shieldlag": "6/9",
       "Shieldstun": "3/5"
     },
-    "Abandon Ship (hammer)": {
+    "Abandon Ship": {
+      "ufdName": ["AbandonShip.gif","AbandonShipExplosion.png"],
+      "Startup": "21/56",
+      "Total Frames": "",
+      "Landing Lag": "26",
+      "Additional Notes": "Earliest you can hammer or dodge is on frame 26\nCan grab ledges as early as frame 29",
+      "Base Damage": "5.0 / 13.0",
+      "Shieldlag": "6/9",
+      "Shieldstun": "3/5"
+    },
+    "UpBHammer": {
+      "ufdName": "AbandonShipHammer.gif",
       "Startup": "8/13",
       "Total Frames": "39",
       "Landing Lag": "37",
@@ -223,10 +319,23 @@
       "Base Damage": "15.0 / 10.0",
       "Shieldlag": "12/?",
       "Shieldstun": "14/?",
-      "hitbox": "Sweet/sour",
+      "Hitbox": "Sweet/sour",
+      "Advantage": "-23"
+    },
+    "Abandon Ship (hammer)": {
+      "ufdName": "AbandonShipHammer.gif",
+      "Startup": "8/13",
+      "Total Frames": "39",
+      "Landing Lag": "37",
+      "Additional Notes": "",
+      "Base Damage": "15.0 / 10.0",
+      "Shieldlag": "12/?",
+      "Shieldstun": "14/?",
+      "Hitbox": "Sweet/sour",
       "Advantage": "-23"
     },
     "Mechakoopa": {
+      "ufdName": ["Mechakoopa.gif", "MechakoopaExplosion.png"],
       "Startup": "",
       "Total Frames": "67",
       "Landing Lag": "",

@@ -76,6 +76,7 @@ exports.Isabelle = require('./68-Isabelle.json');
 exports.Incineroar = require('./69-Incineroar.json');
 exports.PiranhaPlant = require('./70-PiranhaPlant.json');
 exports.Joker = require('./71-Joker.json');
+exports.Arsene = require('./71-Arsene.json');
 exports.Hero = require('./72-Hero.json');
 exports.BanjoAndKazooie = require('./73-Banjo&Kazooie.json');
 exports.Terry = require('./74-Terry.json');

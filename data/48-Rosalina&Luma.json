@@ -9,7 +9,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "Jab 1 (Luma)": {
@@ -29,7 +29,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "4",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "Jab 2 (Luma)": {
@@ -49,7 +49,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "10",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-24"
     },
     "Jab 3 (Luma)": {
@@ -87,7 +87,7 @@
       "Base Damage": "2.5",
       "Shieldlag": "10",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-29"
     },
     "Rapid Finisher (Luma)": {
@@ -107,7 +107,7 @@
       "Base Damage": "7.5",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-22"
     },
     "F-Tilt (Luma)": {
@@ -127,7 +127,7 @@
       "Base Damage": "10.0 / 8.0",
       "Shieldlag": "8/7",
       "Shieldstun": "10/8",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-23"
     },
     "U-Tilt (Luma)": {
@@ -138,7 +138,7 @@
       "Base Damage": "12.0 / 6.0 / 4.5",
       "Shieldlag": "12(+4)/6(-2)/\n5(-1)",
       "Shieldstun": "4/3/3",
-      "hitbox": "Early/late/later"
+      "Hitbox": "Early/late/later"
     },
     "D-Tilt": {
       "Startup": "5",
@@ -148,7 +148,7 @@
       "Base Damage": "5.5",
       "Shieldlag": "8",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21"
     },
     "D-Tilt (Luma)": {
@@ -168,7 +168,7 @@
       "Base Damage": "3.0 / 4.0",
       "Shieldlag": "6/7",
       "Shieldstun": "4/5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-18"
     },
     "Dash Attack (Luma)": {
@@ -188,7 +188,7 @@
       "Base Damage": "12.0",
       "Shieldlag": "11",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26"
     },
     "F-Smash (Luma)": {
@@ -208,7 +208,7 @@
       "Base Damage": "12.0",
       "Shieldlag": "9",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-31"
     },
     "U-Smash (Luma)": {
@@ -228,7 +228,7 @@
       "Base Damage": "7.0 / 9.0",
       "Shieldlag": "10/11",
       "Shieldstun": "6/7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-29/-17"
     },
     "D-Smash (Luma)": {
@@ -248,7 +248,7 @@
       "Base Damage": "10.0 / 7.0",
       "Shieldlag": "7/7",
       "Shieldstun": "4/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-4/-5"
     },
     "N-Air (Luma)": {
@@ -268,7 +268,7 @@
       "Base Damage": "1.0 / 4.0",
       "Shieldlag": "4/8",
       "Shieldstun": "2/3",
-      "hitbox": "Multi/final",
+      "Hitbox": "Multi/final",
       "Advantage": "-14/-13"
     },
     "F-Air (Luma)": {
@@ -288,7 +288,7 @@
       "Base Damage": "11.0",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
     "B-Air (Luma)": {
@@ -308,7 +308,7 @@
       "Base Damage": "10.0 / 5.0 / 2.0",
       "Shieldlag": "8/7/6",
       "Shieldstun": "4/3/2",
-      "hitbox": "Early/late/later",
+      "Hitbox": "Early/late/later",
       "Advantage": "-7/-8/-9"
     },
     "U-Air (Luma)": {
@@ -328,7 +328,7 @@
       "Base Damage": "8.0 / 6.0 / 2.0",
       "Shieldlag": "7/6/4",
       "Shieldstun": "4/3/2",
-      "hitbox": "Early/late/later",
+      "Hitbox": "Early/late/later",
       "Advantage": "-7/-8/-9"
     },
     "D-Air (Luma)": {
@@ -348,7 +348,7 @@
       "Base Damage": "5.0 - 16.0",
       "Shieldlag": "6-10",
       "Shieldstun": "3-5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15 to -9"
     },
     "Luma Recall": {
@@ -365,7 +365,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "5",
       "Shieldstun": "2",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-22"
     },
     "Launch Star": {

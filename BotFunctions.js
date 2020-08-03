@@ -9,7 +9,7 @@ const { Attachment } = require('discord.js');
 
 module.exports = {
     GetCharacterData: GetCharacterData = () => {
-        console.log(characterData);
+        //console.log(characterData);
     },
 
     GetCharacterMappings: GetCharacterMappings = (charName) => {
@@ -21,8 +21,10 @@ module.exports = {
             if(closestMatch == null){
                 reject(`couldnt find character match for ${charName}`);
             }
-            console.log(closestMatch);
-            resolve(characterMappings[closestMatch]);
+            console.log(`closest match is ${closestMatch}`);
+            console.log('match is');
+            const returnVal = characterMappings[closestMatch];
+            resolve(returnVal);
         });
     },
 
@@ -33,6 +35,7 @@ module.exports = {
             GetCharacterMappings(charName)
             .then((character) => {
                 if(character == null){ reject('couldnt find a character match'); }
+                console.log(character);
                 returnObj.characterName = character.name;
                 const actualCharMoveData = GetCharacterMoveFromCharacter(charMove, character);                
                 if(actualCharMoveData == null){reject('move data is null');}
@@ -55,11 +58,9 @@ module.exports = {
                     }                                        
                 }
                 else if(charMoveNameKey in GENERIC_MOVE_ALIASES_UFD === false){ //no ufdname in move and move is not generic, yikes!
-                    console.log('inside non generic block')
-                    reject('no image found');                    
+                    //reject('no image found');                    
                 }
                 else { //generically named move, we can finish
-                    console.log('inside generic block')
                     const ufdName = GENERIC_MOVE_ALIASES_UFD[charMoveNameKey];
                     resultArr.push(`${frameDataApiBaseUrl}/hitboxes/${character.uriComponent}/${character.movePrefix}${ufdName}.gif`);
                 }
@@ -228,7 +229,7 @@ module.exports = {
         if(jsonSearchKey === null){
             return null;
         }
-        const results = fs.get(jsonSearchKey, null, .7);
+        const results = fs.get(jsonSearchKey, null, .5);
         console.log(results);
         if(results === null){
             return null;

@@ -1,5 +1,17 @@
 {
   "name": "03 - Link",
+  "uriComponent": "link",
+  "movePrefix": "Link",
+  "moveMappings": [
+    { "NeutralB": "Hero's Bow" },
+    { "SideB": "Boomerang" },
+    { "UpB": "Spin Attack" },
+    { "AirUpB": "Spin Attack (air)" },
+    { "DownB": "Remote Bomb (pull)" },
+    { "DownBPull": "Remote Bomb (pull)" },
+    { "DownBDetonate": "Remote Bomb (detonate)" },
+    { "Bomb": "Remote Bomb (detonate)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "8",
@@ -9,7 +21,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "Jab 2": {
@@ -20,7 +32,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "6",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "Jab 3": {
@@ -31,7 +43,7 @@
       "Base Damage": "4.0",
       "Shieldlag": "11",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-23"
     },
     "F-Tilt": {
@@ -42,7 +54,7 @@
       "Base Damage": "13.0",
       "Shieldlag": "9",
       "Shieldstun": "12",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "U-Tilt": {
@@ -53,7 +65,7 @@
       "Base Damage": "11.0",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "D-Tilt": {
@@ -64,7 +76,7 @@
       "Base Damage": "9.0",
       "Shieldlag": "7",
       "Shieldstun": "9",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-11"
     },
     "Dash Attack": {
@@ -75,10 +87,11 @@
       "Base Damage": "14.0 / 13.0 / 12.0",
       "Shieldlag": "11/9/9",
       "Shieldstun": "17/16/15",
-      "hitbox": "Far/med/close",
+      "Hitbox": "Far/med/close",
       "Advantage": "-19/-20/-21"
     },
     "F-Smash 1": {
+      "ufdName":"FSmash1.gif",
       "Startup": "17",
       "Total Frames": "50",
       "Landing Lag": "",
@@ -86,10 +99,11 @@
       "Base Damage": "7.0 / 14.0 / 5.0",
       "Shieldlag": "7/10/6",
       "Shieldstun": "6/10/4",
-      "hitbox": "Close/Tipper/\nprojectile",
+      "Hitbox": "Close/Tipper/\nprojectile",
       "Advantage": "-27-23"
     },
     "F-Smash 2": {
+      "ufdName":"FSmash2.gif",
       "Startup": "10",
       "Total Frames": "60",
       "Landing Lag": "",
@@ -97,7 +111,7 @@
       "Base Damage": "13.0",
       "Shieldlag": "14",
       "Shieldstun": "9",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-41"
     },
     "U-Smash": {
@@ -108,7 +122,7 @@
       "Base Damage": "4.0 / 3.0 / 10.0",
       "Shieldlag": "5/5/8",
       "Shieldstun": "4/3/8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28"
     },
     "D-Smash": {
@@ -119,7 +133,7 @@
       "Base Damage": "16.0 / 12.0",
       "Shieldlag": "10/9",
       "Shieldstun": "11/8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-33/-24"
     },
     "N-Air": {
@@ -130,7 +144,7 @@
       "Base Damage": "11.0 / 6.0",
       "Shieldlag": "8/6",
       "Shieldstun": "4/3",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-2/-3"
     },
     "F-Air": {
@@ -141,7 +155,7 @@
       "Base Damage": "8.0 / 10.0",
       "Shieldlag": "7/10",
       "Shieldstun": "4/4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-7/-7"
     },
     "B-Air": {
@@ -152,7 +166,7 @@
       "Base Damage": "5.0 / 7.0",
       "Shieldlag": "6/7",
       "Shieldstun": "3/3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-3/-3"
     },
     "U-Air": {
@@ -163,7 +177,7 @@
       "Base Damage": "15.0/ 13.0",
       "Shieldlag": "12/11",
       "Shieldstun": "5/5",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-9"
     },
     "D-Air": {
@@ -174,10 +188,11 @@
       "Base Damage": "18.0 / 15.0 / 11.0",
       "Shieldlag": "14/12/10",
       "Shieldstun": "6/5/4",
-      "hitbox": "Early/Late/pogo",
+      "Hitbox": "Early/Late/pogo",
       "Advantage": "-13"
     },
     "Hero's Bow": {
+      "ufdName":"LinkArrow.png",
       "Startup": "16-52",
       "Total Frames": "44-80",
       "Landing Lag": "",
@@ -185,10 +200,11 @@
       "Base Damage": "4.0 - 12.0\n",
       "Shieldlag": "5-9\n",
       "Shieldstun": "2-4\n",
-      "hitbox": "Uncharged-\nFull Charge",
+      "Hitbox": "Uncharged-\nFull Charge",
       "Advantage": "-21/-15\n"
     },
     "Boomerang": {
+      "ufdName":"Boomerang.png",
       "Startup": "27",
       "Total Frames": "45",
       "Landing Lag": "",
@@ -196,10 +212,11 @@
       "Base Damage": "8.0 / 9.6",
       "Shieldlag": "7/8",
       "Shieldstun": "3/4",
-      "hitbox": "Tilt/Smash",
+      "Hitbox": "Tilt/Smash",
       "Advantage": "-8/-6"
     },
     "Spin Attack": {
+      "ufdName":"SpinAttackG.gif",
       "Startup": "7",
       "Total Frames": "76",
       "Landing Lag": "",
@@ -207,7 +224,7 @@
       "Base Damage": "14.0 - 7.0 / \n11.2 - 5.6",
       "Shieldlag": "14-7\n8-6",
       "Shieldstun": "13-7\n10-6",
-      "hitbox": "close/\nfar",
+      "Hitbox": "close/\nfar",
       "Advantage": "-56/\n-53"
     },
     "Spin Attack (air)": {
@@ -218,21 +235,24 @@
       "Base Damage": "4.0 / 2.0 / 4.0",
       "Shieldlag": "5/4/11",
       "Shieldstun": "5/3/5",
-      "hitbox": "First/multi/Final"
+      "Hitbox": "First/multi/Final"
     },
     "Remote Bomb (pull)": {
+      "ufdName":"BombThrown.png",
       "Startup": "",
       "Total Frames": "39"
     },
     "Remote Bomb (detonate)": {
+      "ufdName":"BombExplode.png",
       "Startup": "12",
       "Total Frames": "39",
       "Landing Lag": "",
       "Additional Notes": "Link is not immune to his own bombs.",
+      "Related Moves": "See Remote Bomb (pull)",
       "Base Damage": "7.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19"
     },
     "Grab": {
