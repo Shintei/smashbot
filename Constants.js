@@ -55,5 +55,7 @@ module.exports = {
 
     STATIC_STRINGS : {
         EMBEDFOOTER: "Brought to you with hate"
-    }
+    },
+
+    WORDS_THAT_GET_BACKAIRED : ["residual", "residually", "cornucopia"]
 }
