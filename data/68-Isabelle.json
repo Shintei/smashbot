@@ -2,6 +2,17 @@
   "name": "68 - Isabelle",
   "uriComponent": "isabelle",
   "movePrefix": "Isabelle",
+  "moveMappings": [
+    { "NeutralB": "Pocket" },
+    { "NeutralBThrow": "Pocket (throw)" },
+    { "SideB": "Fishing Rod" },
+    { "SideBForward": "Fishing Rod (throw forward)" },
+    { "SideBBack": "Fishing Rod (throw back)" },
+    { "SideBUp": "Fishing Rod (throw up)" },
+    { "SideBDown": "Fishing Rod (throw down)" },
+    { "UpB": "Balloon Trip" },
+    { "DownB": "Lloid Trap" }
+  ],
   "moves": {
     "Jab": {
       "Startup": "3",
@@ -146,13 +157,6 @@
       "Hitbox": "Early/late",
       "Advantage": "-5/-6"
     },
-    "NeutralB": {
-      "ufdName":"Pocket.gif",
-      "Startup": "",
-      "Total Frames": "50",
-      "Landing Lag": "",
-      "Additional Notes": "invulnerable on frame 5-23. Pockets projectiles on frame 9-23."
-    },
     "Pocket": {
       "ufdName":"Pocket.gif",
       "Startup": "",
@@ -166,12 +170,6 @@
       "Landing Lag": "",
       "Additional Notes": "This is not the same throw as with a holdable item"
     },
-    "SideB": {
-      "Startup": "21",
-      "Total Frames": "",
-      "Landing Lag": "",
-      "Additional Notes": "Frame 46 is the earliest you can reel in. Tethers on frame 18"
-    },
     "Fishing Rod": {
       "Startup": "21",
       "Total Frames": "",
@@ -182,7 +180,7 @@
       "Startup": "3",
       "Total Frames": "38"
     },
-    "SideBForward": {
+    "Fishing Rod (throw forward)": {
       "ufdName":"FishingRodFThrow.gif",
       "Startup": "15",
       "Total Frames": "45",
@@ -190,15 +188,7 @@
       "Additional Notes": "",
       "Base Damage": "14.1 - 16.5"
     },
-    "Fishing Rod Throw Forward": {
-      "ufdName":"FishingRodFThrow.gif",
-      "Startup": "15",
-      "Total Frames": "45",
-      "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "14.1 - 16.5"
-    },
-    "SideBBack": {
+    "Fishing Rod (throw back)": {
       "ufdName":"FishingRodBThrow.gif",
       "Startup": "13",
       "Total Frames": "35",
@@ -206,15 +196,7 @@
       "Additional Notes": "",
       "Base Damage": "11.0 - 13.9"
     },
-    "Fishing Rod Throw Back": {
-      "ufdName":"FishingRodBThrow.gif",
-      "Startup": "13",
-      "Total Frames": "35",
-      "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "11.0 - 13.9"
-    },
-    "SideBUp": {
+    "Fishing Rod (throw up)": {
       "ufdName":"FishingRodUThrow.gif",
       "Startup": "22",
       "Total Frames": "43",
@@ -222,36 +204,13 @@
       "Additional Notes": "",
       "Base Damage": "12.0 - 14.6"
     },
-    "Fishing Rod Throw Up": {
-      "ufdName":"FishingRodUThrow.gif",
-      "Startup": "22",
-      "Total Frames": "43",
-      "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "12.0 - 14.6"
-    },
-    "SideBDown": {
+    "Fishing Rod (throw down)": {
       "ufdName":"FishingRodDThrow.gif",
       "Startup": "18/22",
       "Total Frames": "39",
       "Landing Lag": "",
       "Additional Notes": "",
       "Base Damage": "1.0 - 4.0/ 8.5-11.4"
-    },
-    "Fishing Rod Throw Down": {
-      "ufdName":"FishingRodDThrow.gif",
-      "Startup": "18/22",
-      "Total Frames": "39",
-      "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "1.0 - 4.0/ 8.5-11.4"
-    },
-    "UpB": {
-      "ufdName":"BalloonHurtbox.png",
-      "Startup": "",
-      "Total Frames": "",
-      "Landing Lag": "20/30",
-      "Additional Notes": "20 landing lag if you land inside the swing. 30 if you land from special fall.\nCan grab ledges as early as frame 7"
     },
     "Balloon Trip": {
       "ufdName":"BalloonHurtbox.png",
@@ -259,17 +218,6 @@
       "Total Frames": "",
       "Landing Lag": "20/30",
       "Additional Notes": "20 landing lag if you land inside the swing. 30 if you land from special fall.\nCan grab ledges as early as frame 7"
-    },
-    "DownB": {
-      "ufdName":"LloidTrap.gif",
-      "Startup": "9/17/25/34/43/51",
-      "Total Frames": "49/26",
-      "Landing Lag": "",
-      "Additional Notes": "Proximity activation as early as 51. 49 total frames to plant. 26 total frames to manually activate. ",
-      "Base Damage": "1.6 / 0.9 / 12.0",
-      "Shieldlag": "4/4/11",
-      "Shieldstun": "2/2/4",
-      "Hitbox": "Hits 1-2/3-5/6"
     },
     "Lloid Trap": {
       "ufdName":"LloidTrap.gif",

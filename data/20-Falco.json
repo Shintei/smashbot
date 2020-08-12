@@ -2,6 +2,15 @@
   "name": "20 - Falco",
   "uriComponent": "falco",
   "movePrefix": "Falco",
+  "moveMappings": [
+    { "NeutralB": "Blaster" },
+    { "Laser": "Blaster" },
+    { "SideB": "Falco Phantasm" },
+    { "Falco Illusion": "Falco Phantasm" },
+    { "UpB": "Fire Bird" },
+    { "DownB": "Reflector" },
+    { "Shine": "Reflector" }
+  ],
   "moves": {
     "Jab": {
       "Startup": "2",
@@ -200,30 +209,6 @@
       "Hitbox": "Early/late",
       "Advantage": "-7/-8"
     },
-    "NeutralB": {
-      "ufdName":"Blaster.gif",
-      "Startup": "8/7",
-      "Total Frames": "41/38",
-      "Landing Lag": "",
-      "Additional Notes": "fire rate of one shot per 26 frames.",
-      "Base Damage": "3.0",
-      "Shieldlag": "7",
-      "Shieldstun": "2",
-      "Hitbox": "",
-      "Advantage": "-24/-22"
-    },
-    "Laser": {
-      "ufdName":"Blaster.gif",
-      "Startup": "8/7",
-      "Total Frames": "41/38",
-      "Landing Lag": "",
-      "Additional Notes": "fire rate of one shot per 26 frames.",
-      "Base Damage": "3.0",
-      "Shieldlag": "7",
-      "Shieldstun": "2",
-      "Hitbox": "",
-      "Advantage": "-24/-22"
-    },
     "Blaster": {
       "ufdName":"Blaster.gif",
       "Startup": "8/7",
@@ -235,18 +220,6 @@
       "Shieldstun": "2",
       "Hitbox": "",
       "Advantage": "-24/-22"
-    },
-    "SideB": {
-      "ufdName":["FalcoPhantasmG.png","FalcoPhantasmA.png"],
-      "Startup": "13/18",
-      "Total Frames": "50/66",
-      "Landing Lag": "16",
-      "Additional Notes": "A frame 18 hit is impossible unless unnaturally inside of an opponent.\nEndlag is 31 when blocked on the ground, and 24 from the air at lowest possible altitude\nFalco does not suffer hitlag from this attack. Can grab ledges beginning on frame 18.",
-      "Base Damage": "7.0",
-      "Shieldlag": "9/7",
-      "Shieldstun": "3/3",
-      "Hitbox": "",
-      "Advantage": "-19/-14"
     },
     "Falco Phantasm": {
       "ufdName":["FalcoPhantasmG.png","FalcoPhantasmA.png"],
@@ -260,18 +233,6 @@
       "Hitbox": "",
       "Advantage": "-19/-14"
     },
-    "UpB": {
-      "ufdName":"Firebird.gif",
-      "Startup": "20/26/28/30/32/34/36/38/\n44/49/51/53/55/57/59/61",
-      "Total Frames": "85",
-      "Landing Lag": "18",
-      "Additional Notes": "Starts traveling on 44. That hit is the only one that deals 3.0 damage.\nTotal frames assumes travel along the ground. Can grab ledges on frame 44 onward.",
-      "Base Damage": "2.0 / 3.0",
-      "Shieldlag": "4",
-      "Shieldstun": "3",
-      "Hitbox": "",
-      "Advantage": "-21"
-    },
     "Fire Bird": {
       "ufdName":"Firebird.gif",
       "Startup": "20/26/28/30/32/34/36/38/\n44/49/51/53/55/57/59/61",
@@ -283,30 +244,6 @@
       "Shieldstun": "3",
       "Hitbox": "",
       "Advantage": "-21"
-    },
-    "DownB": {
-      "ufdName":"Reflector.gif",
-      "Startup": "5",
-      "Total Frames": "44",
-      "Landing Lag": "",
-      "Additional Notes": "Reflects on frame 1-33",
-      "Base Damage": "5.0",
-      "Shieldlag": "9",
-      "Shieldstun": "6",
-      "Hitbox": "",
-      "Advantage": "-33"
-    },
-    "Shine": {
-      "ufdName":"Reflector.gif",
-      "Startup": "5",
-      "Total Frames": "44",
-      "Landing Lag": "",
-      "Additional Notes": "Reflects on frame 1-33",
-      "Base Damage": "5.0",
-      "Shieldlag": "9",
-      "Shieldstun": "6",
-      "Hitbox": "",
-      "Advantage": "-33"
     },
     "Reflector": {
       "ufdName":"Reflector.gif",

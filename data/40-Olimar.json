@@ -1,5 +1,15 @@
 {
   "name": "40 - Olimar",
+  "uriComponent": "olimar",
+  "movePrefix": "Olimar",
+  "moveMappings": [
+    { "NeutralB": "Pikmin Pluck" },
+    { "SideB": "Pikmin Throw" },
+    { "PurpleSideB": "Purple Throw" },
+    { "UpB": "Winged Pikmin" },
+    { "DownB": "Pikmin Order" },
+    { "Whistle": "Pikmin Order" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -67,7 +77,9 @@
       "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-21"
     },
-    "F-Smash (early)": {
+    "F-Smash": {
+      "movePrefix":"",
+      "ufdName":["BlueFSmash.png", "YellowFSmash.png", "RedFSmash.png", "WhiteFSmash.png", "PurpleFSmash.png"],
       "Startup": "11",
       "Total Frames": "42",
       "Landing Lag": "",
@@ -78,7 +90,9 @@
       "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-13/-11/-16/-18/-10"
     },
-    "-late": {
+    "F-Smash (late)": {
+      "movePrefix":"",
+      "ufdName":["BlueFSmash.png", "YellowFSmash.png", "RedFSmash.png", "WhiteFSmash.png", "PurpleFSmash.png"],
       "Startup": "13",
       "Total Frames": "42",
       "Landing Lag": "",
@@ -89,7 +103,9 @@
       "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-14/-13/-17/-19/-14"
     },
-    "-later": {
+    "F-Smash (latest)": {
+      "movePrefix":"",
+      "ufdName":["BlueFSmash.png", "YellowFSmash.png", "RedFSmash.png", "WhiteFSmash.png", "PurpleFSmash.png"],
       "Startup": "20",
       "Total Frames": "42",
       "Landing Lag": "",
@@ -100,7 +116,9 @@
       "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-12/-10/-13/-13/-10"
     },
-    "U-Smash (close)": {
+    "U-Smash": {
+      "movePrefix":"",
+      "ufdName":["BlueUsmash.gif", "YellowUsmash.gif", "RedUsmash.gif", "WhiteUsmash.gif", "PurpleUsmash.gif"],
       "Startup": "12",
       "Total Frames": "39",
       "Landing Lag": "",
@@ -111,7 +129,9 @@
       "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-10/-8/-13/-15/-8"
     },
-    "-Far": {
+    "U-Smash (far)": {
+      "movePrefix":"",
+      "ufdName":["BlueUsmash.gif", "YellowUsmash.gif", "RedUsmash.gif", "WhiteUsmash.gif", "PurpleUsmash.gif"],
       "Startup": "12",
       "Total Frames": "39",
       "Landing Lag": "",
@@ -122,7 +142,9 @@
       "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-12/-11/-15/-17/-12"
     },
-    "-Late": {
+    "U-Smash (late)": {
+      "movePrefix":"",
+      "ufdName":["BlueUsmash.gif", "YellowUsmash.gif", "RedUsmash.gif", "WhiteUsmash.gif", "PurpleUsmash.gif"],
       "Startup": "14",
       "Total Frames": "38",
       "Landing Lag": "",
@@ -133,7 +155,9 @@
       "Hitbox": "",
       "Advantage\nR/Y/B/W/P": "-11/-9/-13/-14/-10"
     },
-    "D-Smash (early)": {
+    "D-Smash": {
+      "movePrefix":"",
+      "ufdName":["BlueDSmash.gif", "YellowDSmash.gif", "RedDSmash.gif", "WhiteDSmash.gif", "PurpleDSmash.gif"],
       "Startup": "10",
       "Total Frames": "38",
       "Landing Lag": "",
@@ -156,6 +180,8 @@
       "Advantage\nR/Y/B/W/P": "-11/-11"
     },
     "F-Air": {
+      "movePrefix":"",
+      "ufdName":["BlueFAir.gif", "YellowFAir.gif", "RedFAir.gif", "WhiteFAir.gif", "PurpleFAir.gif"],
       "Startup": "7",
       "Total Frames": "42",
       "Landing Lag": "9",
@@ -167,6 +193,8 @@
       "Advantage\nR/Y/B/W/P": "-4/-5/-5/-6/-4"
     },
     "B-Air": {
+      "movePrefix":"",
+      "ufdName":["BlueBAir.gif", "YellowBAir.gif", "RedBAir.gif", "WhiteBAir.gif", "PurpleBAir.gif"],
       "Startup": "10",
       "Total Frames": "48",
       "Landing Lag": "9",
@@ -178,6 +206,8 @@
       "Advantage\nR/Y/B/W/P": "-4/-5/-5/-5/-3"
     },
     "U-Air": {
+      "movePrefix":"",
+      "ufdName":["BlueUAir.gif", "YellowUAir.gif", "RedUAir.gif", "WhiteUAir.gif", "PurpleUAir.gif"],
       "Startup": "8",
       "Total Frames": "34",
       "Landing Lag": "18",
@@ -189,6 +219,8 @@
       "Advantage\nR/Y/B/W/P": "-13/-14/-14/-15/-13"
     },
     "D-Air": {
+      "movePrefix":"",
+      "ufdName":["BlueDAir.gif", "YellowDAir.gif", "RedDAir.gif", "WhiteDAir.gif", "PurpleDAir.gif"],
       "Startup": "9",
       "Total Frames": "51",
       "Landing Lag": "18",
@@ -206,21 +238,30 @@
       "Additional Notes": "32 frame failure animation when your squad is full."
     },
     "Pikmin Throw": {
+      "movePrefix":"",
+      "ufdName":["BluePikminThrow.gif", "YellowPikminThrow.gif", "RedPikminThrow.gif", "WhitePikminThrow.gif", "PurplePikminThrow.gif"],
       "Startup": "9",
       "Total Frames": "24",
       "Landing Lag": "",
-      "Additional Notes": "A latched pikmin hits on frame 18, then every 36 frames after that (counting Pikmin's hitlag)"
+      "Additional Notes": "A latched pikmin hits on frame 18, then every 36 frames after that (counting Pikmin's hitlag)",
+      "Base Damage\nR/Y/B/W/P": "6.0",
+      "Shieldlag\nR/Y/B/W/P": "6",
+      "Shieldstun\nR/Y/B/W/P": "3",
+      "FIU Advice": "Stop exploding, you cowards!"
     },
-    "-Purple": {
+    "Purple Throw": {
+      "movePrefix":"",
+      "ufdName":"PurplePikminThrow.gif",
       "Startup": "9",
       "Total Frames": "24",
       "Landing Lag": "",
       "Additional Notes": "",
-      "Base Damage\nR/Y/B/W/P": "6.0",
-      "Shieldlag\nR/Y/B/W/P": "6",
-      "Shieldstun\nR/Y/B/W/P": "3",
+      "Base Damage": "6.0",
+      "Shieldlag": "6",
+      "Shieldstun": "3",
       "Hitbox": "",
-      "Advantage\nR/Y/B/W/P": "-6"
+      "Advantage": "-6",
+      "FIU Advice": "Stop exploding, you cowards!"
     },
     "Winged Pikmin": {
       "Startup": "",
@@ -229,6 +270,7 @@
       "Additional Notes": "30 landing lag if the pikmin let go of you. Frame 30 is the earliest you can cancel the move.\nCan grab ledges as early as frame 2"
     },
     "Pikmin Order": {
+      "ufdName":"PikminOrder.gif",
       "Startup": "",
       "Total Frames": "17",
       "Landing Lag": "",

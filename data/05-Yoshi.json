@@ -1,5 +1,13 @@
 {
   "name": "05 - Yoshi",
+  "uriComponent": "yoshi",
+  "movePrefix": "Yoshi",
+  "moveMappings": [
+    { "NeutralB": "Egg Lay" },
+    { "SideB": "Egg Roll" },
+    { "UpB": "Egg Throw" },
+    { "DownB": "Yoshi Bomb" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -24,6 +32,28 @@
       "Advantage": "-11"
     },
     "F-Tilt": {
+      "Startup": "5",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "8",
+      "Hitbox": "",
+      "Advantage": "-16"
+    },
+    "F-TiltUp": {
+      "Startup": "5",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "8",
+      "Hitbox": "",
+      "Advantage": "-16"
+    },
+    "F-TiltDown": {
       "Startup": "5",
       "Total Frames": "29",
       "Landing Lag": "",
@@ -68,6 +98,28 @@
       "Advantage": "-20"
     },
     "F-Smash": {
+      "Startup": "14",
+      "Total Frames": "52",
+      "Landing Lag": "",
+      "Additional Notes": "Head intangibility on frame 12-16. Charge hold is frame 7",
+      "Base Damage": "15.5",
+      "Shieldlag": "10",
+      "Shieldstun": "10",
+      "Hitbox": "",
+      "Advantage": "-28"
+    },
+    "F-SmashUp": {
+      "Startup": "14",
+      "Total Frames": "52",
+      "Landing Lag": "",
+      "Additional Notes": "Head intangibility on frame 12-16. Charge hold is frame 7",
+      "Base Damage": "15.5",
+      "Shieldlag": "10",
+      "Shieldstun": "10",
+      "Hitbox": "",
+      "Advantage": "-28"
+    },
+    "F-SmashDown": {
       "Startup": "14",
       "Total Frames": "52",
       "Landing Lag": "",
@@ -145,6 +197,7 @@
       "Advantage": "-3"
     },
     "D-Air": {
+      "ufdName":["DAir.gif","DAirLanding.gif"],
       "Startup": "16/18/20/22/24/26/28/\n30/32/34/36/38/41",
       "Total Frames": "56",
       "Landing Lag": "17",
@@ -155,13 +208,15 @@
       "Hitbox": "Early multi/Late\nmulti/final/landing",
       "Advantage": "-14"
     },
-    "Egg Lay ": {
+    "Egg Lay": {
+      "ufdName":"EggLay.gif",
       "Startup": "19",
       "Total Frames": "59/41",
       "Landing Lag": "",
       "Additional Notes": "Egg appears on frame 43 when successful.\nTotal frames when successful is 59. Total frames is 41 on whiff. "
     },
     "Egg Roll": {
+      "ufdName":"EggRoll.png",
       "Startup": "32",
       "Total Frames": "",
       "Landing Lag": "",
@@ -173,6 +228,7 @@
       "Advantage": "-29 to -27"
     },
     "Egg Throw": {
+      "ufdName":["EggThrow.png","EggThrowBurst.png"],
       "Startup": "16",
       "Total Frames": "55",
       "Landing Lag": "",
@@ -184,6 +240,7 @@
       "Advantage": "-30"
     },
     "Yoshi Bomb": {
+      "ufdName":["YoshiBombG.gif","YoshiBombFall.png"],
       "Startup": "7/27",
       "Total Frames": "77",
       "Landing Lag": "39",

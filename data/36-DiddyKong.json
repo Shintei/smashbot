@@ -2,6 +2,21 @@
   "name": "36 - Diddy Kong",
   "uriComponent": "diddy_kong",
   "movePrefix": "DiddyKong",
+  "moveMappings": [
+    { "NeutralB": "Peanut Popgun" },
+    { "NeutralBMisfire": "Peanut Popgun (misfire)" },
+    { "SideB": "Monkey Flip" },
+    { "SideBAttack": "Monkey Flip (attack)" },
+    { "SideBKick": "Monkey Flip (attack)" },
+    { "SideBGrab": "Monkey Flip (grab success)" },
+    { "SideBGrabAttack": "Monkey Flip (grab attack)" },
+    { "HumperBumper": "Monkey Flip (grab attack)" },
+    { "SideBGrabJump": "Monkey Flip (grab jump)" },
+    { "UpB": "Rocketbarrel Boost" },
+    { "UpBExplosion": "Rocketbarrel Boost (explosion)" },
+    { "DownB": "Banana Peel" },
+    { "Banana": "Banana Peel" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -190,18 +205,6 @@
       "Hitbox": "",
       "Advantage": "-26"
     },
-    "NeutralB": {
-      "ufdName":"Peanut.gif",
-      "Startup": "16/17 - 96/99",
-      "Total Frames": "48-129",
-      "Landing Lag": "",
-      "Additional Notes": "Melee hitbox generated after projectile. Diddy does not suffer hitlag from melee attack\nYou can cancel charge into shield/air dodge as early as frame 14.",
-      "Base Damage": "4.3 - 13.8 / 3.0",
-      "Shieldlag": "5-10/5",
-      "Shieldstun": "3-5/2",
-      "Hitbox": "Projectile/melee",
-      "Advantage": "-24 to -18\n/-18 to -13"
-    },
     "Peanut Popgun": {
       "ufdName":"Peanut.gif",
       "Startup": "16/17 - 96/99",
@@ -213,18 +216,6 @@
       "Shieldstun": "3-5/2",
       "Hitbox": "Projectile/melee",
       "Advantage": "-24 to -18\n/-18 to -13"
-    },
-    "NeutralBMisfire": {
-      "ufdName":"PeanutPopgunBoom.gif",
-      "Startup": "97",
-      "Total Frames": "202",
-      "Landing Lag": "",
-      "Additional Notes": "Holding the button down past frame 94 results in misfire.",
-      "Base Damage": "23.0",
-      "Shieldlag": "16",
-      "Shieldstun": "20",
-      "Hitbox": "",
-      "Advantage": "-85"
     },
     "Peanut Popgun (misfire)": {
       "ufdName":"PeanutPopgunBoom.gif",
@@ -238,43 +229,12 @@
       "Hitbox": "",
       "Advantage": "-85"
     },
-    "SideB": {
-      "ufdName":"MonkeyFlip.gif",
-      "Startup": "18",
-      "Total Frames": "47/61",
-      "Landing Lag": "26",
-      "Additional Notes": "First total frames is in the air, second is along level ground."
-    },
     "Monkey Flip": {
       "ufdName":"MonkeyFlip.gif",
       "Startup": "18",
       "Total Frames": "47/61",
       "Landing Lag": "26",
       "Additional Notes": "First total frames is in the air, second is along level ground."
-    },
-    "SideBAttack": {
-      "ufdName":"MonkeyFlipKick.gif",
-      "Startup": "6",
-      "Total Frames": "32",
-      "Landing Lag": "18",
-      "Additional Notes": "Total frames is in the air.",
-      "Base Damage": "14.0 / 10.0",
-      "Shieldlag": "10/8",
-      "Shieldstun": "13/10",
-      "Hitbox": "Early/Late",
-      "Advantage": "-5/-8"
-    },
-    "SideBKick": {
-      "ufdName":"MonkeyFlipKick.gif",
-      "Startup": "6",
-      "Total Frames": "32",
-      "Landing Lag": "18",
-      "Additional Notes": "Total frames is in the air.",
-      "Base Damage": "14.0 / 10.0",
-      "Shieldlag": "10/8",
-      "Shieldstun": "13/10",
-      "Hitbox": "Early/Late",
-      "Advantage": "-5/-8"
     },
     "Monkey Flip (attack)": {
       "ufdName":"MonkeyFlipKick.gif",
@@ -288,47 +248,18 @@
       "Hitbox": "Early/Late",
       "Advantage": "-5/-8"
     },
-    "SideBGrab": {
-      "ufdName":"MonkeyFlipStick.gif",
-      "Startup": "11/29/56..."
-    },
     "Monkey Flip (grab success)": {
       "ufdName":"MonkeyFlipStick.gif",
       "Startup": "11/29/56..."
-    },
-    "SideBGrabAttack": {
-      "ufdName":"FlipStickAttack.gif",
-      "Startup": "18/21",
-      "Total Frames": "36"
-    },
-    "HumperBumper": {
-      "ufdName":"FlipStickAttack.gif",
-      "Startup": "18/21",
-      "Total Frames": "36"
     },
     "Monkey Flip (grab attack)": {
       "ufdName":"FlipStickAttack.gif",
       "Startup": "18/21",
       "Total Frames": "36"
     },
-    "SideBGrabJump": {
-      "Startup": "18/27",
-      "Total Frames": "42"
-    },
     "Monkey Flip (grab jump)": {
       "Startup": "18/27",
       "Total Frames": "42"
-    },
-    "UpB": {
-      "ufdName":["RocketBarrels.gif","RocketBarrels.png"],
-      "Startup": "8-68",
-      "Total Frames": "",
-      "Landing Lag": "30",
-      "Additional Notes": "Touching a solid surface during boost activates explosion. Can grab ledges as early \nas a frame after release.",
-      "Base Damage": "10.0 / 8.0 / 6.0",
-      "Shieldlag": "8/7/6",
-      "Shieldstun": "10/8/6",
-      "Hitbox": "Early/Late/Later"
     },
     "Rocketbarrel Boost": {
       "ufdName":["RocketBarrels.gif","RocketBarrels.png"],
@@ -341,18 +272,6 @@
       "Shieldstun": "10/8/6",
       "Hitbox": "Early/Late/Later"
     },
-    "UpBExplosion": {
-      "ufdName":"RocketBarrelsExplosion.png",
-      "Startup": "1",
-      "Total Frames": "57-59",
-      "Landing Lag": "",
-      "Additional Notes": "Total frames assumes exploding on level ground, Diddy doesn't suffer hitlag from explosion",
-      "Base Damage": "18.0",
-      "Shieldlag": "11",
-      "Shieldstun": "6",
-      "Hitbox": "",
-      "Advantage": "-39 to -41"
-    },
     "Rocketbarrel Boost (explosion)": {
       "ufdName":"RocketBarrelsExplosion.png",
       "Startup": "1",
@@ -364,16 +283,6 @@
       "Shieldstun": "6",
       "Hitbox": "",
       "Advantage": "-39 to -41"
-    },
-    "DownB": {
-      "ufdName":["Banana.gif", "Banana.png"],
-      "Startup": "",
-      "Total Frames": "39",
-      "Landing Lag": "",
-      "Additional Notes": "Item generated on frame 20",
-      "Base Damage": "",
-      "Shieldlag": "6",
-      "Shieldstun": "6"
     },
     "Banana Peel": {
       "ufdName":["Banana.gif", "Banana.png"],

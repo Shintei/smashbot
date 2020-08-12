@@ -2,6 +2,15 @@
   "name": "45 - Villager",
   "uriComponent": "villager",
   "movePrefix": "Villager",
+  "moveMappings": [
+    { "NeutralB": "Pocket" },
+    { "NeutralBThrow": "Pocket (throw)" },
+    { "NeutralB2": "Pocket (throw)" },
+    { "SideB": "Lloid Rocket" },
+    { "UpB": "Balloon Trip" },
+    { "DownB": "Timber (tree grows/falls)" },
+    { "Axe": "Timber (axe)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -156,6 +165,7 @@
       "Advantage": "-3"
     },
     "U-Air": {
+      "ufdName":["UAir1.gif","UAir2.gif","UAir3.gif"],
       "Startup": "6",
       "Total Frames": "42",
       "Landing Lag": "12",
@@ -167,6 +177,7 @@
       "Advantage": "-7/-8/-8"
     },
     "D-Air": {
+      "ufdName":["DAir1.gif","DAir2.gif","DAir3.gif"],
       "Startup": "11",
       "Total Frames": "42",
       "Landing Lag": "12",
@@ -176,13 +187,6 @@
       "Shieldstun": "5/4/4",
       "Hitbox": "3/2/1 turnips",
       "Advantage": "-7/-8/-8"
-    },
-    "NeutralB": {
-      "ufdName": "Pocket.gif",
-      "Startup": "",
-      "Total Frames": "50",
-      "Landing Lag": "",
-      "Additional Notes": "Invulnerable on frame 5-23. Pockets on 8-23"
     },
     "Pocket": {
       "ufdName": "Pocket.gif",
@@ -197,18 +201,6 @@
       "Landing Lag": "",
       "Additional Notes": "This is not the same throw as with a holdable item"
     },
-    "SideB": {
-      "ufdName": "LloidRocketExplosion.png",
-      "Startup": "52",
-      "Total Frames": "35",
-      "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "7.0 / 5.0",
-      "Shieldlag": "7/6",
-      "Shieldstun": "3/3",
-      "Hitbox": "Early/late",
-      "Advantage": "|+27|"
-    },
     "Lloid Rocket": {
       "ufdName": "LloidRocketExplosion.png",
       "Startup": "52",
@@ -220,13 +212,6 @@
       "Shieldstun": "3/3",
       "Hitbox": "Early/late",
       "Advantage": "|+27|"
-    },
-    "UpB": {
-      "ufdName": "BalloonHurtbox.png",
-      "Startup": "",
-      "Total Frames": "",
-      "Landing Lag": "30/20",
-      "Additional Notes": "First landing lag is from free fall. Second is with balloons still attached.\nCan grab ledges as early as frame 7"
     },
     "Balloon Trip": {
       "ufdName": "BalloonHurtbox.png",
@@ -243,18 +228,6 @@
       "Startup": "5",
       "Total Frames": "49"
     },
-    "DownB": {
-      "ufdName": "TimberGrowth.gif",
-      "Startup": "46/16",
-      "Total Frames": "",
-      "Landing Lag": "",
-      "Additional Notes": "Refers to how long after water touches sprout/Tree is chopped a second time",
-      "Base Damage": "18.0 / 25.0",
-      "Shieldlag": "11/14",
-      "Shieldstun": "6/7",
-      "Hitbox": "",
-      "Advantage": "|+14| / -11"
-    },
     "Timber (tree grows/falls)": {
       "ufdName": "TimberGrowth.gif",
       "Startup": "46/16",
@@ -265,19 +238,8 @@
       "Shieldlag": "11/14",
       "Shieldstun": "6/7",
       "Hitbox": "",
-      "Advantage": "|+14| / -11"
-    },
-    "Axe": {
-      "ufdName": "TimberAxe.gif",
-      "Startup": "6",
-      "Total Frames": "47/54",
-      "Landing Lag": "",
-      "Additional Notes": "Second total frames is hitting a tree, and includes 13 frames of hitlag for Villager",
-      "Base Damage": "14.0",
-      "Shieldlag": "10",
-      "Shieldstun": "13",
-      "Hitbox": "",
-      "Advantage": "-28/-35"
+      "Advantage": "|+14| / -11",
+      "Related Moves": "See Timber (plant), Timber (water)"
     },
     "Timber (axe)": {
       "ufdName": "TimberAxe.gif",

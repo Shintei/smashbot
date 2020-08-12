@@ -1,5 +1,14 @@
 {
     "name": "66e - Richter",
+    "uriComponent": "richter",
+    "movePrefix": "Richter",
+    "moveMappings": [
+      { "NeutralB": "Axe" },
+      { "SideB": "Cross" },
+      { "UpB": "Uppercut" },
+      { "DownB": "Holy Water" },
+      { "DownBExplosion": "Holy Water (explosion)" }
+    ],
     "moves": {
       "Jab 1": {
         "Startup": "5",
@@ -119,6 +128,28 @@
         "Hitbox": "chain/ball",
         "Advantage": "-28/-26"
       },
+      "F-SmashUp": {
+        "Startup": "24",
+        "Total Frames": "62",
+        "Landing Lag": "",
+        "Additional Notes": "Charge hold is frame 5",
+        "Base Damage": "14.0 / 18.0",
+        "Shieldlag": "11/13",
+        "Shieldstun": "10/12",
+        "Hitbox": "chain/ball",
+        "Advantage": "-28/-26"
+      },
+      "F-SmashDown": {
+        "Startup": "24",
+        "Total Frames": "62",
+        "Landing Lag": "",
+        "Additional Notes": "Charge hold is frame 5",
+        "Base Damage": "14.0 / 18.0",
+        "Shieldlag": "11/13",
+        "Shieldstun": "10/12",
+        "Hitbox": "chain/ball",
+        "Advantage": "-28/-26"
+      },
       "U-Smash": {
         "Startup": "18",
         "Total Frames": "55",
@@ -163,7 +194,51 @@
         "Hitbox": "chain/ball/arm",
         "Advantage": "-6/-5/-8"
       },
+      "F-AirUp": {
+        "Startup": "14",
+        "Total Frames": "39",
+        "Landing Lag": "10",
+        "Additional Notes": "Tethers on frame 13. Autocancels on frame 29 onward",
+        "Base Damage": "10.0 / 12.0 / 2.0",
+        "Shieldlag": "8/9/4",
+        "Shieldstun": "4/5/2",
+        "Hitbox": "chain/ball/arm",
+        "Advantage": "-6/-5/-8"
+      },
+      "F-AirDown": {
+        "Startup": "14",
+        "Total Frames": "39",
+        "Landing Lag": "10",
+        "Additional Notes": "Tethers on frame 13. Autocancels on frame 29 onward",
+        "Base Damage": "10.0 / 12.0 / 2.0",
+        "Shieldlag": "8/9/4",
+        "Shieldstun": "4/5/2",
+        "Hitbox": "chain/ball/arm",
+        "Advantage": "-6/-5/-8"
+      },
       "B-Air": {
+        "Startup": "14",
+        "Total Frames": "39",
+        "Landing Lag": "10",
+        "Additional Notes": "Tethers on frame 13. Autocancels on frame 28 onward",
+        "Base Damage": "10.0 / 12.0 / 2.0",
+        "Shieldlag": "8/9/4",
+        "Shieldstun": "4/5/2",
+        "Hitbox": "chain/ball/arm",
+        "Advantage": "-6/-5/-8"
+      },
+      "B-AirUp": {
+        "Startup": "14",
+        "Total Frames": "39",
+        "Landing Lag": "10",
+        "Additional Notes": "Tethers on frame 13. Autocancels on frame 28 onward",
+        "Base Damage": "10.0 / 12.0 / 2.0",
+        "Shieldlag": "8/9/4",
+        "Shieldstun": "4/5/2",
+        "Hitbox": "chain/ball/arm",
+        "Advantage": "-6/-5/-8"
+      },
+      "B-AirDown": {
         "Startup": "14",
         "Total Frames": "39",
         "Landing Lag": "10",
@@ -197,6 +272,7 @@
         "Advantage": "-21/-23"
       },
       "Axe": {
+        "ufdName":"Axe.gif",
         "Startup": "30",
         "Total Frames": "66",
         "Landing Lag": "",
@@ -208,6 +284,7 @@
         "Advantage": "-6 "
       },
       "Cross": {
+        "ufdName":"Cross.png",
         "Startup": "19",
         "Total Frames": "44",
         "Landing Lag": "",
@@ -219,6 +296,7 @@
         "Advantage": "-15"
       },
       "Uppercut": {
+        "ufdName":"Uppercut.gif",
         "Startup": "6/9/12/15/18/21",
         "Total Frames": "",
         "Landing Lag": "26",
@@ -229,15 +307,19 @@
         "Hitbox": "first/multi/final"
       },
       "Holy Water": {
+        "movePrefix":"",
+        "ufdName":"DSpecial.png",
         "Startup": "18",
         "Total Frames": "45",
         "Landing Lag": "",
         "Additional Notes": "Lands on level ground at frame 32 if nothing is in the way. ",
         "Base Damage": "2.0 - 2.9",
         "Shieldlag": "4",
-        "Shieldstun": "2"
+        "Shieldstun": "2",
+        "Related Moves": "See Holy Water (explosion)"
       },
       "Holy Water (explosion)": {
+        "ufdName":"HolyWater.gif",
         "Startup": "1/4/7/15/23/31/39/47/55",
         "Total Frames": "",
         "Landing Lag": "",

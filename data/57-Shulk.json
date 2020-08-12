@@ -1,5 +1,17 @@
 {
   "name": "57 - Shulk",
+  "uriComponent": "shulk",
+  "movePrefix": "Shulk",
+  "moveMappings": [
+    { "NeutralB": "Monado Arts" },
+    { "SideB": "Back Slash" },
+    { "UpB": "Air Slash" },
+    { "UpB": "Air Slash 2" },
+    { "DownB": "Vision" },
+    { "DownBAttack": "Vision (activated)" },
+    { "Counter": "Vision" },
+    { "CounterAttack": "Vision (activated)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "5",
@@ -89,6 +101,28 @@
       "Hitbox": "first/blade/beam",
       "Advantage": "-35/-36"
     },
+    "F-SmashUp": {
+      "Startup": "14/23",
+      "Total Frames": "67",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 8",
+      "Base Damage": "5.5 / 13.0 / 11.5",
+      "Shieldlag": "9/16/15",
+      "Shieldstun": "5/9/8",
+      "Hitbox": "first/blade/beam",
+      "Advantage": "-35/-36"
+    },
+    "F-SmashDown": {
+      "Startup": "14/23",
+      "Total Frames": "67",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 8",
+      "Base Damage": "5.5 / 13.0 / 11.5",
+      "Shieldlag": "9/16/15",
+      "Shieldstun": "5/9/8",
+      "Hitbox": "first/blade/beam",
+      "Advantage": "-35/-36"
+    },
     "U-Smash": {
       "Startup": "18/30",
       "Total Frames": "67",
@@ -167,12 +201,15 @@
       "Advantage": "-11/-9/-10"
     },
     "Monado Arts": {
+      "movePrefix":"",
+      "ufdName":["monado.png","monadodir.png"],
       "Startup": "",
       "Total Frames": "",
       "Landing Lag": "",
       "Additional Notes": "Takes 4 frames to activate an art upon selection.\n14 I-frames upon activating an Art. Activation animation cancellable on frame 10\nArts last for approx 6 seconds and with an 18 second individual cooldown"
     },
     "Back Slash": {
+      "ufdName":["BackSlashStart.gif","BackSlash.gif"],
       "Startup": "22",
       "Total Frames": "71",
       "Landing Lag": "40",
@@ -184,6 +221,7 @@
       "Advantage": "-29/-30\n-25/-27"
     },
     "Air Slash": {
+      "ufdName":"AirSlash1.gif",
       "Startup": "10",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -194,6 +232,7 @@
       "Hitbox": "Blade/Beam"
     },
     "Air Slash 2": {
+      "ufdName":"AirSlash2.gif",
       "Startup": "9",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -203,12 +242,14 @@
       "Shieldstun": "6"
     },
     "Vision": {
+      "ufdName":"Vision.gif",
       "Startup": "",
       "Total Frames": "69",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 6. Counters on 7-41 when fresh."
     },
     "Vision (activated)": {
+      "ufdName":"VisionForward.gif",
       "Startup": "?",
       "Total Frames": "?"
     },

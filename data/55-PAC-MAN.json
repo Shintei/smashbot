@@ -1,5 +1,13 @@
 {
   "name": "55 - PAC-MAN",
+  "uriComponent": "pac_man",
+  "movePrefix": "PacMan",
+  "moveMappings": [
+    { "NeutralB": "Bonus Fruit (throw)" },
+    { "SideB": "Power Pellet (travel | Dash)" },
+    { "UpB": "Pac-Jump" },
+    { "DownB": "Fire Hydrant" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -35,6 +43,28 @@
       "Advantage": "-24"
     },
     "F-Tilt": {
+      "Startup": "5",
+      "Total Frames": "30",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "8",
+      "Hitbox": "",
+      "Advantage": "-17"
+    },
+    "F-TiltUp": {
+      "Startup": "5",
+      "Total Frames": "30",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "8",
+      "Hitbox": "",
+      "Advantage": "-17"
+    },
+    "F-TiltDown": {
       "Startup": "5",
       "Total Frames": "30",
       "Landing Lag": "",
@@ -167,6 +197,7 @@
       "Advantage": "-10/-9"
     },
     "Bonus Fruit (throw)": {
+      "ufdName":["Cherry.png","Strawberry.png","Apple.png","Orange.png","Melon.png","Galaxian.png","Bell.png","Key.png"],
       "Startup": "12 (+7)",
       "Total Frames": "41",
       "Landing Lag": "",
@@ -178,6 +209,7 @@
       "Advantage": "-22/-20/-19/\n-17/-16/-18/\n-19/-14"
     },
     "Power Pellet (travel | Dash)": {
+      "ufdName":["PowerPelletEarly.gif","PowerPelletLate.gif"],
       "Startup": "24-42 | 35-53",
       "Total Frames": "83-118",
       "Landing Lag": "",
@@ -189,6 +221,7 @@
       "Advantage": "-42 to -54"
     },
     "Pac-Jump": {
+      "ufdName":"TrampolineHurtbox.png",
       "Startup": "4",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -199,6 +232,7 @@
       "Hitbox": "first/second/third"
     },
     "Fire Hydrant": {
+      "ufdName":"FireHydrantFall.png",
       "Startup": "12",
       "Total Frames": "34",
       "Landing Lag": "",

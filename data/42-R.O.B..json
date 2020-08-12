@@ -1,5 +1,16 @@
 {
   "name": "42 - R.O.B.",
+  "uriComponent": "rob",
+  "movePrefix": "ROB",
+  "moveMappings": [
+    { "NeutralB": "Robo Beam (Small)" },
+    { "Laser": "Robo Beam (Small)" },
+    { "NeutralBCharged": "Robo Beam (Large)" },
+    { "SideB": "Arm Rotor" },
+    { "UpB": "Robo Burner" },
+    { "DownB": "Gyro" },
+    { "DownBCharged": "Gyro (full charge)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -24,6 +35,28 @@
       "Advantage": "-13"
     },
     "F-Tilt": {
+      "Startup": "7",
+      "Total Frames": "33",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "8",
+      "Hitbox": "",
+      "Advantage": "-18"
+    },
+    "F-TiltUp": {
+      "Startup": "7",
+      "Total Frames": "33",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "8",
+      "Hitbox": "",
+      "Advantage": "-18"
+    },
+    "F-TiltDown": {
       "Startup": "7",
       "Total Frames": "33",
       "Landing Lag": "",
@@ -68,6 +101,28 @@
       "Advantage": "-17"
     },
     "F-Smash": {
+      "Startup": "16",
+      "Total Frames": "54",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 6",
+      "Base Damage": "15.0 / 11.5 / 6.0",
+      "Shieldlag": "15/13/9",
+      "Shieldstun": "10/8/5",
+      "Hitbox": "Close/far/farther",
+      "Advantage": "-28/-30/-33"
+    },
+    "F-SmashUp": {
+      "Startup": "16",
+      "Total Frames": "54",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 6",
+      "Base Damage": "15.0 / 11.5 / 6.0",
+      "Shieldlag": "15/13/9",
+      "Shieldstun": "10/8/5",
+      "Hitbox": "Close/far/farther",
+      "Advantage": "-28/-30/-33"
+    },
+    "F-SmashDown": {
       "Startup": "16",
       "Total Frames": "54",
       "Landing Lag": "",
@@ -156,6 +211,7 @@
       "Advantage": "-44/-45/-46"
     },
     "Robo Beam (Small)": {
+      "ufdName":["RoboBeam.gif","RoboBeamMid.gif"],
       "Startup": "25",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -167,6 +223,7 @@
       "Advantage": "-17/-16/-17"
     },
     "Robo Beam (Large)": {
+      "ufdName":["RoboBeam.gif","RoboBeamMax.gif"],
       "Startup": "25",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -178,6 +235,7 @@
       "Advantage": "-17/-6/-10"
     },
     "Arm Rotor": {
+      "ufdName":["ArmRotor.gif","ArmRotorEnd.gif"],
       "Startup": "13/18/23/28/33/44",
       "Total Frames": "85",
       "Landing Lag": "",
@@ -206,6 +264,7 @@
       "Additional Notes": "Invulnerable on frame 2-4 on the ground. Can act on frame 25. Fuel lasts up to 143 frames.\nCan grab ledges as early as frame 2"
     },
     "Gyro": {
+      "ufdName":["GyroEnd.gif","GyroIdle.png","GyroThrown.png"],
       "Startup": "3 (+6)",
       "Total Frames": "36",
       "Landing Lag": "",
@@ -217,6 +276,7 @@
       "Advantage": "-26 to -21"
     },
     "Gyro (full charge)": {
+      "ufdName":["GyroEnd.gif","GyroIdle.png","GyroThrown.png"],
       "Startup": "9",
       "Total Frames": "42",
       "Landing Lag": "",

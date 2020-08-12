@@ -1,5 +1,23 @@
 {
   "name": "74- Terry",
+  "uriComponent": "terry",
+  "movePrefix": "Terry",
+  "moveMappings": [
+    { "NeutralB": "Power Wave (weak/strong)" },
+    { "AirNeutralB": "Power Wave (air)" },
+    { "SideB": "Burning Knuckle (weak/strong)" },
+    { "CommandSideB": "Burning Knuckle (input) (weak/strong)" },
+    { "Burning Knuckle": "Burning Knuckle (input) (weak/strong)" },
+    { "BackB": "Crack Shoot" },
+    { "Cake Pop": "Crack Shoot" },
+    { "UpB": "Rising Tackle" },
+    { "CommandUpB": "Rising Tackle (hold charge)" },
+    { "UpBCharged": "Rising Tackle (hold charge)" },
+    { "DownB": "Power Dunk (weak | strong)" },
+    { "CommandDownB": "Power Dunk (weak | strong)" },
+    { "Power Dunk": "Power Dunk (weak | strong)" },
+    { "Are You Okay": "Buster Wolf" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -158,6 +176,7 @@
       "Hitbox": "close/far"
     },
     "Power Wave (weak/strong)": {
+      "ufdName":["PowerWaveGWeak.gif","PowerWaveGStrong.gif"],
       "Startup": "18/21",
       "Total Frames": "49/52",
       "Landing Lag": "",
@@ -169,6 +188,7 @@
       "Hitbox": "weak/strong"
     },
     "Power Wave (air)": {
+      "ufdName":["PowerWaveAWeak.gif","PowerWaveAStrong.gif"],
       "Startup": "18",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -180,6 +200,7 @@
       "Hitbox": "weak/strong"
     },
     "Burning Knuckle (weak/strong)": {
+      "ufdName":["BurningKnuckleGroundWeak.gif","BurningKnuckleGroundStrong.gif","BurningKnuckleAirWeak.gif","BurningKnuckleAirStrong.gif"],
       "Startup": "15/21",
       "Total Frames": "55/68",
       "Landing Lag": "",
@@ -191,6 +212,7 @@
       "Hitbox": "weak early/late\nstrong early/late"
     },
     "Burning Knuckle (input) (weak/strong)": {
+      "ufdName":["BurningKnuckleGroundWeakInput.gif","BurningKnuckleGroundStrongInput.gif","BurningKnuckleAirWeakInput.gif","BurningKnuckleAirStrongInput.gif"],
       "Startup": "15/21",
       "Total Frames": "55/68",
       "Landing Lag": "",
@@ -202,6 +224,7 @@
       "Hitbox": "weak early/late\nstrong early/late"
     },
     "Crack Shoot": {
+      "ufdName":["CrackShootWeak.gif","CrackShootStrong.gif"],
       "Startup": "13/21\n",
       "Total Frames": "46\n45 (air)",
       "Landing Lag": "",
@@ -213,6 +236,7 @@
       "Hitbox": "first close/far/farthest\nsecond close/far/farthest"
     },
     "Rising Tackle": {
+      "ufdName":"RisingTackle.gif",
       "Startup": "10/12/15/20/25",
       "Total Frames": "",
       "Landing Lag": "15",
@@ -224,6 +248,7 @@
       "Hitbox": "first/multi/\nfinal"
     },
     "Rising Tackle (hold charge)": {
+      "ufdName":"RisingTackleCharged.gif",
       "Startup": "10/12/14/16/19/21/24/29/34",
       "Total Frames": "",
       "Landing Lag": "15",
@@ -235,6 +260,7 @@
       "Hitbox": "first/multi/\nfinal"
     },
     "Power Dunk (weak | strong)": {
+      "ufdName":["PowerDunkRiseStrongInput.gif","PowerDunkSpike.gif"],
       "Startup": "6/9/29 | 6/9/35",
       "Total Frames": "54 | 65\n67 | 74 (air)",
       "Landing Lag": "20 | 24",
@@ -246,6 +272,7 @@
       "Hitbox": "first/second\nDunk early/late"
     },
     "Power Geyser": {
+      "ufdName":"PowerGeyser.gif",
       "Startup": "20",
       "Total Frames": "71",
       "Landing Lag": "",
@@ -257,6 +284,7 @@
       "Hitbox": "close/far/farther"
     },
     "Buster Wolf": {
+      "ufdName":["BusterWolf.gif","BusterWolfThrow.gif"],
       "Startup": " (+13) 1/16",
       "Total Frames": "65/64",
       "Landing Lag": "",

@@ -2,6 +2,16 @@
   "name": "14 - Bowser",
   "uriComponent": "bowser",
   "movePrefix": "Bowser",
+  "moveMappings": [
+    { "NeutralB": "Fire Breath" },
+    { "Fire": "Fire Breath" },
+    { "SideB": "Flying Slam" },
+    { "AirSideB": "Flying Slam (air)" },
+    { "UpB": "Whirling Fortress" },
+    { "AirUpB": "Whirling Fortress (air)" },
+    { "DownB": "Bowser Bomb" },
+    { "AirDownB": "Bowser Bomb (air)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "7",
@@ -179,15 +189,6 @@
       "Hitbox": "Normal/landing",
       "Advantage": "-30"
     },
-    "NeutralB": {
-      "Startup": "23/30/37/44",
-      "Total Frames": "77",
-      "Landing Lag": "",
-      "Additional Notes": "Total frames is minimum usage. Endlag is 31 frames on release.",
-      "Base Damage": "1.8",
-      "Shieldlag": "4",
-      "Shieldstun": "2"
-    },
     "Fire Breath": {
       "Startup": "23/30/37/44",
       "Total Frames": "77",
@@ -197,35 +198,19 @@
       "Shieldlag": "4",
       "Shieldstun": "2"
     },
-    "SideB": {
-      "ufdName": "FlyingSlamGrabG.gif",
-      "Startup": "6",
-      "Total Frames": "52",
-      "Landing Lag": "",
-      "Additional Notes": "40 frames endlag after a slam, but can be cancelled by landing on a platform.\n23 frames of invulnerability after a successful grab"
-    },
     "Flying Slam": {
-      "ufdName": "FlyingSlamGrabG.gif",
+      "ufdName": ["FlyingSlamGrabG.gif","FlyingSlam.gif"],
       "Startup": "6",
       "Total Frames": "52",
       "Landing Lag": "",
       "Additional Notes": "40 frames endlag after a slam, but can be cancelled by landing on a platform.\n23 frames of invulnerability after a successful grab"
     },
     "Flying Slam (air)": {
+      "ufdName": ["FlyingSlamGrabA.gif","FlyingSlam.gif"],
       "Startup": "6",
-      "Total Frames": "52"
-    },
-    "UpB": {
-      "ufdName": "WhirlingFortressG.gif",
-      "Startup": "6/11/16/21/26/31/36/39",
-      "Total Frames": "81",
+      "Total Frames": "52",
       "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "1.0 / 6.0",
-      "Shieldlag": "4/6",
-      "Shieldstun": "2/6",
-      "Hitbox": "Multi/Final",
-      "Advantage": "-36"
+      "Additional Notes": "40 frames endlag after a slam, but can be cancelled by landing on a platform.\n23 frames of invulnerability after a successful grab"
     },
     "Whirling Fortress": {
       "ufdName": "WhirlingFortressG.gif",
@@ -240,28 +225,18 @@
       "Advantage": "-36"
     },
     "Whirling Fortress (air)": {
+      "ufdName": "WhirlingFortressA.gif",
       "Startup": "6/8/12/16/20/24/28/32/36/40/44/48",
       "Total Frames": "",
       "Landing Lag": "36",
-      "Additional Notes": "Will snap to ledges as early as frame 9",
+      "Additional Notes": "Will snap to ledges as early as frame 9. Can mash special button for more height",
       "Base Damage": "7.0 / 1.0 / 2.0",
       "Shieldlag": "7/3/6",
       "Shieldstun": "-/2/3",
       "Hitbox": "First/multi/final"
     },
-    "DownB": {
-      "ufdName": "BowserBowserBombG.gif",
-      "Startup": "11/37",
-      "Total Frames": "",
-      "Landing Lag": "",
-      "Additional Notes": "Landing hit on frame 1.",
-      "Base Damage": "4.0 / 20.0 / 11.0",
-      "Shieldlag": "5/12/8",
-      "Shieldstun": "5/18/-",
-      "Hitbox": "Rise/fall/landing"
-    },
     "Bowser Bomb": {
-      "ufdName": "BowserBowserBombG.gif",
+      "ufdName": ["BowserBowserBombG.gif","BowserBombLanding.gif"],
       "Startup": "11/37",
       "Total Frames": "",
       "Landing Lag": "",
@@ -272,6 +247,7 @@
       "Hitbox": "Rise/fall/landing"
     },
     "Bowser Bomb (air)": {
+      "ufdName":"BowserBombLanding.gif",
       "Startup": "31",
       "Total Frames": "",
       "Landing Lag": "55",

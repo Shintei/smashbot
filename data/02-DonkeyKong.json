@@ -2,6 +2,17 @@
   "name": "02 - Donkey Kong",
   "uriComponent": "donkey_kong",
   "movePrefix": "DonkeyKong",
+  "moveMappings": [
+    { "NeutralB": "Ice Shot" },
+    { "DonkeyPunch": "Giant Punch" },
+    { "NeutralBCharged": "Giant Punch (full charge)" },
+    { "DonkeyPunchCharged": "Giant Punch (full charge)" },
+    { "SideB": "Headbutt" },
+    { "UpB": "Spinning Kong" },
+    { "AirUpB": "Spinning Kong (air)" },
+    { "DownB": "Hand Slap" },
+    { "AirDownB": "Hand Slap (air)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "5",
@@ -179,30 +190,6 @@
       "Hitbox": "",
       "Advantage": "-8"
     },
-    "NeutralB": {
-      "ufdName":["GiantPunchG.gif","GiantPunchA.gif"],
-      "Startup": "19 (+7)",
-      "Total Frames": "62",
-      "Landing Lag": "",
-      "Additional Notes": "Entering charge window takes 7 frames. 4 to cancel with shield.\nArm intangibility on frame 4-20.",
-      "Base Damage": "10.0 - 27.0",
-      "Shieldlag": "8-14",
-      "Shieldstun": "10-22",
-      "Hitbox": "",
-      "Advantage": "-33 to -21"
-    },
-    "DonkeyPunch": {
-      "ufdName":["GiantPunchG.gif","GiantPunchA.gif"],
-      "Startup": "19 (+7)",
-      "Total Frames": "62",
-      "Landing Lag": "",
-      "Additional Notes": "Entering charge window takes 7 frames. 4 to cancel with shield.\nArm intangibility on frame 4-20.",
-      "Base Damage": "10.0 - 27.0",
-      "Shieldlag": "8-14",
-      "Shieldstun": "10-22",
-      "Hitbox": "",
-      "Advantage": "-33 to -21"
-    },
     "Giant Punch": {
       "ufdName":["GiantPunchG.gif","GiantPunchA.gif"],
       "Startup": "19 (+7)",
@@ -215,30 +202,6 @@
       "Hitbox": "",
       "Advantage": "-33 to -21"
     },
-    "NeutralBCharged": {
-      "ufdName":["GiantPunchGMax.gif","GiantPunchAMax.gif"],
-      "Startup": "19",
-      "Total Frames": "47",
-      "Landing Lag": "",
-      "Additional Notes": "Super armor on frame 11-20 on the ground. Takes 121 frames to reach full charge",
-      "Base Damage": "28.0",
-      "Shieldlag": "15",
-      "Shieldstun": "24",
-      "Hitbox": "",
-      "Advantage": "-4"
-    },
-    "DonkeyPunchCharged": {
-      "ufdName":["GiantPunchGMax.gif","GiantPunchAMax.gif"],
-      "Startup": "19",
-      "Total Frames": "47",
-      "Landing Lag": "",
-      "Additional Notes": "Super armor on frame 11-20 on the ground. Takes 121 frames to reach full charge",
-      "Base Damage": "28.0",
-      "Shieldlag": "15",
-      "Shieldstun": "24",
-      "Hitbox": "",
-      "Advantage": "-4"
-    },
     "Giant Punch (full charge)": {
       "ufdName":["GiantPunchGMax.gif","GiantPunchAMax.gif"],
       "Startup": "19",
@@ -250,18 +213,6 @@
       "Shieldstun": "24",
       "Hitbox": "",
       "Advantage": "-4"
-    },
-    "SideB": {
-      "ufdName":["HeadbuttG.gif","HeadbuttA.gif"],
-      "Startup": "20",
-      "Total Frames": "62",
-      "Landing Lag": "",
-      "Additional Notes": "Super armor on frame 5-14 on the ground and in the air.",
-      "Base Damage": "10.0",
-      "Shieldlag": "8",
-      "Shieldstun": "10",
-      "Hitbox": "",
-      "Advantage": "-32"
     },
     "Headbutt": {
       "ufdName":["HeadbuttG.gif","HeadbuttA.gif"],
@@ -299,17 +250,6 @@
       "Hitbox": "First/multi/Final",
       "Advantage": "-37"
     },
-    "AirUpB": {
-      "ufdName":"SpinningKongA.gif",
-      "Startup": "4/12...",
-      "Total Frames": "",
-      "Landing Lag": "38",
-      "Additional Notes": "Past frame 12, this move hits once every 1, 2, or 3 frames, seems inconsistent. \nArm intangibility from frame 10-38. Will snap to a ledge as early as frame 14 onward",
-      "Base Damage": "5.0 / 1.0 / 2.0",
-      "Shieldlag": "6/4/4",
-      "Shieldstun": "6/2/3",
-      "Hitbox": "First/multi/Final"
-    },
     "Spinning Kong (air)": {
       "ufdName":"SpinningKongA.gif",
       "Startup": "4/12...",
@@ -320,18 +260,6 @@
       "Shieldlag": "6/4/4",
       "Shieldstun": "6/2/3",
       "Hitbox": "First/multi/Final"
-    },
-    "DownB": {
-      "ufdName":"HandSlapG.gif",
-      "Startup": "12/23",
-      "Total Frames": "46",
-      "Landing Lag": "",
-      "Additional Notes": "Each additional rep takes another 26 frames as you mash.",
-      "Base Damage": "14.0",
-      "Shieldlag": "10",
-      "Shieldstun": "8",
-      "Hitbox": "",
-      "Advantage": "-15"
     },
     "Hand Slap": {
       "ufdName":"HandSlapG.gif",
@@ -344,18 +272,6 @@
       "Shieldstun": "8",
       "Hitbox": "",
       "Advantage": "-15"
-    },
-    "AirDownB": {
-      "ufdName":"HandSlapA.gif",
-      "Startup": "19/28",
-      "Total Frames": "49",
-      "Landing Lag": "10",
-      "Additional Notes": "",
-      "Base Damage": "5.0 / 6.0",
-      "Shieldlag": "6/6",
-      "Shieldstun": "6/6",
-      "Hitbox": "First/Second",
-      "Advantage": "-4"
     },
     "Hand Slap (air)": {
       "ufdName":"HandSlapA.gif",

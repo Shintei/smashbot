@@ -1,5 +1,14 @@
 {
   "name": "31 - Snake",
+  "uriComponent": "snake",
+  "movePrefix": "Snake",
+  "moveMappings": [
+    { "NeutralB": "Hand Grenade" },
+    { "SideB": "Remote Missile" },
+    { "UpB": "Cypher" },
+    { "DownB": "C4 (detonation)" },
+    { "Sticky": "C4 (Sticky)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -101,6 +110,7 @@
       "Advantage": "-18"
     },
     "U-Smash": {
+      "ufdName":["USmash.gif","USmashExplosion.png","USmashSearch.png"],
       "Startup": "11/35",
       "Total Frames": "54",
       "Landing Lag": "",
@@ -178,12 +188,14 @@
       "Advantage": "-17/-18/-16"
     },
     "Hand Grenade": {
+      "ufdName":["Grenade.png","GrenadeBurst.gif"],
       "Startup": "",
       "Total Frames": "21",
       "Landing Lag": "",
       "Additional Notes": "Pull Pin animation takes 21 frames before you can throw or shield/dodge. \nGrenades explode on roughly frame 150. Explosive generates on frame 1."
     },
     "Hand Grenade (neutral throw)": {
+      "ufdName":["Grenade.png","GrenadeBurst.gif"],
       "Startup": "8",
       "Total Frames": "27",
       "Landing Lag": "",
@@ -194,26 +206,30 @@
       "Hitbox": "collide/explosion"
     },
     "Hand Grenade (smash throw)": {
+      "ufdName":["Grenade.png","GrenadeBurst.gif"],
       "Startup": "10",
       "Total Frames": "31",
       "Landing Lag": "",
       "Additional Notes": "",
-      "Base Damage": "^",
-      "Shieldlag": "^",
-      "Shieldstun": "^",
-      "Hitbox": "^"
+      "Base Damage": "2.0 - 3.1 / 8.9 - 9.9",
+      "Shieldlag": "5/8",
+      "Shieldstun": "2/4",
+      "Hitbox": "collide/explosion"
     },
     "Hand Grenade (underhand throw)": {
+      "ufdName":["Grenade.png","GrenadeBurst.gif"],
       "Startup": "9",
       "Total Frames": "25",
       "Landing Lag": "",
       "Additional Notes": "",
-      "Base Damage": "^",
-      "Shieldlag": "^",
-      "Shieldstun": "^",
-      "Hitbox": "^"
+      "Base Damage": "2.0 - 3.1 / 8.9 - 9.9",
+      "Shieldlag": "5/8",
+      "Shieldstun": "2/4",
+      "Hitbox": "collide/explosion"
     },
     "Remote Missile": {
+      "movePrefix":"",
+      "ufdName":["Nikita Explosion (Weak).png","Nikita Explosion (Strong).png","Nikita Hurtbox (Weak).png","NikitaSearch.png"],
       "Startup": "41",
       "Total Frames": "",
       "Landing Lag": "",
@@ -225,6 +241,7 @@
       "Advantage": "-19/-14"
     },
     "Cypher": {
+      "ufdName":"Cypher.png",
       "Startup": "",
       "Total Frames": "",
       "Landing Lag": "",
@@ -234,26 +251,31 @@
       "Shieldstun": "3"
     },
     "C4 (Sticky)": {
+      "ufdName":"C4.png",
       "Startup": "9",
       "Total Frames": "24"
     },
     "C4 (Air Sticky)": {
+      "ufdName":"C4.png",
       "Startup": "9",
       "Total Frames": "32"
     },
     "C4 (plant on the ground)": {
+      "ufdName":"C4.png",
       "Startup": "14",
       "Total Frames": "33"
     },
     "C4 (air drop)": {
+      "ufdName":"C4.png",
       "Startup": "16",
       "Total Frames": "32"
     },
     "C4 (detonation)": {
+      "ufdName":"C4 Explosion (Snake for Scale).png",
       "Startup": "26",
       "Total Frames": "32",
       "Landing Lag": "",
-      "Additional Notes": "",
+      "Additional Notes": "Snake in image for scale",
       "Base Damage": "17.0",
       "Shieldlag": "11/11",
       "Shieldstun": "15/6",

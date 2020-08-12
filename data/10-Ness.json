@@ -1,5 +1,14 @@
 {
   "name": "10 - Ness",
+  "uriComponent": "ness",
+  "movePrefix": "Ness",
+  "moveMappings": [
+    { "NeutralB": "PK Flash" },
+    { "SideB": "PK Fire" },
+    { "AirSideB": "PK Fire (air)" },
+    { "UpB": "PK Thunder 2" },
+    { "DownB": "PSI Magnet" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -35,6 +44,28 @@
       "Advantage": "-18"
     },
     "F-Tilt": {
+      "Startup": "7",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0",
+      "Shieldlag": "8",
+      "Shieldstun": "10",
+      "Hitbox": "",
+      "Advantage": "-17"
+    },
+    "F-TiltUp": {
+      "Startup": "7",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0",
+      "Shieldlag": "8",
+      "Shieldstun": "10",
+      "Hitbox": "",
+      "Advantage": "-17"
+    },
+    "F-TiltDown": {
       "Startup": "7",
       "Total Frames": "34",
       "Landing Lag": "",
@@ -165,7 +196,8 @@
       "Shieldstun": "",
       "Hitbox": "early/late"
     },
-    "PK Flash ": {
+    "PK Flash": {
+      "ufdName":"PKFlash.png",
       "Startup": "44-121",
       "Total Frames": "65-142",
       "Landing Lag": "",
@@ -177,6 +209,7 @@
       "Advantage": "-4 to +4"
     },
     "PK Fire": {
+      "ufdName":"PKFireG.gif",
       "Startup": "18",
       "Total Frames": "55",
       "Landing Lag": "",
@@ -188,6 +221,7 @@
       "Advantage": "-28"
     },
     "PK Fire (air)": {
+      "ufdName":"PKFireA.gif",
       "Startup": "18",
       "Total Frames": "55",
       "Landing Lag": "12"
@@ -204,6 +238,7 @@
       "Advantage": "-22"
     },
     "PK Thunder 2": {
+      "ufdName":"PKThunder2.gif",
       "Startup": "1",
       "Total Frames": "56",
       "Landing Lag": "24",
@@ -215,6 +250,7 @@
       "Advantage": "-33"
     },
     "PSI Magnet": {
+      "ufdName":["PSIMagnet.gif","PSIMagnetEnd.gif"],
       "Startup": "7",
       "Total Frames": "24",
       "Landing Lag": "",

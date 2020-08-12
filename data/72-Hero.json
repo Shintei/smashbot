@@ -2,6 +2,17 @@
   "name": "72 - Hero",
   "uriComponent": "hero",
   "movePrefix": "Hero",
+  "moveMappings": [
+    { "NeutralB": "Frizz" },
+    { "NeutralBCharged": "Kafrizz" },
+    { "SideB": "Zap" },
+    { "SideBCharged": "Kazap" },
+    { "UpB": "Woosh" },
+    { "UpBCharged": "Kaswoosh" },
+    { "DownB": "Command Selection" },
+    { "Menu": "Command Selection" },
+    { "Menu Select": "Command Selection" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "6",
@@ -211,18 +222,6 @@
       "Hitbox": "projectile/eruption",
       "Advantage": "-24"
     },
-    "SideB": {
-      "ufdName":"Zap.gif",
-      "Startup": "9/13 (+7)",
-      "Total Frames": "38",
-      "Landing Lag": "",
-      "Additional Notes": "7 frames to enter charge state. Bolt does not occur on block. Cost: 8MP",
-      "Base Damage": "5.0 / 3.0 / 9.0",
-      "Shieldlag": "11/7",
-      "Shieldstun": "6/4",
-      "Hitbox": "close/far/bolt",
-      "Advantage": "-12 "
-    },
     "Zap": {
       "ufdName":"Zap.gif",
       "Startup": "9/13 (+7)",
@@ -247,18 +246,6 @@
       "Hitbox": "first/second bolt",
       "Advantage": "-25"
     },
-    "SideBCharged": {
-      "ufdName":"Kazap.gif",
-      "Startup": "50/72/81/85",
-      "Total Frames": "126",
-      "Landing Lag": "",
-      "Additional Notes": "Final hit does not occur on a blocking opponent. Cost: 42MP",
-      "Base Damage": "4.0 / 6.0 / \n12.0 / 16.0",
-      "Shieldlag": "14/9/12",
-      "Shieldstun": "4/-/4",
-      "Hitbox": "first/second/\nthird/bolt",
-      "Advantage": "-29"
-    },
     "Kazap": {
       "ufdName":"Kazap.gif",
       "Startup": "50/72/81/85",
@@ -270,15 +257,6 @@
       "Shieldstun": "4/-/4",
       "Hitbox": "first/second/\nthird/bolt",
       "Advantage": "-29"
-    },
-    "UpB": {
-      "Startup": "4 (+3)",
-      "Total Frames": "",
-      "Landing Lag": "12",
-      "Additional Notes": "Takes 3 frames to enter charge state. Cost: 5MP. Can grab ledges on frame 15",
-      "Base Damage": "7.0",
-      "Shieldlag": "7",
-      "Shieldstun": "3"
     },
     "Woosh": {
       "Startup": "4 (+3)",
@@ -299,16 +277,6 @@
       "Shieldstun": "2/2",
       "Hitbox": "multi/final"
     },
-    "UpBCharged": {
-      "Startup": "39/49/59/69/79/89",
-      "Total Frames": "",
-      "Landing Lag": "29",
-      "Additional Notes": "Cost: 18 MP. Failing to cast any level of charge results in 12 landing lag.\nCan grab ledges on frame 19",
-      "Base Damage": "3.0 / 4.0",
-      "Shieldlag": "5/5",
-      "Shieldstun": "2/2",
-      "Hitbox": "multi/final"
-    },
     "Kaswoosh": {
       "Startup": "39/49/59/69/79/89",
       "Total Frames": "",
@@ -319,19 +287,13 @@
       "Shieldstun": "2/2",
       "Hitbox": "multi/final"
     },
-    "DownB": {
-      "Startup": "",
-      "Total Frames": "",
-      "Landing Lag": "",
-      "Additional Notes": "19 frames before a chosen spell can begin. Takes 4 frames to exit command list."
-    },
     "Command Selection": {
       "Startup": "",
       "Total Frames": "",
       "Landing Lag": "",
       "Additional Notes": "19 frames before a chosen spell can begin. Takes 4 frames to exit command list."
     },
-    "-Bang": {
+    "Bang": {
       "Startup": "5/6",
       "Total Frames": "38",
       "Landing Lag": "",
@@ -342,7 +304,9 @@
       "Hitbox": "projectile/explosion",
       "Advantage": "-16"
     },
-    "--Kaboom": {
+    "Kaboom": {
+      "movePrefix":"",
+      "ufdName":"Kaboom.gif",
       "Startup": "6/22",
       "Total Frames": "43",
       "Landing Lag": "",
@@ -353,7 +317,7 @@
       "Hitbox": "projectile/explosion",
       "Advantage": "|+2|"
     },
-    "-Sizz": {
+    "Sizz": {
       "Startup": "6/7",
       "Total Frames": "39",
       "Landing Lag": "",
@@ -364,7 +328,9 @@
       "Hitbox": "projectile/explosion",
       "Advantage": "-26"
     },
-    "--Sizzle": {
+    "Sizzle": {
+      "movePrefix":"",
+      "ufdName":"Sizzle.gif",
       "Startup": "6/7",
       "Total Frames": "43",
       "Landing Lag": "",
@@ -375,7 +341,7 @@
       "Hitbox": "projectile/explosion",
       "Advantage": "-30"
     },
-    "-Whack": {
+    "Whack": {
       "Startup": "6",
       "Total Frames": "41",
       "Landing Lag": "",
@@ -386,7 +352,9 @@
       "Hitbox": "",
       "Advantage": "-29"
     },
-    "--Thwack": {
+    "Thwack": {
+      "movePrefix":"",
+      "ufdName":"Thwack.png",
       "Startup": "23",
       "Total Frames": "58",
       "Landing Lag": "",
@@ -397,14 +365,18 @@
       "Hitbox": "",
       "Advantage": "-28"
     },
-    "-Kamikaze": {
+    "Kamikaze": {
+      "movePrefix":"",
+      "ufdName":"Kamikazee.gif",
       "Startup": "~41",
       "Total Frames": "",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable for entire duration. Unblockable. Cost: 1MP\nTime slows after frame 41, giving victims about two \"frames\" to act",
       "Base Damage": "50.0"
     },
-    "-Magic Burst": {
+    "Magic Burst": {
+      "movePrefix":"",
+      "ufdName":"Magic%20Burst.gif",
       "Startup": "23/32/41/50/59/68\n/77/86/95/104",
       "Total Frames": "151",
       "Landing Lag": "",
@@ -415,55 +387,57 @@
       "Hitbox": "multi/final",
       "Advantage": "-36 to -24"
     },
-    "-Snooze": {
+    "Snooze": {
       "Startup": "6",
       "Total Frames": "47",
       "Landing Lag": "",
       "Additional Notes": "Cost: 16MP. Can put airborne opponents to sleep"
     },
-    "-Heal": {
+    "Heal": {
       "Startup": "",
       "Total Frames": "39",
       "Landing Lag": "",
       "Additional Notes": "Cost: 7MP. Heals 11.0 damage on frame 6. Amount not affected by 1v1 multiplier"
     },
-    "-Oomph": {
+    "Oomph": {
       "Startup": "",
       "Total Frames": "42",
       "Landing Lag": "",
       "Additional Notes": "Cost: 16MP. Damage of (only) melee attacks multiplied by 1.6. Damage received multiplied by 1.2"
     },
-    "-Accelerate": {
+    "Accelerate": {
       "Startup": "",
       "Total Frames": "34",
       "Landing Lag": "",
       "Additional Notes": "Cost: 13MP"
     },
-    "-Bounce": {
+    "Bounce": {
       "Startup": "",
       "Total Frames": "34",
       "Landing Lag": "",
       "Additional Notes": "Cost: 14MP. Begins reflecting on frame 6"
     },
-    "-Kaclang": {
+    "Kaclang": {
+      "ufdName":"Kaclang.png",
       "Startup": "",
       "Total Frames": "344",
       "Landing Lag": "",
       "Additional Notes": "Cost: 6MP. Invincible on frame 15-315"
     },
-    "-Zoom": {
+    "Zoom": {
       "Startup": "",
       "Total Frames": "",
       "Landing Lag": "",
       "Additional Notes": "Cost: 8MP. Can act before landing back onstage"
     },
-    "-Hocus Pocus": {
+    "Hocus Pocus": {
       "Startup": "",
       "Total Frames": "",
       "Landing Lag": "",
       "Additional Notes": "Cost: 4MP"
     },
-    "-Flame Slash": {
+    "Flame Slash": {
+      "ufdName":"FlameSlash.gif",
       "Startup": "6",
       "Total Frames": "38",
       "Landing Lag": "",
@@ -474,7 +448,8 @@
       "Hitbox": "",
       "Advantage": "-13"
     },
-    "-Kacrackle Slash": {
+    "Kacrackle Slash": {
+      "ufdName":"KacrackleSlash.gif",
       "Startup": "6",
       "Total Frames": "35",
       "Landing Lag": "",
@@ -485,7 +460,8 @@
       "Hitbox": "",
       "Advantage": "-14"
     },
-    "-Hatchet Man": {
+    "Hatchet Man": {
+      "ufdName":"HatchetMan.gif",
       "Startup": "37",
       "Total Frames": "88",
       "Landing Lag": "",
@@ -494,7 +470,8 @@
       "Shieldlag": "-",
       "Shieldstun": "-"
     },
-    "-Metal Slash": {
+    "Metal Slash": {
+      "ufdName":"MetalSlash.gif",
       "Startup": "11",
       "Total Frames": "39",
       "Landing Lag": "",
@@ -505,7 +482,7 @@
       "Hitbox": "",
       "Advantage": "-26"
     },
-    "-Psyche Up": {
+    "Psyche Up": {
       "Startup": "",
       "Total Frames": "45",
       "Landing Lag": "",

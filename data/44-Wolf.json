@@ -1,5 +1,15 @@
 {
   "name": "44 - Wolf",
+  "uriComponent": "wolf",
+  "movePrefix": "Wolf",
+  "moveMappings": [
+    { "NeutralB": "Blaster" },
+    { "Laser": "Blaster" },
+    { "SideB": "Wolf Flash" },
+    { "Wolf Illusion": "Wolf Flash" },
+    { "UpB": "Fire Wolf" },
+    { "DownB": "Reflector" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -35,6 +45,28 @@
       "Advantage": "-25"
     },
     "F-Tilt": {
+      "Startup": "8/9",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "5.0 / 6.0",
+      "Shieldlag": "11/6",
+      "Shieldstun": "-/6",
+      "Hitbox": "",
+      "Advantage": "-19"
+    },
+    "F-TiltUp": {
+      "Startup": "8/9",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "5.0 / 6.0",
+      "Shieldlag": "11/6",
+      "Shieldstun": "-/6",
+      "Hitbox": "",
+      "Advantage": "-19"
+    },
+    "F-TiltDown": {
       "Startup": "8/9",
       "Total Frames": "34",
       "Landing Lag": "",
@@ -167,6 +199,7 @@
       "Advantage": "-14/-14"
     },
     "Blaster": {
+      "ufdName":"Blaster.gif",
       "Startup": "15/16",
       "Total Frames": "52",
       "Landing Lag": "",
@@ -178,6 +211,7 @@
       "Advantage": "-24"
     },
     "Wolf Flash": {
+      "ufdName":"WolfFlash.gif",
       "Startup": "18",
       "Total Frames": "",
       "Landing Lag": "29",
@@ -188,6 +222,7 @@
       "Hitbox": "Sweet/sourspot"
     },
     "Fire Wolf": {
+      "ufdName":"FireWolf.gif",
       "Startup": "18/27/29/31/36",
       "Total Frames": "66",
       "Landing Lag": "36",
@@ -199,6 +234,7 @@
       "Advantage": "-24"
     },
     "Reflector": {
+      "ufdName":["ReflectorStart.gif","Reflector.gif"],
       "Startup": "6",
       "Total Frames": "30",
       "Landing Lag": "",

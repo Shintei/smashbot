@@ -1,5 +1,14 @@
 {
   "name": "38 - Sonic",
+  "uriComponent": "sonic",
+  "movePrefix": "Sonic",
+  "moveMappings": [
+    { "NeutralB": "Homing Attack" },
+    { "SideB": "Spin Dash" },
+    { "UpB": "Spring Jump" },
+    { "DownB": "Spin Dash" },
+    { "DownBJump": "Spin Dash/Spin Charge (jump)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -45,6 +54,28 @@
       "Hitbox": "",
       "Advantage": "-20"
     },
+    "F-TiltUp": {
+      "Startup": "6/8",
+      "Total Frames": "35",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "4.0 / 7.0",
+      "Shieldlag": "5/7",
+      "Shieldstun": "-/7",
+      "Hitbox": "",
+      "Advantage": "-20"
+    },
+    "F-TiltDown": {
+      "Startup": "6/8",
+      "Total Frames": "35",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "4.0 / 7.0",
+      "Shieldlag": "5/7",
+      "Shieldstun": "-/7",
+      "Hitbox": "",
+      "Advantage": "-20"
+    },
     "U-Tilt": {
       "Startup": "6/13",
       "Total Frames": "39",
@@ -79,6 +110,28 @@
       "Advantage": "-38"
     },
     "F-Smash": {
+      "Startup": "18",
+      "Total Frames": "47",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 12",
+      "Base Damage": "14.0",
+      "Shieldlag": "10",
+      "Shieldstun": "10",
+      "Hitbox": "",
+      "Advantage": "-19"
+    },
+    "F-SmashUp": {
+      "Startup": "18",
+      "Total Frames": "47",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 12",
+      "Base Damage": "14.0",
+      "Shieldlag": "10",
+      "Shieldstun": "10",
+      "Hitbox": "",
+      "Advantage": "-19"
+    },
+    "F-SmashDown": {
       "Startup": "18",
       "Total Frames": "47",
       "Landing Lag": "",
@@ -167,6 +220,7 @@
       "Advantage": "-17/-18"
     },
     "Homing Attack": {
+      "ufdName":"HomingAttack.png",
       "Startup": "17-82",
       "Total Frames": "",
       "Landing Lag": "",
@@ -178,6 +232,7 @@
       "Advantage": "-22 to -16"
     },
     "Spin Dash": {
+      "ufdName":["SpinDash.png","SpinDashJump.png"],
       "Startup": "17/29",
       "Total Frames": "",
       "Landing Lag": "",
@@ -189,6 +244,7 @@
       "Advantage": "-22 to -18"
     },
     "Spring Jump": {
+      "ufdName":"SpringJump.png",
       "Startup": "4",
       "Total Frames": "18",
       "Landing Lag": "10",
@@ -200,6 +256,7 @@
       "Advantage": "-7"
     },
     "Spin Charge": {
+      "ufdName":"SpinCharge.png",
       "Startup": "15/17/19/21",
       "Total Frames": "59",
       "Landing Lag": "",
@@ -208,9 +265,11 @@
       "Shieldlag": "4-5/5",
       "Shieldstun": "-/5",
       "Hitbox": "Multi/final",
-      "Advantage": "-33"
+      "Advantage": "-33",
+      "Related Moves": "See Spin Dash/Spin Charge (jump)"
     },
     "Spin Dash/Spin Charge (jump)": {
+      "ufdName":"SpinCharge.png",
       "Startup": "3",
       "Total Frames": "10",
       "Landing Lag": "",

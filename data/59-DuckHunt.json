@@ -2,6 +2,16 @@
   "name": "59 - Duck Hunt",
   "uriComponent": "duck_hunt",
   "movePrefix": "DuckHunt",
+  "moveMappings": [
+    { "NeutralB": "Trick Shot" },
+    { "Can": "Trick Shot" },
+    { "SideB": "Clay Shooting" },
+    { "SideB2": "Clay Shooting (detonate)" },
+    { "SideBExplosion": "Clay Shooting (detonate)" },
+    { "SideBAttack": "Clay Shooting (detonate)" },
+    { "UpB": "Duck Jump" },
+    { "DownB": "Wild Gunman" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -210,28 +220,6 @@
       "Hitbox": "",
       "Advantage": "-12/-11"
     },
-    "NeutralB": {
-      "ufdName":["TrickShotStand.png","TrickShotFly.png","TrickShotExplosion.png"],
-      "Startup": "16",
-      "Total Frames": "41",
-      "Landing Lag": "",
-      "Additional Notes": "Explodes next frame after making contact Can shoot the can every 12 frames. Can generates on frame 1. \nAfter eighth shot, can will auto explode after 76 frames but can still be manipulated.",
-      "Base Damage": "~2.0 / 10.0",
-      "Shieldlag": "-/8",
-      "Shieldstun": "-/4",
-      "Hitbox": "can/explosion"
-    },
-    "Can": {
-      "ufdName":["TrickShotStand.png","TrickShotFly.png","TrickShotExplosion.png"],
-      "Startup": "16",
-      "Total Frames": "41",
-      "Landing Lag": "",
-      "Additional Notes": "Explodes next frame after making contact Can shoot the can every 12 frames. Can generates on frame 1. \nAfter eighth shot, can will auto explode after 76 frames but can still be manipulated.",
-      "Base Damage": "~2.0 / 10.0",
-      "Shieldlag": "-/8",
-      "Shieldstun": "-/4",
-      "Hitbox": "can/explosion"
-    },
     "Trick Shot": {
       "ufdName":["TrickShotStand.png","TrickShotFly.png","TrickShotExplosion.png"],
       "Startup": "16",
@@ -243,16 +231,6 @@
       "Shieldstun": "-/4",
       "Hitbox": "can/explosion"
     },
-    "SideB": {
-      "ufdName":"ClayShooting.png",
-      "Startup": "17",
-      "Total Frames": "64",
-      "Landing Lag": "",
-      "Additional Notes": "Can only detonate when clay is immobile or rebounding after a hit. \"Missed shots\" occur on frame 4.",
-      "Base Damage": "2.0 ",
-      "Shieldlag": "9",
-      "Shieldstun": "2"
-    },
     "Clay Shooting": {
       "ufdName":"ClayShooting.png",
       "Startup": "17",
@@ -262,17 +240,6 @@
       "Base Damage": "2.0 ",
       "Shieldlag": "9",
       "Shieldstun": "2"
-    },
-    "SideBExplosion": {
-      "ufdName":"ClayShootingBurst.png",
-      "Startup": "4/5/14/23",
-      "Total Frames": "",
-      "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "2.5 / 3.0",
-      "Shieldlag": "7/5",
-      "Shieldstun": "2/2",
-      "Hitbox": "multi/final"
     },
     "Clay Shooting (detonate)": {
       "ufdName":"ClayShootingBurst.png",
@@ -285,23 +252,11 @@
       "Shieldstun": "2/2",
       "Hitbox": "multi/final"
     },
-    "UpB": {
-      "Startup": "",
-      "Total Frames": "",
-      "Landing Lag": "30",
-      "Additional Notes": "Can cancel into air dodge or attacks as early as frame 51. Can grab ledges as early as frame 7.\nCancels will avoid the special fall state and landing lag."
-    },
     "Duck Jump": {
       "Startup": "",
       "Total Frames": "",
       "Landing Lag": "30",
       "Additional Notes": "Can cancel into air dodge or attacks as early as frame 51. Can grab ledges as early as frame 7.\nCancels will avoid the special fall state and landing lag."
-    },
-    "DownB": {
-      "Startup": "",
-      "Total Frames": "41",
-      "Landing Lag": "",
-      "Additional Notes": "Gunman appears on frame 6"
     },
     "Wild Gunman": {
       "Startup": "",

@@ -1,5 +1,14 @@
 {
   "name": "47 - Wii Fit Trainer",
+  "uriComponent": "wii_fit_trainer",
+  "movePrefix": "WiiFitTrainer",
+  "moveMappings": [
+    { "NeutralB": "Sun Salutation" },
+    { "NeutralBCharged": "Sun Salutation (full charge)" },
+    { "SideB": "Header" },
+    { "UpB": "Super Hoop" },
+    { "DownB": "Deep Breathing" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -167,6 +176,7 @@
       "Advantage": "-7 "
     },
     "Sun Salutation": {
+      "ufdName":"SunSalutationNoCharge.gif",
       "Startup": "4 (+17)",
       "Total Frames": "39",
       "Landing Lag": "",
@@ -178,6 +188,7 @@
       "Advantage": "-26 to -16"
     },
     "Sun Salutation (full charge)": {
+      "ufdName":"SunSalutationMaxCharge.gif",
       "Startup": "21",
       "Total Frames": "56",
       "Landing Lag": "",
@@ -189,6 +200,8 @@
       "Advantage": "-16"
     },
     "Header": {
+      "movePrefix":"",
+      "ufdName":["WiiFitTrainerHeader.gif","Soccerball.png"],
       "Startup": "15-31",
       "Total Frames": "40-56",
       "Landing Lag": "15",
@@ -200,6 +213,7 @@
       "Advantage": "-11/-13"
     },
     "Super Hoop": {
+      "ufdName":"SuperHoop.gif",
       "Startup": "6/23/40",
       "Total Frames": "",
       "Landing Lag": "30",

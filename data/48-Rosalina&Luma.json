@@ -1,5 +1,13 @@
 {
   "name": "48 - Rosalina & Luma",
+  "uriComponent": "rosalina_and_luma",
+  "movePrefix": "Rosalina",
+  "moveMappings": [
+    { "NeutralB": "Luma Shot" },
+    { "SideB": "Star Bits" },
+    { "UpB": "Launch Star" },
+    { "DownB": "Gravitational Pull" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "5",
@@ -13,6 +21,8 @@
       "Advantage": "-12"
     },
     "Jab 1 (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"Jab1.gif",
       "Startup": "4",
       "Total Frames": "",
       "Landing Lag": "",
@@ -33,6 +43,8 @@
       "Advantage": "-15"
     },
     "Jab 2 (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"Jab2.gif",
       "Startup": "6",
       "Total Frames": "",
       "Landing Lag": "",
@@ -53,6 +65,8 @@
       "Advantage": "-24"
     },
     "Jab 3 (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"Jab3.gif",
       "Startup": "7",
       "Total Frames": "",
       "Landing Lag": "",
@@ -71,6 +85,8 @@
       "Shieldstun": "3"
     },
     "Rapid Jab (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"JabRapid.gif",
       "Startup": "3/6/9...",
       "Total Frames": "",
       "Landing Lag": "",
@@ -91,6 +107,8 @@
       "Advantage": "-29"
     },
     "Rapid Finisher (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"JabRapidEnd.gif",
       "Startup": "5",
       "Total Frames": "",
       "Landing Lag": "",
@@ -111,6 +129,8 @@
       "Advantage": "-22"
     },
     "F-Tilt (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"FTilt.gif",
       "Startup": "8",
       "Total Frames": "",
       "Landing Lag": "",
@@ -131,6 +151,8 @@
       "Advantage": "-23"
     },
     "U-Tilt (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"UTilt.gif",
       "Startup": "3",
       "Total Frames": "",
       "Landing Lag": "",
@@ -152,6 +174,8 @@
       "Advantage": "-21"
     },
     "D-Tilt (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"DTilt.gif",
       "Startup": "8",
       "Total Frames": "",
       "Landing Lag": "",
@@ -172,6 +196,8 @@
       "Advantage": "-18"
     },
     "Dash Attack (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"DashAttack.gif",
       "Startup": "6",
       "Total Frames": "",
       "Landing Lag": "",
@@ -192,6 +218,52 @@
       "Advantage": "-26"
     },
     "F-Smash (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"FSmash.gif",
+      "Startup": "17",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 9",
+      "Base Damage": "10.5",
+      "Shieldlag": "14 (+2)",
+      "Shieldstun": "4"
+    },
+    "F-SmashUp": {
+      "Startup": "16",
+      "Total Frames": "51",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 9",
+      "Base Damage": "12.0",
+      "Shieldlag": "11",
+      "Shieldstun": "8",
+      "Hitbox": "",
+      "Advantage": "-26"
+    },
+    "F-SmashUp (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"FSmashUp.gif",
+      "Startup": "17",
+      "Total Frames": "",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 9",
+      "Base Damage": "10.5",
+      "Shieldlag": "14 (+2)",
+      "Shieldstun": "4"
+    },
+    "F-SmashDown": {
+      "Startup": "16",
+      "Total Frames": "51",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 9",
+      "Base Damage": "12.0",
+      "Shieldlag": "11",
+      "Shieldstun": "8",
+      "Hitbox": "",
+      "Advantage": "-26"
+    },
+    "F-SmashDown (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"FSmashDown.gif",
       "Startup": "17",
       "Total Frames": "",
       "Landing Lag": "",
@@ -212,6 +284,8 @@
       "Advantage": "-31"
     },
     "U-Smash (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"USmash.gif",
       "Startup": "10",
       "Total Frames": "",
       "Landing Lag": "",
@@ -232,6 +306,8 @@
       "Advantage": "-29/-17"
     },
     "D-Smash (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"DSmash.gif",
       "Startup": "7/19",
       "Total Frames": "",
       "Landing Lag": "",
@@ -252,6 +328,8 @@
       "Advantage": "-4/-5"
     },
     "N-Air (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"NAir.gif",
       "Startup": "7/13",
       "Total Frames": "",
       "Landing Lag": "",
@@ -272,6 +350,8 @@
       "Advantage": "-14/-13"
     },
     "F-Air (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"FAir.gif",
       "Startup": "11",
       "Total Frames": "",
       "Landing Lag": "",
@@ -292,6 +372,8 @@
       "Advantage": "-6"
     },
     "B-Air (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"BAir.gif",
       "Startup": "10",
       "Total Frames": "",
       "Landing Lag": "",
@@ -312,6 +394,8 @@
       "Advantage": "-7/-8/-9"
     },
     "U-Air (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"UAir.gif",
       "Startup": "6",
       "Total Frames": "",
       "Landing Lag": "",
@@ -332,6 +416,8 @@
       "Advantage": "-7/-8/-9"
     },
     "D-Air (Luma)": {
+      "movePrefix":"Luma",
+      "ufdName":"DAir.gif",
       "Startup": "15",
       "Total Frames": "",
       "Landing Lag": "",
@@ -341,6 +427,8 @@
       "Shieldstun": "3"
     },
     "Luma Shot": {
+      "movePrefix":"Luma",
+      "ufdName":"LumaShot.gif",
       "Startup": "10-91",
       "Total Frames": "34-115",
       "Landing Lag": "",
@@ -375,6 +463,7 @@
       "Additional Notes": "Can grab ledges as early as frame 23 (facing toward) or 30 (facing away)"
     },
     "Gravitational Pull": {
+      "ufdName":"GravitationalPull.gif",
       "Startup": "",
       "Total Frames": "39",
       "Landing Lag": "",

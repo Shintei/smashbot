@@ -2,6 +2,23 @@
   "name": "25e - Chrom",
   "uriComponent": "chrom",
   "movePrefix": "Chrom",
+  "moveMappings": [
+    { "NeutralB": "Flare Blade" },    
+    { "SideB": "Double Edged Dance" },
+    { "SideB1": "Double Edged Dance" },
+    { "SideB1Neutral": "Double Edged Dance" },
+    { "SideB2Neutral": "Double Edged Dance 2 Neutral" },
+    { "SideB3Neutral": "Double Edged Dance 3 Neutral" },
+    { "SideB4Neutral": "Double Edged Dance 4 Neutral" },
+    { "SideB2Up": "Double Edged Dance 2 Up" },
+    { "SideB3Up": "Double Edged Dance 3 Up" },
+    { "SideB4Up": "Double Edged Dance 4 Up" },
+    { "SideB3Down": "Double Edged Dance 3 Down" },
+    { "SideB4Down": "Double Edged Dance 4 Down" },
+    { "UpB": "Soaring Slash" },
+    { "DownB": "Counter" },
+    { "DownBAttack": "Counter (attack)" }
+  ],
   "moves": {
     "Jab": {
       "Startup": "5",
@@ -146,18 +163,6 @@
       "Hitbox": "",
       "Advantage": "-9"
     },
-    "NeutralB": {
-      "ufdName":["FlareBlade.gif", "FlareBladeMax.gif"],
-      "Startup": "21-260",
-      "Total Frames": "44-283",
-      "Landing Lag": "",
-      "Additional Notes": "Startup is 10 from release. 11 frames to enter charge state.",
-      "Base Damage": "8.0 - 50.0",
-      "Shieldlag": "7-21",
-      "Shieldstun": "8-",
-      "Hitbox": "",
-      "Advantage": "-15 to shieldbreak"
-    },
     "Flare Blade": {
       "ufdName":["FlareBlade.gif", "FlareBladeMax.gif"],
       "Startup": "21-260",
@@ -169,18 +174,6 @@
       "Shieldstun": "8-",
       "Hitbox": "",
       "Advantage": "-15 to shieldbreak"
-    },
-    "SideB": {
-      "ufdName":"DoubleEdgedDance1.gif",
-      "Startup": "9",
-      "Total Frames": "39/29",
-      "Landing Lag": "",
-      "Additional Notes": "Second total frames is from the air. Can transition to next slash as early as frame 12.",
-      "Base Damage": "2.8",
-      "Shieldlag": "5",
-      "Shieldstun": "4",
-      "Hitbox": "",
-      "Advantage": "-26 / -16 (air)"
     },
     "Double Edged Dance": {
       "ufdName":"DoubleEdgedDance1.gif",
@@ -194,18 +187,6 @@
       "Hitbox": "",
       "Advantage": "-26 / -16 (air)"
     },
-    "SideB2Neutral": {
-      "ufdName": "DoubleEdgedDance2.gif",
-      "Startup": "5",
-      "Total Frames": "38",
-      "Landing Lag": "",
-      "Additional Notes": "Can transition to next slash as early as frame 8.",
-      "Base Damage": "2.8",
-      "Shieldlag": "5",
-      "Shieldstun": "4",
-      "Hitbox": "",
-      "Advantage": "-29"
-    },
     "Double Edged Dance 2 Neutral": {
       "ufdName": "DoubleEdgedDance2.gif",
       "Startup": "5",
@@ -217,18 +198,6 @@
       "Shieldstun": "4",
       "Hitbox": "",
       "Advantage": "-29"
-    },
-    "SideB3Neutral": {
-      "ufdName": "DoubleEdgedDance3.gif",
-      "Startup": "4",
-      "Total Frames": "43",
-      "Landing Lag": "",
-      "Additional Notes": "Can transition to next slash as early as frame 7.",
-      "Base Damage": "3.8",
-      "Shieldlag": "5",
-      "Shieldstun": "5",
-      "Hitbox": "",
-      "Advantage": "-34"
     },
     "Double Edged Dance 3 Neutral": {
       "ufdName": "DoubleEdgedDance3.gif",
@@ -242,18 +211,6 @@
       "Hitbox": "",
       "Advantage": "-34"
     },
-    "SideB4Neutral": {
-      "ufdName": "DoubleEdgedDance4.gif",
-      "Startup": "7",
-      "Total Frames": "58",
-      "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "5.2",
-      "Shieldlag": "9",
-      "Shieldstun": "6",
-      "Hitbox": "",
-      "Advantage": "-45"
-    },
     "Double Edged Dance 4 Neutral": {
       "ufdName": "DoubleEdgedDance4.gif",
       "Startup": "7",
@@ -265,18 +222,6 @@
       "Shieldstun": "6",
       "Hitbox": "",
       "Advantage": "-45"
-    },
-    "SideB2Up": {
-      "ufdName":"DoubleEdgedDance2Up.gif",
-      "Startup": "4",
-      "Total Frames": "38",
-      "Landing Lag": "",
-      "Additional Notes": "Can transition to next slash as early as frame 8.",
-      "Base Damage": "2.8",
-      "Shieldlag": "5",
-      "Shieldstun": "4",
-      "Hitbox": "",
-      "Advantage": "-30"
     },
     "Double Edged Dance 2 Up": {
       "ufdName":"DoubleEdgedDance2Up.gif",
@@ -290,18 +235,6 @@
       "Hitbox": "",
       "Advantage": "-30"
     },
-    "SideB3Up": {
-      "ufdName":"DoubleEdgedDance3Up.gif",
-      "Startup": "5",
-      "Total Frames": "43",
-      "Landing Lag": "",
-      "Additional Notes": "Can transition to next slash as early as frame 8.",
-      "Base Damage": "3.8",
-      "Shieldlag": "5",
-      "Shieldstun": "5",
-      "Hitbox": "",
-      "Advantage": "-33"
-    },
     "Double Edged Dance 3 Up": {
       "ufdName":"DoubleEdgedDance3Up.gif",
       "Startup": "5",
@@ -313,18 +246,6 @@
       "Shieldstun": "5",
       "Hitbox": "",
       "Advantage": "-33"
-    },
-    "SideB4Up": {
-      "ufdName":"DoubleEdgedDance4Up.gif",
-      "Startup": "6",
-      "Total Frames": "44",
-      "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "6.4",
-      "Shieldlag": "8",
-      "Shieldstun": "7",
-      "Hitbox": "",
-      "Advantage": "-31"
     },
     "Double Edged Dance 4 Up": {
       "ufdName":"DoubleEdgedDance4Up.gif",
@@ -338,18 +259,6 @@
       "Hitbox": "",
       "Advantage": "-31"
     },
-    "SideB3Down": {
-      "ufdName":"DoubleEdgedDance3Down.gif",
-      "Startup": "5",
-      "Total Frames": "44",
-      "Landing Lag": "",
-      "Additional Notes": "Can transition to next slash as early as frame 8",
-      "Base Damage": "3.8",
-      "Shieldlag": "5",
-      "Shieldstun": "5",
-      "Hitbox": "",
-      "Advantage": "-34"
-    },
     "Double Edged Dance 3 Down": {
       "ufdName":"DoubleEdgedDance3Down.gif",
       "Startup": "5",
@@ -361,18 +270,6 @@
       "Shieldstun": "5",
       "Hitbox": "",
       "Advantage": "-34"
-    },
-    "SideB4Down": {
-      "ufdName":"DoubleEdgedDance4Down.gif",
-      "Startup": "7/10/13/16/19",
-      "Total Frames": "71",
-      "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "2.0 / 4.2",
-      "Shieldlag": "4/8",
-      "Shieldstun": "-/5",
-      "Hitbox": "multi/final",
-      "Advantage": "-47 "
     },
     "Double Edged Dance 4 Down": {
       "ufdName":"DoubleEdgedDance4Down.gif",
@@ -386,18 +283,6 @@
       "Hitbox": "multi/final",
       "Advantage": "-47 "
     },
-    "UpB": {
-      "ufdName":["SoaringSlash.gif","SoaringSlashDescent.gif"],
-      "Startup": "10/39/46/54",
-      "Total Frames": "",
-      "Landing Lag": "36",
-      "Additional Notes": "Landing hit on frame 1 Super armor on frame 10-30. Ending just before he ascends\nCan grab ledges on frame 52 onward but only when facing the ledge.",
-      "Base Damage": "6.0 / 1.5 / \n6.0 / 6.0",
-      "Shieldlag": "10/4/6/7",
-      "Shieldstun": "6/3/6/6",
-      "Hitbox": "First/multi/\nfalling/landing",
-      "Advantage": "-29"
-    },
     "Soaring Slash": {
       "ufdName":["SoaringSlash.gif","SoaringSlashDescent.gif"],
       "Startup": "10/39/46/54",
@@ -410,26 +295,12 @@
       "Hitbox": "First/multi/\nfalling/landing",
       "Advantage": "-29"
     },
-    "DownB": {
-      "ufdName":"Counter.gif",
-      "Startup": "",
-      "Total Frames": "67",
-      "Landing Lag": "",
-      "Additional Notes": "Invulnerable on frame 7. Counters on 8-29 from 8-27."
-    },
     "Counter": {
       "ufdName":"Counter.gif",
       "Startup": "",
       "Total Frames": "67",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 7. Counters on 8-29 from 8-27."
-    },
-    "DownBAttack": {
-      "ufdName":"CounterHit.gif",
-      "Startup": "4",
-      "Total Frames": "40",
-      "Landing Lag": "",
-      "Additional Notes": "Invulnerable on frame 1-5. In addition to counter freeze frames"
     },
     "Counter (attack)": {
       "ufdName":"CounterHit.gif",

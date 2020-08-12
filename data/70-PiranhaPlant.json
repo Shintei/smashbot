@@ -1,5 +1,14 @@
 {
   "name": "70 - Piranha Plant",
+  "uriComponent": "piranha_plant",
+  "movePrefix": "PiranhaPlant",
+  "moveMappings": [
+    { "NeutralB": "Ptooie" },
+    { "SideB": "Poison Breath" },
+    { "SideBCharged": "Poison Breath (full charge)" },
+    { "UpB": "Piranhacopter" },
+    { "DownB": "Long-Stem Strike" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "2",
@@ -55,6 +64,7 @@
       "Advantage": "-29"
     },
     "F-Tilt": {
+      "ufdName":"FTilt1.gif",
       "Startup": "7",
       "Total Frames": "27",
       "Landing Lag": "",
@@ -198,6 +208,7 @@
       "Advantage": "-14/-14"
     },
     "Ptooie": {
+      "ufdName":"Ptooie.gif",
       "Startup": "9",
       "Total Frames": "",
       "Landing Lag": "",
@@ -209,15 +220,18 @@
       "Advantage": "|+7|/ ?"
     },
     "Poison Breath": {
+      "ufdName":"PoisonBreathMin.gif",
       "Startup": "11 (+10)",
       "Total Frames": "35",
       "Landing Lag": "",
       "Additional Notes": "10 frames to enter charge state, 13 startup from charge. Lasts about ~110 frames at no charge",
       "Base Damage": "",
       "Shieldlag": "0",
-      "Shieldstun": "3"
+      "Shieldstun": "3",
+      "Related Moves":"See Poison Breath (full charge)"
     },
     "Poison Breath (full charge)": {
+      "ufdName":"PoisonBreathMax.gif",
       "Startup": "21",
       "Total Frames": "45",
       "Landing Lag": "",
@@ -227,6 +241,7 @@
       "Shieldstun": "3"
     },
     "Piranhacopter": {
+      "ufdName":"Piranhacopter.gif",
       "Startup": "13/16/22/28/34/\n40/46/52/58/64",
       "Total Frames": "",
       "Landing Lag": "20",
@@ -237,6 +252,7 @@
       "Hitbox": "mutli/final"
     },
     "Long-Stem Strike": {
+      "ufdName":"Long-StemStrike.gif",
       "Startup": "2 (+18)",
       "Total Frames": "39/44 \n(on-hit endlag)\n64-115/120\n(total frames)",
       "Landing Lag": "",

@@ -1,5 +1,14 @@
 {
-  "name": "24 - Mewtwo",
+  "name": "24 - Midtier",
+  "uriComponent": "mewtwo",
+  "movePrefix": "Mewtwo",
+  "moveMappings": [
+    { "NeutralB": "Shadow Ball (partial charge)" },
+    { "NeutralBCharged": "Shadow Ball (full charge)" },
+    { "SideB": "Confusion" },
+    { "UpB": "Teleport" },
+    { "DownB": "Disable" }
+  ],
   "moves": {
     "Jab": {
       "Startup": "5",
@@ -33,6 +42,28 @@
       "Advantage": "-30"
     },
     "F-Tilt": {
+      "Startup": "10",
+      "Total Frames": "35",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "11.0 / 10.0 / 9.0",
+      "Shieldlag": "10/8/7",
+      "Shieldstun": "10/10/9",
+      "Hitbox": "Close/med/far",
+      "Advantage": "-15/-15/-16"
+    },
+    "F-TiltUp": {
+      "Startup": "10",
+      "Total Frames": "35",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "11.0 / 10.0 / 9.0",
+      "Shieldlag": "10/8/7",
+      "Shieldstun": "10/10/9",
+      "Hitbox": "Close/med/far",
+      "Advantage": "-15/-15/-16"
+    },
+    "F-TiltDown": {
       "Startup": "10",
       "Total Frames": "35",
       "Landing Lag": "",
@@ -77,6 +108,28 @@
       "Advantage": "-14"
     },
     "F-Smash": {
+      "Startup": "19",
+      "Total Frames": "52",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 12",
+      "Base Damage": "16.0 / 20.0",
+      "Shieldlag": "10/15",
+      "Shieldstun": "11/13",
+      "Hitbox": "Close/Far",
+      "Advantage": "-20/-18"
+    },
+    "F-SmashUp": {
+      "Startup": "19",
+      "Total Frames": "52",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 12",
+      "Base Damage": "16.0 / 20.0",
+      "Shieldlag": "10/15",
+      "Shieldstun": "11/13",
+      "Hitbox": "Close/Far",
+      "Advantage": "-20/-18"
+    },
+    "F-SmashDown": {
       "Startup": "19",
       "Total Frames": "52",
       "Landing Lag": "",
@@ -187,6 +240,7 @@
       "Advantage": "-2 "
     },
     "Confusion": {
+      "ufdName":"Confusion.gif",
       "Startup": "10/20/22/24/26/28/30/32/38",
       "Total Frames": "38/42",
       "Landing Lag": "",
@@ -200,6 +254,7 @@
       "Additional Notes": "Total frames is if you end on the ground. Intangible from 9-19. Grabs ledges as early as frame 16"
     },
     "Disable": {
+      "ufdName":"Disable.gif",
       "Startup": "16",
       "Total Frames": "52",
       "Landing Lag": "",

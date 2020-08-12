@@ -232,7 +232,7 @@
       "Advantage": "-39 to - 24"
     },
     "Jet Hammer (full charge)": {
-      "ufdName":"Jet HammerGMax.gif",
+      "ufdName":"Jet%20HammerGMax.gif",
       "Startup": "9",
       "Total Frames": "69",
       "Landing Lag": "",

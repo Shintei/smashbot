@@ -2,6 +2,12 @@
   "name": "64 - Inkling",
   "uriComponent": "inkling",
   "movePrefix": "Inkling",
+  "moveMappings": [
+    { "NeutralB": "Splattershot" },
+    { "SideB": "Splat Roller" },
+    { "UpB": "Super Jump" },
+    { "DownB": "Splat Bomb" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -188,17 +194,6 @@
       "Hitbox": "far/close",
       "Advantage": "-5/-6"
     },
-    "NeutralB": {
-      "Startup": "12/16/20/24",
-      "Total Frames": "36",
-      "Landing Lag": "",
-      "Additional Notes": "Startup and total frames is the minimum. When out of Ink this move enters the refill state.",
-      "Base Damage": "0.3",
-      "Shieldlag": "4",
-      "Shieldstun": "2",
-      "Hitbox": "",
-      "Advantage": "-6"
-    },
     "Splattershot": {
       "Startup": "12/16/20/24",
       "Total Frames": "36",
@@ -209,18 +204,6 @@
       "Shieldstun": "2",
       "Hitbox": "",
       "Advantage": "-6"
-    },
-    "SideB": {
-      "ufdName":"SplatRollerA.png",
-      "Startup": "16",
-      "Total Frames": "17/35",
-      "Landing Lag": "",
-      "Additional Notes": "17 frame animation to jump cancel. 35 animation to cancel on the ground.\nInkling suffers more shieldlag than defender. Advantage assumes buffered jump cancel ",
-      "Base Damage": "4.0-11.0",
-      "Shieldlag": "5-8\n8-13 (inkling)",
-      "Shieldstun": "5-10",
-      "Hitbox": "",
-      "Advantage": "-15 to -12"
     },
     "Splat Roller": {
       "ufdName":"SplatRollerA.png",
@@ -234,18 +217,6 @@
       "Hitbox": "",
       "Advantage": "-15 to -12"
     },
-    "UpB": {
-      "ufdName":"SuperJump.gif",
-      "Startup": "12",
-      "Total Frames": "",
-      "Landing Lag": "40",
-      "Additional Notes": "Inkling will not suffer hitlag from this attack. Landing hitbox on frame 1. Can grab ledges on frame 13",
-      "Base Damage": "8.0 / 6.0",
-      "Shieldlag": "7/6",
-      "Shieldstun": "3/3",
-      "Hitbox": "close/far",
-      "Advantage": "-29/-30"
-    },
     "Super Jump": {
       "ufdName":"SuperJump.gif",
       "Startup": "12",
@@ -257,16 +228,6 @@
       "Shieldstun": "3/3",
       "Hitbox": "close/far",
       "Advantage": "-29/-30"
-    },
-    "DownB": {
-      "ufdName":"SplatBomb.gif",
-      "Startup": "20-40",
-      "Total Frames": "47-65",
-      "Landing Lag": "",
-      "Additional Notes": "Holding the button allows for a longer yet slower throw. Bombs explode on contact or on frame 99-159.",
-      "Base Damage": "9.4 - 15.0",
-      "Shieldlag": "8-10",
-      "Shieldstun": "4-5"
     },
     "Splat Bomb": {
       "ufdName":"SplatBomb.gif",

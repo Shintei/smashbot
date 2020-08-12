@@ -13,6 +13,7 @@
     { "FarF-Tilt": "F-Tilt (light)(far)" },
     { "FarHeavyF-Tilt": "F-Tilt (heavy)" },
     { "NeutralB": "Hadoken" },
+    { "Fireball": "Hadoken" },
     { "SideB": "Tatsumaki Senpukyaku" },
     { "AirSideB": "Tatsumaki Senpukyaku (air)" },
     { "UpB": "True Flame Shoryuken" },
@@ -138,7 +139,7 @@
       "Shieldlag": "7",
       "Shieldstun": "3"
     },
-    "U-Tilt (medium)": {
+    "U-Tilt (heavy)": {
       "Startup": "7",
       "Total Frames": "37",
       "Landing Lag": "",

@@ -1,5 +1,15 @@
 {
   "name": "46 - Mega Man",
+  "uriComponent": "mega_man",
+  "movePrefix": "MegaMan",
+  "moveMappings": [
+    { "NeutralB": "Metal Blade" },
+    { "SideB": "Crash Bomber" },
+    { "UpB": "Rush Coil" },
+    { "DownB": "Leaf Shield" },
+    { "DownBThrow": "Leaf Shield (throw)" },
+    { "DownB2": "Leaf Shield (throw)" }
+  ],
   "moves": {
     "Buster": {
       "Startup": "7/19/31",
@@ -46,6 +56,7 @@
       "Advantage": "-16"
     },
     "F-Smash": {
+      "ufdName":["FSmashMinimum.gif","FSmashMaximum.gif"],
       "Startup": "19",
       "Total Frames": "54",
       "Landing Lag": "",
@@ -122,6 +133,7 @@
       "Advantage": "|+1| / |+0|"
     },
     "Metal Blade": {
+      "ufdName": "MetalBlade.png",
       "Startup": "16",
       "Total Frames": "42",
       "Landing Lag": "",
@@ -133,6 +145,7 @@
       "Advantage": "-17"
     },
     "Crash Bomber": {
+      "ufdName": "CrashBomberExplosion.gif",
       "Startup": "19",
       "Total Frames": "44",
       "Landing Lag": "",
@@ -149,6 +162,7 @@
       "Additional Notes": "Invulnerable on frame 7-10. Can grab ledges on frame 18 onward. Rush dissapears at Frame ~130. "
     },
     "Leaf Shield": {
+      "ufdName": "LeafShield.gif",
       "Startup": "9-",
       "Total Frames": "35",
       "Landing Lag": "",
@@ -158,6 +172,7 @@
       "Shieldstun": "3"
     },
     "Leaf Shield (throw)": {
+      "ufdName": "LeafShieldFly.gif",
       "Startup": "",
       "Total Frames": "55",
       "Landing Lag": "",

@@ -2,6 +2,14 @@
   "name": "32 - Ike",
   "uriComponent": "ike",
   "movePrefix": "Ike",
+  "moveMappings": [
+    { "NeutralB": "Eruption" },
+    { "NeutralBCharged": "Eruption (full charge)" },
+    { "SideB": "Quick Draw" },
+    { "UpB": "Aether" },
+    { "DownB": "Counter" },
+    { "DownBAttack": "Counter (attack)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -190,18 +198,6 @@
       "Hitbox": "",
       "Advantage": "-9"
     },
-    "NeutralB": {
-      "ufdName":"Eruption.gif",
-      "Startup": "30-239",
-      "Total Frames": "78-287",
-      "Landing Lag": "",
-      "Additional Notes": "On release, startup is 11 and total frames is 59",
-      "Base Damage": "10.0 - 35.0",
-      "Shieldlag": "8-16",
-      "Shieldstun": "10-",
-      "Hitbox": "",
-      "Advantage": "-38 to shieldbreak"
-    },
     "Eruption": {
       "ufdName":"Eruption.gif",
       "Startup": "30-239",
@@ -214,7 +210,7 @@
       "Hitbox": "",
       "Advantage": "-38 to shieldbreak"
     },
-    "NeutralBCharged": {
+    "Eruption (full charge)": {
       "ufdName":"EruptionMax.gif",
       "Startup": "30-239",
       "Total Frames": "78-287",
@@ -225,30 +221,6 @@
       "Shieldstun": "10-",
       "Hitbox": "",
       "Advantage": "-38 to shieldbreak"
-    },
-    "Eruption Charged": {
-      "ufdName":"EruptionMax.gif",
-      "Startup": "30-239",
-      "Total Frames": "78-287",
-      "Landing Lag": "",
-      "Additional Notes": "On release, startup is 11 and total frames is 59",
-      "Base Damage": "10.0 - 35.0",
-      "Shieldlag": "8-16",
-      "Shieldstun": "10-",
-      "Hitbox": "",
-      "Advantage": "-38 to shieldbreak"
-    },
-    "SideB": {
-      "ufdName":"QuickDraw.gif",
-      "Startup": "16",
-      "Total Frames": "53/34/44",
-      "Landing Lag": "30",
-      "Additional Notes": "Reaches max charge around 85. Startup is 2 upon reaching a target. Swing total frames\nis 34, or 44 from the air. Landing lag only occurs after entering special fall. \nCan continue recovery options after an air swing on frame 44",
-      "Base Damage": "6.0 - 13.0",
-      "Shieldlag": "6-9",
-      "Shieldstun": "6-12",
-      "Hitbox": "",
-      "Advantage": "-28 to -22"
     },
     "Quick Draw": {
       "ufdName":"QuickDraw.gif",
@@ -262,18 +234,6 @@
       "Hitbox": "",
       "Advantage": "-28 to -22"
     },
-    "UpB": {
-      "ufdName":["AetherG.gif","AetherSword.gif"],
-      "Startup": "15/44/51//61",
-      "Total Frames": "",
-      "Landing Lag": "36",
-      "Additional Notes": "Landing hit on frame 1. Super armor on frame 5-35. Frame 15-35 for the air version. \nGrabs ledges on frame 59 onward assuming he is facing the ledge",
-      "Base Damage": "6.0 / 1.0 / 3.0 / \n6.0",
-      "Shieldlag": "6/4/5/6",
-      "Shieldstun": "6/2/4/6",
-      "Hitbox": "First/multi/falling/\nlanding",
-      "Advantage": "-29"
-    },
     "Aether": {
       "ufdName":["AetherG.gif","AetherSword.gif"],
       "Startup": "15/44/51//61",
@@ -286,26 +246,12 @@
       "Hitbox": "First/multi/falling/\nlanding",
       "Advantage": "-29"
     },
-    "DownB": {
-      "ufdName":"Counter.gif",
-      "Startup": "",
-      "Total Frames": "73",
-      "Landing Lag": "",
-      "Additional Notes": "Invulnerable on frame 8. Counters on frame 9-33"
-    },
     "Counter": {
       "ufdName":"Counter.gif",
       "Startup": "",
       "Total Frames": "73",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 8. Counters on frame 9-33"
-    },
-    "DownBAttack": {
-      "ufdName":"CounterHit.gif",
-      "Startup": "4",
-      "Total Frames": "43",
-      "Landing Lag": "",
-      "Additional Notes": "Invulnerable on frame 1-4 in addition to counter freeze frames"
     },
     "Counter (attack)": {
       "ufdName":"CounterHit.gif",

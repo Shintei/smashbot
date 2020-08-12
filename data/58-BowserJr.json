@@ -2,6 +2,16 @@
   "name": "58 - Bowser Jr",
   "uriComponent": "bowser_jr",
   "movePrefix": "BowserJr",
+  "moveMappings": [
+    { "NeutralB": "Clown Cannon" },
+    { "SideB": "Clown Kart Dash" },
+    { "SideB2": "Clown Kart Dash (spinout)" },
+    { "SideBSpinout": "Clown Kart Dash (spinout)" },
+    { "UpB": "Abandon Ship" },
+    { "UpB2": "Abandon Ship (hammer)" },
+    { "UpBHammer": "Abandon Ship (hammer)" },
+    { "DownB": "Mechakoopa" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -222,18 +232,6 @@
       "Hitbox": "multi/final/landing",
       "Advantage": "-11"
     },
-    "NeutralB": {
-      "ufdName": "ClownCannon.gif",
-      "Startup": "37-97",
-      "Total Frames": "72-132",
-      "Landing Lag": "",
-      "Additional Notes": "\"late\" hitbox is when the cannonball starts losing altitude",
-      "Base Damage": "10.0 - 20.0 /\n7.0 - 14.0",
-      "Shieldlag": "8-12\n7-10",
-      "Shieldstun": "4-6\n3-5",
-      "Hitbox": "Early /\nlate",
-      "Advantage": "-23 to -17\n"
-    },
     "Clown Cannon": {
       "ufdName": "ClownCannon.gif",
       "Startup": "37-97",
@@ -246,16 +244,6 @@
       "Hitbox": "Early /\nlate",
       "Advantage": "-23 to -17\n"
     },
-    "SideB": {
-      "ufdName": "ClownKartDashG.gif",
-      "Startup": "20",
-      "Total Frames": "",
-      "Landing Lag": "",
-      "Additional Notes": "Damage based heavy armor begins on frame 20.\nKart Jump can be cancelled into any attack on any frame but \nis otherwise a 33 frame animation. Damage depends on travel speed",
-      "Base Damage": "5.2 - 8.8",
-      "Shieldlag": "7-9",
-      "Shieldstun": "6-9"
-    },
     "Clown Kart Dash": {
       "ufdName": "ClownKartDashG.gif",
       "Startup": "20",
@@ -265,18 +253,6 @@
       "Base Damage": "5.2 - 8.8",
       "Shieldlag": "7-9",
       "Shieldstun": "6-9"
-    },
-    "SideBSpinout": {
-      "ufdName": "ClownKartDashSpinout.gif",
-      "Startup": "3",
-      "Total Frames": "58",
-      "Landing Lag": "",
-      "Additional Notes": "Damage also depends on travel speed",
-      "Base Damage": "16.3 - 10.0",
-      "Shieldlag": "11-8",
-      "Shieldstun": "15-10",
-      "Hitbox": "Early - latest",
-      "Advantage": "-40"
     },
     "Clown Kart Dash (spinout)": {
       "ufdName": "ClownKartDashSpinout.gif",
@@ -290,16 +266,6 @@
       "Hitbox": "Early - latest",
       "Advantage": "-40"
     },
-    "UpB": {
-      "ufdName": ["AbandonShip.gif","AbandonShipExplosion.png"],
-      "Startup": "21/56",
-      "Total Frames": "",
-      "Landing Lag": "26",
-      "Additional Notes": "Earliest you can hammer or dodge is on frame 26\nCan grab ledges as early as frame 29",
-      "Base Damage": "5.0 / 13.0",
-      "Shieldlag": "6/9",
-      "Shieldstun": "3/5"
-    },
     "Abandon Ship": {
       "ufdName": ["AbandonShip.gif","AbandonShipExplosion.png"],
       "Startup": "21/56",
@@ -309,18 +275,6 @@
       "Base Damage": "5.0 / 13.0",
       "Shieldlag": "6/9",
       "Shieldstun": "3/5"
-    },
-    "UpBHammer": {
-      "ufdName": "AbandonShipHammer.gif",
-      "Startup": "8/13",
-      "Total Frames": "39",
-      "Landing Lag": "37",
-      "Additional Notes": "",
-      "Base Damage": "15.0 / 10.0",
-      "Shieldlag": "12/?",
-      "Shieldstun": "14/?",
-      "Hitbox": "Sweet/sour",
-      "Advantage": "-23"
     },
     "Abandon Ship (hammer)": {
       "ufdName": "AbandonShipHammer.gif",

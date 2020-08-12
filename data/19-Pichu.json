@@ -1,5 +1,16 @@
 {
   "name": "19 - Pichu",
+  "uriComponent": "pichu",
+  "movePrefix": "Pichu",
+  "moveMappings": [
+    { "NeutralB": "Thunder Jolt (projectile/arc)" },
+    { "Thunder Jolt": "Thunder Jolt (projectile/arc)" },
+    { "SideB": "Skull Bash" },
+    { "UpB": "Agility" },
+    { "Quick Attack": "Agility" },
+    { "DownB": "Thunder (projectile/discharge)" },
+    { "Thunder": "Thunder (projectile/discharge)" }
+  ],
   "moves": {
     "Jab": {
       "Startup": "2",
@@ -134,6 +145,7 @@
       "Advantage": "-8"
     },
     "D-Air": {
+      "ufdName":["DAir.gif","DAirLanding.gif"],
       "Startup": "14",
       "Total Frames": "47",
       "Landing Lag": "22",
@@ -145,6 +157,7 @@
       "Advantage": "-16"
     },
     "Thunder Jolt (projectile/arc)": {
+      "ufdName": ["ThunderJoltG.png","ThunderJoltA.png"],
       "Startup": "18",
       "Total Frames": "51",
       "Landing Lag": "",
@@ -156,6 +169,7 @@
       "Advantage": "-29/-30"
     },
     "Skull Bash": {
+      "ufdName":"SkullBash.gif",
       "Startup": "17",
       "Total Frames": "96/86",
       "Landing Lag": "",
@@ -173,6 +187,7 @@
       "Additional Notes": "Total frames is for one/two dashes ending on the ground. 0.9 base recoil damage on first dash, and 1.4 on second\nCan grab ledges as early as frame 14"
     },
     "Thunder (projectile/discharge)": {
+      "ufdName":"ThunderHit.gif",
       "Startup": "9/26",
       "Total Frames": "86/66",
       "Landing Lag": "",

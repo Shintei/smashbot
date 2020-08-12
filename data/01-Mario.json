@@ -1,5 +1,14 @@
 {
   "name": "01 - Mario",
+  "uriComponent": "mario",
+  "movePrefix": "Mario",
+  "moveMappings": [
+    { "NeutralB": "Fireball" },
+    { "SideB": "Cape" },
+    { "UpB": "Super Jump Punch" },
+    { "DownB": "F.L.U.D.D." },
+    { "DownBCharged": "F.L.U.D.D. (full charge)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "2",
@@ -45,6 +54,28 @@
       "Hitbox": "",
       "Advantage": "-13"
     },
+    "F-TiltUp": {
+      "Startup": "5",
+      "Total Frames": "25",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.0",
+      "Shieldlag": "7",
+      "Shieldstun": "7",
+      "Hitbox": "",
+      "Advantage": "-13"
+    },
+    "F-TiltDown": {
+      "Startup": "5",
+      "Total Frames": "25",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.0",
+      "Shieldlag": "7",
+      "Shieldstun": "7",
+      "Hitbox": "",
+      "Advantage": "-13"
+    },
     "U-Tilt": {
       "Startup": "5",
       "Total Frames": "29",
@@ -79,6 +110,28 @@
       "Advantage": "-17"
     },
     "F-Smash": {
+      "Startup": "15",
+      "Total Frames": "47",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold frame is 5.",
+      "Base Damage": "17.7 / 14.6",
+      "Shieldlag": "11/10",
+      "Shieldstun": "12/10",
+      "Hitbox": "Far/Close",
+      "Advantage": "-22/-20"
+    },
+    "F-SmashUp": {
+      "Startup": "15",
+      "Total Frames": "47",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold frame is 5.",
+      "Base Damage": "17.7 / 14.6",
+      "Shieldlag": "11/10",
+      "Shieldstun": "12/10",
+      "Hitbox": "Far/Close",
+      "Advantage": "-22/-20"
+    },
+    "F-SmashDown": {
       "Startup": "15",
       "Total Frames": "47",
       "Landing Lag": "",
@@ -167,6 +220,7 @@
       "Advantage": "-11"
     },
     "Fireball": {
+      "ufdName":"Fireball.png",
       "Startup": "17",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -178,6 +232,7 @@
       "Advantage": "-23"
     },
     "Cape": {
+      "ufdName":"Cape.gif",
       "Startup": "12",
       "Total Frames": "35",
       "Landing Lag": "",
@@ -189,6 +244,7 @@
       "Advantage": "-16"
     },
     "Super Jump Punch": {
+      "ufdName":"SuperJumpPunch.gif",
       "Startup": "3/7/9/11/13/15/17",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -198,13 +254,15 @@
       "Shieldstun": "6/2/4",
       "Hitbox": "First/multihit/\nFinal"
     },
-    "F.L.U.D.D. ": {
+    "F.L.U.D.D.": {
+      "ufdName":"FLUDD.png",
       "Startup": "2 (+19)",
       "Total Frames": "48",
       "Landing Lag": "",
       "Additional Notes": "Startup is 2 from a charging state. Entering charge state\ntakes 19 frames and is shield cancellable on 20."
     },
     "F.L.U.D.D. (full charge)": {
+      "ufdName":"FLUDD.png",
       "Startup": "21",
       "Total Frames": "67",
       "Landing Lag": "",

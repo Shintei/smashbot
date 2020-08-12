@@ -1,5 +1,15 @@
 {
   "name": "54 - Palutena",
+  "uriComponent": "palutena",
+  "movePrefix": "Palutena",
+  "moveMappings": [
+    { "NeutralB": "Autoreticle" },
+    { "SideB": "Explosive Flame" },
+    { "UpB": "Warp" },
+    { "DownB": "Counter" },
+    { "DownBAttack": "Counter (attack)" },
+    { "Reflector": "Reflect Barrier" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "8",
@@ -165,6 +175,7 @@
       "Advantage": "-7"
     },
     "Autoreticle": {
+      "ufdName":"Autoreticle.gif",
       "Startup": "24/30/36",
       "Total Frames": "67",
       "Landing Lag": "",
@@ -176,6 +187,7 @@
       "Advantage": "-24"
     },
     "Explosive Flame": {
+      "ufdName":"ExplosiveFlame.gif",
       "Startup": "28/33/38/43/48/53/57",
       "Total Frames": "71",
       "Landing Lag": "",
@@ -193,19 +205,21 @@
       "Additional Notes": "Invulnerable on frame 16-32. Total frames refers to ending on the ground.\nCan grab ledges as early as frame 22"
     },
     "Counter": {
+      "ufdName":"Counter.gif",
       "Startup": "",
       "Total Frames": "70",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 6. Counters/reflects on frame 7-34"
     },
     "Counter (attack)": {
+      "ufdName":"CounterHit.gif",
       "Startup": "4",
       "Total Frames": "36",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 1-5 in addition to counter freeze frames"
     },
     "Reflect Barrier": {
-      "Startup": "",
+      "Startup": "ReflectBarrier.gif",
       "Total Frames": "34",
       "Landing Lag": "",
       "Additional Notes": "Barrier lasts until frame 40 for additional reflects."

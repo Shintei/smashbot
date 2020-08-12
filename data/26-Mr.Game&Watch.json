@@ -1,5 +1,34 @@
 {
   "name": "26 - Mr. Game & Watch",
+  "uriComponent": "mr_game_and_watch",
+  "movePrefix": "MrGame_Watch",
+  "moveMappings": [
+    { "NeutralB": "Chef" },
+    { "Bacon": "Gale Strike" },
+    { "SideB": "Judge 1" },
+    { "SideB1": "Judge 1" },
+    { "1": "Judge 1" },
+    { "SideB2": "Judge 2" },
+    { "2": "Judge 2" },
+    { "SideB3": "Judge 3" },
+    { "3": "Judge 3" },
+    { "SideB4": "Judge 4" },
+    { "4": "Judge 4" },
+    { "SideB5": "Judge 5" },
+    { "5": "Judge 5" },
+    { "SideB6": "Judge 6" },
+    { "6": "Judge 6" },
+    { "SideB7": "Judge 7" },
+    { "7": "Judge 7" },
+    { "SideB8": "Judge 8" },
+    { "8": "Judge 8" },
+    { "SideB9": "Judge 9" },
+    { "9": "Judge 9" },
+    { "UpB": "Fire" },
+    { "DownB": "Oil Panic" },
+    { "Reflector": "Oil Panic" },
+    { "DownBAttack": "Oil Panic (overload)" }
+  ],
   "moves": {
     "Jab": {
       "Startup": "4",
@@ -164,6 +193,7 @@
       "Advantage": "-17"
     },
     "Chef": {
+      "ufdName":["Chef.gif","Chef.png"],
       "Startup": "18",
       "Total Frames": "54",
       "Landing Lag": "",
@@ -175,6 +205,7 @@
       "Advantage": "-28"
     },
     "Judge 1": {
+      "ufdName":"Judge1.gif",
       "Startup": "16",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -186,6 +217,7 @@
       "Advantage": "-30"
     },
     "Judge 2": {
+      "ufdName":"Judge2.gif",
       "Startup": "16",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -197,6 +229,7 @@
       "Advantage": "-28"
     },
     "Judge 3": {
+      "ufdName":"Judge3.gif",
       "Startup": "16",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -208,6 +241,7 @@
       "Advantage": "-27"
     },
     "Judge 4": {
+      "ufdName":"Judge4.gif",
       "Startup": "16",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -219,6 +253,7 @@
       "Advantage": "-25"
     },
     "Judge 5": {
+      "ufdName":"Judge5.gif",
       "Startup": "16/19/22/25",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -230,6 +265,7 @@
       "Advantage": "-20"
     },
     "Judge 6": {
+      "ufdName":"Judge6.gif",
       "Startup": "16",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -241,6 +277,7 @@
       "Advantage": "-22"
     },
     "Judge 7": {
+      "ufdName":"Judge7.gif",
       "Startup": "16",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -252,6 +289,7 @@
       "Advantage": "-20"
     },
     "Judge 8": {
+      "ufdName":"Judge8.gif",
       "Startup": "16",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -263,6 +301,7 @@
       "Advantage": "-21"
     },
     "Judge 9": {
+      "ufdName":"Judge9.gif",
       "Startup": "16",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -274,6 +313,7 @@
       "Advantage": "-6"
     },
     "Fire": {
+      "ufdName":"FireG.gif",
       "Startup": "3",
       "Total Frames": "",
       "Landing Lag": "7",
@@ -283,13 +323,15 @@
       "Shieldstun": "4/6",
       "Hitbox": "Early/Late"
     },
-    "Oil Panic ": {
+    "Oil Panic": {
+      "ufdName":"OilPanic.png",
       "Startup": "",
       "Total Frames": "43",
       "Landing Lag": "",
       "Additional Notes": "Begins absorbing/reflecting on frame 6. Takes 13 frames to put away bucket after extended usage."
     },
     "Oil Panic (overload)": {
+      "ufdName":"OilPanic.gif",
       "Startup": "2",
       "Total Frames": "49",
       "Landing Lag": "",

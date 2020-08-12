@@ -1,5 +1,26 @@
 {
   "name": "30 - Wario",
+  "uriComponent": "wario",
+  "movePrefix": "Wario",
+  "moveMappings": [
+    { "NeutralB": "Chomp" },
+    { "Bite": "Chomp" },
+    { "SideB": "Wario Bike" },
+    { "Bike": "Wario Bike" },
+    { "BikeWheelie": "Wario Bike (wheelie)" },
+    { "Wheelie": "Wario Bike (wheelie)" },
+    { "BikeTurnaround": "Wario Bike (turnaround)" },
+    { "UpB": "Corkscrew" },
+    { "DownB": "Wario Waft (final stage)" },
+    { "Waft": "Wario Waft (final stage)" },
+    { "FullWaft": "Wario Waft (final stage)" },
+    { "HalfWaft": "Wario Waft (third stage)" },
+    { "Waft1": "Wario Waft (first stage)" },
+    { "Waft2": "Wario Waft (second stage)" },
+    { "Waft3": "Wario Waft (third stage)" },
+    { "Waft4": "Wario Waft (final stage)" },
+    { "Fart": "Wario Waft (final stage)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "8",
@@ -24,6 +45,28 @@
       "Advantage": "-23"
     },
     "F-Tilt": {
+      "Startup": "12",
+      "Total Frames": "39",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "13.0",
+      "Shieldlag": "9",
+      "Shieldstun": "12",
+      "Hitbox": "",
+      "Advantage": "-15"
+    },
+    "F-TiltUp": {
+      "Startup": "12",
+      "Total Frames": "39",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "13.0",
+      "Shieldlag": "9",
+      "Shieldstun": "12",
+      "Hitbox": "",
+      "Advantage": "-15"
+    },
+    "F-TiltDown": {
       "Startup": "12",
       "Total Frames": "39",
       "Landing Lag": "",
@@ -156,10 +199,12 @@
       "Advantage": "-16/-15"
     },
     "Chomp": {
+      "ufdName":["Chomp.gif","ChompBite.gif","ChompBomb.gif"],
       "Startup": "8",
       "Total Frames": "41",
       "Landing Lag": "",
-      "Additional Notes": "25 endlag from release of the button. "
+      "Additional Notes": "25 endlag from release of the button. ",
+      "Related Moves": "See Chomp (grab release), Chomp (eat)"
     },
     "Chomp (grab release)": {
       "Startup": "11",
@@ -172,15 +217,18 @@
       "Additional Notes": "Can eat projectiles on frame 9-. With the exception of Bike being eaten on frame 2\nAnimation for eating a projectile is 25 frames. 55 for the Bike."
     },
     "Wario Bike": {
+      "ufdName":"BikeDrive.gif",
       "Startup": "20/24",
       "Total Frames": "",
       "Landing Lag": "",
       "Additional Notes": "Startup is 24 if mounting a bike laying on the ground\nFrame 20 is the earliest you can jump, turnaround, wheelie\nWario seems to suffer more shieldlag than the defender on any hit. Bug?",
       "Base Damage": "0.6 - 11.4",
       "Shieldlag": "4-8 \n6-13 \n(Wario)",
-      "Shieldstun": "2-4"
+      "Shieldstun": "2-4",
+      "Related Moves": "See Wario Bike (wheelie), Wario Bike (turnaround)"
     },
     "Wario Bike (wheelie)": {
+      "ufdName":"BikeWheelie.gif",
       "Startup": "4/54",
       "Total Frames": "64",
       "Landing Lag": "",
@@ -192,6 +240,7 @@
       "Advantage": "-60/-10"
     },
     "Wario Bike (turnaround)": {
+      "ufdName":"BikeTurn.gif",
       "Startup": "6",
       "Total Frames": "45",
       "Landing Lag": "",
@@ -203,6 +252,7 @@
       "Advantage": "-40"
     },
     "Corkscrew": {
+      "ufdName":"Corkscrew.gif",
       "Startup": "6/8/12/16/20/29",
       "Total Frames": "",
       "Landing Lag": "20",
@@ -213,10 +263,12 @@
       "Hitbox": "First/multi/Final"
     },
     "Wario Waft (first stage)": {
+      "ufdName":"WarioWaftToot.gif",
       "Startup": "16",
       "Total Frames": "79"
     },
     "Wario Waft (second stage)": {
+      "ufdName":"WarioWaftLow.gif",
       "Startup": "10",
       "Total Frames": "64",
       "Landing Lag": "",
@@ -228,6 +280,7 @@
       "Advantage": "-41"
     },
     "Wario Waft (third stage)": {
+      "ufdName":"WarioWaftHalf.gif",
       "Startup": "5",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -239,6 +292,7 @@
       "Advantage": "-24"
     },
     "Wario Waft (final stage)": {
+      "ufdName":"WarioWaftFull.gif",
       "Startup": "9",
       "Total Frames": "60",
       "Landing Lag": "",

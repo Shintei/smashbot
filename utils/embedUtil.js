@@ -34,7 +34,7 @@ module.exports = {
         const fieldArr = [];
         Object.keys(moveDetails.payload)
         .forEach(function buildFields(key){
-            if(key === '' || key === 'ufdName' || key === 'Name' || moveDetails.payload[key] === ''){
+            if(key === '' || IgnorableFields.includes(key) || moveDetails.payload[key] === ''){
                 return; 
             }
             else {
@@ -48,7 +48,6 @@ module.exports = {
             }               
         })
         return fieldArr;        
-    }
-
-    
+    }    
 }
+IgnorableFields = ['ufdName','Name','movePrefix']

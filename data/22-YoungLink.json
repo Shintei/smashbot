@@ -1,5 +1,16 @@
 {
   "name": "22 - Young Link",
+  "uriComponent": "young_link",
+  "movePrefix": "YoungLink",
+  "moveMappings": [
+    { "NeutralB": "Fire Arrow" },
+    { "Arrow": "Fire Arrow" },
+    { "SideB": "Boomerang" },
+    { "UpB": "Spin Attack" },
+    { "AirUpB": "Spin Attack (air)" },
+    { "DownB": "Bomb Pull" },
+    { "Bomb": "Bomb Pull" }
+  ],
   "moves": {
     "Jab": {
       "Startup": "4",
@@ -208,6 +219,7 @@
       "Advantage": "-3"
     },
     "Fire Arrow": {
+      "ufdName":"Arrow.png",
       "Startup": "14-47",
       "Total Frames": "37-70",
       "Landing Lag": "",
@@ -219,6 +231,7 @@
       "Advantage": "-16 to-10"
     },
     "Boomerang": {
+      "ufdName":"Boomerang.png",
       "Startup": "27",
       "Total Frames": "45",
       "Landing Lag": "",
@@ -250,7 +263,8 @@
       "Shieldstun": "4/3/4",
       "Hitbox": "first/multi/final"
     },
-    "Bomb pull": {
+    "Bomb Pull": {
+      "ufdName":"Bomb.png",
       "Startup": "",
       "Total Frames": "39",
       "Landing Lag": "",

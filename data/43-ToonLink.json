@@ -1,5 +1,16 @@
 {
   "name": "43 - Toon Link",
+  "uriComponent": "toon_link",
+  "movePrefix": "ToonLink",
+  "moveMappings": [
+    { "NeutralB": "Hero's Bow" },
+    { "Arrow": "Hero's Bow" },
+    { "SideB": "Boomerang" },
+    { "UpB": "Spin Attack" },
+    { "AirUpB": "Spin Attack (air)" },
+    { "DownB": "Bomb Pull" },
+    { "Bomb": "Bomb Pull" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "5",
@@ -156,6 +167,7 @@
       "Advantage": "-8/-9"
     },
     "D-Air": {
+      "ufdName":["DAir.gif","DAirLanding.gif"],
       "Startup": "17",
       "Total Frames": "",
       "Landing Lag": "23",
@@ -178,6 +190,7 @@
       "Advantage": "-3 "
     },
     "Hero's Bow": {
+      "ufdName":"Arrow.png",
       "Startup": "18-60",
       "Total Frames": "39-82",
       "Landing Lag": "",
@@ -189,6 +202,7 @@
       "Advantage": "-12 to -6"
     },
     "Boomerang": {
+      "ufdName":"Boomerang.png",
       "Startup": "27",
       "Total Frames": "45",
       "Landing Lag": "",
@@ -200,6 +214,7 @@
       "Advantage": "-9 to -6"
     },
     "Spin Attack": {
+      "ufdName":"SpinAttackG.gif",
       "Startup": "6/10/14/18/22/27/31/36/41/48",
       "Total Frames": "77",
       "Landing Lag": "",
@@ -211,6 +226,7 @@
       "Advantage": "-25"
     },
     "Spin Attack (air)": {
+      "ufdName":"SpinAttackA.gif",
       "Startup": "8/16/22/31/44",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -221,6 +237,7 @@
       "Hitbox": "first/multi/final"
     },
     "Bomb Pull": {
+      "ufdName":"BombBoom.png",
       "Startup": "",
       "Total Frames": "36",
       "Landing Lag": "",

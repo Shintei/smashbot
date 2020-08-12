@@ -2,6 +2,16 @@
     "name": "13e - Daisy",
     "uriComponent": "daisy",
     "movePrefix": "Daisy",
+    "moveMappings": [
+      { "NeutralB": "Toad" },
+      { "NeutralBAttack": "Toad (attack)" },
+      { "SideB": "Daisy Bomber" },
+      { "AirSideB": "Daisy Bomber (air)" },
+      { "UpB": "Daisy Parasol" },
+      { "Umbrella": "Daisy Parasol" },
+      { "DownB": "Vegetable" },
+      { "Turnip": "Vegetable" }
+    ],
     "moves": {
       "Jab 1": {
         "Startup": "2",
@@ -158,13 +168,6 @@
         "Hitbox": "Multi/Final",
         "Advantage": "-6/-5"
       },
-      "NeutralB": {
-        "ufdName":"Toad.gif",
-        "Startup": "",
-        "Total Frames": "62",
-        "Landing Lag": "",
-        "Additional Notes": "Counter window 9-34. Also invulnerable on frame 8."
-      },
       "Toad": {
         "ufdName":"Toad.gif",
         "Startup": "",
@@ -172,27 +175,10 @@
         "Landing Lag": "",
         "Additional Notes": "Counter window 9-34. Also invulnerable on frame 8."
       },
-      "NeutralBAttack": {
-        "ufdName":"Toad.gif",
-        "Startup": "2/6/8/12/14/17",
-        "Total Frames": "59"
-      },
       "Toad (attack)": {
         "ufdName":"Toad.gif",
         "Startup": "2/6/8/12/14/17",
         "Total Frames": "59"
-      },
-      "SideB": {
-        "ufdName":"DaisyBomberHit.gif",
-        "Startup": "15",
-        "Total Frames": "62/87",
-        "Landing Lag": "",
-        "Additional Notes": "Startup is 2 upon reaching a target. 24 endlag on hit. Total frames is 62 on \nlevel ground when you miss. And 87 if you miss and go over an edge",
-        "Base Damage": "12.0",
-        "Shieldlag": "9",
-        "Shieldstun": "11",
-        "Hitbox": "",
-        "Advantage": "-13"
       },
       "Daisy Bomber": {
         "ufdName":"DaisyBomberHit.gif",
@@ -200,18 +186,6 @@
         "Total Frames": "62/87",
         "Landing Lag": "",
         "Additional Notes": "Startup is 2 upon reaching a target. 24 endlag on hit. Total frames is 62 on \nlevel ground when you miss. And 87 if you miss and go over an edge",
-        "Base Damage": "12.0",
-        "Shieldlag": "9",
-        "Shieldstun": "11",
-        "Hitbox": "",
-        "Advantage": "-13"
-      },
-      "AirSideB": {
-        "ufdName":"DaisyBomberHit.gif",
-        "Startup": "13",
-        "Total Frames": "87",
-        "Landing Lag": "35",
-        "Additional Notes": "Startup is 2 upon reaching a target. 24 endlag on hit. Can grab ledges on frame 16-37",
         "Base Damage": "12.0",
         "Shieldlag": "9",
         "Shieldstun": "11",
@@ -230,28 +204,6 @@
         "Hitbox": "",
         "Advantage": "-13"
       },
-      "UpB": {
-        "ufdName":"DaisyParasol.gif",
-        "Startup": "7/11/16/21/26/31",
-        "Total Frames": "",
-        "Landing Lag": "26/40",
-        "Additional Notes": "40 landing lag from special fall. Or 26 if still holding umbrella. Will grab ledges as early \nas frame 17 (facing toward). Can only grab ledges from behind if umbrella is closed",
-        "Base Damage": "3.0 / 1.0 / 4.0",
-        "Shieldlag": "5/4/15",
-        "Shieldstun": "4/2/5",
-        "Hitbox": "First/multi/final"
-      },
-      "Umbrella": {
-        "ufdName":"DaisyParasol.gif",
-        "Startup": "7/11/16/21/26/31",
-        "Total Frames": "",
-        "Landing Lag": "26/40",
-        "Additional Notes": "40 landing lag from special fall. Or 26 if still holding umbrella. Will grab ledges as early \nas frame 17 (facing toward). Can only grab ledges from behind if umbrella is closed",
-        "Base Damage": "3.0 / 1.0 / 4.0",
-        "Shieldlag": "5/4/15",
-        "Shieldstun": "4/2/5",
-        "Hitbox": "First/multi/final"
-      },
       "Daisy Parasol": {
         "ufdName":"DaisyParasol.gif",
         "Startup": "7/11/16/21/26/31",
@@ -262,26 +214,6 @@
         "Shieldlag": "5/4/15",
         "Shieldstun": "4/2/5",
         "Hitbox": "First/multi/final"
-      },
-      "DownB": {
-        "ufdName":"Turnip.png",
-        "Startup": "",
-        "Total Frames": "39",
-        "Landing Lag": "",
-        "Additional Notes": "Turnip damage depends both on the type and how it is thrown. \nZ-Drop damage depends on distance fallen.",
-        "Base Damage": "8.3 - 27.6",
-        "Shieldlag": "7-15",
-        "Shieldstun": "3-8"
-      },
-      "Turnip": {
-        "ufdName":"Turnip.png",
-        "Startup": "",
-        "Total Frames": "39",
-        "Landing Lag": "",
-        "Additional Notes": "Turnip damage depends both on the type and how it is thrown. \nZ-Drop damage depends on distance fallen.",
-        "Base Damage": "8.3 - 27.6",
-        "Shieldlag": "7-15",
-        "Shieldstun": "3-8"
       },
       "Vegetable": {
         "ufdName":"Turnip.png",

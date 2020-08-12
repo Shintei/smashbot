@@ -2,6 +2,22 @@
   "name": "61 - Cloud",
   "uriComponent": "cloud",
   "movePrefix": "Cloud",
+  "moveMappings": [
+    { "NeutralB": "Blade Beam" },
+    { "AirNeutralB": "Blade Beam (air)" },
+    { "LimitNeutralB": "Limit Blade Beam" },
+    { "AirLimitNeutralB": "Limit Blade Beam (air)" },
+    { "SideB": "Cross Slash" },
+    { "SideB1": "Cross Slash" },
+    { "SideB2": "Cross Slash 2" },
+    { "SideB3": "Cross Slash 3" },
+    { "LimitSideB": "Limit Cross Slash" },
+    { "UpB": "Climhazzard" },
+    { "UpB2": "Climhazzard followup" },
+    { "LimitUpB": "Limit Climhazzard" },
+    { "DownB": "Limit charge" },
+    { "LimitDownB": "Finishing Touch" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -168,18 +184,6 @@
       "Hitbox": "Early/late",
       "Advantage": "-11/-12"
     },
-    "NeutralB": {
-      "ufdName":"BladeBeam.gif",
-      "Startup": "18",
-      "Total Frames": "53",
-      "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "8.0 / 6.0",
-      "Shieldlag": "7/6",
-      "Shieldstun": "3/3",
-      "Hitbox": "Early/late",
-      "Advantage": "-25"
-    },
     "Blade Beam": {
       "ufdName":"BladeBeam.gif",
       "Startup": "18",
@@ -191,18 +195,6 @@
       "Shieldstun": "3/3",
       "Hitbox": "Early/late",
       "Advantage": "-25"
-    },
-    "AirNeutralB": {
-      "ufdName":"BladeBeam.gif",
-      "Startup": "18",
-      "Total Frames": "60",
-      "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "6.4 / 4.8",
-      "Shieldlag": "6/6",
-      "Shieldstun": "3/3",
-      "Hitbox": "Early/late",
-      "Advantage": "-33"
     },
     "Blade Beam (air)": {
       "ufdName":"BladeBeam.gif",
@@ -216,18 +208,6 @@
       "Hitbox": "Early/late",
       "Advantage": "-33"
     },
-    "LimitNeutralB": {
-      "ufdName":"BladeBeamLimit.gif",
-      "Startup": "16 (1/7/13/19/25/28)",
-      "Total Frames": "60",
-      "Landing Lag": "",
-      "Additional Notes": "Invulnerable on frame 10-17",
-      "Base Damage": "6.0 / 2.0 / 3.0",
-      "Shieldlag": "-/4/5",
-      "Shieldstun": "-/2/2",
-      "Hitbox": "First/multi/final",
-      "Advantage": "-9"
-    },
     "Limit Blade Beam": {
       "ufdName":"BladeBeamLimit.gif",
       "Startup": "16 (1/7/13/19/25/28)",
@@ -235,18 +215,6 @@
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 10-17",
       "Base Damage": "6.0 / 2.0 / 3.0",
-      "Shieldlag": "-/4/5",
-      "Shieldstun": "-/2/2",
-      "Hitbox": "First/multi/final",
-      "Advantage": "-9"
-    },
-    "AirLimitNeutralB": {
-      "ufdName":"BladeBeamLimit.gif",
-      "Startup": "16 (1/7/13/19/25/28)",
-      "Total Frames": "60",
-      "Landing Lag": "",
-      "Additional Notes": "Invulnerable on frame 10-17",
-      "Base Damage": "4.8 / 1.6 / 2.4",
       "Shieldlag": "-/4/5",
       "Shieldstun": "-/2/2",
       "Hitbox": "First/multi/final",
@@ -264,30 +232,6 @@
       "Hitbox": "First/multi/final",
       "Advantage": "-9"
     },
-    "SideB": {
-      "ufdName":["CrossSlash1Left.gif","CrossSlash1Right.gif"],
-      "Startup": "10",
-      "Total Frames": "40",
-      "Landing Lag": "",
-      "Additional Notes": "Transitions to next slash as early as frame 10 if you hit",
-      "Base Damage": "4.0",
-      "Shieldlag": "5",
-      "Shieldstun": "5",
-      "Hitbox": "",
-      "Advantage": "-25"
-    },
-    "SideB1": {
-      "ufdName":["CrossSlash1Left.gif","CrossSlash1Right.gif"],
-      "Startup": "10",
-      "Total Frames": "40",
-      "Landing Lag": "",
-      "Additional Notes": "Transitions to next slash as early as frame 10 if you hit",
-      "Base Damage": "4.0",
-      "Shieldlag": "5",
-      "Shieldstun": "5",
-      "Hitbox": "",
-      "Advantage": "-25"
-    },
     "Cross Slash": {
       "ufdName":["CrossSlash1Left.gif","CrossSlash1Right.gif"],
       "Startup": "10",
@@ -297,18 +241,6 @@
       "Base Damage": "4.0",
       "Shieldlag": "5",
       "Shieldstun": "5",
-      "Hitbox": "",
-      "Advantage": "-25"
-    },
-    "SideB2": {
-      "ufdName":["CrossSlash3Left.gif","CrossSlash3Right.gif"],
-      "Startup": "2",
-      "Total Frames": "31",
-      "Landing Lag": "",
-      "Additional Notes": "Transitiions to next slash as early as frame 14 if you hit",
-      "Base Damage": "3.0",
-      "Shieldlag": "5",
-      "Shieldstun": "4",
       "Hitbox": "",
       "Advantage": "-25"
     },
@@ -324,18 +256,6 @@
       "Hitbox": "",
       "Advantage": "-25"
     },
-    "SideB3": {
-      "ufdName":["CrossSlash3Left.gif","CrossSlash3Right.gif"],
-      "Startup": "2/11/25",
-      "Total Frames": "55",
-      "Landing Lag": "",
-      "Additional Notes": "First of these hits has no hitlag",
-      "Base Damage": "3.0 / 3.0 / 6.0",
-      "Shieldlag": "0/5/12",
-      "Shieldstun": "4/4/6",
-      "Hitbox": "",
-      "Advantage": "-24"
-    },
     "Cross Slash 3": {
       "ufdName":["CrossSlash3Left.gif","CrossSlash3Right.gif"],
       "Startup": "2/11/25",
@@ -347,18 +267,6 @@
       "Shieldstun": "4/4/6",
       "Hitbox": "",
       "Advantage": "-24"
-    },
-    "LimitSideB": {
-      "ufdName":["CrossSlashLimitLeft.gif","CrossSlashLimitRight.gif"],
-      "Startup": "10/15/21/28/38",
-      "Total Frames": "60",
-      "Landing Lag": "",
-      "Additional Notes": "Invulnerable on frame 6-11",
-      "Base Damage": "5.0 / 3.0 / 10.0",
-      "Shieldlag": "6/5/19",
-      "Shieldstun": "-/4/10",
-      "Hitbox": "Hits 1-2 / 3-4 / final",
-      "Advantage": "-12"
     },
     "Limit Cross Slash": {
       "ufdName":["CrossSlashLimitLeft.gif","CrossSlashLimitRight.gif"],
@@ -372,16 +280,6 @@
       "Hitbox": "Hits 1-2 / 3-4 / final",
       "Advantage": "-12"
     },
-    "UpB": {
-      "ufdName":"Climhazzard.gif",
-      "Startup": "7/10",
-      "Total Frames": "",
-      "Landing Lag": "20",
-      "Additional Notes": "Transitions to followup as early as frame 20. Can grab ledges as early as 24.\nOr frames 2-9 if descending or immediately after jumping.",
-      "Base Damage": "3.0 / 4.0",
-      "Shieldlag": "12/6",
-      "Shieldstun": "-/5"
-    },
     "Climhazzard": {
       "ufdName":"Climhazzard.gif",
       "Startup": "7/10",
@@ -392,16 +290,6 @@
       "Shieldlag": "12/6",
       "Shieldstun": "-/5"
     },
-    "LimitUpB": {
-      "ufdName":"ClimhazzardLimit.gif",
-      "Startup": "7/11",
-      "Total Frames": "",
-      "Landing Lag": "20",
-      "Additional Notes": "Invulnerable on frame 5-12 Transitions to followup as early as frame 33",
-      "Base Damage": "6.0 / 7.0",
-      "Shieldlag": "15/16",
-      "Shieldstun": "-/7"
-    },
     "Limit Climhazzard": {
       "ufdName":"ClimhazzardLimit.gif",
       "Startup": "7/11",
@@ -411,18 +299,6 @@
       "Base Damage": "6.0 / 7.0",
       "Shieldlag": "15/16",
       "Shieldstun": "-/7"
-    },
-    "UpB2": {
-      "ufdName":["ClimhazzardFall.gif","ClimhazzardLanding.gif"],
-      "Startup": "12",
-      "Total Frames": "",
-      "Landing Lag": "26",
-      "Additional Notes": "Landing hit on frame 1. Grabs ledges as early as frame 23",
-      "Base Damage": "4.5 / 3.5",
-      "Shieldlag": "7/7",
-      "Shieldstun": "5/4",
-      "Hitbox": "falling/landing",
-      "Advantage": "-21"
     },
     "Climhazzard followup": {
       "ufdName":["ClimhazzardFall.gif","ClimhazzardLanding.gif"],
@@ -436,29 +312,11 @@
       "Hitbox": "falling/landing",
       "Advantage": "-21"
     },
-    "DownB": {
-      "Startup": "",
-      "Total Frames": "",
-      "Landing Lag": "",
-      "Additional Notes": "Takes 7 frames to cancel. About 7 seconds to fully charge"
-    },
     "Limit charge": {
       "Startup": "",
       "Total Frames": "",
       "Landing Lag": "",
       "Additional Notes": "Takes 7 frames to cancel. About 7 seconds to fully charge"
-    },
-    "LimitDownB": {
-      "ufdName":["FinishingTouchG.gif","FinishingTouchA.gif"],
-      "Startup": "14/16",
-      "Total Frames": "86/89",
-      "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "1.0",
-      "Shieldlag": "8",
-      "Shieldstun": "2",
-      "Hitbox": "",
-      "Advantage": "-70/-71"
     },
     "Finishing Touch": {
       "ufdName":["FinishingTouchG.gif","FinishingTouchA.gif"],

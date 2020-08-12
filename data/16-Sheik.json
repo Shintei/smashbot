@@ -1,5 +1,15 @@
 {
   "name": "16 - Sheik",
+  "uriComponent": "sheik",
+  "movePrefix": "Sheik",
+  "moveMappings": [
+    { "NeutralB": "Needle Storm (partial charge)" },
+    { "Needles": "Needle Storm (partial charge)" },
+    { "NeutralBCharged": "Needle Storm (full charge)" },
+    { "SideB": "Burst Grenade" },
+    { "UpB": "Vanish" },
+    { "DownB": "Bouncing Fish" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "2",
@@ -176,6 +186,7 @@
       "Advantage": "-18"
     },
     "Needle Storm (partial charge)": {
+      "ufdName":"Needle.png",
       "Startup": "4/7/10/13/16 (+7)",
       "Total Frames": "41/35",
       "Landing Lag": "12",
@@ -187,6 +198,7 @@
       "Advantage": "-18"
     },
     "Needle Storm (full charge)": {
+      "ufdName":"Needle.png",
       "Startup": "11/14/17/20/23/26",
       "Total Frames": "48/42",
       "Landing Lag": "12",
@@ -198,6 +210,7 @@
       "Advantage": "-15"
     },
     "Burst Grenade": {
+      "ufdName":["BurstGrenade.gif","BurstGrenadeWired.png","BurstGrenadeThrown.png"],
       "Startup": "13/67/70/73/76/79/82/88",
       "Total Frames": "69-98 (ground)\n78-148 (air)",
       "Landing Lag": "",
@@ -209,6 +222,7 @@
       "Advantage": "|+34|"
     },
     "Vanish": {
+      "ufdName":["VanishG.gif","VanishA.gif"],
       "Startup": "36/56",
       "Total Frames": "95",
       "Landing Lag": "20",
@@ -220,6 +234,7 @@
       "Advantage": "-33"
     },
     "Bouncing Fish": {
+      "ufdName":"BouncingFish.gif",
       "Startup": "18/23",
       "Total Frames": "63/50/45",
       "Landing Lag": "35/19",

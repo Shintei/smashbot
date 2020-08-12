@@ -1,5 +1,32 @@
 {
   "name": "52 - Mii Swordfighter",
+  "uriComponent": "mii_swordfighter",
+  "movePrefix": "MiiSwordfighter",
+  "moveMappings": [
+    { "NeutralB": "Gale Strike" },
+    { "NeutralB1": "Gale Strike" },
+    { "Tornado": "Gale Strike" },
+    { "NeutralB2": "Shuriken of Light" },
+    { "NeutralB3": "Blurring Blade" },
+    { "SideB": "Airborne Assault" },
+    { "SideB1": "Airborne Assault" },
+    { "SideB2": "Gale Stab" },
+    { "SideB3": "Chakram" },
+    { "UpB": "Stone Scabbard" },
+    { "UpB1": "Stone Scabbard" },
+    { "UpB2": "Skyward Slash Dash" },
+    { "UpB3": "Hero's Spin" },
+    { "AirUpB3": "Hero's Spin (air)" },
+    { "DownB": "Blade Counter" },
+    { "DownBAttack": "Blade Counter (activated)" },
+    { "DownB1": "Blade Counter" },
+    { "DownB1Attack": "Blade Counter (activated)" },
+    { "Counter": "Blade Counter" },
+    { "CounterAttack": "Blade Counter (activated)" },
+    { "DownB2": "Reversal Slash" },
+    { "DownB3": "Power Thrust" },
+    { "AirDownB3": "Power Thrust (air)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "6",
@@ -156,6 +183,7 @@
       "Advantage": "-4/-6"
     },
     "D-Air": {
+      "ufdName":["DAir.gif","DAirLanding.gif"],
       "Startup": "14/19/24/29/34",
       "Total Frames": "58",
       "Landing Lag": "18",
@@ -167,6 +195,7 @@
       "Advantage": "-11"
     },
     "Gale Strike": {
+      "ufdName":"GaleStrike.png",
       "Startup": "20",
       "Total Frames": "67",
       "Landing Lag": "",
@@ -189,6 +218,7 @@
       "Advantage": "-18"
     },
     "Blurring Blade": {
+      "ufdName":"BlurringBlade.gif",
       "Startup": "17/21/25/29/33/44",
       "Total Frames": "84",
       "Landing Lag": "",
@@ -200,6 +230,7 @@
       "Advantage": "-32 to -23"
     },
     "Airborne Assault": {
+      "ufdName":["AirborneAssault.gif","AirborneAssaultHit.gif"],
       "Startup": "2 (+25)",
       "Total Frames": "109",
       "Landing Lag": "",
@@ -211,6 +242,7 @@
       "Advantage": "-41"
     },
     "Gale Stab": {
+      "ufdName":"GaleStabHit.gif",
       "Startup": "2 (+7)",
       "Total Frames": "55",
       "Landing Lag": "29",
@@ -222,6 +254,7 @@
       "Advantage": "-24 to -16"
     },
     "Chakram": {
+      "ufdName":"Chakram.png",
       "Startup": "18",
       "Total Frames": "52",
       "Landing Lag": "",
@@ -233,6 +266,7 @@
       "Advantage": "-27/-20"
     },
     "Stone Scabbard": {
+      "ufdName":["StoneScabbard.gif","StoneScabbardLanding.gif"],
       "Startup": "13/42",
       "Total Frames": "",
       "Landing Lag": "44",
@@ -244,6 +278,7 @@
       "Advantage": "-37 "
     },
     "Skyward Slash Dash": {
+      "ufdName":"SkywardSlashDash.gif",
       "Startup": "15/19/22/25/28/31/34",
       "Total Frames": "77",
       "Landing Lag": "20",
@@ -255,6 +290,7 @@
       "Advantage": "-38"
     },
     "Hero's Spin": {
+      "ufdName":"HerosSpinG.gif",
       "Startup": "8",
       "Total Frames": "78",
       "Landing Lag": "",
@@ -266,6 +302,7 @@
       "Advantage": "-57 to -53"
     },
     "Hero's Spin (air)": {
+      "ufdName":"HerosSpinA.gif",
       "Startup": "8/16/22/31/47",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -276,18 +313,21 @@
       "Hitbox": "First/multi/final"
     },
     "Blade Counter": {
+      "ufdName":"BladeCounter.gif",
       "Startup": "",
       "Total Frames": "59",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 5. Counters on frame 6-25"
     },
     "Blade Counter (activated)": {
+      "ufdName":["BladeCounterHit.gif","BladeCounterHitAerial.gif"],
       "Startup": "10",
       "Total Frames": "29",
       "Landing Lag": "",
       "Additional Notes": "Attacker placed in a unique stagger animation. Invulnerable \non frame 1-10 in addition to counter freeze frames."
     },
     "Reversal Slash": {
+      "ufdName":"ReversalSlash.gif",
       "Startup": "16",
       "Total Frames": "36",
       "Landing Lag": "",
@@ -299,6 +339,7 @@
       "Advantage": "-13"
     },
     "Power Thrust": {
+      "ufdName":"PowerThrustG.gif",
       "Startup": "14",
       "Total Frames": "61",
       "Landing Lag": "",
@@ -310,6 +351,7 @@
       "Advantage": "-33"
     },
     "Power Thrust (air)": {
+      "ufdName":["PowerThrustA.gif","PowerThrustALanding.gif"],
       "Startup": "16",
       "Total Frames": "60",
       "Landing Lag": "39",

@@ -2,6 +2,12 @@
   "name": "12 - Jigglypuff",
   "uriComponent": "jigglypuff",
   "movePrefix": "Jigglypuff",
+  "moveMappings": [
+    { "NeutralB": "Rollout" },
+    { "SideB": "Pound" },
+    { "UpB": "Sing" },
+    { "DownB": "Rest" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "5",
@@ -179,16 +185,6 @@
       "Hitbox": "Mult/Final",
       "Advantage": "-13"
     },
-    "NeutralB": {
-      "ufdName":"RolloutG.png",
-      "Startup": "30/51",
-      "Total Frames": "",
-      "Landing Lag": "",
-      "Additional Notes": "Reaches full charge at frame 51. Partial charge at 30. Endlag on hit is 52 on level ground. \nJigglypuff is helpless if she does not land or grab an edge after a hit, but she will pass through shields",
-      "Base Damage": "10.0 - 20.0",
-      "Shieldlag": "9-12",
-      "Shieldstun": "11-18"
-    },
     "Rollout": {
       "ufdName":"RolloutG.png",
       "Startup": "30/51",
@@ -198,18 +194,6 @@
       "Base Damage": "10.0 - 20.0",
       "Shieldlag": "9-12",
       "Shieldstun": "11-18"
-    },
-    "SideB": {
-      "ufdName":"Pound.gif",
-      "Startup": "13",
-      "Total Frames": "39",
-      "Landing Lag": "",
-      "Additional Notes": "Can grab ledges on frame 30 onward",
-      "Base Damage": "11.0",
-      "Shieldlag": "8",
-      "Shieldstun": "15",
-      "Hitbox": "",
-      "Advantage": "-11"
     },
     "Pound": {
       "ufdName":"Pound.gif",
@@ -223,31 +207,12 @@
       "Hitbox": "",
       "Advantage": "-11"
     },
-    "UpB": {
-      "ufdName":"Sing.gif",
-      "Startup": "27/61/100",
-      "Total Frames": "149",
-      "Landing Lag": "",
-      "Additional Notes": "Can snap to ledges as early as frame 2 if descending."
-    },
     "Sing": {
       "ufdName":"Sing.gif",
       "Startup": "27/61/100",
       "Total Frames": "149",
       "Landing Lag": "",
       "Additional Notes": "Can snap to ledges as early as frame 2 if descending."
-    },
-    "DownB": {
-      "ufdName":"Rest.gif",
-      "Startup": "2",
-      "Total Frames": "209",
-      "Landing Lag": "",
-      "Additional Notes": "Invulnerable on frame 1-27",
-      "Base Damage": "20.0",
-      "Shieldlag": "12",
-      "Shieldstun": "18",
-      "Hitbox": "",
-      "Advantage": "-189"
     },
     "Rest": {
       "ufdName":"Rest.gif",

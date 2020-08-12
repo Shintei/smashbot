@@ -1,5 +1,18 @@
 {
   "name": "27 - Meta Knight",
+  "uriComponent": "meta_knight",
+  "movePrefix": "MetaKnight",
+  "moveMappings": [
+    { "NeutralB": "Mach Tornado" },
+    { "Tornado": "Mach Tornado" },
+    { "SideB": "Drill Rush" },
+    { "GigaDrill": "Drill Rush" },
+    { "GigaDrillBreaker": "Drill Rush" },
+    { "UpB": "Shuttle Loop" },
+    { "AirUpB": "Shuttle Loop (air)" },
+    { "DownB": "Dimensional Cape" },
+    { "DownBAttack": "Dimensional Cape (attack)" }
+  ],
   "moves": {
     "Rapid Jab": {
       "Startup": "4/7/10...",
@@ -176,6 +189,7 @@
       "Advantage": "-6"
     },
     "Mach Tornado": {
+      "ufdName":"MachTornado.gif",
       "Startup": "12",
       "Total Frames": "104",
       "Landing Lag": "29",
@@ -187,6 +201,7 @@
       "Advantage": "-81"
     },
     "Drill Rush": {
+      "ufdName":"DrillRush.gif",
       "Startup": "26/30/34/38/42/46/50/54/58/62/66/70",
       "Total Frames": "98",
       "Landing Lag": "26",
@@ -198,6 +213,7 @@
       "Advantage": "-24"
     },
     "Shuttle Loop": {
+      "ufdName":"ShuttleLoopG.gif",
       "Startup": "8/22",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -208,6 +224,7 @@
       "Hitbox": "early/late/second"
     },
     "Shuttle Loop (air)": {
+      "ufdName":"ShuttleLoopA.gif",
       "Startup": "7/20",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -223,6 +240,7 @@
       "Additional Notes": "Invulnerable on frame 12-39. Landing lag only occurs if you enter special fall."
     },
     "Dimensional Cape (attack)": {
+      "ufdName":"DimensionalCapeGroundForward.gif",
       "Startup": "34",
       "Total Frames": "92",
       "Landing Lag": "30",

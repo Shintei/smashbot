@@ -2,6 +2,15 @@
   "name": "50 - Greninja",
   "uriComponent": "greninja",
   "movePrefix": "Greninja",
+  "moveMappings": [
+    { "NeutralB": "Water Shuriken" },
+    { "SideB": "Shadow Sneak" },
+    { "UpB": "Hydro Pump" },
+    { "DownB": "Substitute" },
+    { "Counter": "Substitute" },
+    { "DownBAttack": "Substitute (attack)" },
+    { "CounterAttack": "Substitute (attack)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -210,17 +219,6 @@
       "Hitbox": "",
       "Advantage": "-16"
     },
-    "NeutralB": {
-      "Startup": "20-60",
-      "Total Frames": "45-81",
-      "Landing Lag": "",
-      "Additional Notes": "startup is 6 and total frames is 31 on release. \nFull charge version hits on frames 1/7/13/19/25/28",
-      "Base Damage": "3.0 - 10.8\n1.0 / 9.0",
-      "Shieldlag": "5-8/4/11",
-      "Shieldstun": "2-4/2/4",
-      "Hitbox": "partial charge/\nfull charge",
-      "Advantage": "-18 to -13 \n"
-    },
     "Water Shuriken": {
       "Startup": "20-60",
       "Total Frames": "45-81",
@@ -231,18 +229,6 @@
       "Shieldstun": "2-4/2/4",
       "Hitbox": "partial charge/\nfull charge",
       "Advantage": "-18 to -13 \n"
-    },
-    "SideB": {
-      "ufdName":["ShadowSneakF.gif","ShadowSneakB.gif"],
-      "Startup": "24 (+5)",
-      "Total Frames": "63",
-      "Landing Lag": "",
-      "Additional Notes": "Startup is 24 from release. Must ready this move for at least five frames.",
-      "Base Damage": "10.0 / 12.0",
-      "Shieldlag": "10/12",
-      "Shieldstun": "10/11",
-      "Hitbox": "front/back kick",
-      "Advantage": "-29/-28"
     },
     "Shadow Sneak": {
       "ufdName":["ShadowSneakF.gif","ShadowSneakB.gif"],
@@ -256,15 +242,6 @@
       "Hitbox": "front/back kick",
       "Advantage": "-29/-28"
     },
-    "UpB": {
-      "Startup": "19-",
-      "Total Frames": "",
-      "Landing Lag": "32",
-      "Additional Notes": "Can grab ledges as early as frame 18",
-      "Base Damage": "2.0",
-      "Shieldlag": "8",
-      "Shieldstun": "2"
-    },
     "Hydro Pump": {
       "Startup": "19-",
       "Total Frames": "",
@@ -274,31 +251,12 @@
       "Shieldlag": "8",
       "Shieldstun": "2"
     },
-    "DownB": {
-      "ufdName":"Substitute.gif",
-      "Startup": "",
-      "Total Frames": "69",
-      "Landing Lag": "",
-      "Additional Notes": "Invulnerable on frame 7. Counters on frame 8-34"
-    },
     "Substitute": {
       "ufdName":"Substitute.gif",
       "Startup": "",
       "Total Frames": "69",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 7. Counters on frame 8-34"
-    },
-    "DownBAttack": {
-      "ufdName":"SubstituteHitSide.gif",
-      "Startup": "19",
-      "Total Frames": "63",
-      "Landing Lag": "",
-      "Additional Notes": "Invulnerable on frame 1-33 in addition to 22 freeze frames.",
-      "Base Damage": "11.0 / 13.0",
-      "Shieldlag": "9/10",
-      "Shieldstun": "11/12",
-      "Hitbox": "side/up or down",
-      "Advantage": "-33/-32"
     },
     "Substitute (attack)": {
       "ufdName":"SubstituteHitSide.gif",
@@ -412,6 +370,12 @@
       "Total Frames": "85",
       "Landing Lag": "11-19",
       "Additional Notes": "Invulnerability on frame 2-19"
+    },
+    "Down Taunt": {      
+      "Startup": "30",
+      "Total Frames": "79",
+      "Additional Notes": "Does not give aerial opponents hit stun",
+      "Base Damage": "0.5"
     }
   }
 }

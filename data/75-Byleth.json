@@ -2,6 +2,16 @@
   "name": "75 - Byleth",
   "uriComponent": "byleth",
   "movePrefix": "Byleth",
+  "moveMappings": [
+    { "NeutralB": "Failnaught (partial charge)" },
+    { "NeutralBCharged": "Failnaught (full charge)" },
+    { "SideB": "Areadbhar" },
+    { "AirSideB": "Areadbhar (air)" },
+    { "UpB": "Sword of the Creator" },
+    { "AirUpB": "Sword of the Creator (air)" },
+    { "DownB": "Aymr" },
+    { "AirDownB": "Aymr (air)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -167,18 +177,6 @@
       "Hitbox": "multi/final",
       "Advantage": "-10"
     },
-    "N-AirLanding": {
-      "ufdName": "NAirLanding.gif",
-      "Startup": "6/13/20/28",
-      "Total Frames": "51",
-      "Landing Lag": "13",
-      "Additional Notes": "Autocancels on frame 1-5 and 39 onward\nLanding hitbox comes on frame 2 upon landing. Advantage is for that.",
-      "Base Damage": "2.5 / 3.0 / 1.0",
-      "Shieldlag": "5/7/4",
-      "Shieldstun": "2/2/2",
-      "Hitbox": "multi/final",
-      "Advantage": "-10"
-    },
     "F-Air": {
       "Startup": "12",
       "Total Frames": "39",
@@ -223,18 +221,6 @@
       "Hitbox": "",
       "Advantage": "-21"
     },
-    "NeutralB": {
-      "ufdName": "Failnaught.gif",
-      "Startup": "45",
-      "Total Frames": "76",
-      "Landing Lag": "",
-      "Additional Notes": "shield cancellable on frame 21-44. Takes 4 frames to cancel",
-      "Base Damage": "12.0",
-      "Shieldlag": "11",
-      "Shieldstun": "12",
-      "Hitbox": "",
-      "Advantage": "-8"
-    },
     "Failnaught (partial charge)": {
       "ufdName": "Failnaught.gif",
       "Startup": "45",
@@ -259,18 +245,6 @@
       "Hitbox": "",
       "Advantage": "-21"
     },
-    "SideB": {
-      "ufdName": "AreadbharGrounded.gif",
-      "Startup": "20",
-      "Total Frames": "65",
-      "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "11.5 / 17.2",
-      "Shieldlag": "9/13",
-      "Shieldstun": "11/15",
-      "Hitbox": "close/far",
-      "Advantage": "-34/-30"
-    },
     "Areadbhar": {
       "ufdName": "AreadbharGrounded.gif",
       "Startup": "20",
@@ -282,18 +256,6 @@
       "Shieldstun": "11/15",
       "Hitbox": "close/far",
       "Advantage": "-34/-30"
-    },
-    "AirSideB": {
-      "ufdName":"AreadbharAerial.gif",
-      "Startup": "21",
-      "Total Frames": "65",
-      "Landing Lag": "",
-      "Additional Notes": "Landing lag equates to how many total frames remain upon landing",
-      "Base Damage": "9.5 / 14.2",
-      "Shieldlag": "7/12",
-      "Shieldstun": "9/13",
-      "Hitbox": "",
-      "Advantage": "-35/-31"
     },
     "Areadbhar (air)": {
       "ufdName":"AreadbharAerial.gif",
@@ -307,18 +269,6 @@
       "Hitbox": "",
       "Advantage": "-35/-31"
     },
-    "UpB": {
-      "ufdName": "SwordoftheCreatorGrounded.gif",
-      "Startup": "11(12-19)",
-      "Total Frames": "48",
-      "Landing Lag": "",
-      "Additional Notes": "Numbers in parenthesis are grab frames. Kickoff has no endlag.\nKickoff damage depends on the vertical range you grabbed them.",
-      "Base Damage": "1.0 / 3.0 /\n7.9 - 13.0",
-      "Shieldlag": "6/5/-",
-      "Shieldstun": "2/4/-",
-      "Hitbox": "first/grab/\nkickoff",
-      "Advantage": "-35 "
-    },
     "Sword of the Creator": {
       "ufdName": "SwordoftheCreatorGrounded.gif",
       "Startup": "11(12-19)",
@@ -331,17 +281,6 @@
       "Hitbox": "first/grab/\nkickoff",
       "Advantage": "-35 "
     },
-    "AirUpB": {
-      "ufdName": "SwordoftheCreatorAerial.gif",
-      "Startup": "(12-19)",
-      "Total Frames": "48",
-      "Landing Lag": "",
-      "Additional Notes": "Tethers to ledge on frame 7",
-      "Base Damage": "3.0 / 7.9-13.0",
-      "Shieldlag": "5",
-      "Shieldstun": "4",
-      "Hitbox": "grab/kickoff"
-    },
     "Sword of the Creator (air)": {
       "ufdName": "SwordoftheCreatorAerial.gif",
       "Startup": "(12-19)",
@@ -352,16 +291,6 @@
       "Shieldlag": "5",
       "Shieldstun": "4",
       "Hitbox": "grab/kickoff"
-    },
-    "DownB": {
-      "ufdName": "BylethAymrSuperArmor.gif",
-      "Startup": "62/66",
-      "Total Frames": "131",
-      "Landing Lag": "",
-      "Additional Notes": "Second startup is the quake. Super armor on frame 34-63\nTurning around takes an additional 11 frames",
-      "Base Damage": "30.0",
-      "Shieldlag": "25",
-      "Shieldstun": "-"
     },
     "Aymr": {
       "ufdName": "BylethAymrSuperArmor.gif",

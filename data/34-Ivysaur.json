@@ -1,5 +1,13 @@
 {
   "name": "34 - Ivysaur",
+  "uriComponent": "pt_ivysaur",
+  "movePrefix": "Ivysaur",
+  "moveMappings": [
+    { "NeutralB": "Bullet Seed" },
+    { "SideB": "Razor Leaf" },
+    { "UpB": "Vine Whip" },
+    { "DownB": "Pokemon Change" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "7",
@@ -98,6 +106,28 @@
       "Hitbox": "Early/late",
       "Advantage": "-33"
     },
+    "F-SmashUp": {
+      "Startup": "15",
+      "Total Frames": "59",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 9",
+      "Base Damage": "16.0 / 14.0",
+      "Shieldlag": "10/10",
+      "Shieldstun": "11/10",
+      "Hitbox": "Early/late",
+      "Advantage": "-33"
+    },
+    "F-SmashDown": {
+      "Startup": "15",
+      "Total Frames": "59",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 9",
+      "Base Damage": "16.0 / 14.0",
+      "Shieldlag": "10/10",
+      "Shieldstun": "11/10",
+      "Hitbox": "Early/late",
+      "Advantage": "-33"
+    },
     "U-Smash": {
       "Startup": "26",
       "Total Frames": "59",
@@ -176,6 +206,7 @@
       "Advantage": "-9"
     },
     "Bullet Seed": {
+      "ufdName":["BulletSeedG.gif","BulletSeedA.gif"],
       "Startup": "7/13/20/26/32/38",
       "Total Frames": "79",
       "Landing Lag": "",

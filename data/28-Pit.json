@@ -2,6 +2,15 @@
   "name": "28 - Pit",
   "uriComponent": "pit",
   "movePrefix": "Pit",
+  "moveMappings": [
+    { "NeutralB": "Palutena's Bow" },
+    { "Arrow": "Palutena's Bow" },
+    { "SideB": "Uppderdash Arm" },
+    { "AirSideB": "Uppderdash Arm (air)" },
+    { "UpB": "Power of Flight" },
+    { "DownB": "Guardian Orbitars" },
+    { "Reflector": "Guardian Orbitars" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -188,30 +197,6 @@
       "Hitbox": "",
       "Advantage": "-10"
     },
-    "NeutralB": {
-      "ufdName":"PalutenasBowMinimum.gif",
-      "Startup": "16-76",
-      "Total Frames": "46-106",
-      "Landing Lag": "",
-      "Additional Notes": "Total frames reduced by 3 in the air.",
-      "Base Damage": "3.2 - 8.6",
-      "Shieldlag": "5-7",
-      "Shieldstun": "2-3",
-      "Hitbox": "",
-      "Advantage": "-23 to -20"
-    },
-    "Arrow": {
-      "ufdName":"PalutenasBowMinimum.gif",
-      "Startup": "16-76",
-      "Total Frames": "46-106",
-      "Landing Lag": "",
-      "Additional Notes": "Total frames reduced by 3 in the air.",
-      "Base Damage": "3.2 - 8.6",
-      "Shieldlag": "5-7",
-      "Shieldstun": "2-3",
-      "Hitbox": "",
-      "Advantage": "-23 to -20"
-    },
     "Palutena's Bow": {
       "ufdName":"PalutenasBowMinimum.gif",
       "Startup": "16-76",
@@ -223,18 +208,6 @@
       "Shieldstun": "2-3",
       "Hitbox": "",
       "Advantage": "-23 to -20"
-    },
-    "SideB": {
-      "ufdName":["UpperdashArmHitG.gif","UpperdashkArmG.gif"],
-      "Startup": "18",
-      "Total Frames": "79/49",
-      "Landing Lag": "",
-      "Additional Notes": "Startup is 2 upon reaching a target. 47 endlag on the swing.\nSuper Armor begins on frame 11 and ends on the frame he begins swing",
-      "Base Damage": "11.0",
-      "Shieldlag": "15",
-      "Shieldstun": "10",
-      "Hitbox": "",
-      "Advantage": "-37"
     },
     "Upperdash Arm": {
       "ufdName":["UpperdashArmHitG.gif","UpperdashkArmG.gif"],
@@ -248,18 +221,6 @@
       "Hitbox": "",
       "Advantage": "-37"
     },
-    "AirSideB": {
-      "ufdName":["UpperdashArmHitA.gif","UpperdashArmA.gif"],
-      "Startup": "21",
-      "Total Frames": "104/51",
-      "Landing Lag": "30",
-      "Additional Notes": "Startup is 2 upon reaching a target. 49 endlag on the swing if you don't land",
-      "Base Damage": "9.0",
-      "Shieldlag": "15",
-      "Shieldstun": "9",
-      "Hitbox": "",
-      "Advantage": "-40"
-    },
     "Uppderdash Arm (air)": {
       "ufdName":["UpperdashArmHitA.gif","UpperdashArmA.gif"],
       "Startup": "21",
@@ -272,33 +233,12 @@
       "Hitbox": "",
       "Advantage": "-40"
     },
-    "UpB": {
-      "ufdName":"UpBLedge.png",
-      "Startup": "",
-      "Total Frames": "",
-      "Landing Lag": "40",
-      "Additional Notes": "invulnerable on frame 9-19, 15-19 in the air. Grabs ledges on frame 25"
-    },
     "Power of Flight": {
       "ufdName":"UpBLedge.png",
       "Startup": "",
       "Total Frames": "",
       "Landing Lag": "40",
       "Additional Notes": "invulnerable on frame 9-19, 15-19 in the air. Grabs ledges on frame 25"
-    },
-    "DownB": {
-      "ufdName":"GuardianOrbitars.gif",
-      "Startup": "",
-      "Total Frames": "39-124",
-      "Landing Lag": "",
-      "Additional Notes": "Reflects/blocks as early as frame 7. 18 endlag upon release."
-    },
-    "Reflector": {
-      "ufdName":"GuardianOrbitars.gif",
-      "Startup": "",
-      "Total Frames": "39-124",
-      "Landing Lag": "",
-      "Additional Notes": "Reflects/blocks as early as frame 7. 18 endlag upon release."
     },
     "Guardian Orbitars": {
       "ufdName":"GuardianOrbitars.gif",

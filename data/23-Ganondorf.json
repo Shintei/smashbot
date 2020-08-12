@@ -2,6 +2,17 @@
   "name": "23 - Ganondorf",
   "uriComponent": "ganondorf",
   "movePrefix": "Ganondorf",
+  "moveMappings": [
+    { "SpartaKick": "F-Tilt" },
+    { "BabySpartaKick": "D-Tilt" },
+    { "NeutralB": "Warlock Punch" },
+    { "AirNeutralB": "Warlock Punch (air)" },
+    { "SideB": "Flame Choke" },
+    { "UpB": "Dark Dive" },
+    { "UpBGrab": "Dark Dive (grab success)" },
+    { "DownB": "Wizard's Foot" },
+    { "AirDownB": "Wizard's Foot (air)" }
+  ],
   "moves": {
     "Jab": {
       "Startup": "7",
@@ -25,18 +36,6 @@
       "Hitbox": "Close/far",
       "Advantage": "-17/-16"
     },
-    "SpartaKick": {
-      "ufdName":"FTilt.gif",
-      "Startup": "10",
-      "Total Frames": "39",
-      "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "13.0 / 14.0",
-      "Shieldlag": "9/10",
-      "Shieldstun": "12/13",
-      "Hitbox": "Close/far",
-      "Advantage": "-17/-16"
-    },
     "U-Tilt": {
       "Startup": "60",
       "Total Frames": "95",
@@ -49,18 +48,6 @@
       "Advantage": "-14"
     },
     "D-Tilt": {
-      "Startup": "10",
-      "Total Frames": "35",
-      "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "14.0 ",
-      "Shieldlag": "10",
-      "Shieldstun": "13",
-      "Hitbox": "",
-      "Advantage": "-12"
-    },
-    "BabySpartaKick": {
-      "ufdName":"DTilt.gif",
       "Startup": "10",
       "Total Frames": "35",
       "Landing Lag": "",
@@ -170,18 +157,6 @@
       "Hitbox": "legs/waist",
       "Advantage": "-9/-10"
     },
-    "NeutralB": {
-      "ufdName":"WarlockPunchG.gif",
-      "Startup": "70/80",
-      "Total Frames": "117/127",
-      "Landing Lag": "",
-      "Additional Notes": "Super armor on frame 11-66 ",
-      "Base Damage": "30.0 / 37.0",
-      "Shieldlag": "15/16",
-      "Shieldstun": "26/31",
-      "Hitbox": "",
-      "Advantage": "-21/-16"
-    },
     "Warlock Punch": {
       "ufdName":"WarlockPunchG.gif",
       "Startup": "70/80",
@@ -194,18 +169,6 @@
       "Hitbox": "",
       "Advantage": "-21/-16"
     },
-    "AirNeutralB": {
-      "ufdName":"WarlockPunchA.gif",
-      "Startup": "70/80",
-      "Total Frames": "117/127",
-      "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "38.0 / 40.0",
-      "Shieldlag": "16/16",
-      "Shieldstun": "32/34",
-      "Hitbox": "",
-      "Advantage": "-15/-13"
-    },
     "Warlock Punch (air)": {
       "ufdName":"WarlockPunchA.gif",
       "Startup": "70/80",
@@ -217,14 +180,6 @@
       "Shieldstun": "32/34",
       "Hitbox": "",
       "Advantage": "-15/-13"
-    },
-    "SideB": {
-      "ufdName":"FlameChokeG.gif",
-      "Startup": "16",
-      "Total Frames": "59",
-      "Landing Lag": "",
-      "Additional Notes": "Damage dealt 32 frames after a grab. 57 total frames.",
-      "FIU Advice": "Just block it, bro"
     },
     "Flame Choke": {
       "ufdName":"FlameChokeG.gif",
@@ -280,16 +235,6 @@
       "Additional Notes": "Damage dealt on frame 1 of landing.",
       "Base Damage": "15.0"
     },
-    "UpB": {
-      "ufdName":"DarkDive.gif",
-      "Startup": "14/34",
-      "Total Frames": "",
-      "Landing Lag": "30",
-      "Additional Notes": "First startup is for the grab. Can grab ledges on frame \n19 (facing toward) or 38 (facing away)",
-      "Base Damage": "7.0",
-      "Shieldlag": "7",
-      "Shieldstun": "7"
-    },
     "Dark Dive": {
       "ufdName":"DarkDive.gif",
       "Startup": "14/34",
@@ -299,17 +244,6 @@
       "Base Damage": "7.0",
       "Shieldlag": "7",
       "Shieldstun": "7"
-    },
-    "UpBGrab": {
-      "ufdName":"DarkDiveCatch.gif",
-      "Startup": "3/11/19/27/32",
-      "Total Frames": "80",
-      "Landing Lag": "",
-      "Additional Notes": "",
-      "Base Damage": "1.9 / 9.0",
-      "Shieldlag": "",
-      "Shieldstun": "",
-      "Hitbox": "multi/final"
     },
     "Dark Dive (grab success)": {
       "ufdName":"DarkDiveCatch.gif",
@@ -322,18 +256,6 @@
       "Shieldstun": "",
       "Hitbox": "multi/final"
     },
-    "DownB": {
-      "ufdName":"WizardsFootG.gif",
-      "Startup": "16",
-      "Total Frames": "60/68",
-      "Landing Lag": "",
-      "Additional Notes": "Total frames is 68 if you go over an edge.",
-      "Base Damage": "14.0 / 16.0",
-      "Shieldlag": "10/10",
-      "Shieldstun": "13/14",
-      "Hitbox": "close/far",
-      "Advantage": "-31/-30"
-    },
     "Wizard's Foot": {
       "ufdName":"WizardsFootG.gif",
       "Startup": "16",
@@ -345,18 +267,6 @@
       "Shieldstun": "13/14",
       "Hitbox": "close/far",
       "Advantage": "-31/-30"
-    },
-    "AirDownB": {
-      "ufdName":"WizardsFootA.gif",
-      "Startup": "16",
-      "Total Frames": "57",
-      "Landing Lag": "44",
-      "Additional Notes": "Hitbox on frame 2 of landing.",
-      "Base Damage": "15.0 / 14.0 / 8.0",
-      "Shieldlag": "10/10",
-      "Shieldstun": "14/13/8",
-      "Hitbox": "Close/far/landing",
-      "Advantage": "-34"
     },
     "Wizard's Foot (air)": {
       "ufdName":"WizardsFootA.gif",

@@ -1,5 +1,17 @@
 {
   "name": "29 - Zero Suit Samus",
+  "uriComponent": "zero_suit_samus",
+  "movePrefix": "ZeroSuitSamus",
+  "moveMappings": [
+    { "NeutralB": "Paralyzer" },
+    { "SideB": "Plasma Whip" },
+    { "StunWhip": "Plasma Whip" },
+    { "UpB": "Boost Kick" },
+    { "DownB": "Flip Jump" },
+    { "DownB2": "Flip Jump (kick)" },
+    { "DownBKick": "Flip Jump (kick)" },
+    { "FlipKick": "Flip Jump (kick)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "1",
@@ -45,6 +57,28 @@
       "Hitbox": "no angle/angled",
       "Advantage": "-15/-14"
     },
+    "F-TiltUp": {
+      "Startup": "6",
+      "Total Frames": "28",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.0 / 8.0",
+      "Shieldlag": "7/7",
+      "Shieldstun": "7/8",
+      "Hitbox": "no angle/angled",
+      "Advantage": "-15/-14"
+    },
+    "F-TiltDown": {
+      "Startup": "6",
+      "Total Frames": "28",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.0 / 8.0",
+      "Shieldlag": "7/7",
+      "Shieldstun": "7/8",
+      "Hitbox": "no angle/angled",
+      "Advantage": "-15/-14"
+    },
     "U-Tilt": {
       "Startup": "3/9",
       "Total Frames": "45",
@@ -79,6 +113,28 @@
       "Advantage": "-36 "
     },
     "F-Smash": {
+      "Startup": "13/26",
+      "Total Frames": "64",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 9",
+      "Base Damage": "5.0 / 11.0 / 11.0",
+      "Shieldlag": "6/8/14",
+      "Shieldstun": "4/8/8",
+      "Hitbox": "first/second/\nsecond far",
+      "Advantage": "-30"
+    },
+    "F-SmashUp": {
+      "Startup": "13/26",
+      "Total Frames": "64",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 9",
+      "Base Damage": "5.0 / 11.0 / 11.0",
+      "Shieldlag": "6/8/14",
+      "Shieldstun": "4/8/8",
+      "Hitbox": "first/second/\nsecond far",
+      "Advantage": "-30"
+    },
+    "F-SmashDown": {
       "Startup": "13/26",
       "Total Frames": "64",
       "Landing Lag": "",
@@ -156,6 +212,7 @@
       "Advantage": "-2"
     },
     "D-Air": {
+      "ufdName":["DAir.gif","DAirLanding.gif"],
       "Startup": "14",
       "Total Frames": "",
       "Landing Lag": "24",
@@ -178,6 +235,7 @@
       "Advantage": "-2"
     },
     "Paralyzer": {
+      "ufdName":["ParalyzerNoCharge.gif","ParalyzerMaxCharge.gif"],
       "Startup": "21-43",
       "Total Frames": "48-70",
       "Landing Lag": "",
@@ -189,6 +247,7 @@
       "Advantage": "-20 to -18"
     },
     "Plasma Whip": {
+      "ufdName":["PlasmaWhip.gif","PlasmaWhipUp.gif"],
       "Startup": "22/24/26/28/32",
       "Total Frames": "55",
       "Landing Lag": "",
@@ -200,6 +259,7 @@
       "Advantage": "-15"
     },
     "Boost Kick": {
+      "ufdName":["BoostKickG.gif","BoostKickA.gif"],
       "Startup": "4/10/14/18/22/26/32",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -210,15 +270,18 @@
       "Hitbox": "First/multi/Final"
     },
     "Flip Jump": {
+      "ufdName":"FlipJump.gif",
       "Startup": "",
       "Total Frames": "38",
       "Landing Lag": "",
       "Additional Notes": "Automatic bounce off target has 58 endlag but can end early if you land during it. \nInvulnerable on frame 3-12. Can transition to Manual kick as early as frame 14 ",
       "Base Damage": "8.0",
       "Shieldlag": "13",
-      "Shieldstun": "8"
+      "Shieldstun": "8",
+      "Related Moves": "See Flip Jump (kick)"
     },
     "Flip Jump (kick)": {
+      "ufdName":["BoostKickG.gif","BoostKickA.gif"],
       "Startup": "9",
       "Total Frames": "59",
       "Landing Lag": "35",

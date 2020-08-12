@@ -2,6 +2,15 @@
     "name": "28e - Dark Pit",
     "uriComponent": "dark_pit",
     "movePrefix": "DarkPit",
+    "moveMappings": [
+      { "NeutralB": "Silver Bow" },
+      { "Arrow": "Silver Bow" },
+      { "SideB": "Electroshock Arm" },
+      { "AirSideB": "Electroshock Arm (air)" },
+      { "UpB": "Power of Flight" },
+      { "DownB": "Guardian Orbitars" },
+      { "Reflector": "Guardian Orbitars" }
+    ],
     "moves": {
       "Jab 1": {
         "Startup": "4",
@@ -188,30 +197,6 @@
         "Hitbox": "",
         "Advantage": "-10"
       },
-      "NeutralB": {
-        "ufdName":"SilverBowMinimum.gif",
-        "Startup": "16-76",
-        "Total Frames": "46-106",
-        "Landing Lag": "",
-        "Additional Notes": "Total frames reduced by 3 in the air.",
-        "Base Damage": "5.5 - 14.0",
-        "Shieldlag": "6-10",
-        "Shieldstun": "3-5",
-        "Hitbox": "",
-        "Advantage": "-21 to -15"
-      },
-      "Arrow": {
-        "ufdName":"SilverBowMinimum.gif",
-        "Startup": "16-76",
-        "Total Frames": "46-106",
-        "Landing Lag": "",
-        "Additional Notes": "Total frames reduced by 3 in the air.",
-        "Base Damage": "5.5 - 14.0",
-        "Shieldlag": "6-10",
-        "Shieldstun": "3-5",
-        "Hitbox": "",
-        "Advantage": "-21 to -15"
-      },
       "Silver Bow": {
         "ufdName":"SilverBowMinimum.gif",
         "Startup": "16-76",
@@ -224,18 +209,6 @@
         "Hitbox": "",
         "Advantage": "-21 to -15"
       },
-      "SideB": {
-        "ufdName":["ElectroshockArmHitG.gif","ElectroshockArmG.gif"],
-        "Startup": "18",
-        "Total Frames": "79/49",
-        "Landing Lag": "",
-        "Additional Notes": "Startup is 2 upon reaching a target. 47 endlag on the swing.\nSuper Armor begins on frame 11 and ends on the frame he begins swing",
-        "Base Damage": "12.0",
-        "Shieldlag": "16",
-        "Shieldstun": "11",
-        "Hitbox": "",
-        "Advantage": "-36"
-      },
       "Electroshock Arm": {
         "ufdName":["ElectroshockArmHitG.gif","ElectroshockArmG.gif"],
         "Startup": "18",
@@ -247,18 +220,6 @@
         "Shieldstun": "11",
         "Hitbox": "",
         "Advantage": "-36"
-      },
-      "AirSideB": {
-        "ufdName":["ElectroshockArmHitA.gif","ElectroshockArmA.gif"],
-        "Startup": "21",
-        "Total Frames": "104/51",
-        "Landing Lag": "30",
-        "Additional Notes": "Startup is 2 upon reaching a target. 49 endlag on the swing if you don't land",
-        "Base Damage": "9.5",
-        "Shieldlag": "12",
-        "Shieldstun": "9",
-        "Hitbox": "",
-        "Advantage": "-40"
       },
       "Electroshock Arm (air)": {
         "ufdName":["ElectroshockArmHitA.gif","ElectroshockArmA.gif"],
@@ -285,20 +246,6 @@
         "Total Frames": "",
         "Landing Lag": "40",
         "Additional Notes": "invulnerable on frame 9-19, 15-19 in the air. Grabs ledges on frame 25"
-      },
-      "DownB": {
-        "ufdName":"GuardianOrbitars.gif",
-        "Startup": "",
-        "Total Frames": "39-124",
-        "Landing Lag": "",
-        "Additional Notes": "Reflects/blocks as early as frame 7. 18 endlag upon release."
-      },
-      "Reflector": {
-        "ufdName":"GuardianOrbitars.gif",
-        "Startup": "",
-        "Total Frames": "39-124",
-        "Landing Lag": "",
-        "Additional Notes": "Reflects/blocks as early as frame 7. 18 endlag upon release."
       },
       "Guardian Orbitars": {
         "ufdName":"GuardianOrbitars.gif",

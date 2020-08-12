@@ -1,7 +1,28 @@
 {
   "name": "60 - Ryu",
+  "uriComponent": "ryu",
+  "movePrefix": "Ryu",
+  "moveMappings": [
+    { "ProximityJab": "Jab (Heavy,Close)" },
+    { "CloseJab": "Jab (Heavy,Close)" },
+    { "HeavyJab": "Jab (Heavy,Close)" },
+    { "FarHeavyJab": "Jab (Heavy,Far)" },
+    { "F-Tilt": "F-Tilt (light)" },
+    { "ProximityF-Tilt": "F-Tilt (light)" },
+    { "CloseF-Tilt": "F-Tilt (light)" },
+    { "FarF-Tilt": "F-Tilt (light)(far)" },
+    { "FarHeavyF-Tilt": "F-Tilt (heavy)" },
+    { "NeutralB": "Hadoken" },
+    { "Shakunetsu": "Shakunetsu Hadoken" },
+    { "Fireball": "Shakunetsu Hadoken" },
+    { "SideB": "Tatsumaki Senpukyaku" },
+    { "AirSideB": "Tatsumaki Senpukyaku (air)" },
+    { "UpB": "True Shoryuken" },
+    { "DownB": "Focus Attack (stage 3)" },
+    { "FocusAttack": "Focus Attack (stage 3)" }
+  ],
   "moves": {
-    "Jab 1 (light)": {
+    "Jab 1": {
       "Startup": "2",
       "Total Frames": "15",
       "Landing Lag": "",
@@ -11,7 +32,16 @@
       "Shieldlag": "4",
       "Shieldstun": "3"
     },
-    "Jab (heavy)": {
+    "Jab (Heavy,Close)": {      
+      "ufdName":"JabHeavyClose.gif",
+      "Startup": "7",
+      "Total Frames": "37",      
+      "Additional Notes": "Head, chest and arms invincible: frames 4-10.",
+      "Special cancel?": "yes",
+      "Base Damage": "12.0/8.0"
+    },
+    "Jab (Heavy,Far)": {
+      "ufdName":"JabHeavy.gif",
       "Startup": "9",
       "Total Frames": "32",
       "Landing Lag": "",
@@ -42,6 +72,7 @@
       "Shieldstun": "6"
     },
     "F-Tilt (light)": {
+      "ufdName":"FTiltLightClose.gif",
       "Startup": "3",
       "Total Frames": "29",
       "Landing Lag": "",
@@ -51,7 +82,8 @@
       "Shieldlag": "9",
       "Shieldstun": "6"
     },
-    "F-Tilt (medium)": {
+    "F-Tilt (light)(far)": {
+      "ufdName":"FTiltLight.gif",
       "Startup": "8",
       "Total Frames": "23",
       "Landing Lag": "",
@@ -62,6 +94,7 @@
       "Shieldstun": "7"
     },
     "F-Tilt (heavy)": {
+      "ufdName":"FTiltHeavy.gif",
       "Startup": "16/18",
       "Total Frames": "37",
       "Landing Lag": "",
@@ -72,6 +105,7 @@
       "Shieldstun": "-/6"
     },
     "U-Tilt (light)": {
+      "ufdName":"UTiltLight.gif",
       "Startup": "3",
       "Total Frames": "14",
       "Landing Lag": "",
@@ -81,7 +115,8 @@
       "Shieldlag": "7",
       "Shieldstun": "3"
     },
-    "U-Tilt (medium)": {
+    "U-Tilt (heavy)": {
+      "ufdName":"UTiltHeavy.gif",
       "Startup": "7",
       "Total Frames": "37",
       "Landing Lag": "",
@@ -92,6 +127,7 @@
       "Shieldstun": "11"
     },
     "D-Tilt (light)": {
+      "ufdName":"DTiltLight.gif",
       "Startup": "2",
       "Total Frames": "14",
       "Landing Lag": "",
@@ -101,7 +137,8 @@
       "Shieldlag": "8",
       "Shieldstun": "3"
     },
-    "D-Tilt (medium)": {
+    "D-Tilt (heavy)": {
+      "ufdName":"DTiltHeavy.gif",
       "Startup": "6",
       "Total Frames": "27",
       "Landing Lag": "",

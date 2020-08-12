@@ -1,5 +1,14 @@
 {
   "name": "56 - Robin",
+  "uriComponent": "Robin",
+  "movePrefix": "Robin",
+  "moveMappings": [
+    { "NeutralB": "Thunder/Elthunder/Arcthunder" },
+    { "NeutralBCharged": "Thoron" },
+    { "SideB": "Arcfire" },
+    { "UpB": "Elwind" },
+    { "DownB": "Nosferatu" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -99,6 +108,7 @@
       "Advantage": "-23"
     },
     "F-Smash": {
+      "ufdName":["FSmashLevin.gif","FSmashBronze.gif"],
       "Startup": "16",
       "Total Frames": "57",
       "Landing Lag": "",
@@ -110,6 +120,7 @@
       "Advantage": "-30/-34"
     },
     "U-Smash": {
+      "ufdName":["USmashLevin.gif","USmashBronze.gif"],
       "Startup": "12",
       "Total Frames": "52",
       "Landing Lag": "",
@@ -121,6 +132,7 @@
       "Advantage": "-33/-30/-33"
     },
     "D-Smash": {
+      "ufdName":["DSmashLevin.gif","DSmashBronze.gif"],
       "Startup": "16",
       "Total Frames": "56",
       "Landing Lag": "",
@@ -132,6 +144,7 @@
       "Advantage": "-28/-34"
     },
     "N-Air": {
+      "ufdName":["NAirLevin.gif","NAirBronze.gif"],
       "Startup": "7/20",
       "Total Frames": "47",
       "Landing Lag": "11",
@@ -143,6 +156,7 @@
       "Advantage": "-6/-8"
     },
     "F-Air": {
+      "ufdName":["FAirLevin.gif","FAirBronze.gif"],
       "Startup": "12",
       "Total Frames": "33",
       "Landing Lag": "11",
@@ -154,6 +168,7 @@
       "Advantage": "-6/-8"
     },
     "B-Air": {
+      "ufdName":["BAirLevin.gif","BAirBronze.gif"],
       "Startup": "9",
       "Total Frames": "39",
       "Landing Lag": "11",
@@ -165,6 +180,7 @@
       "Advantage": "-6/-8/-7"
     },
     "U-Air": {
+      "ufdName":["UAirLevin.gif","UAirBronze.gif"],
       "Startup": "10",
       "Total Frames": "45",
       "Landing Lag": "11",
@@ -176,6 +192,7 @@
       "Advantage": "-6/-8/-7"
     },
     "D-Air": {
+      "ufdName":["DAirLevin.gif","DAirBronze.gif"],
       "Startup": "13",
       "Total Frames": "59",
       "Landing Lag": "16",
@@ -187,6 +204,7 @@
       "Advantage": "-7/-7/-8/-8"
     },
     "Thunder/Elthunder/Arcthunder": {
+      "ufdName":["Thunder.gif","Elthunder.gif","Arcthunder.gif"],
       "Startup": "8/8/8",
       "Total Frames": "32/38/38",
       "Landing Lag": "",
@@ -198,6 +216,7 @@
       "Advantage": "-12/-13"
     },
     "Arcthunder (vortex) ": {
+      "ufdName":"ArcthunderHit.gif",
       "Startup": "1/5/9/13/16",
       "Total Frames": "",
       "Landing Lag": "",
@@ -220,6 +239,7 @@
       "Advantage": "-20"
     },
     "Arcfire": {
+      "ufdName":["Arcfire.gif","ArcfireHit.gif"],
       "Startup": "17",
       "Total Frames": "63",
       "Landing Lag": "",
@@ -231,6 +251,7 @@
       "Advantage": "|+13|"
     },
     "Elwind": {
+      "ufdName":"Elwind.gif",
       "Startup": "8/28",
       "Total Frames": "",
       "Landing Lag": "25",
@@ -241,6 +262,7 @@
       "Hitbox": "Early/late"
     },
     "Nosferatu": {
+      "ufdName":["Nosferatu.gif","NosferatuAir.gif"],
       "Startup": "15",
       "Total Frames": "49",
       "Landing Lag": "",

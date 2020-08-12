@@ -1,5 +1,18 @@
 {
   "name": "65 - Ridley",
+  "uriComponent": "ridley",
+  "movePrefix": "Ridley",
+  "moveMappings": [
+    { "NeutralB": "Plasma Breath (uncharged | full charge)" },
+    { "Fireball": "Plasma Breath (uncharged | full charge)" },
+    { "SideB": "Space Pirate Rush" },
+    { "SideBGrab": "Space Pirate Rush (success)" },
+    { "AirSideB": "Space Pirate Rush (air)" },
+    { "AirSideBGrab": "Space Pirate Rush (success)" },
+    { "UpB": "Wing Blitz (up/horizontal/down)" },
+    { "Wing Blitz": "Wing Blitz (up/horizontal/down)" },
+    { "DownB": "Skewer" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -55,6 +68,28 @@
       "Advantage": "-38"
     },
     "F-Tilt": {
+      "Startup": "10",
+      "Total Frames": "32",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0 / 13.0",
+      "Shieldlag": "8/11",
+      "Shieldstun": "10/12",
+      "Hitbox": "close/far",
+      "Advantage": "-12/-10"
+    },
+    "F-TiltUp": {
+      "Startup": "10",
+      "Total Frames": "32",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0 / 13.0",
+      "Shieldlag": "8/11",
+      "Shieldstun": "10/12",
+      "Hitbox": "close/far",
+      "Advantage": "-12/-10"
+    },
+    "F-TiltDown": {
       "Startup": "10",
       "Total Frames": "32",
       "Landing Lag": "",
@@ -187,6 +222,8 @@
       "Advantage": "-27/-27"
     },
     "Plasma Breath (uncharged | full charge)": {
+      "movePrefix":"",
+      "ufdName":["RidleyPlasmaBreath.gif","Fireballs_Transparent_text.png"],
       "Startup": "29 | 56/65/73/84/92",
       "Total Frames": "55 | 102",
       "Landing Lag": "",
@@ -197,17 +234,20 @@
       "Hitbox": "Early/late |\nEarly/late",
       "Advantage": "-23 | -1"
     },
-    "Space Pirate Rush ": {
+    "Space Pirate Rush": {
+      "ufdName":"SpacePirateRushG.gif",
       "Startup": "22",
       "Total Frames": "78"
     },
     "Space Pirate Rush (air)": {
+      "ufdName":"SpacePirateRushG.gif",
       "Startup": "22",
       "Total Frames": "60",
       "Landing Lag": "",
       "Additional Notes": "Landing hitbox on frame 1 after a grab, then transitions to ground drag"
     },
     "Space Pirate Rush (success)": {
+      "ufdName":["SpacePirateRushDragStart.gif","SpacePirateRushDrag.gif"],
       "Startup": "10/24/28/32...",
       "Total Frames": "",
       "Landing Lag": "",
@@ -228,6 +268,7 @@
       "Hitbox": "ground/ledge/air"
     },
     "Wing Blitz (up/horizontal/down)": {
+      "ufdName":["WingBlitzForward.gif","WingBlitzBack.gif","WingBlitzUp.gif","WingBlitzDown.gif","WingBlitzDownLanding.gif"],
       "Startup": "34/36/37",
       "Total Frames": "",
       "Landing Lag": "32/35",
@@ -239,6 +280,7 @@
       "Advantage": "-28"
     },
     "Skewer": {
+      "ufdName":"Skewer.gif",
       "Startup": "30/37",
       "Total Frames": "96/67",
       "Landing Lag": "",

@@ -1,5 +1,17 @@
 {
   "name": "08 - Pikachu",
+  "uriComponent": "pikachu",
+  "movePrefix": "Pikachu",
+  "moveMappings": [
+    { "NeutralB": "Thunder Jolt (projectile/arc)" },
+    { "Thunder Jolt": "Thunder Jolt (projectile/arc)" },
+    { "SideB": "Skull Bash (uncharged) (ground/air)" },
+    { "Skull Bash": "Skull Bash (uncharged) (ground/air)" },
+    { "UpB": "Quick Attack (one/two dashes)" },
+    { "Quick Attack": "Quick Attack (one/two dashes)" },
+    { "DownB": "Thunder (projectile/discharge)" },
+    { "Thunder": "Thunder (projectile/discharge)" }
+  ],
   "moves": {
     "Jab": {
       "Startup": "2",
@@ -144,7 +156,7 @@
       "Hitbox": "Early/late/landing",
       "Advantage": "-16"
     },
-    "Thunder Jolt": {
+    "Thunder Jolt (projectile/arc)": {
       "Startup": "19",
       "Total Frames": "51",
       "Landing Lag": "",
@@ -156,6 +168,7 @@
       "Advantage": "-20"
     },
     "Skull Bash (uncharged) (ground/air)": {
+      "ufdName":"SkullBash.gif",
       "Startup": "18/18",
       "Total Frames": "96/74",
       "Landing Lag": "",
@@ -167,6 +180,7 @@
       "Advantage": "-11 to -2"
     },
     "Quick Attack (one/two dashes)": {
+      "ufdName":"QuickAttack.gif",
       "Startup": "15/30",
       "Total Frames": "52/66",
       "Landing Lag": "24",
@@ -177,7 +191,8 @@
       "Hitbox": "Early/late",
       "Advantage": "-33"
     },
-    "Thunder (projectile/Discharge)": {
+    "Thunder (projectile/discharge)": {
+      "ufdName":"ThunderHit.gif",
       "Startup": "13/34",
       "Total Frames": "86/74",
       "Landing Lag": "",

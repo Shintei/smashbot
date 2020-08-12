@@ -43,18 +43,19 @@ module.exports = {
                 const charMoveNameKey = actualCharMoveData.searchKey;
 
                 //first check if the move has the ufdName
-                const ufdName = actualCharMoveData.payload.ufdName;                
+                const ufdName = actualCharMoveData.payload.ufdName;
+                const movePrefix = actualCharMoveData.payload.movePrefix == null ? character.movePrefix : actualCharMoveData.payload.movePrefix;
                 const resultArr = [];
                 if(ufdName != null){
                     const hasMultipleResults = Array.isArray(ufdName);
                     if(hasMultipleResults){
                         ufdName.forEach(moveName => {
-                            resultArr.push(`${frameDataApiBaseUrl}/hitboxes/${character.uriComponent}/${character.movePrefix}${moveName}`);
+                            resultArr.push(`${frameDataApiBaseUrl}/hitboxes/${character.uriComponent}/${movePrefix}${moveName}`);
                         });
                     }
                     else{
                         console.log(`ufd name is ${ufdName}`);
-                        resultArr.push(`${frameDataApiBaseUrl}/hitboxes/${character.uriComponent}/${character.movePrefix}${ufdName}`);                        
+                        resultArr.push(`${frameDataApiBaseUrl}/hitboxes/${character.uriComponent}/${movePrefix}${ufdName}`);                        
                     }                                        
                 }
                 else if(charMoveNameKey in GENERIC_MOVE_ALIASES_UFD === false){ //no ufdname in move and move is not generic, yikes!
@@ -62,7 +63,7 @@ module.exports = {
                 }
                 else { //generically named move, we can finish
                     const ufdName = GENERIC_MOVE_ALIASES_UFD[charMoveNameKey];
-                    resultArr.push(`${frameDataApiBaseUrl}/hitboxes/${character.uriComponent}/${character.movePrefix}${ufdName}.gif`);
+                    resultArr.push(`${frameDataApiBaseUrl}/hitboxes/${character.uriComponent}/${movePrefix}${ufdName}.gif`);
                 }
                 returnObj.imageUrls = resultArr;
                 resolve(returnObj);
@@ -116,33 +117,7 @@ module.exports = {
             resolve(ULTIMATE_CHARACTERS[closestMatch]);
         });
     },
-/*
-    GetCharacterMoveVisualEndpoint: GetCharacterMoveVisualEndpoint = (charName, charMove) => {
-        return new Promise((resolve, reject) => {
-            GetCharacterObjectDetails(charName)
-                .then((response) => {
-                    if(response === undefined){
-                        reject('response from GetCharacterObjectDetails was undefined');
-                    }
-                    var characterUriBaseEndpoint = response.uriComponent;
-                    var characterMovePrefix =  response.movePrefix;
-                    let actualMoveSelection = GetCharacterMoveName(charMove, response);
-                    console.log(`actual move name is ${actualMoveSelection}`);
-                    if(actualMoveSelection == null || actualMoveSelection == undefined){
-                        reject(`couldnt find a matching move to match ${charMove}`);
-                    }
-                    actualMoveSelection = actualMoveSelection.endsWith('_PNG') ? actualMoveSelection.replace('_PNG', '.png') : `${actualMoveSelection}.gif`
-                    const attachmentUrl = `${frameDataApiBaseUrl}/hitboxes/${characterUriBaseEndpoint}/${characterMovePrefix}${actualMoveSelection}`;
-                    console.log(`attachment url is: ${attachmentUrl}`);
-                    resolve(attachmentUrl);
-                })
-                .catch((err) => {
-                    console.log('something blew up, fam');
-                    reject(err);
-                })  
-        });
-    },
-*/
+
     GetCharacterMoveName: GetCharacterMoveName = (charMove, contextCharacter) => {
         const characterMoves = contextCharacter.uniqueMoves;   
         const quickMatch = GetClosestMatch(charMove.toUpperCase(), contextCharacter.uniqueMoves);

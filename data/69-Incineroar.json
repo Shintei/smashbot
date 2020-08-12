@@ -2,6 +2,16 @@
   "name": "69 - Incineroar",
   "uriComponent": "incineroar",
   "movePrefix": "Incineroar",
+  "moveMappings": [
+    { "NeutralB": "Darkest Lariat" },
+    { "Lariat": "Darkest Lariat" },
+    { "SideB": "Alolan Whip" },
+    { "UpB": "Cross Chop" },
+    { "DownB": "Revenge" },
+    { "Counter": "Revenge" },
+    { "DownBAttack": "Revenge (activation)" },
+    { "CounterAttack": "Revenge (activation)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "5",
@@ -190,18 +200,6 @@
       "Hitbox": "meteor/close/late",
       "Advantage": "-11/-11/-12"
     },
-    "NeutralB": {
-      "ufdName":"DarkestLariatG.gif",
-      "Startup": "5",
-      "Total Frames": "84",
-      "Landing Lag": "",
-      "Additional Notes": "On the ground, Invincible on frame 5-6 and Arm invicibility on frame 7-57",
-      "Base Damage": "17.0 - 6.0",
-      "Shieldlag": "12-7",
-      "Shieldstun": "15-8",
-      "Hitbox": "",
-      "Advantage": "-64"
-    },
     "Darkest Lariat": {
       "ufdName":"DarkestLariatG.gif",
       "Startup": "5",
@@ -213,16 +211,12 @@
       "Shieldstun": "15-8",
       "Hitbox": "",
       "Advantage": "-64"
-    },    
-    "SideB": {
-      "ufdName":["AlolanWhipG.gif","AlolanWhipA.gif"],
-      "Startup": "16",
-      "Total Frames": "57"
     },
     "Alolan Whip": {
       "ufdName":["AlolanWhipG.gif","AlolanWhipA.gif"],
       "Startup": "16",
-      "Total Frames": "57"
+      "Total Frames": "57",
+      "Related Moves": "See Alolan Whip (lariat), Alolan Whip (back body drop) and Alolan Whip (failure)"
     },
     "Alolan Whip (lariat)": {
       "Startup": "7",
@@ -245,18 +239,6 @@
       "Additional Notes": "4.0 recoil damage",
       "Base Damage": "4.0"
     },
-    "UpB": {
-      "ufdName":"CrossChopRise.gif",
-      "Startup": "11/38",
-      "Total Frames": "79",
-      "Landing Lag": "61/35",
-      "Additional Notes": "landing hitbox on frame 1. Arm intangibility on frame 13-26. Some kind of armor on frame 4-15\nTotal frames is if you never land during the dive. Second landing lag is if you land too late.\nCan grab ledges as early as frame 14 (facing toward) or 21 (facing away)",
-      "Base Damage": "3.0 / 7.0 / \n11.0 / 9.0",
-      "Shieldlag": "9/10/10/10",
-      "Shieldstun": "4/7/10/9",
-      "Hitbox": "rising/falling early\nfalling late/landing",
-      "Advantage": "-51"
-    },
     "Cross Chop": {
       "ufdName":"CrossChopRise.gif",
       "Startup": "11/38",
@@ -268,13 +250,6 @@
       "Shieldstun": "4/7/10/9",
       "Hitbox": "rising/falling early\nfalling late/landing",
       "Advantage": "-51"
-    },
-    "DownB": {
-      "ufdName":"Revenge.gif",
-      "Startup": "",
-      "Total Frames": "49",
-      "Landing Lag": "",
-      "Additional Notes": "Counter window 3-27. Next attack's damage increased by about 40% when successful"
     },
     "Revenge": {
       "ufdName":"Revenge.gif",

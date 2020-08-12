@@ -1,5 +1,14 @@
 {
   "name": "35 - Charizard",
+  "uriComponent": "pt_charizard",
+  "movePrefix": "charitard",
+  "moveMappings": [
+    { "NeutralB": "Flamethrower" },
+    { "SideB": "Flare Blitz" },
+    { "UpB": "Fly" },
+    { "DownB": "Pokemon Change" },
+    { "SeismicToss": "Up Throw" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -35,6 +44,28 @@
       "Advantage": "-20"
     },
     "F-Tilt": {
+      "Startup": "12",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.0 / 11.0",
+      "Shieldlag": "7/8",
+      "Shieldstun": "7/10",
+      "Hitbox": "Close/Far",
+      "Advantage": "-18/-15"
+    },
+    "F-TiltUp": {
+      "Startup": "12",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.0 / 11.0",
+      "Shieldlag": "7/8",
+      "Shieldstun": "7/10",
+      "Hitbox": "Close/Far",
+      "Advantage": "-18/-15"
+    },
+    "F-TiltDown": {
       "Startup": "12",
       "Total Frames": "37",
       "Landing Lag": "",
@@ -178,6 +209,7 @@
       "Advantage": "-24"
     },
     "Flare Blitz": {
+      "ufdName":"FlareBlitz.gif",
       "Startup": "23/24",
       "Total Frames": "101",
       "Landing Lag": "",
@@ -189,6 +221,7 @@
       "Advantage": "-52/-66"
     },
     "Fly": {
+      "ufdName":"Fly.gif",
       "Startup": "9/16/19/22/25/27",
       "Total Frames": "",
       "Landing Lag": "30",

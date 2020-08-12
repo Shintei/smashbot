@@ -2,6 +2,15 @@
   "name": "07 - Fox",
   "uriComponent": "fox",
   "movePrefix": "Fox",
+  "moveMappings": [
+    { "NeutralB": "Blaster" },
+    { "Laser": "Blaster" },
+    { "SideB": "Fox Illusion" },
+    { "AirSideB": "Fox Illusion (air)" },
+    { "UpB": "Fire Fox" },
+    { "DownB": "Reflector" },
+    { "Shine": "Reflector" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "2",
@@ -199,30 +208,6 @@
       "Hitbox": "multi/final/landing",
       "Advantage": "-14"
     },
-    "NeutralB": {
-      "ufdName":"Blaster.gif",
-      "Startup": "11/9",
-      "Total Frames": "36/34",
-      "Landing Lag": "",
-      "Additional Notes": "Fire rate is one shot per ten frames.",
-      "Base Damage": "3.0 / 2.0 / 1.4",
-      "Shieldlag": "5/4/4",
-      "Shieldstun": "2/2/2",
-      "Hitbox": "Early/late",
-      "Advantage": "-18/-19/-19"
-    },
-    "Laser": {
-      "ufdName":"Blaster.gif",
-      "Startup": "11/9",
-      "Total Frames": "36/34",
-      "Landing Lag": "",
-      "Additional Notes": "Fire rate is one shot per ten frames.",
-      "Base Damage": "3.0 / 2.0 / 1.4",
-      "Shieldlag": "5/4/4",
-      "Shieldstun": "2/2/2",
-      "Hitbox": "Early/late",
-      "Advantage": "-18/-19/-19"
-    },
     "Blaster": {
       "ufdName":"Blaster.gif",
       "Startup": "11/9",
@@ -234,18 +219,6 @@
       "Shieldstun": "2/2/2",
       "Hitbox": "Early/late",
       "Advantage": "-18/-19/-19"
-    },
-    "SideB": {
-      "ufdName":"FoxIllusion.png",
-      "Startup": "25",
-      "Total Frames": "55",
-      "Landing Lag": "",
-      "Additional Notes": "Fox does not suffer hitlag/shieldlag from this attack. ",
-      "Base Damage": "8.0",
-      "Shieldlag": "7",
-      "Shieldstun": "3",
-      "Hitbox": "",
-      "Advantage": "-20"
     },
     "Fox Illusion": {
       "ufdName":"FoxIllusion.png",
@@ -259,18 +232,6 @@
       "Hitbox": "",
       "Advantage": "-20"
     },
-    "AirSideB": {
-      "ufdName":"FoxIllusion.png",
-      "Startup": "25",
-      "Total Frames": "72",
-      "Landing Lag": "16",
-      "Additional Notes": "Advantage assumes lowest altitude possible.\nGrabs ledges as early as frame 25",
-      "Base Damage": "5.0",
-      "Shieldlag": "6",
-      "Shieldstun": "3",
-      "Hitbox": "",
-      "Advantage": "-28"
-    },
     "Fox Illusion (air)": {
       "ufdName":"FoxIllusion.png",
       "Startup": "25",
@@ -283,18 +244,6 @@
       "Hitbox": "",
       "Advantage": "-28"
     },
-    "UpB": {
-      "ufdName":"FireFox.gif",
-      "Startup": "20/22/24/26/28/30/32/43",
-      "Total Frames": "91",
-      "Landing Lag": "20",
-      "Additional Notes": "Total frames is when traveling along the ground.\nSnaps to a ledge on frame 44 onward.",
-      "Base Damage": "1.7 / 16.0",
-      "Shieldlag": "4/10",
-      "Shieldstun": "3/14",
-      "Hitbox": "multi/final",
-      "Advantage": "-34"
-    },
     "Fire Fox": {
       "ufdName":"FireFox.gif",
       "Startup": "20/22/24/26/28/30/32/43",
@@ -306,30 +255,6 @@
       "Shieldstun": "3/14",
       "Hitbox": "multi/final",
       "Advantage": "-34"
-    },
-    "DownB": {
-      "ufdName":["ReflectorStart.gif","Reflector.gif"],
-      "Startup": "3",
-      "Total Frames": "36",
-      "Landing Lag": "",
-      "Additional Notes": "Invulnerable on frame 2-5. Reflects as early as frame 4\nTotal Frames is for minimum usage. Extended usage is 13 endlag\nA successful reflect lets you jump or dodge cancel out of the move.",
-      "Base Damage": "2.0",
-      "Shieldlag": "7",
-      "Shieldstun": "3",
-      "Hitbox": "",
-      "Advantage": "-30"
-    },
-    "Shine": {
-      "ufdName":["ReflectorStart.gif","Reflector.gif"],
-      "Startup": "3",
-      "Total Frames": "36",
-      "Landing Lag": "",
-      "Additional Notes": "Invulnerable on frame 2-5. Reflects as early as frame 4\nTotal Frames is for minimum usage. Extended usage is 13 endlag\nA successful reflect lets you jump or dodge cancel out of the move.",
-      "Base Damage": "2.0",
-      "Shieldlag": "7",
-      "Shieldstun": "3",
-      "Hitbox": "",
-      "Advantage": "-30"
     },
     "Reflector": {
       "ufdName":["ReflectorStart.gif","Reflector.gif"],
