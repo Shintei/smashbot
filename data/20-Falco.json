@@ -1,7 +1,18 @@
 {
   "name": "20 - Falco",
+  "uriComponent": "falco",
+  "movePrefix": "Falco",
+  "moveMappings": [
+    { "NeutralB": "Blaster" },
+    { "Laser": "Blaster" },
+    { "SideB": "Falco Phantasm" },
+    { "Falco Illusion": "Falco Phantasm" },
+    { "UpB": "Fire Bird" },
+    { "DownB": "Reflector" },
+    { "Shine": "Reflector" }
+  ],
   "moves": {
-    "Jab ": {
+    "Jab": {
       "Startup": "2",
       "Total Frames": "22",
       "Landing Lag": "",
@@ -9,7 +20,7 @@
       "Base Damage": "1.5",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "Jab 2": {
@@ -20,7 +31,7 @@
       "Base Damage": "1.5",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19"
     },
     "Rapid Jab": {
@@ -40,7 +51,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "10",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-31"
     },
     "F-Tilt": {
@@ -51,7 +62,29 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
+      "Advantage": "-12"
+    },
+    "F-TiltUp": {
+      "Startup": "6",
+      "Total Frames": "24",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "6.0",
+      "Shieldlag": "6",
+      "Shieldstun": "6",
+      "Hitbox": "",
+      "Advantage": "-12"
+    },
+    "F-TiltDown": {
+      "Startup": "6",
+      "Total Frames": "24",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "6.0",
+      "Shieldlag": "6",
+      "Shieldstun": "6",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "U-Tilt": {
@@ -62,7 +95,7 @@
       "Base Damage": "3.5 / 2.7 / 4.0",
       "Shieldlag": "5/5/8",
       "Shieldstun": "4/4/5",
-      "hitbox": "first early/first \nlate/second",
+      "Hitbox": "first early/first \nlate/second",
       "Advantage": "-12"
     },
     "D-Tilt": {
@@ -73,7 +106,7 @@
       "Base Damage": "13.0 / 12.0 / 10.5",
       "Shieldlag": "9/9/8",
       "Shieldstun": "12/11/10",
-      "hitbox": "Close/far/farthest",
+      "Hitbox": "Close/far/farthest",
       "Advantage": "-9/-10/11"
     },
     "Dash Attack": {
@@ -84,10 +117,10 @@
       "Base Damage": "9.0 / 6.0",
       "Shieldlag": "7/6",
       "Shieldstun": "9/6",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-22"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "17",
       "Total Frames": "48",
       "Landing Lag": "",
@@ -95,7 +128,7 @@
       "Base Damage": "16.0",
       "Shieldlag": "10",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20"
     },
     "U-Smash": {
@@ -106,7 +139,7 @@
       "Base Damage": "4.0 / 13.0",
       "Shieldlag": "5/12",
       "Shieldstun": "4/9",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-27"
     },
     "D-Smash": {
@@ -117,7 +150,7 @@
       "Base Damage": "15.0",
       "Shieldlag": "10",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28"
     },
     "N-Air": {
@@ -128,10 +161,11 @@
       "Base Damage": "3.0 / 2.0 / 4.0",
       "Shieldlag": "5/4/11",
       "Shieldstun": "2/2/3",
-      "hitbox": "first/multi/final",
+      "Hitbox": "first/multi/final",
       "Advantage": "-7/-6"
     },
     "F-Air": {
+      "ufdName":["FAir.gif","FAirLanding.gif"],
       "Startup": "7/11/15/19/23/26",
       "Total Frames": "49",
       "Landing Lag": "15",
@@ -139,7 +173,7 @@
       "Base Damage": "1.0 / 4.0 / 3.0",
       "Shieldlag": "4/14/10",
       "Shieldstun": "2/3/4",
-      "hitbox": "multi/final/landing",
+      "Hitbox": "multi/final/landing",
       "Advantage": "-10"
     },
     "B-Air": {
@@ -150,7 +184,7 @@
       "Base Damage": "13.0 / 7.0",
       "Shieldlag": "9/7",
       "Shieldstun": "5/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-8/-10"
     },
     "U-Air": {
@@ -161,7 +195,7 @@
       "Base Damage": "9.0",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5"
     },
     "D-Air": {
@@ -172,10 +206,11 @@
       "Base Damage": "13.0 / 8.0",
       "Shieldlag": "12/7",
       "Shieldstun": "5/4",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-7/-8"
     },
-    "Blaster (ground/air)": {
+    "Blaster": {
+      "ufdName":"Blaster.gif",
       "Startup": "8/7",
       "Total Frames": "41/38",
       "Landing Lag": "",
@@ -183,10 +218,11 @@
       "Base Damage": "3.0",
       "Shieldlag": "7",
       "Shieldstun": "2",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-24/-22"
     },
-    "Falco Phantasm (ground/air)": {
+    "Falco Phantasm": {
+      "ufdName":["FalcoPhantasmG.png","FalcoPhantasmA.png"],
       "Startup": "13/18",
       "Total Frames": "50/66",
       "Landing Lag": "16",
@@ -194,10 +230,11 @@
       "Base Damage": "7.0",
       "Shieldlag": "9/7",
       "Shieldstun": "3/3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19/-14"
     },
     "Fire Bird": {
+      "ufdName":"Firebird.gif",
       "Startup": "20/26/28/30/32/34/36/38/\n44/49/51/53/55/57/59/61",
       "Total Frames": "85",
       "Landing Lag": "18",
@@ -205,10 +242,11 @@
       "Base Damage": "2.0 / 3.0",
       "Shieldlag": "4",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21"
     },
     "Reflector": {
+      "ufdName":"Reflector.gif",
       "Startup": "5",
       "Total Frames": "44",
       "Landing Lag": "",
@@ -216,7 +254,7 @@
       "Base Damage": "5.0",
       "Shieldlag": "9",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-33"
     },
     "Grab": {

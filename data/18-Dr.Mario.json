@@ -1,7 +1,20 @@
 {
   "name": "18 - Dr. Mario",
+  "uriComponent": "dr_mario",
+  "movePrefix": "DrMario",
+  "moveMappings": [
+    { "TwoStep": "TwoStepOnYourChin" },
+    { "2Step": "TwoStepOnYourChin" },
+    { "DonkeyPunch": "F-Air" },
+    { "NeutralB": "Megavitamin" },
+    { "Pill": "Megavitamin" },
+    { "Cape": "Super Sheet" },
+    { "SideB": "Super Sheet" },
+    { "UpB": "Super Jump Punch" },
+    { "DownB": "Dr. Tornado" }
+  ],
   "moves": {
-    "Jab ": {
+    "Jab": {
       "Startup": "2",
       "Total Frames": "19",
       "Landing Lag": "",
@@ -9,7 +22,7 @@
       "Base Damage": "2.9",
       "Shieldlag": "9",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Jab 2": {
@@ -20,7 +33,7 @@
       "Base Damage": "1.7",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "Jab 3": {
@@ -31,7 +44,7 @@
       "Base Damage": "4.7",
       "Shieldlag": "12",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-25"
     },
     "F-Tilt": {
@@ -42,7 +55,29 @@
       "Base Damage": "10.5",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
+      "Advantage": "-10"
+    },
+    "F-TiltUp": {
+      "Startup": "5",
+      "Total Frames": "25",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.5",
+      "Shieldlag": "8",
+      "Shieldstun": "10",
+      "Hitbox": "",
+      "Advantage": "-10"
+    },
+    "F-TiltDown": {
+      "Startup": "5",
+      "Total Frames": "25",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.5",
+      "Shieldlag": "8",
+      "Shieldstun": "10",
+      "Hitbox": "",
       "Advantage": "-10"
     },
     "U-Tilt": {
@@ -53,7 +88,7 @@
       "Base Damage": "7.4",
       "Shieldlag": "7",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "D-Tilt": {
@@ -64,7 +99,7 @@
       "Base Damage": "8.2 / 5.8",
       "Shieldlag": "7/6",
       "Shieldstun": "8/6",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-14/-16"
     },
     "Dash Attack": {
@@ -75,10 +110,10 @@
       "Base Damage": "11.5 / 7.0",
       "Shieldlag": "9/7",
       "Shieldstun": "19/12",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-12"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "15",
       "Total Frames": "47",
       "Landing Lag": "",
@@ -86,7 +121,29 @@
       "Base Damage": "20.9 / 17.2",
       "Shieldlag": "16/15",
       "Shieldstun": "14/12",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
+      "Advantage": "-18/-20"
+    },
+    "F-SmashUp": {
+      "Startup": "15",
+      "Total Frames": "47",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 5",
+      "Base Damage": "20.9 / 17.2",
+      "Shieldlag": "16/15",
+      "Shieldstun": "14/12",
+      "Hitbox": "Close/far",
+      "Advantage": "-18/-20"
+    },
+    "F-SmashDown": {
+      "Startup": "15",
+      "Total Frames": "47",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 5",
+      "Base Damage": "20.9 / 17.2",
+      "Shieldlag": "16/15",
+      "Shieldstun": "14/12",
+      "Hitbox": "Close/far",
       "Advantage": "-18/-20"
     },
     "U-Smash": {
@@ -97,7 +154,7 @@
       "Base Damage": "16.4",
       "Shieldlag": "11",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19"
     },
     "D-Smash": {
@@ -108,7 +165,20 @@
       "Base Damage": "11.7 / 14.1",
       "Shieldlag": "9/10",
       "Shieldstun": "8/10",
-      "hitbox": "",
+      "Hitbox": "",
+      "Advantage": "-30/-19"
+    },
+    "TwoStepOnYourChin": {
+      "isIgnorable":true,
+      "ufdName":"DSmash.gif",
+      "Startup": "5/14",
+      "Total Frames": "43",
+      "Landing Lag": "",
+      "Additional Notes": "Maverick is gay and you're gay for looking for this up",
+      "Base Damage": "11.7 / 14.1",
+      "Shieldlag": "9/10",
+      "Shieldstun": "8/10",
+      "Hitbox": "",
       "Advantage": "-30/-19"
     },
     "N-Air": {
@@ -119,7 +189,7 @@
       "Base Damage": "5.8 / 11.7",
       "Shieldlag": "6/9",
       "Shieldstun": "3/5",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-4/-2"
     },
     "F-Air": {
@@ -130,9 +200,9 @@
       "Base Damage": "17.6 / 11.7",
       "Shieldlag": "11/9",
       "Shieldstun": "6/5",
-      "hitbox": "Late/Early",
+      "Hitbox": "Late/Early",
       "Advantage": "-11/-12"
-    },
+    },    
     "B-Air": {
       "Startup": "6",
       "Total Frames": "33",
@@ -141,7 +211,7 @@
       "Base Damage": "14.1 / 8.2",
       "Shieldlag": "10/7",
       "Shieldstun": "5/4",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-5/-6"
     },
     "U-Air": {
@@ -152,7 +222,7 @@
       "Base Damage": "10.2",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-4 "
     },
     "D-Air": {
@@ -163,10 +233,11 @@
       "Base Damage": "14.1",
       "Shieldlag": "10",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-8"
     },
     "Megavitamin": {
+      "ufdName":"Megavitamin.png",
       "Startup": "17",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -174,10 +245,11 @@
       "Base Damage": "5.8 / 4.7",
       "Shieldlag": "6/6",
       "Shieldstun": "3/3",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-23"
     },
     "Super Sheet": {
+      "ufdName":"SuperSheet.gif",
       "Startup": "12",
       "Total Frames": "35",
       "Landing Lag": "",
@@ -185,10 +257,11 @@
       "Base Damage": "8.2",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "Super Jump Punch": {
+      "ufdName":"SuperJumpPunch.gif",
       "Startup": "3",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -196,9 +269,10 @@
       "Base Damage": "14.1 / 7.0",
       "Shieldlag": "10/7",
       "Shieldstun": "13/7",
-      "hitbox": "Early/Late"
+      "Hitbox": "Early/Late"
     },
     "Dr. Tornado": {
+      "ufdName":["DrTornadoG.gif","DrTornadoA.gif"],
       "Startup": "10/14/18/22/26/30/40",
       "Total Frames": "74",
       "Landing Lag": "",
@@ -206,7 +280,7 @@
       "Base Damage": "1.8 / 3.5",
       "Shieldlag": "4/11",
       "Shieldstun": "3/4",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-30"
     },
     "Grab": {

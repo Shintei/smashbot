@@ -1,5 +1,15 @@
 {
   "name": "37 - Lucas",
+  "uriComponent": "lucas",
+  "movePrefix": "Lucas",
+  "moveMappings": [
+    { "Icekid": "U-Smash" },
+    { "Dontfuckwithit": "U-Smash" },
+    { "NeutralB": "PK Freeze" },
+    { "SideB": "PK Fire" },
+    { "UpB": "PK Thunder 2" },
+    { "DownB": "PSI Magnet" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "2",
@@ -9,7 +19,7 @@
       "Base Damage": "2.5",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Jab 2": {
@@ -20,7 +30,7 @@
       "Base Damage": "1.5",
       "Shieldlag": "8",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Jab 3": {
@@ -31,10 +41,10 @@
       "Base Damage": "3.5",
       "Shieldlag": "11",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19"
     },
-    "F-Tilt ": {
+    "F-Tilt": {
       "Startup": "7",
       "Total Frames": "25",
       "Landing Lag": "",
@@ -42,7 +52,29 @@
       "Base Damage": "7.5 / 11.0",
       "Shieldlag": "7/13",
       "Shieldstun": "8/10",
-      "hitbox": "Cose/far",
+      "Hitbox": "Cose/far",
+      "Advantage": "-10/-8"
+    },
+    "F-TiltUp": {
+      "Startup": "7",
+      "Total Frames": "25",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.5 / 11.0",
+      "Shieldlag": "7/13",
+      "Shieldstun": "8/10",
+      "Hitbox": "Cose/far",
+      "Advantage": "-10/-8"
+    },
+    "F-TiltDown": {
+      "Startup": "7",
+      "Total Frames": "25",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.5 / 11.0",
+      "Shieldlag": "7/13",
+      "Shieldstun": "8/10",
+      "Hitbox": "Cose/far",
       "Advantage": "-10/-8"
     },
     "U-Tilt": {
@@ -53,7 +85,7 @@
       "Base Damage": "1.5 / 8.0 / 5.0",
       "Shieldlag": "7/11/9",
       "Shieldstun": "-/8/6",
-      "hitbox": "first/second/late",
+      "Hitbox": "first/second/late",
       "Advantage": "-18"
     },
     "D-Tilt": {
@@ -64,7 +96,7 @@
       "Base Damage": "5.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
     "Dash Attack": {
@@ -75,7 +107,7 @@
       "Base Damage": "9.0 / 13.0",
       "Shieldlag": "11/15",
       "Shieldstun": "9/12",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-15/-12"
     },
     "F-Smash": {
@@ -86,18 +118,19 @@
       "Base Damage": "14.0 / 15.0",
       "Shieldlag": "10/12",
       "Shieldstun": "10/10",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-21"
     },
     "U-Smash": {
       "Startup": "28/30",
       "Total Frames": "98",
       "Landing Lag": "",
-      "Additional Notes": "Invincible on frame 1-7. Head intangibility on frame 15-29. \nCharge hold is frame 4. Lucas is not invincible during charge hold however",
+      "Additional Notes": "Invincible on frame 1-7. Head intangibility on frame 15-29. \nCharge hold is frame 4. Lucas is not invincible during charge hold however",      
+      "FIU Advice": "Don't fuck with it",
       "Base Damage": "2.0 / 21.0",
       "Shieldlag": "4/16",
       "Shieldstun": "-/14",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-54"
     },
     "D-Smash": {
@@ -108,7 +141,7 @@
       "Base Damage": "17.0 / 14.0 / 11.0",
       "Shieldlag": "15/15/13",
       "Shieldstun": "-/-/8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "N-Air": {
@@ -119,7 +152,7 @@
       "Base Damage": "2.0 / 4.0",
       "Shieldlag": "7/10",
       "Shieldstun": "2/3",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-10/-9"
     },
     "F-Air": {
@@ -130,7 +163,7 @@
       "Base Damage": "9.0 / 12.5",
       "Shieldlag": "7/15",
       "Shieldstun": "4/5",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-3/-2"
     },
     "B-Air": {
@@ -141,7 +174,7 @@
       "Base Damage": "9.0 / 12.0 / 7.0",
       "Shieldlag": "11/13/10",
       "Shieldstun": "4/5/3",
-      "hitbox": "Close/medium/far",
+      "Hitbox": "Close/medium/far",
       "Advantage": "-5/-4/-6"
     },
     "U-Air": {
@@ -152,7 +185,7 @@
       "Base Damage": "11.0",
       "Shieldlag": "9",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-3 "
     },
     "D-Air": {
@@ -163,7 +196,7 @@
       "Base Damage": "3.5 / 5.0",
       "Shieldlag": "8/9",
       "Shieldstun": "2/3",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-14/-13"
     },
     "Z-Air": {
@@ -174,10 +207,11 @@
       "Base Damage": "5.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-2 "
     },
     "PK Freeze": {
+      "ufdName":"PKFreeze.png",
       "Startup": "40-92",
       "Total Frames": "66-118",
       "Landing Lag": "",
@@ -185,10 +219,11 @@
       "Base Damage": "10.0 - 23.0",
       "Shieldlag": "8-14",
       "Shieldstun": "4-7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-14 to -5"
     },
-    "PK Fire ": {
+    "PK Fire": {
+      "ufdName":["PKFireA.gif","PKFireG.gif"],
       "Startup": "21",
       "Total Frames": "52",
       "Landing Lag": "19",
@@ -196,10 +231,10 @@
       "Base Damage": "3.0 / 7.0",
       "Shieldlag": "5",
       "Shieldstun": "2",
-      "hitbox": "Spark/explosion",
+      "Hitbox": "Spark/explosion",
       "Advantage": "-24/-12"
     },
-    "PK Thunder ": {
+    "PK Thunder": {
       "Startup": "20",
       "Total Frames": "",
       "Landing Lag": "",
@@ -207,9 +242,10 @@
       "Base Damage": "2.5 / 0.7",
       "Shieldlag": "5",
       "Shieldstun": "2",
-      "hitbox": "Head/tail"
+      "Hitbox": "Head/tail"
     },
     "PK Thunder 2": {
+      "ufdName":"PKThunder2.gif",
       "Startup": "1/4/6/8/10/12/14/17/20/23/26/29",
       "Total Frames": "60",
       "Landing Lag": "30",
@@ -217,10 +253,11 @@
       "Base Damage": "5.0 / 2.0 / 1.5 / \n10.0",
       "Shieldlag": "9/7/7/15",
       "Shieldstun": "-/-/-10",
-      "hitbox": "First/early/late/\nfinal",
+      "Hitbox": "First/early/late/\nfinal",
       "Advantage": "-21"
     },
     "PSI Magnet": {
+      "ufdName":"PSIMagnet.gif",
       "Startup": "19",
       "Total Frames": "27",
       "Landing Lag": "",
@@ -228,7 +265,7 @@
       "Base Damage": "8.0",
       "Shieldlag": "11",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "0"
     },
     "Grab": {

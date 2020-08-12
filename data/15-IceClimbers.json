@@ -1,184 +1,342 @@
 {
   "name": "15 - Ice Climbers",
+  "uriComponent": "ice_climbers",
+  "movePrefix": "Popo",
+  "moveMappings": [
+    { "NeutralB": "Ice Shot" },
+    { "SideB": "Squall Hammer (both)" },
+    { "UpB": "Belay (both)" },
+    { "DownB": "Blizzard" }
+  ],
   "moves": {
-    "": {
-      "": "Hitlag delay",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Additional Notes",
-      "Player | AI": "Shieldstun",
-      "undefined": "<-Which hitbox?"
-    },
     "Jab 1": {
-      "": "3",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Transitions to Jab 2 as early as frame 10.",
-      "Player | AI": "3 | 3"
+      "Startup": "4",
+      "Total Frames": "27", 
+      "Landing Lag": "",
+      "Hitlag": "3",
+      "Additional Notes": "Transitions to Jab 2 as early as frame 10.",
+      "Base Damage": "2.0 | 1.5",
+      "Shieldlag": "6 | 6",
+      "Shieldstun": "3 | 3",
+      "Advantage": "-20 | -15"
     },
     "Jab 2": {
-      "": "7",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "",
-      "Player | AI": "4 | 4"
+      "Startup": "4",
+      "Total Frames": "29", 
+      "Landing Lag": "",
+      "Hitlag": "7",
+      "Additional Notes": "",
+      "Base Damage": "3.5 | 2.6",
+      "Shieldlag": "9 | 9",
+      "Shieldstun": "4 | 4",
+      "Advantage": "-21 | -12"
     },
     "F-Tilt": {
-      "": "5",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "",
-      "Player | AI": "9 | 7"
+      "Startup": "9",
+      "Total Frames": "32", 
+      "Landing Lag": "",
+      "Hitlag": "5",
+      "Additional Notes": "",
+      "Base Damage": "9.0 | 6.7",
+      "Shieldlag": "7 | 6",
+      "Shieldstun": "9 | 7",
+      "Advantage": "-14 | -10"
     },
     "U-Tilt": {
-      "": "?",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "",
-      "Player | AI": "2/5 | 2/4",
-      "undefined": "multi/final"
+      "Startup": "8/11/14/17/20/23/27",
+      "Total Frames": "48", 
+      "Landing Lag": "",
+      "Hitlag": "?",
+      "Additional Notes": "",
+      "Base Damage": "0.8 / 4.5 | 0.6 / 3.0",
+      "Shieldlag": "4/11 | 4/10",
+      "Shieldstun": "2/5 | 2/4",
+      "Hitbox": "multi/final",
+      "Advantage": "-16 | -10"
     },
     "D-Tilt": {
-      "": "4",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "",
-      "Player | AI": "6 | 5"
+      "Startup": "8",
+      "Total Frames": "30", 
+      "Landing Lag": "",
+      "Hitlag": "4",
+      "Additional Notes": "",
+      "Base Damage": "6.0 | 4.5",
+      "Shieldlag": "6 | 5",
+      "Shieldstun": "6 | 5",
+      "Advantage": "-16 | -10"
     },
     "Dash Attack": {
-      "": "4",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "",
-      "Player | AI": "6 | 5"
+      "Startup": "11",
+      "Total Frames": "41", 
+      "Landing Lag": "",
+      "Hitlag": "4",
+      "Additional Notes": "",
+      "Base Damage": "6.0 | 4.5",
+      "Shieldlag": "6 | 5",
+      "Shieldstun": "6 | 5",
+      "Advantage": "-24 | -18"
     },
-    "F-Smash ": {
-      "": "6",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Charge hold is frame 4",
-      "Player | AI": "8 | 7"
+    "F-Smash": {
+      "Startup": "11",
+      "Total Frames": "46", 
+      "Landing Lag": "",
+      "Hitlag": "6",
+      "Additional Notes": "Charge hold is frame 4",
+      "Base Damage": "12.0 | 9.0",
+      "Shieldlag": "9 | 7",
+      "Shieldstun": "8 | 7",
+      "Advantage": "-27 | -22"
     },
     "U-Smash": {
-      "": "6",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Charge hold is frame 7",
-      "Player | AI": "8 | 6"
+      "Startup": "12",
+      "Total Frames": "49", 
+      "Landing Lag": "",
+      "Hitlag": "6",
+      "Additional Notes": "Charge hold is frame 7",
+      "Base Damage": "11.0 | 8.2",
+      "Shieldlag": "8 | 7",
+      "Shieldstun": "8 | 6",
+      "Advantage": "-29 | -24"
     },
     "D-Smash": {
-      "": "7",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Charge hold is frame 4",
-      "Player | AI": "9/7"
+      "Startup": "9/16",
+      "Total Frames": "40", 
+      "Landing Lag": "",
+      "Hitlag": "7",
+      "Additional Notes": "Charge hold is frame 4",
+      "Base Damage": "13.0 | 9.7",
+      "Shieldlag": "9/8",
+      "Shieldstun": "9/7",
+      "Advantage": "-22/-17"
     },
     "N-Air": {
-      "": "5",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Autocancels on frame 1-5 and 30 onward",
-      "Player | AI": "3 | 3"
+      "Startup": "6",
+      "Total Frames": "45", 
+      "Landing Lag": "7",
+      "Hitlag": "5",
+      "Additional Notes": "Autocancels on frame 1-5 and 30 onward",
+      "Base Damage": "7.0 | 5.2",
+      "Shieldlag": "7 | 6",
+      "Shieldstun": "3 | 3",
+      "Advantage": "-4 | +2"
     },
     "F-Air": {
-      "": "6",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Autocancels on frame 1-2 and 49 onward",
-      "Player | AI": "5 | 4"
+      "Startup": "19",
+      "Total Frames": "56", 
+      "Landing Lag": "10",
+      "Hitlag": "6",
+      "Additional Notes": "Autocancels on frame 1-2 and 49 onward",
+      "Base Damage": "12.0 | 9.0",
+      "Shieldlag": "9 | 7",
+      "Shieldstun": "5 | 4",
+      "Advantage": "-5 | +3"
     },
     "B-Air": {
-      "": "6",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Autocancels on frame 1-7 and 19 onward",
-      "Player | AI": "4 | 3"
+      "Startup": "8",
+      "Total Frames": "35", 
+      "Landing Lag": "7",
+      "Hitlag": "6",
+      "Additional Notes": "Autocancels on frame 1-7 and 19 onward",
+      "Base Damage": "10.0 | 7.5",
+      "Shieldlag": "8 | 7",
+      "Shieldstun": "4 | 3",
+      "Advantage": "-3 | +0"
     },
     "U-Air": {
-      "": "5",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Autocancels on frame 1-6 and 27 onward",
-      "Player | AI": "4 | 3"
+      "Startup": "7",
+      "Total Frames": "35", 
+      "Landing Lag": "14",
+      "Hitlag": "5",
+      "Additional Notes": "Autocancels on frame 1-6 and 27 onward",
+      "Base Damage": "9.0 | 6.7",
+      "Shieldlag": "7 | 6",
+      "Shieldstun": "4 | 3",
+      "Advantage": "-10 | -3"
     },
     "D-Air": {
-      "": "5",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Autocancels on frame 54 onward",
-      "Player | AI": "4 | 3"
+      "Startup": "12",
+      "Total Frames": "63", 
+      "Landing Lag": "20",
+      "Hitlag": "5",
+      "Additional Notes": "Autocancels on frame 54 onward",
+      "Base Damage": "8.0 | 6.0",
+      "Shieldlag": "7 | 6",
+      "Shieldstun": "4 | 3",
+      "Advantage": "-16 | -12"
     },
     "Ice Shot": {
-      "": "0",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Second startup value is the melee attack. Climber does not suffer hitlag from it either",
-      "Player | AI": "2",
-      "undefined": "hammer/ice "
+      "movePrefix":"IceClimbers",
+      "ufdName":"IceShot.png",
+      "Startup": "18/19",
+      "Total Frames": "55", 
+      "Landing Lag": "",
+      "Hitlag": "0",
+      "Additional Notes": "Second startup value is the melee attack. Climber does not suffer hitlag from it either",
+      "Base Damage": "3.5 / 3.5 | 3.5 / 3.5",
+      "Shieldlag": "5",
+      "Shieldstun": "2",
+      "Hitbox": "hammer/ice",
+      "Advantage": "-29 | -24"
     },
     "Squall Hammer (alone)": {
-      "": "0",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Landing lag only occurs if you enter special fall.",
-      "Player | AI": "3/3",
-      "undefined": "multi/final"
+      "ufdName":"SquallHammerSolo.gif",
+      "Startup": "10/13/15/22/29/33/38/43/50",
+      "Total Frames": "77", 
+      "Landing Lag": "29",
+      "Hitlag": "0",
+      "Additional Notes": "",
+      "Base Damage": "1.2 / 2.0",
+      "Shieldlag": "4/4",
+      "Shieldstun": "3/3",
+      "Hitbox":"multi/final",
+      "Advantage": "-24"
     },
     "Squall Hammer (both)": {
-      "": "0",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "",
-      "Player | AI": "3/5",
-      "undefined": "multi/final"
+      "ufdName":"SquallHammerDuo.gif",
+      "Startup": "10/14/18/23/28/34/40/51",
+      "Total Frames": "77", 
+      "Landing Lag": "29",
+      "Hitlag": "0",
+      "Additional Notes": "",
+      "Base Damage": "2.0 / 4.0",
+      "Shieldlag": "4/8",
+      "Shieldstun": "3/5",
+      "Hitbox":"multi/final",
+      "Advantage": "-21"
     },
     "Belay (alone)": {
-      "": "",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Will grab ledges on frame 22 (facing toward) or 63 (facing away)"
+      "movePrefix":"Nana",
+      "ufdName":"Belay.gif",
+      "Startup": "58",
+      "Total Frames": "30", 
+      "Landing Lag": "",
+      "Hitlag": "",
+      "Additional Notes": "Will grab ledges on frame 22 (facing toward) or 63 (facing away)"
     },
     "Belay (both)": {
-      "": "0",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Hitting somebody with this move reduces its height gain for your climber.\nThe AI is invulnerable frame 1-15 and invincible frame 16-33.\nNana snaps tethers to ledge on frame 17, then pulls Popo up on 33",
-      "Player | AI": "14"
+      "movePrefix":"Nana",
+      "ufdName":"Belay.gif",
+      "Startup": "16",
+      "Total Frames": "", 
+      "Landing Lag": "30",
+      "Hitlag": "0",
+      "Additional Notes": "Hitting somebody with this move reduces its height gain for your climber.\nThe AI is invulnerable frame 1-15 and invincible frame 16-33.\nNana snaps tethers to ledge on frame 17, then pulls Popo up on 33",
+      "Base Damage": "16.0",
+      "Shieldlag": "10",
+      "Shieldstun": "10",
+      "Advantage": ""
     },
     "Blizzard": {
-      "": "0",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "",
-      "Player | AI": "2"
+      "Startup": "16/21/26/31/36/41/46/51/56",
+      "Total Frames": "84", 
+      "Landing Lag": "",
+      "Hitlag": "0",
+      "Additional Notes": "",
+      "Base Damage": "1.7 | 1.7",
+      "Shieldlag": "4",
+      "Shieldstun": "2",
+      "Advantage": "-22 | -15"
     },
     "Grab": {
-      "": "39"
+      "Startup": "8",
+      "Total Frames": "39"
     },
     "Dash Grab ": {
-      "": "47"
+      "Startup": "10",
+      "Total Frames": "47"
     },
     "Pivot Grab": {
-      "": "40"
+      "Startup": "10",
+      "Total Frames": "40"
     },
     "Pummel": {
-      "": "5",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Total frames includes 10 frames of hitlag (plus one in 1v1)",
-      "Player | AI": "1.0"
+      "Startup": "1",
+      "Total Frames": "15",
+      "Landing Lag": "",
+      "Additional Notes": "Total frames includes 10 frames of hitlag (plus one in 1v1)",
+      "Base Damage": "1.0"
     },
     "Forward Throw": {
-      "": "",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "",
-      "Player | AI": "3.0 / 5.0"
+      "Startup": "24/25",
+      "Total Frames": "49", 
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "3.0 / 5.0"
     },
     "Back Throw": {
-      "": "",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "",
-      "Player | AI": "6.0"
+      "Startup": "18",
+      "Total Frames": "39", 
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "6.0"
     },
     "Up Throw": {
-      "": "",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "",
-      "Player | AI": "3.0 / 5.0"
+      "Startup": "25/27",
+      "Total Frames": "52", 
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "3.0 / 5.0"
     },
     "Down Throw": {
-      "": "",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "",
-      "Player | AI": "6.0"
+      "Startup": "37",
+      "Total Frames": "49", 
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "6.0"
     },
     "Spot Dodge": {
-      "": "",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Invulnerable on frame 3-17"
+      "Startup": "",
+      "Total Frames": "20/25",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 3-17"
     },
     "Forward Roll": {
-      "": "",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Invulnerable on frame 4-15"
+      "Startup": "",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 4-15"
     },
     "Back Roll": {
-      "": "",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Invulnerable on frame 5-16"
+      "Startup": "",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "Invulnerable on frame 5-16"
     },
     "Neutral Air Dodge": {
-      "": "",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Invulnerable on frame 3-28."
+      "Startup": "",
+      "Total Frames": "58",
+      "Landing Lag": "10",
+      "Additional Notes": "Invulnerable on frame 3-28"
     },
     "Dir. AD (down)": {
-      "": "",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Invulnerable on frame 3-21"
+      "Startup": "",
+      "Total Frames": "81",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
     },
     "Dir. AD (diagonally down)": {
-      "": "",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Invulnerable on frame 3-21"
+      "Startup": "",
+      "Total Frames": "86",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
     },
     "Dir. AD (left or right)": {
-      "": "",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Invulnerable on frame 3-21"
+      "Startup": "",
+      "Total Frames": "96",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
     },
     "Dir. AD (diagonally up)": {
-      "": "",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Invulnerable on frame 3-21"
+      "Startup": "",
+      "Total Frames": "115",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
     },
     "Dir. AD (up)": {
-      "": "",
-      "Note: In general, when both Climbers are together, the AI's attacks start seven frames later.\nThe Climbers share frame data on attacks, but if one climber hits something, the\nother will delay their attack, essentially sharing in the hitlag in order to stay at a comparable\nlevel of desync. The Hitlag Delay column illustrates that amount of freeze.": "Invulnerable on frame 3-21"
+      "Startup": "",
+      "Total Frames": "129",
+      "Landing Lag": "11-19",
+      "Additional Notes": "Invulnerable on frame 3-21"
     }
   }
 }

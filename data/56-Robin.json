@@ -1,5 +1,14 @@
 {
   "name": "56 - Robin",
+  "uriComponent": "Robin",
+  "movePrefix": "Robin",
+  "moveMappings": [
+    { "NeutralB": "Thunder/Elthunder/Arcthunder" },
+    { "NeutralBCharged": "Thoron" },
+    { "SideB": "Arcfire" },
+    { "UpB": "Elwind" },
+    { "DownB": "Nosferatu" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -9,7 +18,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-24"
     },
     "Jab 2": {
@@ -20,7 +29,7 @@
       "Base Damage": "1.5",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26"
     },
     "Jab 3": {
@@ -31,7 +40,7 @@
       "Base Damage": "5.0",
       "Shieldlag": "12",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-23"
     },
     "Rapid Jab": {
@@ -51,10 +60,10 @@
       "Base Damage": "2.0",
       "Shieldlag": "14",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-39"
     },
-    "F-Tilt ": {
+    "F-Tilt": {
       "Startup": "9",
       "Total Frames": "32",
       "Landing Lag": "",
@@ -62,7 +71,7 @@
       "Base Damage": "7.5",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "U-Tilt": {
@@ -73,7 +82,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20"
     },
     "D-Tilt": {
@@ -84,7 +93,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-8"
     },
     "Dash Attack": {
@@ -95,10 +104,11 @@
       "Base Damage": "10.0 / 6.0",
       "Shieldlag": "9/7",
       "Shieldstun": "10/6",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-23"
     },
-    "F-Smash ": {
+    "F-Smash": {
+      "ufdName":["FSmashLevin.gif","FSmashBronze.gif"],
       "Startup": "16",
       "Total Frames": "57",
       "Landing Lag": "",
@@ -106,10 +116,11 @@
       "Base Damage": "16.0 / 10.0 / 9.6",
       "Shieldlag": "15/12/8",
       "Shieldstun": "11/7/7",
-      "hitbox": "Early/late/Bronze",
+      "Hitbox": "Early/late/Bronze",
       "Advantage": "-30/-34"
     },
     "U-Smash": {
+      "ufdName":["USmashLevin.gif","USmashBronze.gif"],
       "Startup": "12",
       "Total Frames": "52",
       "Landing Lag": "",
@@ -117,10 +128,11 @@
       "Base Damage": "10.0 / 15.0 / 9.0",
       "Shieldlag": "12/15/7",
       "Shieldstun": "7/10/7",
-      "hitbox": "Close/far/bronze",
+      "Hitbox": "Close/far/bronze",
       "Advantage": "-33/-30/-33"
     },
     "D-Smash": {
+      "ufdName":["DSmashLevin.gif","DSmashBronze.gif"],
       "Startup": "16",
       "Total Frames": "56",
       "Landing Lag": "",
@@ -128,10 +140,11 @@
       "Base Damage": "15.0 / 12.0 / 8.0",
       "Shieldlag": "15/13/7",
       "Shieldstun": "-/8/6",
-      "hitbox": "Sword/spark/bronze",
+      "Hitbox": "Sword/spark/bronze",
       "Advantage": "-28/-34"
     },
     "N-Air": {
+      "ufdName":["NAirLevin.gif","NAirBronze.gif"],
       "Startup": "7/20",
       "Total Frames": "47",
       "Landing Lag": "11",
@@ -139,10 +152,11 @@
       "Base Damage": "11.5 / 6.9",
       "Shieldlag": "13/7",
       "Shieldstun": "5/3",
-      "hitbox": "Levin/bronze",
+      "Hitbox": "Levin/bronze",
       "Advantage": "-6/-8"
     },
     "F-Air": {
+      "ufdName":["FAirLevin.gif","FAirBronze.gif"],
       "Startup": "12",
       "Total Frames": "33",
       "Landing Lag": "11",
@@ -150,10 +164,11 @@
       "Base Damage": "12.5 / 7.5",
       "Shieldlag": "14/7",
       "Shieldstun": "5/3",
-      "hitbox": "Levin/bronze",
+      "Hitbox": "Levin/bronze",
       "Advantage": "-6/-8"
     },
     "B-Air": {
+      "ufdName":["BAirLevin.gif","BAirBronze.gif"],
       "Startup": "9",
       "Total Frames": "39",
       "Landing Lag": "11",
@@ -161,10 +176,11 @@
       "Base Damage": "15.0 / 5.0 / 9.0",
       "Shieldlag": "15/9/7",
       "Shieldstun": "5/3/4",
-      "hitbox": "Early/late/bronze",
+      "Hitbox": "Early/late/bronze",
       "Advantage": "-6/-8/-7"
     },
     "U-Air": {
+      "ufdName":["UAirLevin.gif","UAirBronze.gif"],
       "Startup": "10",
       "Total Frames": "45",
       "Landing Lag": "11",
@@ -172,10 +188,11 @@
       "Base Damage": "13.0 / 5.0 / 7.8",
       "Shieldlag": "14/9/7",
       "Shieldstun": "5/3/4",
-      "hitbox": "Early/late/bronze",
+      "Hitbox": "Early/late/bronze",
       "Advantage": "-6/-8/-7"
     },
     "D-Air": {
+      "ufdName":["DAirLevin.gif","DAirBronze.gif"],
       "Startup": "13",
       "Total Frames": "59",
       "Landing Lag": "16",
@@ -183,10 +200,11 @@
       "Base Damage": "11.0 / 8.0 / \n7.2 / 6.0 ",
       "Shieldlag": "16/11/7/6",
       "Shieldstun": "4/4/3/3",
-      "hitbox": "Levin Early/late\nBronze Early/late",
+      "Hitbox": "Levin Early/late\nBronze Early/late",
       "Advantage": "-7/-7/-8/-8"
     },
     "Thunder/Elthunder/Arcthunder": {
+      "ufdName":["Thunder.gif","Elthunder.gif","Arcthunder.gif"],
       "Startup": "8/8/8",
       "Total Frames": "32/38/38",
       "Landing Lag": "",
@@ -194,10 +212,11 @@
       "Base Damage": "5.5 / 11.0",
       "Shieldlag": "9/13",
       "Shieldstun": "3/4",
-      "hitbox": "Thunder/Elthunder",
+      "Hitbox": "Thunder/Elthunder",
       "Advantage": "-12/-13"
     },
     "Arcthunder (vortex) ": {
+      "ufdName":"ArcthunderHit.gif",
       "Startup": "1/5/9/13/16",
       "Total Frames": "",
       "Landing Lag": "",
@@ -205,7 +224,7 @@
       "Base Damage": "6.0 / 2.4 / 8.0",
       "Shieldlag": "-/-/11",
       "Shieldstun": "-/-/3",
-      "hitbox": "first/multi/final",
+      "Hitbox": "first/multi/final",
       "Advantage": "|+0|"
     },
     "Thoron": {
@@ -216,10 +235,11 @@
       "Base Damage": "2.6 / 2.6",
       "Shieldlag": "-/7",
       "Shieldstun": "-/2",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-20"
     },
     "Arcfire": {
+      "ufdName":["Arcfire.gif","ArcfireHit.gif"],
       "Startup": "17",
       "Total Frames": "63",
       "Landing Lag": "",
@@ -227,10 +247,11 @@
       "Base Damage": "2.0 / 1.3 / 4.0",
       "Shieldlag": "6/4/11",
       "Shieldstun": "2/2/2",
-      "hitbox": "First/multi/final",
+      "Hitbox": "First/multi/final",
       "Advantage": "|+13|"
     },
     "Elwind": {
+      "ufdName":"Elwind.gif",
       "Startup": "8/28",
       "Total Frames": "",
       "Landing Lag": "25",
@@ -238,9 +259,10 @@
       "Base Damage": "7.0 / 5.0",
       "Shieldlag": "7/6",
       "Shieldstun": "3/3",
-      "hitbox": "Early/late"
+      "Hitbox": "Early/late"
     },
     "Nosferatu": {
+      "ufdName":["Nosferatu.gif","NosferatuAir.gif"],
       "Startup": "15",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -287,7 +309,7 @@
       "Base Damage": "9.0"
     },
     "Down Throw": {
-      "Startup": "16 ",
+      "Startup": "16",
       "Total Frames": "37",
       "Landing Lag": "",
       "Additional Notes": "",

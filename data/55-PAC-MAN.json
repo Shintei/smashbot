@@ -1,5 +1,13 @@
 {
   "name": "55 - PAC-MAN",
+  "uriComponent": "pac_man",
+  "movePrefix": "PacMan",
+  "moveMappings": [
+    { "NeutralB": "Bonus Fruit (throw)" },
+    { "SideB": "Power Pellet (travel | Dash)" },
+    { "UpB": "Pac-Jump" },
+    { "DownB": "Fire Hydrant" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -9,7 +17,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "Jab 2": {
@@ -20,7 +28,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-14"
     },
     "Jab 3": {
@@ -31,10 +39,10 @@
       "Base Damage": "4.0",
       "Shieldlag": "11",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-24"
     },
-    "F-Tilt ": {
+    "F-Tilt": {
       "Startup": "5",
       "Total Frames": "30",
       "Landing Lag": "",
@@ -42,7 +50,29 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
+      "Advantage": "-17"
+    },
+    "F-TiltUp": {
+      "Startup": "5",
+      "Total Frames": "30",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "8",
+      "Hitbox": "",
+      "Advantage": "-17"
+    },
+    "F-TiltDown": {
+      "Startup": "5",
+      "Total Frames": "30",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "8",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "U-Tilt": {
@@ -53,7 +83,7 @@
       "Base Damage": "6.5",
       "Shieldlag": "6",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-10"
     },
     "D-Tilt": {
@@ -64,7 +94,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Dash Attack": {
@@ -75,10 +105,10 @@
       "Base Damage": "2.0 / 4.0",
       "Shieldlag": "4/11",
       "Shieldstun": "3/5",
-      "hitbox": "Multi/final",
+      "Hitbox": "Multi/final",
       "Advantage": "-3"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "16",
       "Total Frames": "52",
       "Landing Lag": "",
@@ -86,7 +116,7 @@
       "Base Damage": "16.0 / 9.0",
       "Shieldlag": "10/7",
       "Shieldstun": "11/7",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-25"
     },
     "U-Smash": {
@@ -97,7 +127,7 @@
       "Base Damage": "3.0 / 14.0",
       "Shieldlag": "5/10",
       "Shieldstun": "3/10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-24"
     },
     "D-Smash": {
@@ -108,7 +138,7 @@
       "Base Damage": "13.0 / 7.0",
       "Shieldlag": "9/7",
       "Shieldstun": "9/6",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-30"
     },
     "N-Air": {
@@ -119,7 +149,7 @@
       "Base Damage": "10.0 / 6.0",
       "Shieldlag": "8/6",
       "Shieldstun": "4/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-3/-4"
     },
     "F-Air": {
@@ -130,7 +160,7 @@
       "Base Damage": "7.6",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
     "B-Air": {
@@ -141,7 +171,7 @@
       "Base Damage": "11.8 / 7.0",
       "Shieldlag": "9/7",
       "Shieldstun": "5/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-8/-10"
     },
     "U-Air": {
@@ -152,7 +182,7 @@
       "Base Damage": "10.0 ",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
     "D-Air": {
@@ -163,10 +193,11 @@
       "Base Damage": "2.0 / 7.0",
       "Shieldlag": "4/7",
       "Shieldstun": "2/3",
-      "hitbox": "Multi/final",
+      "Hitbox": "Multi/final",
       "Advantage": "-10/-9"
     },
     "Bonus Fruit (throw)": {
+      "ufdName":["Cherry.png","Strawberry.png","Apple.png","Orange.png","Melon.png","Galaxian.png","Bell.png","Key.png"],
       "Startup": "12 (+7)",
       "Total Frames": "41",
       "Landing Lag": "",
@@ -174,10 +205,11 @@
       "Base Damage": "4.3 / 6.0 / 7.5 / \n9.5 / 12.0 / 9.0 / \n7.5 / 16.0",
       "Shieldlag": "5/6/7/\n8/9/7/\n7/10",
       "Shieldstun": "2/3/3/\n4/4/4/\n3/5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-22/-20/-19/\n-17/-16/-18/\n-19/-14"
     },
     "Power Pellet (travel | Dash)": {
+      "ufdName":["PowerPelletEarly.gif","PowerPelletLate.gif"],
       "Startup": "24-42 | 35-53",
       "Total Frames": "83-118",
       "Landing Lag": "",
@@ -185,10 +217,11 @@
       "Base Damage": "4.0-5.0 | 6.0 - 12.0",
       "Shieldlag": "5-6 | 6-9",
       "Shieldstun": "5 | 6-11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-42 to -54"
     },
     "Pac-Jump": {
+      "ufdName":"TrampolineHurtbox.png",
       "Startup": "4",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -196,9 +229,10 @@
       "Base Damage": "5.0 - 10.0",
       "Shieldlag": "6-8",
       "Shieldstun": "6-10",
-      "hitbox": "first/second/third"
+      "Hitbox": "first/second/third"
     },
     "Fire Hydrant": {
+      "ufdName":"FireHydrantFall.png",
       "Startup": "12",
       "Total Frames": "34",
       "Landing Lag": "",
@@ -206,7 +240,7 @@
       "Base Damage": "9.0 / 13.0",
       "Shieldlag": "7/9",
       "Shieldstun": "4/5",
-      "hitbox": "initial/launched",
+      "Hitbox": "initial/launched",
       "Advantage": "-11"
     },
     "Grab": {
@@ -257,7 +291,7 @@
       "Base Damage": "1.5 / 6.0",
       "Shieldlag": "",
       "Shieldstun": "",
-      "hitbox": "multi/final"
+      "Hitbox": "multi/final"
     },
     "Spot Dodge": {
       "Startup": "",

@@ -1,5 +1,22 @@
 {
   "name": "36 - Diddy Kong",
+  "uriComponent": "diddy_kong",
+  "movePrefix": "DiddyKong",
+  "moveMappings": [
+    { "NeutralB": "Peanut Popgun" },
+    { "NeutralBMisfire": "Peanut Popgun (misfire)" },
+    { "SideB": "Monkey Flip" },
+    { "SideBAttack": "Monkey Flip (attack)" },
+    { "SideBKick": "Monkey Flip (attack)" },
+    { "SideBGrab": "Monkey Flip (grab success)" },
+    { "SideBGrabAttack": "Monkey Flip (grab attack)" },
+    { "HumperBumper": "Monkey Flip (grab attack)" },
+    { "SideBGrabJump": "Monkey Flip (grab jump)" },
+    { "UpB": "Rocketbarrel Boost" },
+    { "UpBExplosion": "Rocketbarrel Boost (explosion)" },
+    { "DownB": "Banana Peel" },
+    { "Banana": "Banana Peel" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -9,7 +26,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Jab 2": {
@@ -20,7 +37,7 @@
       "Base Damage": "1.5",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "Jab 3": {
@@ -31,10 +48,10 @@
       "Base Damage": "4.0",
       "Shieldlag": "11",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-24"
     },
-    "F-Tilt ": {
+    "F-Tilt": {
       "Startup": "10",
       "Total Frames": "36",
       "Landing Lag": "",
@@ -42,7 +59,29 @@
       "Base Damage": "10.0 / 7.0",
       "Shieldlag": "8/7",
       "Shieldstun": "10/7",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
+      "Advantage": "-16"
+    },
+    "F-TiltUp": {
+      "Startup": "10",
+      "Total Frames": "36",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0 / 7.0",
+      "Shieldlag": "8/7",
+      "Shieldstun": "10/7",
+      "Hitbox": "Early/late",
+      "Advantage": "-16"
+    },
+    "F-TiltDown": {
+      "Startup": "10",
+      "Total Frames": "36",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0 / 7.0",
+      "Shieldlag": "8/7",
+      "Shieldstun": "10/7",
+      "Hitbox": "Early/late",
       "Advantage": "-16"
     },
     "U-Tilt": {
@@ -53,7 +92,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "D-Tilt": {
@@ -64,7 +103,7 @@
       "Base Damage": "5.5",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-8"
     },
     "Dash Attack": {
@@ -75,7 +114,7 @@
       "Base Damage": "2.0 / 3.0",
       "Shieldlag": "4/5",
       "Shieldstun": "3/4",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-14"
     },
     "F-Smash": {
@@ -86,7 +125,7 @@
       "Base Damage": "5.0 / 11.0",
       "Shieldlag": "6/10",
       "Shieldstun": "4/8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21"
     },
     "U-Smash": {
@@ -97,7 +136,7 @@
       "Base Damage": "2.5 / 6.0",
       "Shieldlag": "5/6",
       "Shieldstun": "3/5",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-29"
     },
     "D-Smash": {
@@ -108,7 +147,7 @@
       "Base Damage": "12.0 / 15.0",
       "Shieldlag": "9/10",
       "Shieldstun": "8/10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-35/-28"
     },
     "N-Air": {
@@ -119,7 +158,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5"
     },
     "F-Air": {
@@ -130,7 +169,7 @@
       "Base Damage": "10.0 / 8.0",
       "Shieldlag": "8/7",
       "Shieldstun": "4/4",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-12/-12"
     },
     "B-Air": {
@@ -141,7 +180,7 @@
       "Base Damage": "9.0",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-3 "
     },
     "U-Air": {
@@ -152,7 +191,7 @@
       "Base Damage": "7.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-7"
     },
     "D-Air": {
@@ -163,10 +202,11 @@
       "Base Damage": "13.0 / 10.0",
       "Shieldlag": "9/8",
       "Shieldstun": "5/4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26"
     },
     "Peanut Popgun": {
+      "ufdName":"Peanut.gif",
       "Startup": "16/17 - 96/99",
       "Total Frames": "48-129",
       "Landing Lag": "",
@@ -174,10 +214,11 @@
       "Base Damage": "4.3 - 13.8 / 3.0",
       "Shieldlag": "5-10/5",
       "Shieldstun": "3-5/2",
-      "hitbox": "Projectile/melee",
+      "Hitbox": "Projectile/melee",
       "Advantage": "-24 to -18\n/-18 to -13"
     },
     "Peanut Popgun (misfire)": {
+      "ufdName":"PeanutPopgunBoom.gif",
       "Startup": "97",
       "Total Frames": "202",
       "Landing Lag": "",
@@ -185,16 +226,18 @@
       "Base Damage": "23.0",
       "Shieldlag": "16",
       "Shieldstun": "20",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-85"
     },
     "Monkey Flip": {
+      "ufdName":"MonkeyFlip.gif",
       "Startup": "18",
       "Total Frames": "47/61",
       "Landing Lag": "26",
       "Additional Notes": "First total frames is in the air, second is along level ground."
     },
     "Monkey Flip (attack)": {
+      "ufdName":"MonkeyFlipKick.gif",
       "Startup": "6",
       "Total Frames": "32",
       "Landing Lag": "18",
@@ -202,13 +245,15 @@
       "Base Damage": "14.0 / 10.0",
       "Shieldlag": "10/8",
       "Shieldstun": "13/10",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-5/-8"
     },
     "Monkey Flip (grab success)": {
+      "ufdName":"MonkeyFlipStick.gif",
       "Startup": "11/29/56..."
     },
     "Monkey Flip (grab attack)": {
+      "ufdName":"FlipStickAttack.gif",
       "Startup": "18/21",
       "Total Frames": "36"
     },
@@ -217,6 +262,7 @@
       "Total Frames": "42"
     },
     "Rocketbarrel Boost": {
+      "ufdName":["RocketBarrels.gif","RocketBarrels.png"],
       "Startup": "8-68",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -224,9 +270,10 @@
       "Base Damage": "10.0 / 8.0 / 6.0",
       "Shieldlag": "8/7/6",
       "Shieldstun": "10/8/6",
-      "hitbox": "Early/Late/Later"
+      "Hitbox": "Early/Late/Later"
     },
     "Rocketbarrel Boost (explosion)": {
+      "ufdName":"RocketBarrelsExplosion.png",
       "Startup": "1",
       "Total Frames": "57-59",
       "Landing Lag": "",
@@ -234,10 +281,11 @@
       "Base Damage": "18.0",
       "Shieldlag": "11",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-39 to -41"
     },
     "Banana Peel": {
+      "ufdName":["Banana.gif", "Banana.png"],
       "Startup": "",
       "Total Frames": "39",
       "Landing Lag": "",

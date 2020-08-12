@@ -1,5 +1,16 @@
 {
   "name": "45 - Villager",
+  "uriComponent": "villager",
+  "movePrefix": "Villager",
+  "moveMappings": [
+    { "NeutralB": "Pocket" },
+    { "NeutralBThrow": "Pocket (throw)" },
+    { "NeutralB2": "Pocket (throw)" },
+    { "SideB": "Lloid Rocket" },
+    { "UpB": "Balloon Trip" },
+    { "DownB": "Timber (tree grows/falls)" },
+    { "Axe": "Timber (axe)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -9,7 +20,7 @@
       "Base Damage": "1.0",
       "Shieldlag": "5",
       "Shieldstun": "2",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "Jab 2": {
@@ -20,7 +31,7 @@
       "Base Damage": "1.0",
       "Shieldlag": "5",
       "Shieldstun": "2",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-18"
     },
     "Rapid Jab": {
@@ -40,10 +51,10 @@
       "Base Damage": "2.0",
       "Shieldlag": "9",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28"
     },
-    "F-Tilt ": {
+    "F-Tilt": {
       "Startup": "8",
       "Total Frames": "33",
       "Landing Lag": "",
@@ -51,7 +62,7 @@
       "Base Damage": "9.0",
       "Shieldlag": "7",
       "Shieldstun": "9",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "U-Tilt": {
@@ -62,7 +73,7 @@
       "Base Damage": "5.0 / 6.0",
       "Shieldlag": "6/7",
       "Shieldstun": "6/6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-34/-19"
     },
     "D-Tilt": {
@@ -73,7 +84,7 @@
       "Base Damage": "12.0 / 10.0",
       "Shieldlag": "9/8",
       "Shieldstun": "11/10",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-17/-18"
     },
     "Dash Attack": {
@@ -84,10 +95,10 @@
       "Base Damage": "10.0 / 6.0",
       "Shieldlag": "8/6",
       "Shieldstun": "4/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-22"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "25",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -95,7 +106,7 @@
       "Base Damage": "15.0 / 17.0",
       "Shieldlag": "10/11",
       "Shieldstun": "10/11",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-4"
     },
     "U-Smash": {
@@ -106,7 +117,7 @@
       "Base Damage": "3.0 / 1.5 / 4.5",
       "Shieldlag": "5/-/9",
       "Shieldstun": "3/-/4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-7 "
     },
     "D-Smash": {
@@ -117,7 +128,7 @@
       "Base Damage": "6.0 / 3.0",
       "Shieldlag": "6/4",
       "Shieldstun": "5/0",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-35/-15"
     },
     "N-Air": {
@@ -128,7 +139,7 @@
       "Base Damage": "9.0 / 5.0",
       "Shieldlag": "7/6",
       "Shieldstun": "4/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-4/-5"
     },
     "F-Air": {
@@ -139,7 +150,7 @@
       "Base Damage": "7.0 / 4.0 / 2.5",
       "Shieldlag": "7/5/5",
       "Shieldstun": "3/3/2",
-      "hitbox": "Early/late/later",
+      "Hitbox": "Early/late/later",
       "Advantage": "-4"
     },
     "B-Air": {
@@ -150,10 +161,11 @@
       "Base Damage": "9.0 / 5.0 / 3.0",
       "Shieldlag": "7/6/5",
       "Shieldstun": "4/3/2",
-      "hitbox": "Early/late/later",
+      "Hitbox": "Early/late/later",
       "Advantage": "-3"
     },
     "U-Air": {
+      "ufdName":["UAir1.gif","UAir2.gif","UAir3.gif"],
       "Startup": "6",
       "Total Frames": "42",
       "Landing Lag": "12",
@@ -161,10 +173,11 @@
       "Base Damage": "13.0 / 10.0 / 8.0",
       "Shieldlag": "9/8/7",
       "Shieldstun": "5/4/4",
-      "hitbox": "3/2/1 turnips",
+      "Hitbox": "3/2/1 turnips",
       "Advantage": "-7/-8/-8"
     },
     "D-Air": {
+      "ufdName":["DAir1.gif","DAir2.gif","DAir3.gif"],
       "Startup": "11",
       "Total Frames": "42",
       "Landing Lag": "12",
@@ -172,10 +185,11 @@
       "Base Damage": "13.0 / 10.0 / 8.0",
       "Shieldlag": "9/8/7",
       "Shieldstun": "5/4/4",
-      "hitbox": "3/2/1 turnips",
+      "Hitbox": "3/2/1 turnips",
       "Advantage": "-7/-8/-8"
     },
     "Pocket": {
+      "ufdName": "Pocket.gif",
       "Startup": "",
       "Total Frames": "50",
       "Landing Lag": "",
@@ -188,6 +202,7 @@
       "Additional Notes": "This is not the same throw as with a holdable item"
     },
     "Lloid Rocket": {
+      "ufdName": "LloidRocketExplosion.png",
       "Startup": "52",
       "Total Frames": "35",
       "Landing Lag": "",
@@ -195,10 +210,11 @@
       "Base Damage": "7.0 / 5.0",
       "Shieldlag": "7/6",
       "Shieldstun": "3/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "|+27|"
     },
     "Balloon Trip": {
+      "ufdName": "BalloonHurtbox.png",
       "Startup": "",
       "Total Frames": "",
       "Landing Lag": "30/20",
@@ -213,6 +229,7 @@
       "Total Frames": "49"
     },
     "Timber (tree grows/falls)": {
+      "ufdName": "TimberGrowth.gif",
       "Startup": "46/16",
       "Total Frames": "",
       "Landing Lag": "",
@@ -220,10 +237,12 @@
       "Base Damage": "18.0 / 25.0",
       "Shieldlag": "11/14",
       "Shieldstun": "6/7",
-      "hitbox": "",
-      "Advantage": "|+14| / -11"
+      "Hitbox": "",
+      "Advantage": "|+14| / -11",
+      "Related Moves": "See Timber (plant), Timber (water)"
     },
     "Timber (axe)": {
+      "ufdName": "TimberAxe.gif",
       "Startup": "6",
       "Total Frames": "47/54",
       "Landing Lag": "",
@@ -231,7 +250,7 @@
       "Base Damage": "14.0",
       "Shieldlag": "10",
       "Shieldstun": "13",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28/-35"
     },
     "Grab": {

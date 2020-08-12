@@ -1,5 +1,14 @@
 {
   "name": "47 - Wii Fit Trainer",
+  "uriComponent": "wii_fit_trainer",
+  "movePrefix": "WiiFitTrainer",
+  "moveMappings": [
+    { "NeutralB": "Sun Salutation" },
+    { "NeutralBCharged": "Sun Salutation (full charge)" },
+    { "SideB": "Header" },
+    { "UpB": "Super Hoop" },
+    { "DownB": "Deep Breathing" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -9,7 +18,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-18"
     },
     "Jab 2": {
@@ -20,7 +29,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "4",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-23"
     },
     "Jab 3": {
@@ -31,10 +40,10 @@
       "Base Damage": "3.0",
       "Shieldlag": "10",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-30"
     },
-    "F-Tilt ": {
+    "F-Tilt": {
       "Startup": "6",
       "Total Frames": "32",
       "Landing Lag": "",
@@ -42,7 +51,7 @@
       "Base Damage": "11.0",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "U-Tilt": {
@@ -53,7 +62,7 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-14"
     },
     "D-Tilt": {
@@ -64,7 +73,7 @@
       "Base Damage": "13.5",
       "Shieldlag": "9",
       "Shieldstun": "12",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "Dash Attack": {
@@ -75,10 +84,10 @@
       "Base Damage": "10.0 / 6.0",
       "Shieldlag": "8/6",
       "Shieldstun": "12/10",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-20"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "16",
       "Total Frames": "56",
       "Landing Lag": "",
@@ -86,7 +95,7 @@
       "Base Damage": "15.5",
       "Shieldlag": "10",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-30"
     },
     "U-Smash": {
@@ -97,7 +106,7 @@
       "Base Damage": "15.0 / 18.0",
       "Shieldlag": "10/15",
       "Shieldstun": "10/12",
-      "hitbox": "Body/arms",
+      "Hitbox": "Body/arms",
       "Advantage": "-33/-31"
     },
     "D-Smash": {
@@ -108,7 +117,7 @@
       "Base Damage": "12.0",
       "Shieldlag": "9",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20"
     },
     "N-Air": {
@@ -119,7 +128,7 @@
       "Base Damage": "5.0 / 9.0",
       "Shieldlag": "6/7",
       "Shieldstun": "3/4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5/-4"
     },
     "F-Air": {
@@ -130,7 +139,7 @@
       "Base Damage": "12.0 / 7.5\n10.0 / 6.0",
       "Shieldlag": "9/7/12/6",
       "Shieldstun": "5/3/4/3",
-      "hitbox": "Early/Late\nMeteor early/late",
+      "Hitbox": "Early/Late\nMeteor early/late",
       "Advantage": "-2/-4/-3/-4"
     },
     "B-Air": {
@@ -141,7 +150,7 @@
       "Base Damage": "13.5 / 11.0 / 6.0",
       "Shieldlag": "11/7/6",
       "Shieldstun": "5/4/3",
-      "hitbox": "Far/close/late ",
+      "Hitbox": "Far/close/late ",
       "Advantage": "-7/-8/-9"
     },
     "U-Air": {
@@ -152,7 +161,7 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5 "
     },
     "D-Air": {
@@ -163,10 +172,11 @@
       "Base Damage": "13.0",
       "Shieldlag": "10",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-7 "
     },
     "Sun Salutation": {
+      "ufdName":"SunSalutationNoCharge.gif",
       "Startup": "4 (+17)",
       "Total Frames": "39",
       "Landing Lag": "",
@@ -174,10 +184,11 @@
       "Base Damage": "5.0 - 20.7",
       "Shieldlag": "6-13",
       "Shieldstun": "3-6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26 to -16"
     },
     "Sun Salutation (full charge)": {
+      "ufdName":"SunSalutationMaxCharge.gif",
       "Startup": "21",
       "Total Frames": "56",
       "Landing Lag": "",
@@ -185,10 +196,12 @@
       "Base Damage": "21.0",
       "Shieldlag": "13",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "Header": {
+      "movePrefix":"",
+      "ufdName":["WiiFitTrainerHeader.gif","Soccerball.png"],
       "Startup": "15-31",
       "Total Frames": "40-56",
       "Landing Lag": "15",
@@ -196,10 +209,11 @@
       "Base Damage": "15.0 / 8.9 - 10.3",
       "Shieldlag": "10/8",
       "Shieldstun": "14/4",
-      "hitbox": "Header/ball",
+      "Hitbox": "Header/ball",
       "Advantage": "-11/-13"
     },
     "Super Hoop": {
+      "ufdName":"SuperHoop.gif",
       "Startup": "6/23/40",
       "Total Frames": "",
       "Landing Lag": "30",

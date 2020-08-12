@@ -1,5 +1,14 @@
 {
   "name": "35 - Charizard",
+  "uriComponent": "pt_charizard",
+  "movePrefix": "charitard",
+  "moveMappings": [
+    { "NeutralB": "Flamethrower" },
+    { "SideB": "Flare Blitz" },
+    { "UpB": "Fly" },
+    { "DownB": "Pokemon Change" },
+    { "SeismicToss": "Up Throw" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -9,7 +18,7 @@
       "Base Damage": "2.5",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-14"
     },
     "Jab 2": {
@@ -20,7 +29,7 @@
       "Base Damage": "2.5",
       "Shieldlag": "6",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "Jab 3": {
@@ -31,10 +40,10 @@
       "Base Damage": "5.0",
       "Shieldlag": "9",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20"
     },
-    "F-Tilt ": {
+    "F-Tilt": {
       "Startup": "12",
       "Total Frames": "37",
       "Landing Lag": "",
@@ -42,7 +51,29 @@
       "Base Damage": "7.0 / 11.0",
       "Shieldlag": "7/8",
       "Shieldstun": "7/10",
-      "hitbox": "Close/Far",
+      "Hitbox": "Close/Far",
+      "Advantage": "-18/-15"
+    },
+    "F-TiltUp": {
+      "Startup": "12",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.0 / 11.0",
+      "Shieldlag": "7/8",
+      "Shieldstun": "7/10",
+      "Hitbox": "Close/Far",
+      "Advantage": "-18/-15"
+    },
+    "F-TiltDown": {
+      "Startup": "12",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.0 / 11.0",
+      "Shieldlag": "7/8",
+      "Shieldstun": "7/10",
+      "Hitbox": "Close/Far",
       "Advantage": "-18/-15"
     },
     "U-Tilt": {
@@ -53,7 +84,7 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "D-Tilt": {
@@ -64,7 +95,7 @@
       "Base Damage": "10.0",
       "Shieldlag": "10",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-11"
     },
     "Dash Attack": {
@@ -75,7 +106,7 @@
       "Base Damage": "13.0 / 10.0",
       "Shieldlag": "9/8",
       "Shieldstun": "17/14",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-12"
     },
     "F-Smash": {
@@ -86,7 +117,7 @@
       "Base Damage": "19.0 / 16.4",
       "Shieldlag": "17/10",
       "Shieldstun": "13/11",
-      "hitbox": "Close/Far",
+      "Hitbox": "Close/Far",
       "Advantage": "-34/-36"
     },
     "U-Smash": {
@@ -97,7 +128,7 @@
       "Base Damage": "5.0 / 11.0",
       "Shieldlag": "6/8",
       "Shieldstun": "4/8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-24"
     },
     "D-Smash": {
@@ -108,7 +139,7 @@
       "Base Damage": "16.0",
       "Shieldlag": "10",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-35"
     },
     "N-Air": {
@@ -119,7 +150,7 @@
       "Base Damage": "9.0 / 12.0",
       "Shieldlag": "7/9",
       "Shieldstun": "4/5",
-      "hitbox": "Close/Far",
+      "Hitbox": "Close/Far",
       "Advantage": "-6/-5"
     },
     "F-Air": {
@@ -130,7 +161,7 @@
       "Base Damage": "12.0 / 13.0",
       "Shieldlag": "9/9",
       "Shieldstun": "5/5",
-      "hitbox": "Close/Far",
+      "Hitbox": "Close/Far",
       "Advantage": "-14/-14"
     },
     "B-Air": {
@@ -141,7 +172,7 @@
       "Base Damage": "11.0 / 14.0 / 16.0",
       "Shieldlag": "8/10/10",
       "Shieldstun": "4/5/6",
-      "hitbox": "Close/far/farther",
+      "Hitbox": "Close/far/farther",
       "Advantage": "-16/-15/-14"
     },
     "U-Air": {
@@ -152,7 +183,7 @@
       "Base Damage": "13.0",
       "Shieldlag": "9",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-8"
     },
     "D-Air": {
@@ -163,7 +194,7 @@
       "Base Damage": "14.0 / 8.0",
       "Shieldlag": "10/7",
       "Shieldstun": "5/4",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-16/-17"
     },
     "Flamethrower": {
@@ -174,10 +205,11 @@
       "Base Damage": "2.0 / 1.0",
       "Shieldlag": "4/4",
       "Shieldstun": "2/2",
-      "hitbox": "Close/Far",
+      "Hitbox": "Close/Far",
       "Advantage": "-24"
     },
     "Flare Blitz": {
+      "ufdName":"FlareBlitz.gif",
       "Startup": "23/24",
       "Total Frames": "101",
       "Landing Lag": "",
@@ -185,10 +217,11 @@
       "Base Damage": "6.0 / 18.0",
       "Shieldlag": "6/15",
       "Shieldstun": "-/6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-52/-66"
     },
     "Fly": {
+      "ufdName":"Fly.gif",
       "Startup": "9/16/19/22/25/27",
       "Total Frames": "",
       "Landing Lag": "30",

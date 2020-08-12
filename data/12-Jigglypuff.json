@@ -1,5 +1,13 @@
 {
   "name": "12 - Jigglypuff",
+  "uriComponent": "jigglypuff",
+  "movePrefix": "Jigglypuff",
+  "moveMappings": [
+    { "NeutralB": "Rollout" },
+    { "SideB": "Pound" },
+    { "UpB": "Sing" },
+    { "DownB": "Rest" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "5",
@@ -9,7 +17,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "6",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-7"
     },
     "Jab 2": {
@@ -20,7 +28,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "9",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-10"
     },
     "F-Tilt": {
@@ -31,7 +39,29 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
+      "Advantage": "-7"
+    },
+    "F-TiltUp": {
+      "Startup": "7",
+      "Total Frames": "24",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0",
+      "Shieldlag": "8",
+      "Shieldstun": "10",
+      "Hitbox": "",
+      "Advantage": "-7"
+    },
+    "F-TiltDown": {
+      "Startup": "7",
+      "Total Frames": "24",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0",
+      "Shieldlag": "8",
+      "Shieldstun": "10",
+      "Hitbox": "",
       "Advantage": "-7"
     },
     "U-Tilt": {
@@ -42,7 +72,7 @@
       "Base Damage": "9.0 / 8.0",
       "Shieldlag": "7/7",
       "Shieldstun": "9/8",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-6"
     },
     "D-Tilt": {
@@ -53,7 +83,7 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-10"
     },
     "Dash Attack": {
@@ -64,10 +94,10 @@
       "Base Damage": "12.0 / 8.0",
       "Shieldlag": "9/7",
       "Shieldstun": "11/8",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-23"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "16",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -75,7 +105,7 @@
       "Base Damage": "16.0 / 14.0",
       "Shieldlag": "10/10",
       "Shieldstun": "11/10",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-22"
     },
     "U-Smash": {
@@ -86,7 +116,7 @@
       "Base Damage": "15.0",
       "Shieldlag": "10",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19"
     },
     "D-Smash": {
@@ -97,7 +127,7 @@
       "Base Damage": "11.0",
       "Shieldlag": "8",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26"
     },
     "N-Air": {
@@ -108,7 +138,7 @@
       "Base Damage": "11.0 / 6.0",
       "Shieldlag": "8/6",
       "Shieldstun": "4/3",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-5/-6"
     },
     "F-Air": {
@@ -119,7 +149,7 @@
       "Base Damage": "9.0 / 6.0",
       "Shieldlag": "7/6",
       "Shieldstun": "4/3",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-5/-6"
     },
     "B-Air": {
@@ -130,7 +160,7 @@
       "Base Damage": "13.0",
       "Shieldlag": "11",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
     "U-Air": {
@@ -141,7 +171,7 @@
       "Base Damage": "9.0",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5"
     },
     "D-Air": {
@@ -152,10 +182,11 @@
       "Base Damage": "1.5 / 2.0",
       "Shieldlag": "4/10",
       "Shieldstun": "2/2",
-      "hitbox": "Mult/Final",
+      "Hitbox": "Mult/Final",
       "Advantage": "-13"
     },
     "Rollout": {
+      "ufdName":"RolloutG.png",
       "Startup": "30/51",
       "Total Frames": "",
       "Landing Lag": "",
@@ -165,6 +196,7 @@
       "Shieldstun": "11-18"
     },
     "Pound": {
+      "ufdName":"Pound.gif",
       "Startup": "13",
       "Total Frames": "39",
       "Landing Lag": "",
@@ -172,16 +204,18 @@
       "Base Damage": "11.0",
       "Shieldlag": "8",
       "Shieldstun": "15",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-11"
     },
     "Sing": {
+      "ufdName":"Sing.gif",
       "Startup": "27/61/100",
       "Total Frames": "149",
       "Landing Lag": "",
       "Additional Notes": "Can snap to ledges as early as frame 2 if descending."
     },
     "Rest": {
+      "ufdName":"Rest.gif",
       "Startup": "2",
       "Total Frames": "209",
       "Landing Lag": "",
@@ -189,7 +223,7 @@
       "Base Damage": "20.0",
       "Shieldlag": "12",
       "Shieldstun": "18",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-189"
     },
     "Grab": {

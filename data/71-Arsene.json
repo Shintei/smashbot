@@ -1,0 +1,453 @@
+{
+    "name": "71 - Joker",
+    "uriComponent": "joker",
+    "movePrefix": "",
+    "moveMappings": [
+      { "NeutralB": "Gun" },
+      { "NeutralBForward": "Gun-Dash Forward" },
+      { "NeutralBBack": "Gun-Dash back" },
+      { "NeutralBJump": "Gun-Jump" },
+      { "NeutralBUp": "Gun-Spiral" },
+      { "NeutralBDown": "Gun-Shoot below" },
+      { "SideB": "Eigaon" },
+      { "UpB": "Wings of Rebellion" },
+      { "DownB": "Counter" },
+      { "DownBAttack": "Tetrakarn" },
+      { "DownBReflect": "Makarakarn" },
+      { "Reflector": "Makarakarn" }
+    ],
+    "moves": {
+      "Jab 1": {
+        "ufdName":"JokerJab1Arsene.gif",
+        "Startup": "4",
+        "Total Frames": "23",
+        "Landing Lag": "",
+        "Additional Notes": "Transitions to jab 2 on frame 7",
+        "Base Damage": "2.7",
+        "Shieldlag": "7",
+        "Shieldstun": "3",
+        "Hitbox": "",
+        "Advantage": "-16"
+      },
+      "Jab 2": {
+        "ufdName":"JokerJab2Arsene.gif",
+        "Startup": "3",
+        "Total Frames": "23",
+        "Landing Lag": "",
+        "Additional Notes": "Transitions to jab 3 on frame 11",
+        "Base Damage": "2.2",
+        "Shieldlag": "7",
+        "Shieldstun": "3",
+        "Hitbox": "",
+        "Advantage": "-17"
+      },
+      "Jab 3": {
+        "ufdName":"JokerJab3Arsene.gif",
+        "Startup": "3",
+        "Total Frames": "34",
+        "Landing Lag": "",
+        "Additional Notes": "",
+        "Base Damage": "7.1",
+        "Shieldlag": "10",
+        "Shieldstun": "5",
+        "Hitbox": "",
+        "Advantage": "-26"
+      },
+      "F-Tilt": {
+        "ufdName":"JokerFTiltArsene.gif",
+        "Startup": "8/13",
+        "Total Frames": "34",
+        "Landing Lag": "",
+        "Additional Notes": "",
+        "Base Damage": "3.0/10.0",
+        "Shieldlag": "5/10",
+        "Shieldstun": "4/10",
+        "Hitbox": "",
+        "Advantage": "-11"
+      },
+      "F-TiltUp": {
+        "ufdName":"JokerFTiltUpArsene.gif",
+        "Startup": "8/13",
+        "Total Frames": "34",
+        "Landing Lag": "",
+        "Additional Notes": "",
+        "Base Damage": "3.0/10.0",
+        "Shieldlag": "5/10",
+        "Shieldstun": "4/10",
+        "Hitbox": "",
+        "Advantage": "-11"
+      },
+      "F-TiltDown": {
+        "ufdName":"JokerFTiltDownArsene.gif",
+        "Startup": "8/13",
+        "Total Frames": "34",
+        "Landing Lag": "",
+        "Additional Notes": "",
+        "Base Damage": "3.0/10.0",
+        "Shieldlag": "5/10",
+        "Shieldstun": "4/10",
+        "Hitbox": "",
+        "Advantage": "-11"
+      },
+      "U-Tilt": {
+        "ufdName":"JokerUTiltArsene.gif",
+        "Startup": "8/11/14/17/20",
+        "Total Frames": "40",
+        "Landing Lag": "",
+        "Additional Notes": "",
+        "Base Damage": "4.0/1.7/3.9",
+        "Shieldlag": "5/4/9",
+        "Shieldstun": "5/-/5",
+        "Hitbox": "first/multi/final",
+        "Advantage": "-15"
+      },
+      "D-Tilt": {
+        "ufdName":"JokerDTiltArsene.gif",
+        "Startup": "8",
+        "Total Frames": "37",
+        "Landing Lag": "",
+        "Additional Notes": "",
+        "Base Damage": "13.0",
+        "Shieldlag": "10",
+        "Shieldstun": "10",
+        "Hitbox": "",
+        "Advantage": "-19"
+      },
+      "Dash Attack": {
+        "ufdName":"JokerDashAttackArsene.gif",
+        "Startup": "6/15",
+        "Total Frames": "45",
+        "Landing Lag": "",
+        "Additional Notes": "",
+        "Base Damage": "2.0/12.0",
+        "Shieldlag": "4/10",
+        "Shieldstun": "3/7",
+        "Hitbox": "",
+        "Advantage": "-23"
+      },
+      "F-Smash": {
+        "ufdName":"JokerFSmashArsene.gif",
+        "Startup": "16",
+        "Total Frames": "47",
+        "Landing Lag": "",
+        "Additional Notes": "Charge hold is frame 5",
+        "Base Damage": "22.0",
+        "Shieldlag": "11",
+        "Shieldstun": "12",
+        "Hitbox": "",
+        "Advantage": "-19"
+      },
+      "U-Smash": {
+        "ufdName":"JokerUSmashArsene.gif",
+        "Startup": "10",
+        "Total Frames": "51",
+        "Landing Lag": "",
+        "Additional Notes": "Charge hold is frame 4",
+        "Base Damage": "17.0",
+        "Shieldlag": "12",
+        "Shieldstun": "10",
+        "Hitbox": "",
+        "Advantage": "-31"
+      },
+      "D-Smash": {
+        "ufdName":"JokerDSmashArsene.gif",
+        "Startup": "12/16",
+        "Total Frames": "45",
+        "Landing Lag": "",
+        "Additional Notes": "Charge hold is frame 5",
+        "Base Damage": "18.0",
+        "Shieldlag": "11",
+        "Shieldstun": "9",
+        "Hitbox": "",
+        "Advantage": "-24/-20"
+      },
+      "N-Air": {
+        "ufdName":"JokerNAirArsene.gif",
+        "Startup": "12",
+        "Total Frames": "54",
+        "Landing Lag": "8",
+        "Additional Notes": "Arsene version has a separate hit covering Joker's back \nAutocancels on frame 1-4 and 48 onward",
+        "Base Damage": "7.0 / 4.0",
+        "Shieldlag": "7/5",
+        "Shieldstun": "3/3",
+        "Hitbox": "front/back",
+        "Advantage": "-5/-5"
+      },
+      "F-Air": {
+        "ufdName":"JokerFAirArsene.gif",
+        "Startup": "7/12",
+        "Total Frames": "47",
+        "Landing Lag": "12",
+        "Additional Notes": "Autocancels on frame 1-3 and 42 onward",
+        "Base Damage": "2.0/13.0",
+        "Shieldlag": "4/11",
+        "Shieldstun": "2/4",
+        "Hitbox": "",
+        "Advantage": "-10/-8"
+      },
+      "B-Air": {
+        "ufdName":"JokerBAirArsene.gif",
+        "Startup": "7",
+        "Total Frames": "31",
+        "Landing Lag": "9",
+        "Additional Notes": "Autocancels on frame 1-3 and 30 onward",
+        "Base Damage": "16.0",
+        "Shieldlag": "10",
+        "Shieldstun": "4",
+        "Hitbox": "",
+        "Advantage": "-5"
+      },
+      "U-Air": {
+        "ufdName":"JokerUAirArsene.gif",
+        "Startup": "5/9/13/17/20",
+        "Total Frames": "39",
+        "Landing Lag": "14",
+        "Additional Notes": "Autocancels on frame 1-4 and 40 onward",
+        "Base Damage": "0.7/10.0",
+        "Shieldlag": "4/11",
+        "Shieldstun": "2/3",
+        "Hitbox": "multi/final",
+        "Advantage": "-12/-11"
+      },
+      "D-Air": {
+        "ufdName":"JokerDAirArsene.gif",
+        "Startup": "13",
+        "Total Frames": "46",
+        "Landing Lag": "11",
+        "Additional Notes": "Arsene version has separate meteor hit on frame 15.\nAutocancels on frame 1-3 and 40 onward",
+        "Base Damage": "8.0/8.0",
+        "Shieldlag": "7/10",
+        "Shieldstun": "4/4",
+        "Hitbox": "knife/meteor",
+        "Advantage": "-7/-7"
+      },         
+      "Gun": {
+        "ufdName":"JokerGunArsene.gif",
+        "Startup": "12/21/27 | 45/51/57 |\n80/86/92",
+        "Total Frames": "44 | 74 | 109",
+        "Landing Lag": "",
+        "Additional Notes": "Earliest you can input another shot, dash, or jump is frame 34.\nEarliest you can input spiral or shoot below is frame 15",
+        "Base Damage": "6.0 / 2.0 / 1.5 / \n1.0",
+        "Shieldlag": "6/0/0/0",
+        "Shieldstun": "-/4/4/3",
+        "Hitbox": "close/med/far/\nfarthest",
+        "Advantage": "-13/-13/-14"
+      },
+      "Gun-Dash forward": {
+        "ufdName":"JokerGunForwardArsene.gif",
+        "Startup": "21/27/33",
+        "Total Frames": "45",
+        "Landing Lag": "",
+        "Additional Notes": "Invulnerable on frame 4-13. Is affected by and contributes to dodge staling",
+        "Base Damage": "7.0 / 4.0 / 1.5 / \n1.0",
+        "Shieldlag": "0/0/0/0",
+        "Shieldstun": "-/4/4/3",
+        "Hitbox": "close/med/far/\nfarthest",
+        "Advantage": "-8/-8/-9"
+      },
+      "Gun-Dash back": {
+        "ufdName":"JokerGunBackArsene.gif",
+        "Startup": "23/29/35",
+        "Total Frames": "49",
+        "Landing Lag": "",
+        "Additional Notes": "Invulnerable on frame 5-14. Is affected by and contributes to dodge staling",
+        "Base Damage": "5.0 / 2.0 / 1.0",
+        "Shieldlag": "0/0/0",
+        "Shieldstun": "-/4/3",
+        "Hitbox": "close/med/far ",
+        "Advantage": "-10/-11"
+      },
+      "Gun-Jump": {
+        "ufdName":"JokerGunJumpArsene.gif",
+        "Startup": "10/13/17/20/24/27/31",
+        "Total Frames": "59",
+        "Landing Lag": "14",
+        "Additional Notes": "Invulnerable on frame 1-6. Is not affected by or contributes to dodge staling.\nAdded shots in Arsene version deal just 1.0 damage.",
+        "Base Damage": "3.0 / 0.8",
+        "Shieldlag": "5/2",
+        "Shieldstun": "-/2",
+        "Hitbox": "close/far",
+        "Advantage": "-26  "
+      },
+      "Gun-Spiral": {
+        "ufdName":"JokerGunUpArsene.gif",
+        "Startup": "12/15/18/24/27/30/\n36/39/42/48/51/54/",
+        "Total Frames": "69",
+        "Landing Lag": "20",
+        "Additional Notes": "Can be extended for more shots",
+        "Base Damage": "4.5",
+        "Shieldlag": "0",
+        "Shieldstun": "6",
+        "Hitbox": "",
+        "Advantage": "-14"
+      },
+      "Gun-Shoot below": {
+        "ufdName":"JokerGunDownArsene.gif",
+        "Startup": "7/14/21/28/35/44",
+        "Total Frames": "48",
+        "Landing Lag": "10",
+        "Additional Notes": "Can be extended for more shots. Added shots in Arsene version deal just 0.8",
+        "Base Damage": "4.0 / 1.6",
+        "Shieldlag": "0/0",
+        "Shieldstun": "6/3",
+        "Hitbox": "close/far",
+        "Advantage": "-4/-7"
+      },
+      "Eigaon": {
+        "ufdName":"JokerEigaon.gif",
+        "Startup": "16 (1/6/11/16)",
+        "Total Frames": "57",
+        "Landing Lag": "",
+        "Additional Notes": "Eruption hits in parenthesis, but won't erupt on shields",
+        "Base Damage": "1.0 / 0.5 / 2.5",
+        "Shieldlag": "4",
+        "Shieldstun": "2",
+        "Hitbox": "contact/erupt",
+        "Advantage": "-35"
+      },
+      "Wings of Rebellion": {
+        "Startup": "",
+        "Total Frames": "",
+        "Landing Lag": "30",
+        "Additional Notes": "Invulnerable on frame 1-25. Grabs ledge on frame 17 onward."
+      },
+      "Counter": {
+        "ufdName":"JokerTetrakarn_Makarakarn.gif",
+        "Startup": "",
+        "Total Frames": "53",
+        "Landing Lag": "",
+        "Related Moves": "See Tetrakarn (physical) and Makarakarn (projectiles)",
+        "Additional Notes": "Invulnerable on frame 3. Counters/reflects on frame 4-31"
+      },
+      "Tetrakarn": {
+        "ufdName":"JokerTetrakarn.gif",
+        "Startup": "",
+        "Total Frames": "53",
+        "Landing Lag": "",
+        "Additional Notes": "Invulnerable on frame 3. Counters/reflects on frame 4-31"
+      },
+      "Reflector": {
+        "ufdName":"JokerMakarakarn.gif",
+        "Startup": "",
+        "Total Frames": "41",
+        "Landing Lag": "",
+        "Additional Notes": "Arm intangible on frame 1-29"
+      },
+      "Makarakarn": {
+        "ufdName":"JokerMakarakarn.gif",
+        "Startup": "",
+        "Total Frames": "41",
+        "Landing Lag": "",
+        "Additional Notes": "Arm intangible on frame 1-29"
+      },
+      "Grab": {
+        "ufdName":"JokerMakarakarn.gif",
+        "Startup": "6",
+        "Total Frames": "34"
+      },
+      "Dash Grab": {
+        "ufdName":"JokerMakarakarn.gif",
+        "Startup": "8",
+        "Total Frames": "42"
+      },
+      "Pivot Grab": {
+        "ufdName":"JokerMakarakarn.gif",
+        "Startup": "9",
+        "Total Frames": "37"
+      },
+      "Pummel": {
+        "ufdName":"JokerPummel.gif",
+        "Startup": "1",
+        "Total Frames": "19",
+        "Landing Lag": "",
+        "Additional Notes": "Total frames includes 14 frames of hitlag (plus one in 1v1)",
+        "Base Damage": "1.5"
+      },
+      "Forward Throw": {
+        "ufdName":"JokerFThrow.gif",
+        "Startup": "9",
+        "Total Frames": "29",
+        "Landing Lag": "",
+        "Additional Notes": "",
+        "Base Damage": "8.0"
+      },
+      "Back Throw": {
+        "ufdName":"JokerBThrow.gif",
+        "Startup": "14",
+        "Total Frames": "39",
+        "Landing Lag": "",
+        "Additional Notes": "",
+        "Base Damage": "10.0"
+      },
+      "Up Throw": {
+        "ufdName":"JokerUThrow.gif",
+        "Startup": "16",
+        "Total Frames": "37",
+        "Landing Lag": "",
+        "Additional Notes": "",
+        "Base Damage": "7.0"
+      },
+      "Down Throw": {
+        "ufdName":"JokerDThrow.gif",
+        "Startup": "23",
+        "Total Frames": "40",
+        "Landing Lag": "",
+        "Additional Notes": "",
+        "Base Damage": "7.0"
+      },
+      "Spot Dodge": {
+        "Startup": "",
+        "Total Frames": "20/25",
+        "Landing Lag": "",
+        "Additional Notes": "Invulnerable on frame 3-17"
+      },
+      "Forward Roll": {
+        "Startup": "",
+        "Total Frames": "29",
+        "Landing Lag": "",
+        "Additional Notes": "Invulnerable on frame 4-15"
+      },
+      "Back Roll": {
+        "Startup": "",
+        "Total Frames": "34",
+        "Landing Lag": "",
+        "Additional Notes": "Invulnerable on frame 5-16"
+      },
+      "Neutral Air Dodge": {
+        "Startup": "",
+        "Total Frames": "47",
+        "Landing Lag": "10",
+        "Additional Notes": "Invulnerable on frame 3-30"
+      },
+      "Dir. AD (down)": {
+        "Startup": "",
+        "Total Frames": "67",
+        "Landing Lag": "11-19",
+        "Additional Notes": "Invulnerable on frame 3-21"
+      },
+      "Dir. AD (diagonally down)": {
+        "Startup": "",
+        "Total Frames": "73",
+        "Landing Lag": "11-19",
+        "Additional Notes": "Invulnerable on frame 3-21"
+      },
+      "Dir. AD (left or right)": {
+        "Startup": "",
+        "Total Frames": "83",
+        "Landing Lag": "11-19",
+        "Additional Notes": "Invulnerable on frame 3-21"
+      },
+      "Dir. AD (diagonally up)": {
+        "Startup": "",
+        "Total Frames": "90",
+        "Landing Lag": "11-19",
+        "Additional Notes": "Invulnerable on frame 3-21"
+      },
+      "Dir. AD (up)": {
+        "Startup": "",
+        "Total Frames": "100",
+        "Landing Lag": "11-19",
+        "Additional Notes": "Invulnerable on frame 3-21"
+      }
+    }
+  }

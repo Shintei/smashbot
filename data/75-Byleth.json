@@ -1,5 +1,17 @@
 {
   "name": "75 - Byleth",
+  "uriComponent": "byleth",
+  "movePrefix": "Byleth",
+  "moveMappings": [
+    { "NeutralB": "Failnaught (partial charge)" },
+    { "NeutralBCharged": "Failnaught (full charge)" },
+    { "SideB": "Areadbhar" },
+    { "AirSideB": "Areadbhar (air)" },
+    { "UpB": "Sword of the Creator" },
+    { "AirUpB": "Sword of the Creator (air)" },
+    { "DownB": "Aymr" },
+    { "AirDownB": "Aymr (air)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -9,7 +21,7 @@
       "Base Damage": "1.5",
       "Shieldlag": "8",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "Jab 2": {
@@ -20,7 +32,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "Jab 3": {
@@ -31,7 +43,7 @@
       "Base Damage": "4.5",
       "Shieldlag": "12",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-22"
     },
     "Rapid Jab": {
@@ -51,7 +63,7 @@
       "Base Damage": "3.5",
       "Shieldlag": "10",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-40"
     },
     "F-Tilt": {
@@ -62,7 +74,7 @@
       "Base Damage": "11.0",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "U-Tilt": {
@@ -73,7 +85,7 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "D-Tilt": {
@@ -84,7 +96,7 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-14"
     },
     "Dash Attack": {
@@ -95,7 +107,7 @@
       "Base Damage": "9.0 / 13.0",
       "Shieldlag": "7/13",
       "Shieldstun": "9/12",
-      "hitbox": "close/far  ",
+      "Hitbox": "close/far  ",
       "Advantage": "-26/-23"
     },
     "F-Smash": {
@@ -106,7 +118,29 @@
       "Base Damage": "13.0 / 19.5\n12.0 / 18.0\n11.5 / 17.2",
       "Shieldlag": "9/15\n9/16\n9/16",
       "Shieldstun": "9/13\n8/12\n8/12",
-      "hitbox": "close/far up\nclose/far neutral\nclose/far down",
+      "Hitbox": "close/far up\nclose/far neutral\nclose/far down",
+      "Advantage": "-31/-27\n-32/-28\n-32/-28"
+    },
+    "F-SmashUp": {
+      "Startup": "23",
+      "Total Frames": "63",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold on frame 13",
+      "Base Damage": "13.0 / 19.5\n12.0 / 18.0\n11.5 / 17.2",
+      "Shieldlag": "9/15\n9/16\n9/16",
+      "Shieldstun": "9/13\n8/12\n8/12",
+      "Hitbox": "close/far up\nclose/far neutral\nclose/far down",
+      "Advantage": "-31/-27\n-32/-28\n-32/-28"
+    },
+    "F-SmashDown": {
+      "Startup": "23",
+      "Total Frames": "63",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold on frame 13",
+      "Base Damage": "13.0 / 19.5\n12.0 / 18.0\n11.5 / 17.2",
+      "Shieldlag": "9/15\n9/16\n9/16",
+      "Shieldstun": "9/13\n8/12\n8/12",
+      "Hitbox": "close/far up\nclose/far neutral\nclose/far down",
       "Advantage": "-31/-27\n-32/-28\n-32/-28"
     },
     "U-Smash": {
@@ -117,7 +151,7 @@
       "Base Damage": "2.0 / 2.0 / 10.0",
       "Shieldlag": "5/4/8",
       "Shieldstun": "3/3/7",
-      "hitbox": "first/multi/final",
+      "Hitbox": "first/multi/final",
       "Advantage": "-22"
     },
     "D-Smash": {
@@ -128,10 +162,11 @@
       "Base Damage": "23.0",
       "Shieldlag": "18",
       "Shieldstun": "15",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-40/-30"
     },
     "N-Air": {
+      "ufdName": ["NAir.gif","NAirLanding.gif"],
       "Startup": "6/13/20/28",
       "Total Frames": "51",
       "Landing Lag": "13",
@@ -139,7 +174,7 @@
       "Base Damage": "2.5 / 3.0 / 1.0",
       "Shieldlag": "5/7/4",
       "Shieldstun": "2/2/2",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-10"
     },
     "F-Air": {
@@ -150,7 +185,7 @@
       "Base Damage": "8.5 / 12.7",
       "Shieldlag": "7/11",
       "Shieldstun": "4/5",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-7/-6"
     },
     "B-Air": {
@@ -161,7 +196,7 @@
       "Base Damage": "10.0 / 15.0 ",
       "Shieldlag": "8/13",
       "Shieldstun": "4/5",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-9/-8"
     },
     "U-Air": {
@@ -172,7 +207,7 @@
       "Base Damage": "3.0 / 5.5",
       "Shieldlag": "5/7",
       "Shieldstun": "2/3",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-12/-11"
     },
     "D-Air": {
@@ -183,10 +218,11 @@
       "Base Damage": "19.0",
       "Shieldlag": "17",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21"
     },
     "Failnaught (partial charge)": {
+      "ufdName": "Failnaught.gif",
       "Startup": "45",
       "Total Frames": "76",
       "Landing Lag": "",
@@ -194,10 +230,11 @@
       "Base Damage": "12.0",
       "Shieldlag": "11",
       "Shieldstun": "12",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-8"
     },
     "Failnaught (full charge)": {
+      "ufdName": "FailnaughtMax.gif",
       "Startup": "114",
       "Total Frames": "159",
       "Landing Lag": "",
@@ -205,10 +242,11 @@
       "Base Damage": "29.0",
       "Shieldlag": "16",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21"
     },
     "Areadbhar": {
+      "ufdName": "AreadbharGrounded.gif",
       "Startup": "20",
       "Total Frames": "65",
       "Landing Lag": "",
@@ -216,10 +254,11 @@
       "Base Damage": "11.5 / 17.2",
       "Shieldlag": "9/13",
       "Shieldstun": "11/15",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-34/-30"
     },
     "Areadbhar (air)": {
+      "ufdName":"AreadbharAerial.gif",
       "Startup": "21",
       "Total Frames": "65",
       "Landing Lag": "",
@@ -227,10 +266,11 @@
       "Base Damage": "9.5 / 14.2",
       "Shieldlag": "7/12",
       "Shieldstun": "9/13",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-35/-31"
     },
     "Sword of the Creator": {
+      "ufdName": "SwordoftheCreatorGrounded.gif",
       "Startup": "11(12-19)",
       "Total Frames": "48",
       "Landing Lag": "",
@@ -238,10 +278,11 @@
       "Base Damage": "1.0 / 3.0 /\n7.9 - 13.0",
       "Shieldlag": "6/5/-",
       "Shieldstun": "2/4/-",
-      "hitbox": "first/grab/\nkickoff",
+      "Hitbox": "first/grab/\nkickoff",
       "Advantage": "-35 "
     },
     "Sword of the Creator (air)": {
+      "ufdName": "SwordoftheCreatorAerial.gif",
       "Startup": "(12-19)",
       "Total Frames": "48",
       "Landing Lag": "",
@@ -249,9 +290,10 @@
       "Base Damage": "3.0 / 7.9-13.0",
       "Shieldlag": "5",
       "Shieldstun": "4",
-      "hitbox": "grab/kickoff"
+      "Hitbox": "grab/kickoff"
     },
     "Aymr": {
+      "ufdName": "BylethAymrSuperArmor.gif",
       "Startup": "62/66",
       "Total Frames": "131",
       "Landing Lag": "",

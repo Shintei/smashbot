@@ -1,5 +1,16 @@
 {
   "name": "42 - R.O.B.",
+  "uriComponent": "rob",
+  "movePrefix": "ROB",
+  "moveMappings": [
+    { "NeutralB": "Robo Beam (Small)" },
+    { "Laser": "Robo Beam (Small)" },
+    { "NeutralBCharged": "Robo Beam (Large)" },
+    { "SideB": "Arm Rotor" },
+    { "UpB": "Robo Burner" },
+    { "DownB": "Gyro" },
+    { "DownBCharged": "Gyro (full charge)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -9,7 +20,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "5",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Jab 2": {
@@ -20,10 +31,10 @@
       "Base Damage": "3.0",
       "Shieldlag": "10",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
-    "F-Tilt ": {
+    "F-Tilt": {
       "Startup": "7",
       "Total Frames": "33",
       "Landing Lag": "",
@@ -31,7 +42,29 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
+      "Advantage": "-18"
+    },
+    "F-TiltUp": {
+      "Startup": "7",
+      "Total Frames": "33",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "8",
+      "Hitbox": "",
+      "Advantage": "-18"
+    },
+    "F-TiltDown": {
+      "Startup": "7",
+      "Total Frames": "33",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "8",
+      "Hitbox": "",
       "Advantage": "-18"
     },
     "U-Tilt": {
@@ -42,7 +75,7 @@
       "Base Damage": "3.0 / 5.0",
       "Shieldlag": "5/6",
       "Shieldstun": "4/6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-14"
     },
     "D-Tilt": {
@@ -53,7 +86,7 @@
       "Base Damage": "5.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5"
     },
     "Dash Attack": {
@@ -64,7 +97,7 @@
       "Base Damage": "7.0",
       "Shieldlag": "7",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "F-Smash": {
@@ -75,7 +108,29 @@
       "Base Damage": "15.0 / 11.5 / 6.0",
       "Shieldlag": "15/13/9",
       "Shieldstun": "10/8/5",
-      "hitbox": "Close/far/farther",
+      "Hitbox": "Close/far/farther",
+      "Advantage": "-28/-30/-33"
+    },
+    "F-SmashUp": {
+      "Startup": "16",
+      "Total Frames": "54",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 6",
+      "Base Damage": "15.0 / 11.5 / 6.0",
+      "Shieldlag": "15/13/9",
+      "Shieldstun": "10/8/5",
+      "Hitbox": "Close/far/farther",
+      "Advantage": "-28/-30/-33"
+    },
+    "F-SmashDown": {
+      "Startup": "16",
+      "Total Frames": "54",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 6",
+      "Base Damage": "15.0 / 11.5 / 6.0",
+      "Shieldlag": "15/13/9",
+      "Shieldstun": "10/8/5",
+      "Hitbox": "Close/far/farther",
       "Advantage": "-28/-30/-33"
     },
     "U-Smash": {
@@ -86,7 +141,7 @@
       "Base Damage": "3.0 / 14.0",
       "Shieldlag": "5/10",
       "Shieldstun": "3/10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-35/-24"
     },
     "D-Smash": {
@@ -97,7 +152,7 @@
       "Base Damage": "3.5 / 5.0",
       "Shieldlag": "5/12",
       "Shieldstun": "3/4",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-25"
     },
     "N-Air": {
@@ -108,7 +163,7 @@
       "Base Damage": "7.5 / 9.5",
       "Shieldlag": "7/8",
       "Shieldstun": "3/4",
-      "hitbox": "Close/final",
+      "Hitbox": "Close/final",
       "Advantage": "-4/-3"
     },
     "F-Air": {
@@ -119,7 +174,7 @@
       "Base Damage": "7.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
     "B-Air": {
@@ -130,7 +185,7 @@
       "Base Damage": "15.0 / 13.0 / 9.0",
       "Shieldlag": "12/11/9",
       "Shieldstun": "5/5/4",
-      "hitbox": "Close/Far/Late",
+      "Hitbox": "Close/Far/Late",
       "Advantage": "-8/-9"
     },
     "U-Air": {
@@ -141,7 +196,7 @@
       "Base Damage": "1.5 / 4.0",
       "Shieldlag": "4/11",
       "Shieldstun": "2/3",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-11/-10"
     },
     "D-Air": {
@@ -152,10 +207,11 @@
       "Base Damage": "12.0 / 11.0 / 6.0",
       "Shieldlag": "9/8/6",
       "Shieldstun": "5/4/3",
-      "hitbox": "Close/Far/farther",
+      "Hitbox": "Close/Far/farther",
       "Advantage": "-44/-45/-46"
     },
     "Robo Beam (Small)": {
+      "ufdName":["RoboBeam.gif","RoboBeamMid.gif"],
       "Startup": "25",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -163,10 +219,11 @@
       "Base Damage": "7.0 / 4.5 / 11.5",
       "Shieldlag": "7/5/7",
       "Shieldstun": "7/3/7",
-      "hitbox": "Melee/beam/both",
+      "Hitbox": "Melee/beam/both",
       "Advantage": "-17/-16/-17"
     },
     "Robo Beam (Large)": {
+      "ufdName":["RoboBeam.gif","RoboBeamMax.gif"],
       "Startup": "25",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -174,10 +231,11 @@
       "Base Damage": "7.0 / 15.0 / 22.0",
       "Shieldlag": "7/13/13",
       "Shieldstun": "7/5/14",
-      "hitbox": "Melee/beam/both",
+      "Hitbox": "Melee/beam/both",
       "Advantage": "-17/-6/-10"
     },
     "Arm Rotor": {
+      "ufdName":["ArmRotor.gif","ArmRotorEnd.gif"],
       "Startup": "13/18/23/28/33/44",
       "Total Frames": "85",
       "Landing Lag": "",
@@ -185,7 +243,7 @@
       "Base Damage": "1.5 / 3.0",
       "Shieldlag": "4/12",
       "Shieldstun": "3/4",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-37"
     },
     "Arm Rotor (mashing)": {
@@ -196,7 +254,7 @@
       "Base Damage": "1.5 / 3.0",
       "Shieldlag": "4/12",
       "Shieldstun": "3/4",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-37"
     },
     "Robo Burner": {
@@ -206,6 +264,7 @@
       "Additional Notes": "Invulnerable on frame 2-4 on the ground. Can act on frame 25. Fuel lasts up to 143 frames.\nCan grab ledges as early as frame 2"
     },
     "Gyro": {
+      "ufdName":["GyroEnd.gif","GyroIdle.png","GyroThrown.png"],
       "Startup": "3 (+6)",
       "Total Frames": "36",
       "Landing Lag": "",
@@ -213,10 +272,11 @@
       "Base Damage": "3.6 - 10.7",
       "Shieldlag": "5-8",
       "Shieldstun": "2-4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26 to -21"
     },
     "Gyro (full charge)": {
+      "ufdName":["GyroEnd.gif","GyroIdle.png","GyroThrown.png"],
       "Startup": "9",
       "Total Frames": "42",
       "Landing Lag": "",
@@ -224,7 +284,7 @@
       "Base Damage": "10.7",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21"
     },
     "Grab": {

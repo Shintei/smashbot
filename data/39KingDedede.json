@@ -1,5 +1,14 @@
 {
   "name": "39 King Dedede",
+  "uriComponent": "king_dedede",
+  "movePrefix": "KingDedede",
+  "moveMappings": [
+    { "NeutralB": "Inhale" },
+    { "Suck": "Inhale" },
+    { "SideB": "Gordo Throw" },
+    { "UpB": "Super Dedede Jump" },
+    { "DownB": "Jet Hammer (partial charge)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "10",
@@ -9,7 +18,7 @@
       "Base Damage": "2.5",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-18"
     },
     "Jab 2": {
@@ -20,7 +29,7 @@
       "Base Damage": "2.2",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Rapid Jab": {
@@ -40,10 +49,10 @@
       "Base Damage": "3.0",
       "Shieldlag": "10",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-41"
     },
-    "F-Tilt ": {
+    "F-Tilt": {
       "Startup": "12/16/20/23",
       "Total Frames": "48",
       "Landing Lag": "",
@@ -51,7 +60,7 @@
       "Base Damage": "2.0 / 3.0",
       "Shieldlag": "4/10",
       "Shieldstun": "3/4",
-      "hitbox": "Multi/final",
+      "Hitbox": "Multi/final",
       "Advantage": "-21"
     },
     "U-Tilt": {
@@ -62,7 +71,7 @@
       "Base Damage": "11.5 / 9.5",
       "Shieldlag": "9/8",
       "Shieldstun": "11/9",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-20/-22"
     },
     "D-Tilt": {
@@ -73,7 +82,7 @@
       "Base Damage": "10.0 / 6.0",
       "Shieldlag": "8/6",
       "Shieldstun": "10/6",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-21"
     },
     "Dash Attack": {
@@ -84,7 +93,7 @@
       "Base Damage": "16.0 / 13.0",
       "Shieldlag": "13/9",
       "Shieldstun": "14/12",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-26"
     },
     "F-Smash": {
@@ -95,7 +104,7 @@
       "Base Damage": "16.0 / 18.5 / 25.0\n/ 11.0",
       "Shieldlag": "?/12/14/8",
       "Shieldstun": "?/-/16/8",
-      "hitbox": "Early/close/far/\nShockwave",
+      "Hitbox": "Early/close/far/\nShockwave",
       "Advantage": "?/-/-18/-25"
     },
     "U-Smash": {
@@ -106,7 +115,7 @@
       "Base Damage": "16.0",
       "Shieldlag": "10",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-39"
     },
     "D-Smash": {
@@ -117,7 +126,7 @@
       "Base Damage": "13.0",
       "Shieldlag": "9",
       "Shieldstun": "9",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-31/-23"
     },
     "N-Air": {
@@ -128,7 +137,7 @@
       "Base Damage": "12.0 / 7.0",
       "Shieldlag": "9/7",
       "Shieldstun": "5/3",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-4/-6"
     },
     "F-Air": {
@@ -139,7 +148,7 @@
       "Base Damage": "12.0",
       "Shieldlag": "9",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "B-Air": {
@@ -150,7 +159,7 @@
       "Base Damage": "16.0",
       "Shieldlag": "13",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-8"
     },
     "U-Air": {
@@ -161,7 +170,7 @@
       "Base Damage": "1.0 / 5.0",
       "Shieldlag": "4/12",
       "Shieldstun": "-/3",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-10"
     },
     "D-Air": {
@@ -172,10 +181,11 @@
       "Base Damage": "15.0 / 8.0",
       "Shieldlag": "15/7",
       "Shieldstun": "5/4",
-      "hitbox": "Sweet/sour",
+      "Hitbox": "Sweet/sour",
       "Advantage": "-13/-14"
     },
     "Inhale": {
+      "ufdName":"Inhale.gif",
       "Startup": "14",
       "Total Frames": "74",
       "Landing Lag": "",
@@ -186,6 +196,7 @@
       "Total Frames": "29"
     },
     "Gordo Throw": {
+      "ufdName":"GordoThrow.gif",
       "Startup": "29",
       "Total Frames": "60",
       "Landing Lag": "",
@@ -193,10 +204,11 @@
       "Base Damage": "10.0 / 9.5 - 14.0",
       "Shieldlag": "8/12-15/15",
       "Shieldstun": "10/4-5/14",
-      "hitbox": "Hammer/gordo/\nboth",
+      "Hitbox": "Hammer/gordo/\nboth",
       "Advantage": "-21/-11/-17"
     },
     "Super Dedede Jump": {
+      "ufdName":"SuperDededeJump1.gif",
       "Startup": "69",
       "Total Frames": "",
       "Landing Lag": "60/30",
@@ -204,10 +216,11 @@
       "Base Damage": "15.0 / 12.0 / 5.0",
       "Shieldlag": "10/9/6",
       "Shieldstun": "14/-/3",
-      "hitbox": "Falling/landing/\nstars",
+      "Hitbox": "Falling/landing/\nstars",
       "Advantage": "-46"
     },
     "Jet Hammer (partial charge)": {
+      "ufdName":"JetHammerG.gif",
       "Startup": "10 (+17)",
       "Total Frames": "59",
       "Landing Lag": "",
@@ -215,10 +228,11 @@
       "Base Damage": "11.0-29.8 ",
       "Shieldlag": "8-15",
       "Shieldstun": "10-25",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-39 to - 24"
     },
     "Jet Hammer (full charge)": {
+      "ufdName":"Jet%20HammerGMax.gif",
       "Startup": "9",
       "Total Frames": "69",
       "Landing Lag": "",
@@ -226,7 +240,7 @@
       "Base Damage": "40.0",
       "Shieldlag": "16",
       "Shieldstun": "34",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26"
     },
     "Grab": {

@@ -1,5 +1,14 @@
 {
   "name": "67 - King K Rool",
+  "uriComponent": "king_k_rool",
+  "movePrefix": "KingKRool",
+  "moveMappings": [
+    { "NeutralB": "Blunderbuss" },
+    { "SideB": "Crownerang" },
+    { "UpB": "Propellerpack" },
+    { "DownB": "Gut Check" },
+    { "DownBAttack": "Gut Check (counterattack)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -9,7 +18,7 @@
       "Base Damage": "2.5",
       "Shieldlag": "9",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "Jab 2": {
@@ -20,7 +29,7 @@
       "Base Damage": "2.5",
       "Shieldlag": "6",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20"
     },
     "Jab 3": {
@@ -31,7 +40,7 @@
       "Base Damage": "7.0",
       "Shieldlag": "13",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21"
     },
     "F-Tilt": {
@@ -42,7 +51,29 @@
       "Base Damage": "11.0 / 13.0",
       "Shieldlag": "12/13",
       "Shieldstun": "10/12",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
+      "Advantage": "-20/-18"
+    },
+    "F-TiltUp": {
+      "Startup": "12",
+      "Total Frames": "42",
+      "Landing Lag": "",
+      "Additional Notes": "Belly armor on frame 5-11",
+      "Base Damage": "11.0 / 13.0",
+      "Shieldlag": "12/13",
+      "Shieldstun": "10/12",
+      "Hitbox": "Close/far",
+      "Advantage": "-20/-18"
+    },
+    "F-TiltDown": {
+      "Startup": "12",
+      "Total Frames": "42",
+      "Landing Lag": "",
+      "Additional Notes": "Belly armor on frame 5-11",
+      "Base Damage": "11.0 / 13.0",
+      "Shieldlag": "12/13",
+      "Shieldstun": "10/12",
+      "Hitbox": "Close/far",
       "Advantage": "-20/-18"
     },
     "U-Tilt": {
@@ -53,10 +84,10 @@
       "Base Damage": "11.5 / 8.2 / 6.8",
       "Shieldlag": "10/9/8",
       "Shieldstun": "11/8/7",
-      "hitbox": "Early/\nLate far/close",
+      "Hitbox": "Early/\nLate far/close",
       "Advantage": "-21"
     },
-    "D-Tilt ": {
+    "D-Tilt": {
       "Startup": "14",
       "Total Frames": "42",
       "Landing Lag": "",
@@ -64,7 +95,7 @@
       "Base Damage": "13.0 / 8.0 / 7.0",
       "Shieldlag": "9/8/7",
       "Shieldstun": "12/10/7",
-      "hitbox": "frame 13/close/far",
+      "Hitbox": "frame 13/close/far",
       "Advantage": "-17"
     },
     "Dash Attack": {
@@ -75,10 +106,10 @@
       "Base Damage": "15.0 / 11.0",
       "Shieldlag": "11/9",
       "Shieldstun": "15/10",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-38"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "19",
       "Total Frames": "61",
       "Landing Lag": "",
@@ -86,7 +117,29 @@
       "Base Damage": "19.0 / 16.5\n19.5 / 16.9\n19.9 / 17.3",
       "Shieldlag": "13/-\n14/-\n14/12",
       "Shieldstun": "13/-\n13/-\n13/12",
-      "hitbox": "neutral far/close\nDown far/close\nUp far/close",
+      "Hitbox": "neutral far/close\nDown far/close\nUp far/close",
+      "Advantage": "-29/?\n-29/?\n-29/-30"
+    },
+    "F-SmashUp": {
+      "Startup": "19",
+      "Total Frames": "61",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold on frame 9",
+      "Base Damage": "19.0 / 16.5\n19.5 / 16.9\n19.9 / 17.3",
+      "Shieldlag": "13/-\n14/-\n14/12",
+      "Shieldstun": "13/-\n13/-\n13/12",
+      "Hitbox": "neutral far/close\nDown far/close\nUp far/close",
+      "Advantage": "-29/?\n-29/?\n-29/-30"
+    },
+    "F-SmashDown": {
+      "Startup": "19",
+      "Total Frames": "61",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold on frame 9",
+      "Base Damage": "19.0 / 16.5\n19.5 / 16.9\n19.9 / 17.3",
+      "Shieldlag": "13/-\n14/-\n14/12",
+      "Shieldstun": "13/-\n13/-\n13/12",
+      "Hitbox": "neutral far/close\nDown far/close\nUp far/close",
       "Advantage": "-29/?\n-29/?\n-29/-30"
     },
     "U-Smash": {
@@ -97,7 +150,7 @@
       "Base Damage": "17.0 / 3.0 / 10.0",
       "Shieldlag": "12/0/10",
       "Shieldstun": "11/-/7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-54/-42"
     },
     "D-Smash": {
@@ -108,7 +161,7 @@
       "Base Damage": "18.0 / 4.0 ",
       "Shieldlag": "10/5",
       "Shieldstun": "12/4",
-      "hitbox": "body/shockwave",
+      "Hitbox": "body/shockwave",
       "Advantage": "-29 "
     },
     "N-Air": {
@@ -119,7 +172,7 @@
       "Base Damage": "12.0 / 8.0",
       "Shieldlag": "9/7",
       "Shieldstun": "5/4",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-8/-9"
     },
     "F-Air": {
@@ -130,7 +183,7 @@
       "Base Damage": "15.5 / 13.5\n10.0 / 8.0",
       "Shieldlag": "10/9\n8/7",
       "Shieldstun": "6/5\n4/4",
-      "hitbox": "Early far/close\nLate far/close",
+      "Hitbox": "Early far/close\nLate far/close",
       "Advantage": "-5/-6\n-7/-7"
     },
     "B-Air": {
@@ -141,7 +194,7 @@
       "Base Damage": "19.0 / 14.5",
       "Shieldlag": "13/10",
       "Shieldstun": "7/5",
-      "hitbox": "far/close",
+      "Hitbox": "far/close",
       "Advantage": "-7/-9"
     },
     "U-Air": {
@@ -152,7 +205,7 @@
       "Base Damage": "14.0 / 10.0",
       "Shieldlag": "10/8",
       "Shieldstun": "5/4",
-      "hitbox": "early/late",
+      "Hitbox": "early/late",
       "Advantage": "-8/-9"
     },
     "D-Air": {
@@ -163,10 +216,11 @@
       "Base Damage": "12.0 / 9.0",
       "Shieldlag": "9/7",
       "Shieldstun": "5/4",
-      "hitbox": "early/late",
+      "Hitbox": "early/late",
       "Advantage": "-9/-10"
     },
     "Blunderbuss": {
+      "ufdName":"BlunderbussKannonballDetection.gif",
       "Startup": "25",
       "Total Frames": "64",
       "Landing Lag": "",
@@ -174,10 +228,11 @@
       "Base Damage": "13.0",
       "Shieldlag": "9",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-25"
     },
     "Blunderbuss (vacuum)": {
+      "ufdName":"Blunderbuss.gif",
       "Startup": "6"
     },
     "Blunderbuss (second shot)": {
@@ -188,7 +243,7 @@
       "Base Damage": "18.0 / 17.0",
       "Shieldlag": "11/11",
       "Shieldstun": "16/5",
-      "hitbox": "person/cannonball",
+      "Hitbox": "person/cannonball",
       "Advantage": "|+7|/-4"
     },
     "Blunderbuss (second shot up)": {
@@ -199,7 +254,7 @@
       "Base Damage": "18.0 / 17.0",
       "Shieldlag": "11/11",
       "Shieldstun": "16/5",
-      "hitbox": "person/cannonball",
+      "Hitbox": "person/cannonball",
       "Advantage": "[+1]/-10"
     },
     "Blunderbuss (second shot back)": {
@@ -210,10 +265,11 @@
       "Base Damage": "18.0 / 17.0",
       "Shieldlag": "11/11",
       "Shieldstun": "16/5",
-      "hitbox": "person/cannonball",
+      "Hitbox": "person/cannonball",
       "Advantage": "[+1]/-10"
     },
     "Crownerang": {
+      "ufdName":"CrownerangThrow.gif",
       "Startup": "26",
       "Total Frames": "63",
       "Landing Lag": "",
@@ -221,10 +277,11 @@
       "Base Damage": "9.0 / 7.0",
       "Shieldlag": "7/7",
       "Shieldstun": "4/3",
-      "hitbox": "going/returning",
+      "Hitbox": "going/returning",
       "Advantage": "-26"
     },
     "Propellerpack": {
+      "ufdName":"Propellerpack.gif",
       "Startup": "11-",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -234,12 +291,14 @@
       "Shieldstun": "4"
     },
     "Gut Check": {
+      "ufdName":"GutCheck.gif",
       "Startup": "",
       "Total Frames": "62",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 4-15. Counters or reflects on 5-28. Must be facing attacker to activate."
     },
     "Gut Check (counterattack)": {
+      "ufdName":"GutCheckHit.gif",
       "Startup": "2",
       "Total Frames": "41"
     },

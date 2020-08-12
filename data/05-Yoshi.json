@@ -1,5 +1,13 @@
 {
   "name": "05 - Yoshi",
+  "uriComponent": "yoshi",
+  "movePrefix": "Yoshi",
+  "moveMappings": [
+    { "NeutralB": "Egg Lay" },
+    { "SideB": "Egg Roll" },
+    { "UpB": "Egg Throw" },
+    { "DownB": "Yoshi Bomb" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -9,7 +17,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-10"
     },
     "Jab 2": {
@@ -20,7 +28,7 @@
       "Base Damage": "4.0",
       "Shieldlag": "11",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-11"
     },
     "F-Tilt": {
@@ -31,7 +39,29 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
+      "Advantage": "-16"
+    },
+    "F-TiltUp": {
+      "Startup": "5",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "8",
+      "Hitbox": "",
+      "Advantage": "-16"
+    },
+    "F-TiltDown": {
+      "Startup": "5",
+      "Total Frames": "29",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0",
+      "Shieldlag": "7",
+      "Shieldstun": "8",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "U-Tilt": {
@@ -42,7 +72,7 @@
       "Base Damage": "7.0",
       "Shieldlag": "7",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "D-Tilt": {
@@ -53,7 +83,7 @@
       "Base Damage": "5.0 / 4.5 / 4.0",
       "Shieldlag": "6/6/5",
       "Shieldstun": "6/6/5",
-      "hitbox": "Close/middle/far",
+      "Hitbox": "Close/middle/far",
       "Advantage": "-9/-9/-10"
     },
     "Dash Attack": {
@@ -64,10 +94,10 @@
       "Base Damage": "11.0 / 8.0",
       "Shieldlag": "8/7",
       "Shieldstun": "10/8",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-20"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "14",
       "Total Frames": "52",
       "Landing Lag": "",
@@ -75,7 +105,29 @@
       "Base Damage": "15.5",
       "Shieldlag": "10",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
+      "Advantage": "-28"
+    },
+    "F-SmashUp": {
+      "Startup": "14",
+      "Total Frames": "52",
+      "Landing Lag": "",
+      "Additional Notes": "Head intangibility on frame 12-16. Charge hold is frame 7",
+      "Base Damage": "15.5",
+      "Shieldlag": "10",
+      "Shieldstun": "10",
+      "Hitbox": "",
+      "Advantage": "-28"
+    },
+    "F-SmashDown": {
+      "Startup": "14",
+      "Total Frames": "52",
+      "Landing Lag": "",
+      "Additional Notes": "Head intangibility on frame 12-16. Charge hold is frame 7",
+      "Base Damage": "15.5",
+      "Shieldlag": "10",
+      "Shieldstun": "10",
+      "Hitbox": "",
       "Advantage": "-28"
     },
     "U-Smash": {
@@ -86,7 +138,7 @@
       "Base Damage": "14.0 / 12.0",
       "Shieldlag": "10/9",
       "Shieldstun": "10/8",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-24"
     },
     "D-Smash": {
@@ -97,7 +149,7 @@
       "Base Damage": "12.0 / 10.0",
       "Shieldlag": "9/8",
       "Shieldstun": "8/7",
-      "hitbox": "Close/Far",
+      "Hitbox": "Close/Far",
       "Advantage": "-34/-19"
     },
     "N-Air": {
@@ -108,7 +160,7 @@
       "Base Damage": "10.0 / 7.0 /5.0",
       "Shieldlag": "8/7/6",
       "Shieldstun": "4/3/3",
-      "hitbox": "Early/Late/latest",
+      "Hitbox": "Early/Late/latest",
       "Advantage": "-3/-4/-4"
     },
     "F-Air": {
@@ -119,7 +171,7 @@
       "Base Damage": "15.0 / 14.0",
       "Shieldlag": "10/10",
       "Shieldstun": "5/5",
-      "hitbox": "Close/meteor",
+      "Hitbox": "Close/meteor",
       "Advantage": "-7/-7"
     },
     "B-Air": {
@@ -130,7 +182,7 @@
       "Base Damage": "3.5 / 5.5",
       "Shieldlag": "5/9",
       "Shieldstun": "2/3",
-      "hitbox": "Multihit/Final",
+      "Hitbox": "Multihit/Final",
       "Advantage": "-9/-8"
     },
     "U-Air": {
@@ -141,10 +193,11 @@
       "Base Damage": "12.0",
       "Shieldlag": "9",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-3"
     },
     "D-Air": {
+      "ufdName":["DAir.gif","DAirLanding.gif"],
       "Startup": "16/18/20/22/24/26/28/\n30/32/34/36/38/41",
       "Total Frames": "56",
       "Landing Lag": "17",
@@ -152,16 +205,18 @@
       "Base Damage": "2.2 / 1.9 / 2.7 / \n1.0",
       "Shieldlag": "5/4/7/4",
       "Shieldstun": "-/2/2/2",
-      "hitbox": "Early multi/Late\nmulti/final/landing",
+      "Hitbox": "Early multi/Late\nmulti/final/landing",
       "Advantage": "-14"
     },
-    "Egg Lay ": {
+    "Egg Lay": {
+      "ufdName":"EggLay.gif",
       "Startup": "19",
       "Total Frames": "59/41",
       "Landing Lag": "",
       "Additional Notes": "Egg appears on frame 43 when successful.\nTotal frames when successful is 59. Total frames is 41 on whiff. "
     },
     "Egg Roll": {
+      "ufdName":"EggRoll.png",
       "Startup": "32",
       "Total Frames": "",
       "Landing Lag": "",
@@ -169,10 +224,11 @@
       "Base Damage": "10.8 - 12.8",
       "Shieldlag": "8-9",
       "Shieldstun": "10-12",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-29 to -27"
     },
     "Egg Throw": {
+      "ufdName":["EggThrow.png","EggThrowBurst.png"],
       "Startup": "16",
       "Total Frames": "55",
       "Landing Lag": "",
@@ -180,10 +236,11 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-30"
     },
     "Yoshi Bomb": {
+      "ufdName":["YoshiBombG.gif","YoshiBombFall.png"],
       "Startup": "7/27",
       "Total Frames": "77",
       "Landing Lag": "39",
@@ -191,7 +248,7 @@
       "Base Damage": "4.0 / 15.0 / 4.0",
       "Shieldlag": "5/10/3",
       "Shieldstun": "5/14/0",
-      "hitbox": "Rising/falling/star",
+      "Hitbox": "Rising/falling/star",
       "Advantage": "-32"
     },
     "Yoshi Bomb (air)": {
@@ -202,7 +259,7 @@
       "Base Damage": "12.0 / 4.0",
       "Shieldlag": "9/3",
       "Shieldstun": "11/0",
-      "hitbox": "falling/star",
+      "Hitbox": "falling/star",
       "Advantage": "-32"
     },
     "Grab": {

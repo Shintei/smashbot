@@ -1,5 +1,15 @@
 {
   "name": "54 - Palutena",
+  "uriComponent": "palutena",
+  "movePrefix": "Palutena",
+  "moveMappings": [
+    { "NeutralB": "Autoreticle" },
+    { "SideB": "Explosive Flame" },
+    { "UpB": "Warp" },
+    { "DownB": "Counter" },
+    { "DownBAttack": "Counter (attack)" },
+    { "Reflector": "Reflect Barrier" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "8",
@@ -9,7 +19,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "Rapid jab": {
@@ -29,10 +39,10 @@
       "Base Damage": "3.5",
       "Shieldlag": "11",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-32"
     },
-    "F-Tilt ": {
+    "F-Tilt": {
       "Startup": "14/24",
       "Total Frames": "59",
       "Landing Lag": "",
@@ -40,7 +50,7 @@
       "Base Damage": "6.0 / 7.0",
       "Shieldlag": "6/7",
       "Shieldstun": "6/7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28"
     },
     "U-Tilt": {
@@ -51,7 +61,7 @@
       "Base Damage": "1.4 / 4.5",
       "Shieldlag": "4/7",
       "Shieldstun": "3/5",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-26"
     },
     "D-Tilt": {
@@ -62,7 +72,7 @@
       "Base Damage": "8.5",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "Dash Attack": {
@@ -73,10 +83,10 @@
       "Base Damage": "11.0 / 7.0",
       "Shieldlag": "8/7",
       "Shieldstun": "10/7",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-21"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "18",
       "Total Frames": "63",
       "Landing Lag": "",
@@ -84,7 +94,7 @@
       "Base Damage": "16.0 / 13.0",
       "Shieldlag": "10/9",
       "Shieldstun": "11/9",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-34/-36"
     },
     "U-Smash": {
@@ -95,7 +105,7 @@
       "Base Damage": "16.0 / 9.0",
       "Shieldlag": "10/9",
       "Shieldstun": "11/8",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-34/-37"
     },
     "D-Smash": {
@@ -106,7 +116,7 @@
       "Base Damage": "15.0 / 13.0",
       "Shieldlag": "14/9",
       "Shieldstun": "10/9",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-41/-42"
     },
     "N-Air": {
@@ -117,7 +127,7 @@
       "Base Damage": "1.4 / 5.0",
       "Shieldlag": "4/9",
       "Shieldstun": "2/3",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-10/-9"
     },
     "F-Air": {
@@ -128,7 +138,7 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-3"
     },
     "B-Air": {
@@ -139,7 +149,7 @@
       "Base Damage": "12.0",
       "Shieldlag": "11",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5"
     },
     "U-Air": {
@@ -150,7 +160,7 @@
       "Base Damage": "1.0 / 5.0",
       "Shieldlag": "4/9",
       "Shieldstun": "2/3",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-12/-11"
     },
     "D-Air": {
@@ -161,10 +171,11 @@
       "Base Damage": "11.0",
       "Shieldlag": "13",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-7"
     },
     "Autoreticle": {
+      "ufdName":"Autoreticle.gif",
       "Startup": "24/30/36",
       "Total Frames": "67",
       "Landing Lag": "",
@@ -172,10 +183,11 @@
       "Base Damage": "3.5",
       "Shieldlag": "5",
       "Shieldstun": "2",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-24"
     },
     "Explosive Flame": {
+      "ufdName":"ExplosiveFlame.gif",
       "Startup": "28/33/38/43/48/53/57",
       "Total Frames": "71",
       "Landing Lag": "",
@@ -183,7 +195,7 @@
       "Base Damage": "1.5 / 5.5",
       "Shieldlag": "4/9",
       "Shieldstun": "-/3",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-2"
     },
     "Warp": {
@@ -193,19 +205,21 @@
       "Additional Notes": "Invulnerable on frame 16-32. Total frames refers to ending on the ground.\nCan grab ledges as early as frame 22"
     },
     "Counter": {
+      "ufdName":"Counter.gif",
       "Startup": "",
       "Total Frames": "70",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 6. Counters/reflects on frame 7-34"
     },
     "Counter (attack)": {
+      "ufdName":"CounterHit.gif",
       "Startup": "4",
       "Total Frames": "36",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 1-5 in addition to counter freeze frames"
     },
     "Reflect Barrier": {
-      "Startup": "",
+      "Startup": "ReflectBarrier.gif",
       "Total Frames": "34",
       "Landing Lag": "",
       "Additional Notes": "Barrier lasts until frame 40 for additional reflects."

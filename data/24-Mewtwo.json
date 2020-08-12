@@ -1,7 +1,16 @@
 {
-  "name": "24 - Mewtwo",
+  "name": "24 - Midtier",
+  "uriComponent": "mewtwo",
+  "movePrefix": "Mewtwo",
+  "moveMappings": [
+    { "NeutralB": "Shadow Ball (partial charge)" },
+    { "NeutralBCharged": "Shadow Ball (full charge)" },
+    { "SideB": "Confusion" },
+    { "UpB": "Teleport" },
+    { "DownB": "Disable" }
+  ],
   "moves": {
-    "Jab ": {
+    "Jab": {
       "Startup": "5",
       "Total Frames": "21",
       "Landing Lag": "",
@@ -9,7 +18,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "9",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "Rapid Jab": {
@@ -29,7 +38,7 @@
       "Base Damage": "2.5",
       "Shieldlag": "10",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-30"
     },
     "F-Tilt": {
@@ -40,7 +49,29 @@
       "Base Damage": "11.0 / 10.0 / 9.0",
       "Shieldlag": "10/8/7",
       "Shieldstun": "10/10/9",
-      "hitbox": "Close/med/far",
+      "Hitbox": "Close/med/far",
+      "Advantage": "-15/-15/-16"
+    },
+    "F-TiltUp": {
+      "Startup": "10",
+      "Total Frames": "35",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "11.0 / 10.0 / 9.0",
+      "Shieldlag": "10/8/7",
+      "Shieldstun": "10/10/9",
+      "Hitbox": "Close/med/far",
+      "Advantage": "-15/-15/-16"
+    },
+    "F-TiltDown": {
+      "Startup": "10",
+      "Total Frames": "35",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "11.0 / 10.0 / 9.0",
+      "Shieldlag": "10/8/7",
+      "Shieldstun": "10/10/9",
+      "Hitbox": "Close/med/far",
       "Advantage": "-15/-15/-16"
     },
     "U-Tilt": {
@@ -51,7 +82,7 @@
       "Base Damage": "7.0 / 6.0 / 5.5 /\n5.0 / 4.0",
       "Shieldlag": "7/6/6/\n6/5",
       "Shieldstun": "7/6/6/\n6/5",
-      "hitbox": "Early close/med/\nfar/Late med/far",
+      "Hitbox": "Early close/med/\nfar/Late med/far",
       "Advantage": "-14/-15/-15"
     },
     "D-Tilt": {
@@ -62,7 +93,7 @@
       "Base Damage": "5.0 / 4.5 / 4.0",
       "Shieldlag": "6/5/5",
       "Shieldstun": "6/5/5",
-      "hitbox": "Close/med/far",
+      "Hitbox": "Close/med/far",
       "Advantage": "-11/-12/-12"
     },
     "Dash Attack": {
@@ -73,7 +104,7 @@
       "Base Damage": "12.0 / 6.0",
       "Shieldlag": "11/8",
       "Shieldstun": "14/8",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-14"
     },
     "F-Smash": {
@@ -84,7 +115,29 @@
       "Base Damage": "16.0 / 20.0",
       "Shieldlag": "10/15",
       "Shieldstun": "11/13",
-      "hitbox": "Close/Far",
+      "Hitbox": "Close/Far",
+      "Advantage": "-20/-18"
+    },
+    "F-SmashUp": {
+      "Startup": "19",
+      "Total Frames": "52",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 12",
+      "Base Damage": "16.0 / 20.0",
+      "Shieldlag": "10/15",
+      "Shieldstun": "11/13",
+      "Hitbox": "Close/Far",
+      "Advantage": "-20/-18"
+    },
+    "F-SmashDown": {
+      "Startup": "19",
+      "Total Frames": "52",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 12",
+      "Base Damage": "16.0 / 20.0",
+      "Shieldlag": "10/15",
+      "Shieldstun": "11/13",
+      "Hitbox": "Close/Far",
       "Advantage": "-20/-18"
     },
     "U-Smash": {
@@ -95,7 +148,7 @@
       "Base Damage": "2.0 / 10.0",
       "Shieldlag": "4/8",
       "Shieldstun": "3/7",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-39"
     },
     "D-Smash": {
@@ -106,7 +159,7 @@
       "Base Damage": "16.0",
       "Shieldlag": "14",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-8 "
     },
     "N-Air": {
@@ -117,7 +170,7 @@
       "Base Damage": "1.6 / 4.0",
       "Shieldlag": "7/10",
       "Shieldstun": "2/3",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-8/-7"
     },
     "F-Air": {
@@ -128,7 +181,7 @@
       "Base Damage": "13.0",
       "Shieldlag": "9",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-3"
     },
     "B-Air": {
@@ -139,7 +192,7 @@
       "Base Damage": "13.0 / 12.0 / 11.0",
       "Shieldlag": "9/9/8",
       "Shieldstun": "5/5/4",
-      "hitbox": "Close/med/far",
+      "Hitbox": "Close/med/far",
       "Advantage": "-5/-5/-4"
     },
     "U-Air": {
@@ -150,7 +203,7 @@
       "Base Damage": "12.0 / 11.0 / 10.0",
       "Shieldlag": "9/8/8",
       "Shieldstun": "5/4/4",
-      "hitbox": "Close/med/far",
+      "Hitbox": "Close/med/far",
       "Advantage": "-3/-4/-4"
     },
     "D-Air": {
@@ -161,7 +214,7 @@
       "Base Damage": "14.0",
       "Shieldlag": "12",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
     "Shadow Ball (partial charge)": {
@@ -172,7 +225,7 @@
       "Base Damage": "4.0 - 24.9",
       "Shieldlag": "5-14",
       "Shieldstun": "2-7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16 to -2"
     },
     "Shadow Ball (full charge)": {
@@ -183,10 +236,11 @@
       "Base Damage": "25.0",
       "Shieldlag": "14",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-2 "
     },
     "Confusion": {
+      "ufdName":"Confusion.gif",
       "Startup": "10/20/22/24/26/28/30/32/38",
       "Total Frames": "38/42",
       "Landing Lag": "",
@@ -200,6 +254,7 @@
       "Additional Notes": "Total frames is if you end on the ground. Intangible from 9-19. Grabs ledges as early as frame 16"
     },
     "Disable": {
+      "ufdName":"Disable.gif",
       "Startup": "16",
       "Total Frames": "52",
       "Landing Lag": "",
@@ -207,7 +262,7 @@
       "Base Damage": "1.0",
       "Shieldlag": "4",
       "Shieldstun": "2",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-30"
     },
     "Grab": {

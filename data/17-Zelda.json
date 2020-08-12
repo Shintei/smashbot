@@ -1,7 +1,17 @@
 {
   "name": "17 - Zelda",
+  "uriComponent": "zelda",
+  "movePrefix": "Zelda",
+  "moveMappings": [
+    { "NeutralB": "Nayru's Love" },
+    { "SideB": "Din's Fire" },
+    { "UpB": "Farore's Wind" },
+    { "Teleport": "Farore's Wind" },
+    { "AirUpB": "Farore's Wind (air)" },
+    { "DownB": "Phantom Slash" }
+  ],
   "moves": {
-    "Jab ": {
+    "Jab": {
       "Startup": "4/7",
       "Total Frames": "24",
       "Landing Lag": "",
@@ -9,7 +19,7 @@
       "Base Damage": "2.5 / 2.5",
       "Shieldlag": "5/5",
       "Shieldstun": "-/4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Rapid Jab": {
@@ -29,7 +39,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "10",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-32"
     },
     "F-Tilt": {
@@ -40,7 +50,29 @@
       "Base Damage": "11.5 / 15.0",
       "Shieldlag": "9/10",
       "Shieldstun": "11/14",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
+      "Advantage": "-13/-10"
+    },
+    "F-TiltUp": {
+      "Startup": "12",
+      "Total Frames": "36",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "11.5 / 15.0",
+      "Shieldlag": "9/10",
+      "Shieldstun": "11/14",
+      "Hitbox": "close/far",
+      "Advantage": "-13/-10"
+    },
+    "F-TiltDown": {
+      "Startup": "12",
+      "Total Frames": "36",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "11.5 / 15.0",
+      "Shieldlag": "9/10",
+      "Shieldstun": "11/14",
+      "Hitbox": "close/far",
       "Advantage": "-13/-10"
     },
     "U-Tilt": {
@@ -51,7 +83,7 @@
       "Base Damage": "7.2",
       "Shieldlag": "7",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "D-Tilt": {
@@ -62,7 +94,7 @@
       "Base Damage": "5.5",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-10"
     },
     "Dash Attack": {
@@ -73,10 +105,10 @@
       "Base Damage": "12.0 / 6.0",
       "Shieldlag": "11/6",
       "Shieldstun": "11/6",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-18"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "16/18/20/22/24",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -84,7 +116,7 @@
       "Base Damage": "1.0 / 13.0",
       "Shieldlag": "4/9",
       "Shieldstun": "-/9",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-16"
     },
     "U-Smash": {
@@ -95,7 +127,7 @@
       "Base Damage": "2.0 / 0.8 / 5.0",
       "Shieldlag": "4/4/12",
       "Shieldstun": "3/2/4",
-      "hitbox": "first/multi/final",
+      "Hitbox": "first/multi/final",
       "Advantage": "-25"
     },
     "D-Smash": {
@@ -106,7 +138,7 @@
       "Base Damage": "12.0 / 10.0",
       "Shieldlag": "9/8",
       "Shieldstun": "8/7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-24/-17"
     },
     "N-Air": {
@@ -117,7 +149,7 @@
       "Base Damage": "2.5 / 5.0",
       "Shieldlag": "5/12",
       "Shieldstun": "2/3",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-10/-9"
     },
     "F-Air": {
@@ -128,7 +160,7 @@
       "Base Damage": "20.0 / 4.0",
       "Shieldlag": "16/5",
       "Shieldstun": "7/3",
-      "hitbox": "sweet/sour",
+      "Hitbox": "sweet/sour",
       "Advantage": "-8/-12"
     },
     "B-Air": {
@@ -139,7 +171,7 @@
       "Base Damage": "20.0 / 4.0",
       "Shieldlag": "16/5",
       "Shieldstun": "7/3",
-      "hitbox": "sweet/sour",
+      "Hitbox": "sweet/sour",
       "Advantage": "-8/-12"
     },
     "U-Air": {
@@ -150,7 +182,7 @@
       "Base Damage": "17.0 / 12.0",
       "Shieldlag": "11/8",
       "Shieldstun": "6/4",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-6/-8"
     },
     "D-Air": {
@@ -161,10 +193,11 @@
       "Base Damage": "16.0 / 4.0",
       "Shieldlag": "10/5",
       "Shieldstun": "6/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-6/-9"
     },
     "Nayru's Love": {
+      "ufdName":"NayrusLove.gif",
       "Startup": "11/15/19/26",
       "Total Frames": "57",
       "Landing Lag": "",
@@ -172,10 +205,11 @@
       "Base Damage": "2.0 / 5.0",
       "Shieldlag": "0/0",
       "Shieldstun": "3/6",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-25"
     },
     "Din's Fire": {
+      "ufdName":"DinsFire.png",
       "Startup": "44-70",
       "Total Frames": "69-97",
       "Landing Lag": "",
@@ -183,10 +217,11 @@
       "Base Damage": "3.5 - 14.0",
       "Shieldlag": "5-10",
       "Shieldstun": "2-5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-18 to -10"
     },
-    "Farore's Wind ": {
+    "Farore's Wind": {
+      "ufdName":"NFaroresWindG.gif",
       "Startup": "6/35",
       "Total Frames": "75",
       "Landing Lag": "30",
@@ -194,10 +229,11 @@
       "Base Damage": "6.0 / 10.0 / 7.0",
       "Shieldlag": "6/11/8",
       "Shieldstun": "6/10/7",
-      "hitbox": "first/sweet/sour",
+      "Hitbox": "first/sweet/sour",
       "Advantage": "-30/-33"
     },
     "Farore's Wind (air)": {
+      "ufdName":"NFaroresWindA.gif",
       "Startup": "6/35",
       "Total Frames": "75",
       "Landing Lag": "30",
@@ -205,9 +241,11 @@
       "Base Damage": "6.0 / 12.0 / 8.0",
       "Shieldlag": "6/12/9",
       "Shieldstun": "6/11/8",
-      "hitbox": "first/sweet/sour"
+      "Hitbox": "first/sweet/sour"
     },
     "Phantom Slash": {
+      "movePrefix":"",
+      "ufdName":["PhantomSwing3.gif","PhantomSwing2.gif","PhantomSwing1.gif","PhantomPunch.gif","PhantomKick.gif"],
       "Startup": "26/32/38/46/59-127",
       "Total Frames": "66/39",
       "Landing Lag": "",
@@ -215,7 +253,7 @@
       "Base Damage": "5.9 - 17.7",
       "Shieldlag": "6-11",
       "Shieldstun": "3-6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19 to -15"
     },
     "Grab": {

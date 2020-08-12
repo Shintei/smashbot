@@ -1,7 +1,29 @@
 {
   "name": "53 - Mii Gunner",
+  "uriComponent": "mii_gunner",
+  "movePrefix": "Sans",
+  "moveMappings": [
+    { "NeutralB": "Charge Blast" },
+    { "NeutralB1": "Charge Blast" },
+    { "NeutralB2": "Laser Blaze" },
+    { "NeutralB3": "Grenade Launch" },
+    { "SideB": "Flame Pillar" },
+    { "SideB1": "Flame Pillar" },
+    { "SideB2": "Stealth Burst" },
+    { "SideB3": "Gunner Missile (homing)" },
+    { "SideB3Smash": "Gunner Missile (super)" },
+    { "UpB": "Lunar Launch" },
+    { "UpB1": "Lunar Launch" },
+    { "UpB2": "Cannon Jump Kick" },
+    { "UpB3": "Arm Rocket" },
+    { "DownB": "Echo Reflector" },
+    { "DownB1": "Echo Reflector" },
+    { "Reflector": "Echo Reflector" },
+    { "DownB2": "Bomb Drop" },
+    { "DownB3": "Absorbing Vortex" }
+  ],
   "moves": {
-    "Jab 1": {
+    "Jab 1": {      
       "Startup": "5",
       "Total Frames": "25",
       "Landing Lag": "",
@@ -9,10 +31,10 @@
       "Base Damage": "1.7",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
-    "Jab 2": {
+    "Jab 2": {      
       "Startup": "4",
       "Total Frames": "25",
       "Landing Lag": "",
@@ -20,10 +42,10 @@
       "Base Damage": "1.8",
       "Shieldlag": "4",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-18"
     },
-    "Jab 3 ": {
+    "Jab 3 ": {      
       "Startup": "6/12",
       "Total Frames": "36",
       "Landing Lag": "",
@@ -31,10 +53,10 @@
       "Base Damage": "1.0 / 4.5",
       "Shieldlag": "3/6",
       "Shieldstun": "0/5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19"
     },
-    "F-Tilt ": {
+    "F-Tilt": {      
       "Startup": "7",
       "Total Frames": "33",
       "Landing Lag": "",
@@ -42,10 +64,10 @@
       "Base Damage": "13.0 / 10.5 / 8.0",
       "Shieldlag": "9/8/7",
       "Shieldstun": "12/10/8",
-      "hitbox": "Early/late/later",
+      "Hitbox": "Early/late/later",
       "Advantage": "-14"
     },
-    "U-Tilt": {
+    "U-Tilt": {      
       "Startup": "5",
       "Total Frames": "37",
       "Landing Lag": "",
@@ -53,10 +75,10 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-22"
     },
-    "D-Tilt": {
+    "D-Tilt": {      
       "Startup": "8",
       "Total Frames": "40",
       "Landing Lag": "",
@@ -64,10 +86,10 @@
       "Base Damage": "14.0",
       "Shieldlag": "10",
       "Shieldstun": "13",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19"
     },
-    "Dash Attack": {
+    "Dash Attack": {      
       "Startup": "10",
       "Total Frames": "45",
       "Landing Lag": "",
@@ -75,10 +97,10 @@
       "Base Damage": "11.0",
       "Shieldlag": "8",
       "Shieldstun": "15",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20"
     },
-    "F-Smash ": {
+    "F-Smash": {      
       "Startup": "17/21/25/29/33/37/40",
       "Total Frames": "77",
       "Landing Lag": "",
@@ -86,10 +108,10 @@
       "Base Damage": "1.8 / 7.5",
       "Shieldlag": "4/16",
       "Shieldstun": "3/6",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-31"
     },
-    "U-Smash": {
+    "U-Smash": {      
       "Startup": "11/15/19/23/27",
       "Total Frames": "55",
       "Landing Lag": "",
@@ -97,10 +119,10 @@
       "Base Damage": "3.0 / 2.5 / 7.0",
       "Shieldlag": "5/5/7",
       "Shieldstun": "3/3/6",
-      "hitbox": "First/multi/final",
+      "Hitbox": "First/multi/final",
       "Advantage": "-22"
     },
-    "D-Smash": {
+    "D-Smash": {      
       "Startup": "9/23",
       "Total Frames": "52",
       "Landing Lag": "",
@@ -108,10 +130,10 @@
       "Base Damage": "11.5 / 14.0",
       "Shieldlag": "9/10",
       "Shieldstun": "8/10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-35/-19"
     },
-    "N-Air": {
+    "N-Air": {      
       "Startup": "8",
       "Total Frames": "41",
       "Landing Lag": "11",
@@ -119,10 +141,10 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-7"
     },
-    "F-Air": {
+    "F-Air": {      
       "Startup": "12",
       "Total Frames": "43",
       "Landing Lag": "12",
@@ -130,10 +152,10 @@
       "Base Damage": "8.0 / 6.0",
       "Shieldlag": "7/6",
       "Shieldstun": "4/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-1"
     },
-    "B-Air": {
+    "B-Air": {      
       "Startup": "9",
       "Total Frames": "47",
       "Landing Lag": "11",
@@ -141,10 +163,10 @@
       "Base Damage": "13.0",
       "Shieldlag": "9",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
-    "U-Air": {
+    "U-Air": {      
       "Startup": "17/18/21/24/27/30/34",
       "Total Frames": "59",
       "Landing Lag": "13",
@@ -152,10 +174,10 @@
       "Base Damage": "1.8 / 4.0",
       "Shieldlag": "4/5",
       "Shieldstun": "2/3",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-11/-10"
     },
-    "D-Air": {
+    "D-Air": {      
       "Startup": "20",
       "Total Frames": "54",
       "Landing Lag": "17",
@@ -163,10 +185,10 @@
       "Base Damage": "15.0 / 10.0 / 12.0",
       "Shieldlag": "10/8/9",
       "Shieldstun": "5/4/5",
-      "hitbox": "Far/close/late",
+      "Hitbox": "Far/close/late",
       "Advantage": "-12/-13/-12"
     },
-    "Charge Blast": {
+    "Charge Blast": {      
       "Startup": "3 (+12)",
       "Total Frames": "39",
       "Landing Lag": "",
@@ -174,10 +196,10 @@
       "Base Damage": "4.0 - 26.0",
       "Shieldlag": "8-23",
       "Shieldstun": "2-8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26 to -5"
     },
-    "Laser Blaze": {
+    "Laser Blaze": {      
       "Startup": "10",
       "Total Frames": "42",
       "Landing Lag": "",
@@ -185,10 +207,12 @@
       "Base Damage": "5.0",
       "Shieldlag": "6",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-23"
     },
     "Grenade Launch": {
+      "movePrefix":"MiiGunner",
+      "ufdName":["GrenadeLauncherExplosion.png","GrenadeLauncher.png"],
       "Startup": "36",
       "Total Frames": "53",
       "Landing Lag": "",
@@ -196,10 +220,10 @@
       "Base Damage": "1.3 / 6.5",
       "Shieldlag": "4/6",
       "Shieldstun": "-/3",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "|+10|"
     },
-    "Flame Pillar": {
+    "Flame Pillar": {      
       "Startup": "21",
       "Total Frames": "63",
       "Landing Lag": "",
@@ -207,7 +231,7 @@
       "Base Damage": "2.2 / 2.7",
       "Shieldlag": "4",
       "Shieldstun": "2",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-36"
     },
     "Stealth Burst": {
@@ -218,10 +242,12 @@
       "Base Damage": "12.1 - 18.0",
       "Shieldlag": "9-11",
       "Shieldstun": "4-6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21 to -17"
     },
     "Gunner Missile (homing)": {
+      "movePrefix":"MiiGunner",
+      "ufdName":"MiiMissile.png",
       "Startup": "27",
       "Total Frames": "46",
       "Landing Lag": "",
@@ -229,10 +255,12 @@
       "Base Damage": "7.5",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-9"
     },
     "Gunner Missile (super)": {
+      "movePrefix":"MiiGunner",
+      "ufdName":"SuperMissile.png",
       "Startup": "23",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -240,7 +268,7 @@
       "Base Damage": "14.5",
       "Shieldlag": "10",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-11 "
     },
     "Lunar Launch": {
@@ -253,6 +281,7 @@
       "Shieldstun": "3"
     },
     "Cannon Jump Kick": {
+      "ufdName":"CannonJumpKick.gif",
       "Startup": "6/10",
       "Total Frames": "",
       "Landing Lag": "28",
@@ -260,7 +289,7 @@
       "Base Damage": "9.0 / 8.0 / 6.0",
       "Shieldlag": "16/15/13",
       "Shieldstun": "9/8/6",
-      "hitbox": "first/second/late"
+      "Hitbox": "first/second/late"
     },
     "Arm Rocket": {
       "Startup": "",
@@ -268,6 +297,7 @@
       "Landing Lag": "14"
     },
     "Echo Reflector": {
+      "ufdName":["EchoReflectorStart.gif","EchoReflector.gif"],
       "Startup": "3",
       "Total Frames": "38",
       "Landing Lag": "",
@@ -275,10 +305,12 @@
       "Base Damage": "2.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-32"
     },
     "Bomb Drop": {
+      "movePrefix":"MiiGunner",
+      "ufdName":["BombDrop.png","BombDropExplosion.png"],
       "Startup": "18-133",
       "Total Frames": "53",
       "Landing Lag": "",
@@ -286,10 +318,11 @@
       "Base Damage": "2.0 / 9.0",
       "Shieldlag": "4/7",
       "Shieldstun": "-/4",
-      "hitbox": "contact/explosion",
+      "Hitbox": "contact/explosion",
       "Advantage": "-18"
     },
     "Absorbing Vortex": {
+      "ufdName":"AbsorbingVortex.gif",
       "Startup": "7",
       "Total Frames": "27",
       "Landing Lag": "",
@@ -297,7 +330,7 @@
       "Base Damage": "4.0",
       "Shieldlag": "5",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-10"
     },
     "Grab": {

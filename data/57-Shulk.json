@@ -1,5 +1,17 @@
 {
   "name": "57 - Shulk",
+  "uriComponent": "shulk",
+  "movePrefix": "Shulk",
+  "moveMappings": [
+    { "NeutralB": "Monado Arts" },
+    { "SideB": "Back Slash" },
+    { "UpB": "Air Slash" },
+    { "UpB": "Air Slash 2" },
+    { "DownB": "Vision" },
+    { "DownBAttack": "Vision (activated)" },
+    { "Counter": "Vision" },
+    { "CounterAttack": "Vision (activated)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "5",
@@ -9,7 +21,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "6",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "Jab 2": {
@@ -20,7 +32,7 @@
       "Base Damage": "1.5",
       "Shieldlag": "4",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-25"
     },
     "Jab 3": {
@@ -31,10 +43,10 @@
       "Base Damage": "5.0 / 4.2",
       "Shieldlag": "12/11",
       "Shieldstun": "6/5",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-32"
     },
-    "F-Tilt ": {
+    "F-Tilt": {
       "Startup": "12",
       "Total Frames": "43",
       "Landing Lag": "",
@@ -42,7 +54,7 @@
       "Base Damage": "13.5 / 12.0",
       "Shieldlag": "9/9",
       "Shieldstun": "12/11",
-      "hitbox": "blade/beam",
+      "Hitbox": "blade/beam",
       "Advantage": "-19/-20"
     },
     "U-Tilt": {
@@ -53,7 +65,7 @@
       "Base Damage": "10.0 / 9.0",
       "Shieldlag": "8/7",
       "Shieldstun": "10/9",
-      "hitbox": "blade/beam",
+      "Hitbox": "blade/beam",
       "Advantage": "-18/-19"
     },
     "D-Tilt": {
@@ -64,7 +76,7 @@
       "Base Damage": "9.5 / 7.5",
       "Shieldlag": "8/7",
       "Shieldstun": "9/8",
-      "hitbox": "blade/beam",
+      "Hitbox": "blade/beam",
       "Advantage": "-12/-13"
     },
     "Dash Attack": {
@@ -75,10 +87,10 @@
       "Base Damage": "12.5 / 11.0",
       "Shieldlag": "9/8",
       "Shieldstun": "12/10",
-      "hitbox": "blade/beam",
+      "Hitbox": "blade/beam",
       "Advantage": "-16/-18"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "14/23",
       "Total Frames": "67",
       "Landing Lag": "",
@@ -86,7 +98,29 @@
       "Base Damage": "5.5 / 13.0 / 11.5",
       "Shieldlag": "9/16/15",
       "Shieldstun": "5/9/8",
-      "hitbox": "first/blade/beam",
+      "Hitbox": "first/blade/beam",
+      "Advantage": "-35/-36"
+    },
+    "F-SmashUp": {
+      "Startup": "14/23",
+      "Total Frames": "67",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 8",
+      "Base Damage": "5.5 / 13.0 / 11.5",
+      "Shieldlag": "9/16/15",
+      "Shieldstun": "5/9/8",
+      "Hitbox": "first/blade/beam",
+      "Advantage": "-35/-36"
+    },
+    "F-SmashDown": {
+      "Startup": "14/23",
+      "Total Frames": "67",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 8",
+      "Base Damage": "5.5 / 13.0 / 11.5",
+      "Shieldlag": "9/16/15",
+      "Shieldstun": "5/9/8",
+      "Hitbox": "first/blade/beam",
       "Advantage": "-35/-36"
     },
     "U-Smash": {
@@ -97,7 +131,7 @@
       "Base Damage": "4.5 / 13.5",
       "Shieldlag": "5/9",
       "Shieldstun": "4/9",
-      "hitbox": "first/second",
+      "Hitbox": "first/second",
       "Advantage": "-28"
     },
     "D-Smash": {
@@ -108,7 +142,7 @@
       "Base Damage": "14.0 / 11.0 / \n12.0 / 10.0 / \n10.0 / 8.0 / \n8.0 / 6.0 / \n6.0 / 4.0",
       "Shieldlag": "10/8\n9/8\n8/7\n7/6\n6/5",
       "Shieldstun": "-/8\n8/7\n7/6\n6/5\n5/4",
-      "hitbox": "1st blade/beam\n2nd blade/beam\n3rd blade/beam\n4th blade/beam\n5th blade/beam",
+      "Hitbox": "1st blade/beam\n2nd blade/beam\n3rd blade/beam\n4th blade/beam\n5th blade/beam",
       "Advantage": "-/-56\n-51/-52\n-47/-48\n-41/-42\n-36/-37"
     },
     "N-Air": {
@@ -119,7 +153,7 @@
       "Base Damage": "8.5 / 7.5",
       "Shieldlag": "7/7",
       "Shieldstun": "4/3",
-      "hitbox": "blade/beam",
+      "Hitbox": "blade/beam",
       "Advantage": "-2/-3"
     },
     "F-Air": {
@@ -130,7 +164,7 @@
       "Base Damage": "8.0 / 6.5",
       "Shieldlag": "7/6",
       "Shieldstun": "4/3",
-      "hitbox": "blade/beam",
+      "Hitbox": "blade/beam",
       "Advantage": "-6/-7"
     },
     "B-Air": {
@@ -141,7 +175,7 @@
       "Base Damage": "12.5 / 8.5",
       "Shieldlag": "9/7",
       "Shieldstun": "5/4",
-      "hitbox": "blade/beam",
+      "Hitbox": "blade/beam",
       "Advantage": "-6/-7"
     },
     "U-Air": {
@@ -152,7 +186,7 @@
       "Base Damage": "5.5 / 10.5 / 8.0",
       "Shieldlag": "7/10/9",
       "Shieldstun": "3/4/4",
-      "hitbox": "first/blade/beam",
+      "Hitbox": "first/blade/beam",
       "Advantage": "-6/-5/-5"
     },
     "D-Air": {
@@ -163,16 +197,19 @@
       "Base Damage": "7.5 / 11.5 / 10.5",
       "Shieldlag": "7/9/8",
       "Shieldstun": "3/5/4",
-      "hitbox": "first/blade/beam",
+      "Hitbox": "first/blade/beam",
       "Advantage": "-11/-9/-10"
     },
     "Monado Arts": {
+      "movePrefix":"",
+      "ufdName":["monado.png","monadodir.png"],
       "Startup": "",
       "Total Frames": "",
       "Landing Lag": "",
       "Additional Notes": "Takes 4 frames to activate an art upon selection.\n14 I-frames upon activating an Art. Activation animation cancellable on frame 10\nArts last for approx 6 seconds and with an 18 second individual cooldown"
     },
     "Back Slash": {
+      "ufdName":["BackSlashStart.gif","BackSlash.gif"],
       "Startup": "22",
       "Total Frames": "71",
       "Landing Lag": "40",
@@ -180,10 +217,11 @@
       "Base Damage": "10.0 / 9.0 / \n16.0 / 14.0",
       "Shieldlag": "8/7/\n15/14",
       "Shieldstun": "10/9/\n14/12",
-      "hitbox": "front blade/beam\nback blade/beam",
+      "Hitbox": "front blade/beam\nback blade/beam",
       "Advantage": "-29/-30\n-25/-27"
     },
     "Air Slash": {
+      "ufdName":"AirSlash1.gif",
       "Startup": "10",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -191,9 +229,10 @@
       "Base Damage": "6.0 / 5.0",
       "Shieldlag": "6/6",
       "Shieldstun": "6/6",
-      "hitbox": "Blade/Beam"
+      "Hitbox": "Blade/Beam"
     },
     "Air Slash 2": {
+      "ufdName":"AirSlash2.gif",
       "Startup": "9",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -203,12 +242,14 @@
       "Shieldstun": "6"
     },
     "Vision": {
+      "ufdName":"Vision.gif",
       "Startup": "",
       "Total Frames": "69",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 6. Counters on 7-41 when fresh."
     },
     "Vision (activated)": {
+      "ufdName":"VisionForward.gif",
       "Startup": "?",
       "Total Frames": "?"
     },

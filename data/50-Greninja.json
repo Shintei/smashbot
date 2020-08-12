@@ -1,5 +1,16 @@
 {
   "name": "50 - Greninja",
+  "uriComponent": "greninja",
+  "movePrefix": "Greninja",
+  "moveMappings": [
+    { "NeutralB": "Water Shuriken" },
+    { "SideB": "Shadow Sneak" },
+    { "UpB": "Hydro Pump" },
+    { "DownB": "Substitute" },
+    { "Counter": "Substitute" },
+    { "DownBAttack": "Substitute (attack)" },
+    { "CounterAttack": "Substitute (attack)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -9,7 +20,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "8",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "Jab 2": {
@@ -20,7 +31,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "Jab 3": {
@@ -31,7 +42,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "10",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26"
     },
     "Rapid jab": {
@@ -51,10 +62,10 @@
       "Base Damage": "2.0",
       "Shieldlag": "9",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-39"
     },
-    "F-Tilt ": {
+    "F-Tilt": {
       "Startup": "10",
       "Total Frames": "32",
       "Landing Lag": "",
@@ -62,7 +73,29 @@
       "Base Damage": "7.3 / 8.3",
       "Shieldlag": "7/7",
       "Shieldstun": "7/8",
-      "hitbox": "no angle/angled",
+      "Hitbox": "no angle/angled",
+      "Advantage": "-15/-14"
+    },
+    "F-TiltUp": {
+      "Startup": "10",
+      "Total Frames": "32",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.3 / 8.3",
+      "Shieldlag": "7/7",
+      "Shieldstun": "7/8",
+      "Hitbox": "no angle/angled",
+      "Advantage": "-15/-14"
+    },
+    "F-TiltDown": {
+      "Startup": "10",
+      "Total Frames": "32",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "7.3 / 8.3",
+      "Shieldlag": "7/7",
+      "Shieldstun": "7/8",
+      "Hitbox": "no angle/angled",
       "Advantage": "-15/-14"
     },
     "U-Tilt": {
@@ -73,7 +106,7 @@
       "Base Damage": "4.5",
       "Shieldlag": "5",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-18"
     },
     "D-Tilt": {
@@ -84,7 +117,7 @@
       "Base Damage": "4.0",
       "Shieldlag": "5",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "Dash Attack": {
@@ -95,10 +128,10 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "13",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -106,7 +139,7 @@
       "Base Damage": "14.0",
       "Shieldlag": "10",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26"
     },
     "U-Smash": {
@@ -117,7 +150,7 @@
       "Base Damage": "5.0 / 14.0 / 11.0",
       "Shieldlag": "8/14/8",
       "Shieldstun": "4/10/8",
-      "hitbox": "first/second/late",
+      "Hitbox": "first/second/late",
       "Advantage": "-23"
     },
     "D-Smash": {
@@ -128,7 +161,7 @@
       "Base Damage": "13.0 / 11.0",
       "Shieldlag": "9/?",
       "Shieldstun": "9/?",
-      "hitbox": "far/close",
+      "Hitbox": "far/close",
       "Advantage": "-29"
     },
     "N-Air": {
@@ -139,7 +172,7 @@
       "Base Damage": "11.0 / 6.0",
       "Shieldlag": "8/6",
       "Shieldstun": "4/3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-3/-4"
     },
     "F-Air": {
@@ -150,7 +183,7 @@
       "Base Damage": "14.0",
       "Shieldlag": "11",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
     "B-Air": {
@@ -161,7 +194,7 @@
       "Base Damage": "3.0 / 2.5 / 6.0",
       "Shieldlag": "5/5/13",
       "Shieldstun": "2/2/3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-8/-7"
     },
     "U-Air": {
@@ -172,7 +205,7 @@
       "Base Damage": "1.3 / 3.0",
       "Shieldlag": "4/13",
       "Shieldstun": "2/2",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-12/-12"
     },
     "D-Air": {
@@ -183,7 +216,7 @@
       "Base Damage": "8.0",
       "Shieldlag": "15",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "Water Shuriken": {
@@ -194,10 +227,11 @@
       "Base Damage": "3.0 - 10.8\n1.0 / 9.0",
       "Shieldlag": "5-8/4/11",
       "Shieldstun": "2-4/2/4",
-      "hitbox": "partial charge/\nfull charge",
+      "Hitbox": "partial charge/\nfull charge",
       "Advantage": "-18 to -13 \n"
     },
     "Shadow Sneak": {
+      "ufdName":["ShadowSneakF.gif","ShadowSneakB.gif"],
       "Startup": "24 (+5)",
       "Total Frames": "63",
       "Landing Lag": "",
@@ -205,7 +239,7 @@
       "Base Damage": "10.0 / 12.0",
       "Shieldlag": "10/12",
       "Shieldstun": "10/11",
-      "hitbox": "front/back kick",
+      "Hitbox": "front/back kick",
       "Advantage": "-29/-28"
     },
     "Hydro Pump": {
@@ -218,12 +252,14 @@
       "Shieldstun": "2"
     },
     "Substitute": {
+      "ufdName":"Substitute.gif",
       "Startup": "",
       "Total Frames": "69",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 7. Counters on frame 8-34"
     },
     "Substitute (attack)": {
+      "ufdName":"SubstituteHitSide.gif",
       "Startup": "19",
       "Total Frames": "63",
       "Landing Lag": "",
@@ -231,7 +267,7 @@
       "Base Damage": "11.0 / 13.0",
       "Shieldlag": "9/10",
       "Shieldstun": "11/12",
-      "hitbox": "side/up or down",
+      "Hitbox": "side/up or down",
       "Advantage": "-33/-32"
     },
     "Grab": {
@@ -334,6 +370,12 @@
       "Total Frames": "85",
       "Landing Lag": "11-19",
       "Additional Notes": "Invulnerability on frame 2-19"
+    },
+    "Down Taunt": {      
+      "Startup": "30",
+      "Total Frames": "79",
+      "Additional Notes": "Does not give aerial opponents hit stun",
+      "Base Damage": "0.5"
     }
   }
 }

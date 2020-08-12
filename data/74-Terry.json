@@ -1,5 +1,23 @@
 {
   "name": "74- Terry",
+  "uriComponent": "terry",
+  "movePrefix": "Terry",
+  "moveMappings": [
+    { "NeutralB": "Power Wave (weak/strong)" },
+    { "AirNeutralB": "Power Wave (air)" },
+    { "SideB": "Burning Knuckle (weak/strong)" },
+    { "CommandSideB": "Burning Knuckle (input) (weak/strong)" },
+    { "Burning Knuckle": "Burning Knuckle (input) (weak/strong)" },
+    { "BackB": "Crack Shoot" },
+    { "Cake Pop": "Crack Shoot" },
+    { "UpB": "Rising Tackle" },
+    { "CommandUpB": "Rising Tackle (hold charge)" },
+    { "UpBCharged": "Rising Tackle (hold charge)" },
+    { "DownB": "Power Dunk (weak | strong)" },
+    { "CommandDownB": "Power Dunk (weak | strong)" },
+    { "Power Dunk": "Power Dunk (weak | strong)" },
+    { "Are You Okay": "Buster Wolf" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -40,7 +58,7 @@
       "Base Damage": "12.0 / 13.0",
       "Shieldlag": "9/9",
       "Shieldstun": "11/12",
-      "hitbox": "close/far"
+      "Hitbox": "close/far"
     },
     "U-Tilt": {
       "Startup": "7",
@@ -52,7 +70,7 @@
       "Shieldlag": "10",
       "Shieldstun": "10"
     },
-    "D-Tilt ": {
+    "D-Tilt": {
       "Startup": "6",
       "Total Frames": "16",
       "Landing Lag": "",
@@ -71,9 +89,9 @@
       "Base Damage": "13.0 / 10.0",
       "Shieldlag": "10/10",
       "Shieldstun": "12/10",
-      "hitbox": "early/late"
+      "Hitbox": "early/late"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "18",
       "Total Frames": "50",
       "Landing Lag": "",
@@ -92,7 +110,7 @@
       "Base Damage": "16.0 / 18.0",
       "Shieldlag": "10/10",
       "Shieldstun": "11/12",
-      "hitbox": "early/late"
+      "Hitbox": "early/late"
     },
     "D-Smash": {
       "Startup": "8",
@@ -113,7 +131,7 @@
       "Base Damage": "7.0 / 5.0",
       "Shieldlag": "7/6",
       "Shieldstun": "3/3",
-      "hitbox": "early/late"
+      "Hitbox": "early/late"
     },
     "F-Air": {
       "Startup": "7",
@@ -124,7 +142,7 @@
       "Base Damage": "11.0 / 8.0 ",
       "Shieldlag": "8/7",
       "Shieldstun": "4/4",
-      "hitbox": "early/late"
+      "Hitbox": "early/late"
     },
     "B-Air": {
       "Startup": "11",
@@ -155,9 +173,10 @@
       "Base Damage": "17.0 / 15.0",
       "Shieldlag": "10/10",
       "Shieldstun": "6/6",
-      "hitbox": "close/far"
+      "Hitbox": "close/far"
     },
     "Power Wave (weak/strong)": {
+      "ufdName":["PowerWaveGWeak.gif","PowerWaveGStrong.gif"],
       "Startup": "18/21",
       "Total Frames": "49/52",
       "Landing Lag": "",
@@ -166,9 +185,10 @@
       "Base Damage": "8.0 / 9.0",
       "Shieldlag": "7/7",
       "Shieldstun": "3/4",
-      "hitbox": "weak/strong"
+      "Hitbox": "weak/strong"
     },
     "Power Wave (air)": {
+      "ufdName":["PowerWaveAWeak.gif","PowerWaveAStrong.gif"],
       "Startup": "18",
       "Total Frames": "49",
       "Landing Lag": "",
@@ -177,9 +197,10 @@
       "Base Damage": "10.0 / 11.0",
       "Shieldlag": "8/8",
       "Shieldstun": "4/4",
-      "hitbox": "weak/strong"
+      "Hitbox": "weak/strong"
     },
     "Burning Knuckle (weak/strong)": {
+      "ufdName":["BurningKnuckleGroundWeak.gif","BurningKnuckleGroundStrong.gif","BurningKnuckleAirWeak.gif","BurningKnuckleAirStrong.gif"],
       "Startup": "15/21",
       "Total Frames": "55/68",
       "Landing Lag": "",
@@ -188,9 +209,10 @@
       "Base Damage": "13.0 / 12.0\n14.0 / 12.0",
       "Shieldlag": "10/10\n12/10",
       "Shieldstun": "12/11\n13/11",
-      "hitbox": "weak early/late\nstrong early/late"
+      "Hitbox": "weak early/late\nstrong early/late"
     },
     "Burning Knuckle (input) (weak/strong)": {
+      "ufdName":["BurningKnuckleGroundWeakInput.gif","BurningKnuckleGroundStrongInput.gif","BurningKnuckleAirWeakInput.gif","BurningKnuckleAirStrongInput.gif"],
       "Startup": "15/21",
       "Total Frames": "55/68",
       "Landing Lag": "",
@@ -199,9 +221,10 @@
       "Base Damage": "16.0 / 14.0\n17.0 / 14.0",
       "Shieldlag": "12/11\n12/11",
       "Shieldstun": "14/13\n15/13",
-      "hitbox": "weak early/late\nstrong early/late"
+      "Hitbox": "weak early/late\nstrong early/late"
     },
     "Crack Shoot": {
+      "ufdName":["CrackShootWeak.gif","CrackShootStrong.gif"],
       "Startup": "13/21\n",
       "Total Frames": "46\n45 (air)",
       "Landing Lag": "",
@@ -210,9 +233,10 @@
       "Base Damage": "3.0 / 4.0 / 5.0\n6.0 / 8.0 / 10.0",
       "Shieldlag": "6/6/6\n9/10/11",
       "Shieldstun": "4/4/-\n6/8/10",
-      "hitbox": "first close/far/farthest\nsecond close/far/farthest"
+      "Hitbox": "first close/far/farthest\nsecond close/far/farthest"
     },
     "Rising Tackle": {
+      "ufdName":"RisingTackle.gif",
       "Startup": "10/12/15/20/25",
       "Total Frames": "",
       "Landing Lag": "15",
@@ -221,9 +245,10 @@
       "Base Damage": "4.0 / 0.3 / \n7.0 / 9.0",
       "Shieldlag": "5/4/\n14/14",
       "Shieldstun": "5/2/\n8/9",
-      "hitbox": "first/multi/\nfinal"
+      "Hitbox": "first/multi/\nfinal"
     },
     "Rising Tackle (hold charge)": {
+      "ufdName":"RisingTackleCharged.gif",
       "Startup": "10/12/14/16/19/21/24/29/34",
       "Total Frames": "",
       "Landing Lag": "15",
@@ -232,9 +257,10 @@
       "Base Damage": "4.5 / 0.3 / \n8.0 / 10.0",
       "Shieldlag": "5/4\n14/15",
       "Shieldstun": "5/2/\n8/10",
-      "hitbox": "first/multi/\nfinal"
+      "Hitbox": "first/multi/\nfinal"
     },
     "Power Dunk (weak | strong)": {
+      "ufdName":["PowerDunkRiseStrongInput.gif","PowerDunkSpike.gif"],
       "Startup": "6/9/29 | 6/9/35",
       "Total Frames": "54 | 65\n67 | 74 (air)",
       "Landing Lag": "20 | 24",
@@ -243,9 +269,10 @@
       "Base Damage": "1.0 / 2.0 /\n12.0 / 14.0",
       "Shieldlag": "4/4\n10/11",
       "Shieldstun": "2/3\n11/13",
-      "hitbox": "first/second\nDunk early/late"
+      "Hitbox": "first/second\nDunk early/late"
     },
     "Power Geyser": {
+      "ufdName":"PowerGeyser.gif",
       "Startup": "20",
       "Total Frames": "71",
       "Landing Lag": "",
@@ -254,9 +281,10 @@
       "Base Damage": "26.0 / 23.0 / 20.0",
       "Shieldlag": "15/14",
       "Shieldstun": "8/7",
-      "hitbox": "close/far/farther"
+      "Hitbox": "close/far/farther"
     },
     "Buster Wolf": {
+      "ufdName":["BusterWolf.gif","BusterWolfThrow.gif"],
       "Startup": " (+13) 1/16",
       "Total Frames": "65/64",
       "Landing Lag": "",
@@ -265,7 +293,7 @@
       "Base Damage": "5.0 / 20.0",
       "Shieldlag": "0",
       "Shieldstun": "7",
-      "hitbox": "punch/blast"
+      "Hitbox": "punch/blast"
     },
     "Grab": {
       "Startup": "6",

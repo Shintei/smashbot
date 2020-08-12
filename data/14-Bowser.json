@@ -1,5 +1,17 @@
 {
   "name": "14 - Bowser",
+  "uriComponent": "bowser",
+  "movePrefix": "Bowser",
+  "moveMappings": [
+    { "NeutralB": "Fire Breath" },
+    { "Fire": "Fire Breath" },
+    { "SideB": "Flying Slam" },
+    { "AirSideB": "Flying Slam (air)" },
+    { "UpB": "Whirling Fortress" },
+    { "AirUpB": "Whirling Fortress (air)" },
+    { "DownB": "Bowser Bomb" },
+    { "AirDownB": "Bowser Bomb (air)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "7",
@@ -9,7 +21,7 @@
       "Base Damage": "4.0",
       "Shieldlag": "8",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Jab 2": {
@@ -20,7 +32,7 @@
       "Base Damage": "7.0",
       "Shieldlag": "12",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-9"
     },
     "F-Tilt": {
@@ -31,7 +43,29 @@
       "Base Damage": "13.0",
       "Shieldlag": "9",
       "Shieldstun": "12",
-      "hitbox": "",
+      "Hitbox": "",
+      "Advantage": "-15"
+    },
+    "F-TiltUp": {
+      "Startup": "10",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "Damage based heavy armor on frame 7-9. Arm intangibility on frame 10-14",
+      "Base Damage": "13.0",
+      "Shieldlag": "9",
+      "Shieldstun": "12",
+      "Hitbox": "",
+      "Advantage": "-15"
+    },
+    "F-TiltDown": {
+      "Startup": "10",
+      "Total Frames": "37",
+      "Landing Lag": "",
+      "Additional Notes": "Damage based heavy armor on frame 7-9. Arm intangibility on frame 10-14",
+      "Base Damage": "13.0",
+      "Shieldlag": "9",
+      "Shieldstun": "12",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "U-Tilt": {
@@ -42,7 +76,7 @@
       "Base Damage": "11.0",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19"
     },
     "D-Tilt": {
@@ -53,7 +87,7 @@
       "Base Damage": "7.0 / 8.0",
       "Shieldlag": "7/7",
       "Shieldstun": "-/8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-22"
     },
     "Dash Attack": {
@@ -64,10 +98,10 @@
       "Base Damage": "12.0 / 10.0",
       "Shieldlag": "9/8",
       "Shieldstun": "11/10",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-33"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "22",
       "Total Frames": "69",
       "Landing Lag": "",
@@ -75,7 +109,7 @@
       "Base Damage": "23.0",
       "Shieldlag": "14",
       "Shieldstun": "15",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-32"
     },
     "U-Smash": {
@@ -86,7 +120,7 @@
       "Base Damage": "22.0 / 16.0 / 12.0",
       "Shieldlag": "13/10/9",
       "Shieldstun": "14/11/8",
-      "hitbox": "Sweet/sour/\nlanding hit",
+      "Hitbox": "Sweet/sour/\nlanding hit",
       "Advantage": "-27/-30/-12"
     },
     "D-Smash": {
@@ -97,7 +131,7 @@
       "Base Damage": "16.0 / 15.0",
       "Shieldlag": "10/10",
       "Shieldstun": "11/10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-48/-33"
     },
     "N-Air": {
@@ -108,7 +142,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "F-Air": {
@@ -119,7 +153,7 @@
       "Base Damage": "13.0 / 12.0",
       "Shieldlag": "9/8",
       "Shieldstun": "5/4",
-      "hitbox": "Far/close",
+      "Hitbox": "Far/close",
       "Advantage": "-9/-10"
     },
     "B-Air": {
@@ -130,7 +164,7 @@
       "Base Damage": "19.0",
       "Shieldlag": "12",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "U-Air": {
@@ -141,7 +175,7 @@
       "Base Damage": "15.0",
       "Shieldlag": "10",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "D-Air": {
@@ -152,7 +186,7 @@
       "Base Damage": "16.0 / 2.0",
       "Shieldlag": "10/4",
       "Shieldstun": "6/3",
-      "hitbox": "Normal/landing",
+      "Hitbox": "Normal/landing",
       "Advantage": "-30"
     },
     "Fire Breath": {
@@ -165,16 +199,21 @@
       "Shieldstun": "2"
     },
     "Flying Slam": {
+      "ufdName": ["FlyingSlamGrabG.gif","FlyingSlam.gif"],
       "Startup": "6",
       "Total Frames": "52",
       "Landing Lag": "",
       "Additional Notes": "40 frames endlag after a slam, but can be cancelled by landing on a platform.\n23 frames of invulnerability after a successful grab"
     },
     "Flying Slam (air)": {
+      "ufdName": ["FlyingSlamGrabA.gif","FlyingSlam.gif"],
       "Startup": "6",
-      "Total Frames": "52"
+      "Total Frames": "52",
+      "Landing Lag": "",
+      "Additional Notes": "40 frames endlag after a slam, but can be cancelled by landing on a platform.\n23 frames of invulnerability after a successful grab"
     },
     "Whirling Fortress": {
+      "ufdName": "WhirlingFortressG.gif",
       "Startup": "6/11/16/21/26/31/36/39",
       "Total Frames": "81",
       "Landing Lag": "",
@@ -182,20 +221,22 @@
       "Base Damage": "1.0 / 6.0",
       "Shieldlag": "4/6",
       "Shieldstun": "2/6",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-36"
     },
     "Whirling Fortress (air)": {
+      "ufdName": "WhirlingFortressA.gif",
       "Startup": "6/8/12/16/20/24/28/32/36/40/44/48",
       "Total Frames": "",
       "Landing Lag": "36",
-      "Additional Notes": "Will snap to ledges as early as frame 9",
+      "Additional Notes": "Will snap to ledges as early as frame 9. Can mash special button for more height",
       "Base Damage": "7.0 / 1.0 / 2.0",
       "Shieldlag": "7/3/6",
       "Shieldstun": "-/2/3",
-      "hitbox": "First/multi/final"
+      "Hitbox": "First/multi/final"
     },
     "Bowser Bomb": {
+      "ufdName": ["BowserBowserBombG.gif","BowserBombLanding.gif"],
       "Startup": "11/37",
       "Total Frames": "",
       "Landing Lag": "",
@@ -203,9 +244,10 @@
       "Base Damage": "4.0 / 20.0 / 11.0",
       "Shieldlag": "5/12/8",
       "Shieldstun": "5/18/-",
-      "hitbox": "Rise/fall/landing"
+      "Hitbox": "Rise/fall/landing"
     },
     "Bowser Bomb (air)": {
+      "ufdName":"BowserBombLanding.gif",
       "Startup": "31",
       "Total Frames": "",
       "Landing Lag": "55",
@@ -213,7 +255,7 @@
       "Base Damage": "20.0 / 11.0",
       "Shieldlag": "12/8",
       "Shieldstun": "18/-",
-      "hitbox": "Fall/landing"
+      "Hitbox": "Fall/landing"
     },
     "Grab": {
       "Startup": "8",

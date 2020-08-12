@@ -1,5 +1,14 @@
 {
   "name": "10 - Ness",
+  "uriComponent": "ness",
+  "movePrefix": "Ness",
+  "moveMappings": [
+    { "NeutralB": "PK Flash" },
+    { "SideB": "PK Fire" },
+    { "AirSideB": "PK Fire (air)" },
+    { "UpB": "PK Thunder 2" },
+    { "DownB": "PSI Magnet" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -9,7 +18,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "8",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Jab 2": {
@@ -20,7 +29,7 @@
       "Base Damage": "1.5",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Jab 3": {
@@ -31,7 +40,7 @@
       "Base Damage": "4.0",
       "Shieldlag": "11",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-18"
     },
     "F-Tilt": {
@@ -42,7 +51,29 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
+      "Advantage": "-17"
+    },
+    "F-TiltUp": {
+      "Startup": "7",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0",
+      "Shieldlag": "8",
+      "Shieldstun": "10",
+      "Hitbox": "",
+      "Advantage": "-17"
+    },
+    "F-TiltDown": {
+      "Startup": "7",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "10.0",
+      "Shieldlag": "8",
+      "Shieldstun": "10",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "U-Tilt": {
@@ -53,7 +84,7 @@
       "Base Damage": "7.0 / 5.0",
       "Shieldlag": "7/6",
       "Shieldstun": "7/6",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-16/-17"
     },
     "D-Tilt": {
@@ -64,7 +95,7 @@
       "Base Damage": "4.5 / 3.0",
       "Shieldlag": "5/5",
       "Shieldstun": "5/4",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-3/-4"
     },
     "Dash Attack": {
@@ -75,10 +106,10 @@
       "Base Damage": "4.0 / 2.0 / 4.0",
       "Shieldlag": "5/4/9",
       "Shieldstun": "5/3/5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "21",
       "Total Frames": "54",
       "Landing Lag": "",
@@ -86,7 +117,7 @@
       "Base Damage": "18.0 / 20.0 / 22.0",
       "Shieldlag": "11/12/15",
       "Shieldstun": "12/13/14",
-      "hitbox": "close/med/far",
+      "Hitbox": "close/med/far",
       "Advantage": "-21/-20/-19"
     },
     "U-Smash": {
@@ -97,7 +128,7 @@
       "Base Damage": "13.0",
       "Shieldlag": "4/9",
       "Shieldstun": "2/9",
-      "hitbox": "charging/launch",
+      "Hitbox": "charging/launch",
       "Advantage": "-33"
     },
     "D-Smash": {
@@ -108,7 +139,7 @@
       "Base Damage": "1.0 / 10.0",
       "Shieldlag": "4/8",
       "Shieldstun": "2/7",
-      "hitbox": "weak/strong",
+      "Hitbox": "weak/strong",
       "Advantage": "-21/-7"
     },
     "N-Air": {
@@ -119,7 +150,7 @@
       "Base Damage": "11.0 / 7.0",
       "Shieldlag": "8/7",
       "Shieldstun": "4/3",
-      "hitbox": "early/late",
+      "Hitbox": "early/late",
       "Advantage": "-4/-5"
     },
     "F-Air": {
@@ -130,7 +161,7 @@
       "Base Damage": "1.5 / 5.5",
       "Shieldlag": "4/9",
       "Shieldstun": "2/3",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-10/-9"
     },
     "B-Air": {
@@ -141,7 +172,7 @@
       "Base Damage": "15.0 / 8.0",
       "Shieldlag": "10/7",
       "Shieldstun": "5/4",
-      "hitbox": "early/late",
+      "Hitbox": "early/late",
       "Advantage": "-5/-6"
     },
     "U-Air": {
@@ -152,7 +183,7 @@
       "Base Damage": "2.5 / 5.0",
       "Shieldlag": "5/9",
       "Shieldstun": "2/3",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-6/-5"
     },
     "D-Air": {
@@ -163,9 +194,10 @@
       "Base Damage": "",
       "Shieldlag": "",
       "Shieldstun": "",
-      "hitbox": "early/late"
+      "Hitbox": "early/late"
     },
-    "PK Flash ": {
+    "PK Flash": {
+      "ufdName":"PKFlash.png",
       "Startup": "44-121",
       "Total Frames": "65-142",
       "Landing Lag": "",
@@ -173,10 +205,11 @@
       "Base Damage": "11.0 - 27.0",
       "Shieldlag": "13-17",
       "Shieldstun": "4-8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-4 to +4"
     },
     "PK Fire": {
+      "ufdName":"PKFireG.gif",
       "Startup": "18",
       "Total Frames": "55",
       "Landing Lag": "",
@@ -184,10 +217,11 @@
       "Base Damage": "1.0 / 1.0",
       "Shieldlag": "6",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28"
     },
     "PK Fire (air)": {
+      "ufdName":"PKFireA.gif",
       "Startup": "18",
       "Total Frames": "55",
       "Landing Lag": "12"
@@ -200,10 +234,11 @@
       "Base Damage": "11.0 / 1.0",
       "Shieldlag": "13/3",
       "Shieldstun": "4/0",
-      "hitbox": "direct/tail",
+      "Hitbox": "direct/tail",
       "Advantage": "-22"
     },
     "PK Thunder 2": {
+      "ufdName":"PKThunder2.gif",
       "Startup": "1",
       "Total Frames": "56",
       "Landing Lag": "24",
@@ -211,10 +246,11 @@
       "Base Damage": "25.0 / 21.0",
       "Shieldlag": "17/16",
       "Shieldstun": "22/18",
-      "hitbox": "early/late",
+      "Hitbox": "early/late",
       "Advantage": "-33"
     },
     "PSI Magnet": {
+      "ufdName":["PSIMagnet.gif","PSIMagnetEnd.gif"],
       "Startup": "7",
       "Total Frames": "24",
       "Landing Lag": "",
@@ -222,7 +258,7 @@
       "Base Damage": "4.0",
       "Shieldlag": "5",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "Grab": {

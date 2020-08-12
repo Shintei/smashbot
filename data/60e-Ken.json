@@ -1,7 +1,35 @@
 {
   "name": "60e - Ken",
+  "uriComponent": "ken",
+  "movePrefix": "Ken",
+  "moveMappings": [
+    { "ProximityJab": "Jab (Heavy,Close)" },
+    { "CloseJab": "Jab (Heavy,Close)" },
+    { "HeavyJab": "Jab (Heavy,Close)" },
+    { "FarHeavyJab": "Inazuma Kick" },
+    { "F-Tilt": "F-Tilt (light)" },
+    { "ProximityF-Tilt": "F-Tilt (light)" },
+    { "CloseF-Tilt": "F-Tilt (light)" },
+    { "FarF-Tilt": "F-Tilt (light)(far)" },
+    { "FarHeavyF-Tilt": "F-Tilt (heavy)" },
+    { "NeutralB": "Hadoken" },
+    { "Fireball": "Hadoken" },
+    { "SideB": "Tatsumaki Senpukyaku" },
+    { "AirSideB": "Tatsumaki Senpukyaku (air)" },
+    { "UpB": "True Flame Shoryuken" },
+    { "DownB": "Focus Attack (stage 3)" },
+    { "FocusAttack": "Focus Attack (stage 3)" }
+  ],
   "moves": {
-    "Jab 1 (light)": {
+    "Jab (Heavy,Close)":{
+      "ufdName":"JabProximity.gif",
+      "Startup": "7",
+      "Total Frames": "37",      
+      "Additional Notes": "Head, chest and arms invincible: frames 4-10.",
+      "Special cancel?": "yes",
+      "Base Damage": "12.0/8.0"
+    },
+    "Jab 1": {
       "Startup": "2",
       "Total Frames": "15",
       "Landing Lag": "",
@@ -31,17 +59,20 @@
       "Shieldlag": "9",
       "Shieldstun": "6"
     },
-    "Jab (Inazuma Kick)": {
+    "Inazuma Kick": {
+      "ufdName":"JabHeavy.gif",
       "Startup": "9/16",
       "Total Frames": "32",
       "Landing Lag": "",
       "Additional Notes": "",
       "Special cancel?": "no",
       "Base Damage": "6.0 / 10.0",
+      "Related Moves": "See Nata Otoshi Geri and Oosoto Mawashi Geri",
       "Shieldlag": "7/11",
       "Shieldstun": "6/10"
     },
-    "Nata Otoshi Geri\n(Inazuma followup)": {
+    "Nata Otoshi Geri": {
+      "ufdName":"NataOtoshiGeri.gif",
       "Startup": "12/15\n(12/20)",
       "Total Frames": "28\n(41)",
       "Landing Lag": "",
@@ -50,9 +81,10 @@
       "Base Damage": "5.0 / 5.0 /\n10.0",
       "Shieldlag": "9/9/11",
       "Shieldstun": "-/6/12",
-      "hitbox": "first/second/\ninazuma kick"
+      "Hitbox": "first/second/\ninazuma kick"
     },
-    "Oosoto Mawashi Geri\n(inazuma followup)": {
+    "Oosoto Mawashi Geri": {
+      "ufdName":"KenOosotoMawashiGeri.gif",
       "Startup": "9\n(9/17)",
       "Total Frames": "32\n(48)",
       "Landing Lag": "",
@@ -61,9 +93,10 @@
       "Base Damage": "12.0 / 12.0",
       "Shieldlag": "12/12",
       "Shieldstun": "11/14",
-      "hitbox": "normal/inazuma"
+      "Hitbox": "normal/inazuma"
     },
     "F-Tilt (light)": {
+      "ufdName":"FTiltProximity.gif",
       "Startup": "3",
       "Total Frames": "29",
       "Landing Lag": "",
@@ -73,7 +106,8 @@
       "Shieldlag": "9",
       "Shieldstun": "6"
     },
-    "F-Tilt (medium)": {
+    "F-Tilt (light)(far)": {
+      "ufdName":"FTiltLight.gif",
       "Startup": "8",
       "Total Frames": "23",
       "Landing Lag": "",
@@ -84,6 +118,7 @@
       "Shieldstun": "7"
     },
     "F-Tilt (heavy)": {
+      "ufdName":"FTiltHeavy.gif",
       "Startup": "10",
       "Total Frames": "34",
       "Landing Lag": "",
@@ -92,7 +127,7 @@
       "Base Damage": "5.0 / 10.0",
       "Shieldlag": "9/11",
       "Shieldstun": "6/10",
-      "hitbox": "close/far"
+      "Hitbox": "close/far"
     },
     "U-Tilt (light)": {
       "Startup": "3",
@@ -104,7 +139,7 @@
       "Shieldlag": "7",
       "Shieldstun": "3"
     },
-    "U-Tilt (medium)": {
+    "U-Tilt (heavy)": {
       "Startup": "7",
       "Total Frames": "37",
       "Landing Lag": "",
@@ -143,9 +178,9 @@
       "Base Damage": "12.0 / 8.0",
       "Shieldlag": "12/10",
       "Shieldstun": "11/8",
-      "hitbox": "early/late"
+      "Hitbox": "early/late"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "13",
       "Total Frames": "45",
       "Landing Lag": "",
@@ -154,7 +189,7 @@
       "Base Damage": "12.0 / 16.0",
       "Shieldlag": "9/15",
       "Shieldstun": "8/11",
-      "hitbox": "close/far"
+      "Hitbox": "close/far"
     },
     "U-Smash": {
       "Startup": "9",
@@ -165,7 +200,7 @@
       "Base Damage": "17.0 / 13.5",
       "Shieldlag": "16/13",
       "Shieldstun": "11/9",
-      "hitbox": "early/late"
+      "Hitbox": "early/late"
     },
     "D-Smash": {
       "Startup": "5",
@@ -186,7 +221,7 @@
       "Base Damage": "6.5 / 4.0",
       "Shieldlag": "8/6",
       "Shieldstun": "3/3",
-      "hitbox": "early/late"
+      "Hitbox": "early/late"
     },
     "F-Air": {
       "Startup": "8",
@@ -197,7 +232,7 @@
       "Base Damage": "9.0 / 14.0\n8.0 / 12.0",
       "Shieldlag": "10/14\n10/12",
       "Shieldstun": "4/5\n4/5",
-      "hitbox": "Early close/far\nLate close/far"
+      "Hitbox": "Early close/far\nLate close/far"
     },
     "B-Air": {
       "Startup": "8",
@@ -208,7 +243,7 @@
       "Base Damage": "16.0 / 13..0",
       "Shieldlag": "15/13",
       "Shieldstun": "6/5",
-      "hitbox": "close/far"
+      "Hitbox": "close/far"
     },
     "U-Air": {
       "Startup": "5",
@@ -239,9 +274,10 @@
       "Base Damage": "4.5 - 5.5 /\n5.6 - 6.8",
       "Shieldlag": "8-8\n9-9",
       "Shieldstun": "3-3\n3-3",
-      "hitbox": "Normal /\ntrue"
+      "Hitbox": "Normal /\ntrue"
     },
     "Tatsumaki Senpukyaku": {
+      "ufdName":"TatsumakiSenpukyakuWeakGrounded.gif",
       "Startup": "8/13 - 38",
       "Total Frames": "42-72",
       "Landing Lag": "",
@@ -250,9 +286,10 @@
       "Base Damage": "3.0 / 3.0\n3.4 / 3.4",
       "Shieldlag": "7/5\n8/5",
       "Shieldstun": "4/4\n4/4",
-      "hitbox": "normal early/late\ntrue early/late"
+      "Hitbox": "normal early/late\ntrue early/late"
     },
     "Tatsumaki Senpukyaku (air)": {
+      "ufdName":"TatsumakiSenpukyakuWeak.gif",
       "Startup": "8/13/18/23/\n28/33/38",
       "Total Frames": "77",
       "Landing Lag": "",
@@ -261,9 +298,10 @@
       "Base Damage": "3.0 / 2.0\n3.4 / 2.3",
       "Shieldlag": "7/4\n8/5",
       "Shieldstun": "4/3\n4/3",
-      "hitbox": "normal early/late\ntrue early/late"
+      "Hitbox": "normal early/late\ntrue early/late"
     },
     "Shoryuken": {
+      "ufdName":["ShoryukenMedium.gif","ShoryukenLight.gif"],
       "Startup": "6",
       "Total Frames": "",
       "Landing Lag": "12",
@@ -272,9 +310,10 @@
       "Base Damage": "13.0 / 7.0",
       "Shieldlag": "14/8",
       "Shieldstun": "12/7",
-      "hitbox": "early/late"
+      "Hitbox": "early/late"
     },
     "True Shoryuken": {
+      "ufdName":["ShoryukenMediumInput.gif","ShoryukenLightInput.gif"],
       "Startup": "6",
       "Total Frames": "",
       "Landing Lag": "8",
@@ -283,9 +322,10 @@
       "Base Damage": "15.6 / 8.4",
       "Shieldlag": "16/9",
       "Shieldstun": "14/8",
-      "hitbox": "early/late"
+      "Hitbox": "early/late"
     },
     "Flame Shoryuken": {
+      "ufdName":"ShoryukenHeavy.gif",
       "Startup": "5/6/9",
       "Total Frames": "",
       "Landing Lag": "18",
@@ -296,16 +336,19 @@
       "Shieldstun": "-/8/7"
     },
     "True Flame Shoryuken": {
+      "ufdName":"ShoryukenHeavyInput.gif",
       "Startup": "5/6/9",
       "Total Frames": "",
       "Landing Lag": "12",
       "Additional Notes": "Invulnerable on frame 4-6. Arm intangible on frame 1-14.\nCan grab ledges as early as frame 21",
       "Special cancel?": "",
+      "Related Moves":"See Shoryuken, Flame Shoryuken and True Shoryuken",
       "Base Damage": "2.6 / 9.6 / 7.8",
       "Shieldlag": "10/10/10",
       "Shieldstun": "-/9/8"
     },
     "Focus Attack (stage 1)": {
+      "ufdName":"FocusAttackLv1.gif",
       "Startup": "12 (+21)",
       "Total Frames": "55",
       "Landing Lag": "",
@@ -316,6 +359,7 @@
       "Shieldstun": "11"
     },
     "Focus Attack (stage 2)": {
+      "ufdName":"FocusAttackLv2.gif",
       "Startup": "12 (+31)",
       "Total Frames": "55",
       "Landing Lag": "",
@@ -326,6 +370,7 @@
       "Shieldstun": "10"
     },
     "Focus Attack (stage 3)": {
+      "ufdName":"FocusAttackLv3.gif",
       "Startup": "12 (+59)",
       "Total Frames": "55",
       "Landing Lag": "",

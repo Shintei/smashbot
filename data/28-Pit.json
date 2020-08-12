@@ -1,5 +1,16 @@
 {
-  "name": "28 - Pit/Dark Pit",
+  "name": "28 - Pit",
+  "uriComponent": "pit",
+  "movePrefix": "Pit",
+  "moveMappings": [
+    { "NeutralB": "Palutena's Bow" },
+    { "Arrow": "Palutena's Bow" },
+    { "SideB": "Uppderdash Arm" },
+    { "AirSideB": "Uppderdash Arm (air)" },
+    { "UpB": "Power of Flight" },
+    { "DownB": "Guardian Orbitars" },
+    { "Reflector": "Guardian Orbitars" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -9,7 +20,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-18"
     },
     "Jab 2": {
@@ -20,7 +31,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21"
     },
     "Jab 3": {
@@ -31,7 +42,7 @@
       "Base Damage": "4.0",
       "Shieldlag": "11",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-23"
     },
     "Rapid Jab": {
@@ -51,10 +62,10 @@
       "Base Damage": "2.0",
       "Shieldlag": "9",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-40"
     },
-    "F-Tilt ": {
+    "F-Tilt": {
       "Startup": "10",
       "Total Frames": "39",
       "Landing Lag": "",
@@ -62,7 +73,7 @@
       "Base Damage": "7.0 / 10.0",
       "Shieldlag": "7/10",
       "Shieldstun": "7/10",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-22/-19"
     },
     "U-Tilt": {
@@ -73,7 +84,7 @@
       "Base Damage": "4.0 / 5.0",
       "Shieldlag": "5/6",
       "Shieldstun": "5/6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21/-11"
     },
     "D-Tilt": {
@@ -84,7 +95,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Dash Attack": {
@@ -95,7 +106,7 @@
       "Base Damage": "11.0",
       "Shieldlag": "8",
       "Shieldstun": "14",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "F-Smash": {
@@ -106,7 +117,7 @@
       "Base Damage": "5.0 / 10.0",
       "Shieldlag": "6/8",
       "Shieldstun": "4/7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26"
     },
     "U-Smash": {
@@ -117,7 +128,7 @@
       "Base Damage": "3.0 / 2.0 / 8.0",
       "Shieldlag": "5/4/9",
       "Shieldstun": "3/3/6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-27"
     },
     "D-Smash": {
@@ -128,7 +139,7 @@
       "Base Damage": "12.0 / 10.0",
       "Shieldlag": "9/8",
       "Shieldstun": "8/7",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-27/-28/-14/-15"
     },
     "N-Air": {
@@ -139,7 +150,7 @@
       "Base Damage": "0.7 / 4.5",
       "Shieldlag": "4/10",
       "Shieldstun": "2/3",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-12/-11"
     },
     "F-Air": {
@@ -150,7 +161,7 @@
       "Base Damage": "2.5 / 6.0",
       "Shieldlag": "5/14",
       "Shieldstun": "2/3",
-      "hitbox": "Multi/Final",
+      "Hitbox": "Multi/Final",
       "Advantage": "-10/-9"
     },
     "B-Air": {
@@ -161,7 +172,7 @@
       "Base Damage": "8.0 / 12.0",
       "Shieldlag": "8/11",
       "Shieldstun": "4/5",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-4/-3"
     },
     "U-Air": {
@@ -172,7 +183,7 @@
       "Base Damage": "1.5 / 5.0",
       "Shieldlag": "4/11",
       "Shieldstun": "2/3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12/-11"
     },
     "D-Air": {
@@ -183,10 +194,11 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-10"
     },
-    "Palutena's Bow (Pit)": {
+    "Palutena's Bow": {
+      "ufdName":"PalutenasBowMinimum.gif",
       "Startup": "16-76",
       "Total Frames": "46-106",
       "Landing Lag": "",
@@ -194,21 +206,11 @@
       "Base Damage": "3.2 - 8.6",
       "Shieldlag": "5-7",
       "Shieldstun": "2-3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-23 to -20"
     },
-    "Silver Bow (Dark Pit)": {
-      "Startup": "16-76",
-      "Total Frames": "46-106",
-      "Landing Lag": "",
-      "Additional Notes": "Total frames reduced by 3 in the air.",
-      "Base Damage": "5.5 - 14.0",
-      "Shieldlag": "6-10",
-      "Shieldstun": "3-5",
-      "hitbox": "",
-      "Advantage": "-21 to -15"
-    },
-    "Upperdash Arm (Pit)": {
+    "Upperdash Arm": {
+      "ufdName":["UpperdashArmHitG.gif","UpperdashkArmG.gif"],
       "Startup": "18",
       "Total Frames": "79/49",
       "Landing Lag": "",
@@ -216,21 +218,11 @@
       "Base Damage": "11.0",
       "Shieldlag": "15",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-37"
     },
-    "Electroshock Arm (Dark Pit)": {
-      "Startup": "18",
-      "Total Frames": "79/49",
-      "Landing Lag": "",
-      "Additional Notes": "Startup is 2 upon reaching a target. 47 endlag on the swing.\nSuper Armor begins on frame 11 and ends on the frame he begins swing",
-      "Base Damage": "12.0",
-      "Shieldlag": "16",
-      "Shieldstun": "11",
-      "hitbox": "",
-      "Advantage": "-36"
-    },
-    "Uppderdash Arm (air) (Pit)": {
+    "Uppderdash Arm (air)": {
+      "ufdName":["UpperdashArmHitA.gif","UpperdashArmA.gif"],
       "Startup": "21",
       "Total Frames": "104/51",
       "Landing Lag": "30",
@@ -238,27 +230,18 @@
       "Base Damage": "9.0",
       "Shieldlag": "15",
       "Shieldstun": "9",
-      "hitbox": "",
-      "Advantage": "-40"
-    },
-    "Electroshock Arm (air) (Dark Pit)": {
-      "Startup": "21",
-      "Total Frames": "104/51",
-      "Landing Lag": "30",
-      "Additional Notes": "Startup is 2 upon reaching a target. 49 endlag on the swing if you don't land",
-      "Base Damage": "9.5",
-      "Shieldlag": "12",
-      "Shieldstun": "9",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-40"
     },
     "Power of Flight": {
+      "ufdName":"UpBLedge.png",
       "Startup": "",
       "Total Frames": "",
       "Landing Lag": "40",
       "Additional Notes": "invulnerable on frame 9-19, 15-19 in the air. Grabs ledges on frame 25"
     },
     "Guardian Orbitars": {
+      "ufdName":"GuardianOrbitars.gif",
       "Startup": "",
       "Total Frames": "39-124",
       "Landing Lag": "",

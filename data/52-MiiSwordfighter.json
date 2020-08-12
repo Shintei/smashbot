@@ -1,5 +1,32 @@
 {
   "name": "52 - Mii Swordfighter",
+  "uriComponent": "mii_swordfighter",
+  "movePrefix": "MiiSwordfighter",
+  "moveMappings": [
+    { "NeutralB": "Gale Strike" },
+    { "NeutralB1": "Gale Strike" },
+    { "Tornado": "Gale Strike" },
+    { "NeutralB2": "Shuriken of Light" },
+    { "NeutralB3": "Blurring Blade" },
+    { "SideB": "Airborne Assault" },
+    { "SideB1": "Airborne Assault" },
+    { "SideB2": "Gale Stab" },
+    { "SideB3": "Chakram" },
+    { "UpB": "Stone Scabbard" },
+    { "UpB1": "Stone Scabbard" },
+    { "UpB2": "Skyward Slash Dash" },
+    { "UpB3": "Hero's Spin" },
+    { "AirUpB3": "Hero's Spin (air)" },
+    { "DownB": "Blade Counter" },
+    { "DownBAttack": "Blade Counter (activated)" },
+    { "DownB1": "Blade Counter" },
+    { "DownB1Attack": "Blade Counter (activated)" },
+    { "Counter": "Blade Counter" },
+    { "CounterAttack": "Blade Counter (activated)" },
+    { "DownB2": "Reversal Slash" },
+    { "DownB3": "Power Thrust" },
+    { "AirDownB3": "Power Thrust (air)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "6",
@@ -9,7 +36,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-9"
     },
     "Jab 2": {
@@ -20,7 +47,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "6",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "Jab 3 ": {
@@ -31,10 +58,10 @@
       "Base Damage": "5.0",
       "Shieldlag": "12",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26"
     },
-    "F-Tilt ": {
+    "F-Tilt": {
       "Startup": "10",
       "Total Frames": "34",
       "Landing Lag": "",
@@ -42,7 +69,7 @@
       "Base Damage": "12.0",
       "Shieldlag": "9",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "U-Tilt": {
@@ -53,7 +80,7 @@
       "Base Damage": "7.0",
       "Shieldlag": "7",
       "Shieldstun": "7",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "D-Tilt": {
@@ -64,7 +91,7 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
     "Dash Attack": {
@@ -75,10 +102,10 @@
       "Base Damage": "10.0",
       "Shieldlag": "10",
       "Shieldstun": "14",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-18"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "15",
       "Total Frames": "59",
       "Landing Lag": "",
@@ -86,7 +113,7 @@
       "Base Damage": "14.0 / 15.0 / 16.0",
       "Shieldlag": "10/10/10",
       "Shieldstun": "10/10/11",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-34/-34/-33"
     },
     "U-Smash": {
@@ -97,7 +124,7 @@
       "Base Damage": "4.0 / 3.0 / 7.0",
       "Shieldlag": "5/7/14",
       "Shieldstun": "-/3/6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-32"
     },
     "D-Smash": {
@@ -108,18 +135,18 @@
       "Base Damage": "12.0 / 15.0",
       "Shieldlag": "9/10",
       "Shieldstun": "8/10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-38/-28"
     },
     "N-Air": {
-      "Startup": "10 ",
+      "Startup": "10",
       "Total Frames": "48",
       "Landing Lag": "9",
       "Additional Notes": "Autocancels on frame 1-5 and 32 onward",
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5"
     },
     "F-Air": {
@@ -130,7 +157,7 @@
       "Base Damage": "3.0 / 5.0",
       "Shieldlag": "5/12",
       "Shieldstun": "2/3",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-10/-9"
     },
     "B-Air": {
@@ -141,7 +168,7 @@
       "Base Damage": "14.0",
       "Shieldlag": "10",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-4"
     },
     "U-Air": {
@@ -152,10 +179,11 @@
       "Base Damage": "16.0 / 10.0",
       "Shieldlag": "10/8",
       "Shieldstun": "6/4",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-4/-6"
     },
     "D-Air": {
+      "ufdName":["DAir.gif","DAirLanding.gif"],
       "Startup": "14/19/24/29/34",
       "Total Frames": "58",
       "Landing Lag": "18",
@@ -163,10 +191,11 @@
       "Base Damage": "1.5 / 5.0",
       "Shieldlag": "4/6",
       "Shieldstun": "2/6",
-      "hitbox": "multi/landing",
+      "Hitbox": "multi/landing",
       "Advantage": "-11"
     },
     "Gale Strike": {
+      "ufdName":"GaleStrike.png",
       "Startup": "20",
       "Total Frames": "67",
       "Landing Lag": "",
@@ -174,7 +203,7 @@
       "Base Damage": "13.0 / 11.0 / 10.0",
       "Shieldlag": "9/8/8",
       "Shieldstun": "5/4/4",
-      "hitbox": "Early/late/later",
+      "Hitbox": "Early/late/later",
       "Advantage": "-33"
     },
     "Shuriken of Light": {
@@ -185,10 +214,11 @@
       "Base Damage": "2.0 / 3.5 / 5.0 / 6.5",
       "Shieldlag": "4/5/6/6",
       "Shieldstun": "2/2/3/3",
-      "hitbox": "Early/late/later/latest",
+      "Hitbox": "Early/late/later/latest",
       "Advantage": "-18"
     },
     "Blurring Blade": {
+      "ufdName":"BlurringBlade.gif",
       "Startup": "17/21/25/29/33/44",
       "Total Frames": "84",
       "Landing Lag": "",
@@ -196,10 +226,11 @@
       "Base Damage": "0.8 - 1.9 / 8.0-19.2",
       "Shieldlag": "4-4 / 11-15",
       "Shieldstun": "2-3 / 8-17",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-32 to -23"
     },
     "Airborne Assault": {
+      "ufdName":["AirborneAssault.gif","AirborneAssaultHit.gif"],
       "Startup": "2 (+25)",
       "Total Frames": "109",
       "Landing Lag": "",
@@ -207,10 +238,11 @@
       "Base Damage": "12.0",
       "Shieldlag": "12",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-41"
     },
     "Gale Stab": {
+      "ufdName":"GaleStabHit.gif",
       "Startup": "2 (+7)",
       "Total Frames": "55",
       "Landing Lag": "29",
@@ -218,10 +250,11 @@
       "Base Damage": "8.0 - 18.5",
       "Shieldlag": "7-12",
       "Shieldstun": "8-16",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-24 to -16"
     },
     "Chakram": {
+      "ufdName":"Chakram.png",
       "Startup": "18",
       "Total Frames": "52",
       "Landing Lag": "",
@@ -229,10 +262,11 @@
       "Base Damage": "1.1 / 8.0",
       "Shieldlag": "5/9",
       "Shieldstun": "2/3",
-      "hitbox": "weak/strong throw",
+      "Hitbox": "weak/strong throw",
       "Advantage": "-27/-20"
     },
     "Stone Scabbard": {
+      "ufdName":["StoneScabbard.gif","StoneScabbardLanding.gif"],
       "Startup": "13/42",
       "Total Frames": "",
       "Landing Lag": "44",
@@ -240,10 +274,11 @@
       "Base Damage": "4.0 / 3.0 / 5.0",
       "Shieldlag": "7/5/13",
       "Shieldstun": "5/4/6",
-      "hitbox": "Rising/Falling/landing",
+      "Hitbox": "Rising/Falling/landing",
       "Advantage": "-37 "
     },
     "Skyward Slash Dash": {
+      "ufdName":"SkywardSlashDash.gif",
       "Startup": "15/19/22/25/28/31/34",
       "Total Frames": "77",
       "Landing Lag": "20",
@@ -251,10 +286,11 @@
       "Base Damage": "2.2 / 3.0 / 4.0",
       "Shieldlag": "4/5/5",
       "Shieldstun": "3/4/5",
-      "hitbox": "First/multi/final",
+      "Hitbox": "First/multi/final",
       "Advantage": "-38"
     },
     "Hero's Spin": {
+      "ufdName":"HerosSpinG.gif",
       "Startup": "8",
       "Total Frames": "78",
       "Landing Lag": "",
@@ -262,10 +298,11 @@
       "Base Damage": "14.0 - 19.6",
       "Shieldlag": "10-12",
       "Shieldstun": "13-17",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-57 to -53"
     },
     "Hero's Spin (air)": {
+      "ufdName":"HerosSpinA.gif",
       "Startup": "8/16/22/31/47",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -273,21 +310,24 @@
       "Base Damage": "3.0 / 2.0 / 5.0",
       "Shieldlag": "5/4/12",
       "Shieldstun": "4/3/6",
-      "hitbox": "First/multi/final"
+      "Hitbox": "First/multi/final"
     },
     "Blade Counter": {
+      "ufdName":"BladeCounter.gif",
       "Startup": "",
       "Total Frames": "59",
       "Landing Lag": "",
       "Additional Notes": "Invulnerable on frame 5. Counters on frame 6-25"
     },
     "Blade Counter (activated)": {
+      "ufdName":["BladeCounterHit.gif","BladeCounterHitAerial.gif"],
       "Startup": "10",
       "Total Frames": "29",
       "Landing Lag": "",
       "Additional Notes": "Attacker placed in a unique stagger animation. Invulnerable \non frame 1-10 in addition to counter freeze frames."
     },
     "Reversal Slash": {
+      "ufdName":"ReversalSlash.gif",
       "Startup": "16",
       "Total Frames": "36",
       "Landing Lag": "",
@@ -295,10 +335,11 @@
       "Base Damage": "6.0",
       "Shieldlag": "7",
       "Shieldstun": "0",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Power Thrust": {
+      "ufdName":"PowerThrustG.gif",
       "Startup": "14",
       "Total Frames": "61",
       "Landing Lag": "",
@@ -306,10 +347,11 @@
       "Base Damage": "15.0 / 13.0 / 10.0",
       "Shieldlag": "10/9/8",
       "Shieldstun": "14/12/10",
-      "hitbox": "Early/late/later",
+      "Hitbox": "Early/late/later",
       "Advantage": "-33"
     },
     "Power Thrust (air)": {
+      "ufdName":["PowerThrustA.gif","PowerThrustALanding.gif"],
       "Startup": "16",
       "Total Frames": "60",
       "Landing Lag": "39",
@@ -317,7 +359,7 @@
       "Base Damage": "13.0 / 7.0",
       "Shieldlag": "9/10",
       "Shieldstun": "12/7",
-      "hitbox": "falling/landing",
+      "Hitbox": "falling/landing",
       "Advantage": "-31"
     },
     "Grab": {

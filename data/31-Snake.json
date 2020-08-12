@@ -1,5 +1,14 @@
 {
   "name": "31 - Snake",
+  "uriComponent": "snake",
+  "movePrefix": "Snake",
+  "moveMappings": [
+    { "NeutralB": "Hand Grenade" },
+    { "SideB": "Remote Missile" },
+    { "UpB": "Cypher" },
+    { "DownB": "C4 (detonation)" },
+    { "Sticky": "C4 (Sticky)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "3",
@@ -9,7 +18,7 @@
       "Base Damage": "2.5",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-8"
     },
     "Jab 2": {
@@ -20,7 +29,7 @@
       "Base Damage": "2.5",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "Jab 3": {
@@ -31,7 +40,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "11",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-32"
     },
     "F-Tilt 1": {
@@ -42,7 +51,7 @@
       "Base Damage": "4.0",
       "Shieldlag": "9",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-22"
     },
     "F-Tilt 2": {
@@ -53,7 +62,7 @@
       "Base Damage": "9.0 / 10.0 / 11.0",
       "Shieldlag": "7/7/8",
       "Shieldstun": "9/9/10",
-      "hitbox": "close/far/farther",
+      "Hitbox": "close/far/farther",
       "Advantage": "-22/-22/-21"
     },
     "U-Tilt": {
@@ -64,7 +73,7 @@
       "Base Damage": "14.5 / 13.5",
       "Shieldlag": "10/9",
       "Shieldstun": "13/12",
-      "hitbox": "early/late",
+      "Hitbox": "early/late",
       "Advantage": "-18"
     },
     "D-Tilt": {
@@ -75,7 +84,7 @@
       "Base Damage": "12.0",
       "Shieldlag": "9",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Dash Attack": {
@@ -86,7 +95,7 @@
       "Base Damage": "11.0 / 8.0",
       "Shieldlag": "8/7",
       "Shieldstun": "10/8",
-      "hitbox": "early/late",
+      "Hitbox": "early/late",
       "Advantage": "-26"
     },
     "F-Smash": {
@@ -97,10 +106,11 @@
       "Base Damage": "22.0",
       "Shieldlag": "13",
       "Shieldstun": "14",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-18"
     },
     "U-Smash": {
+      "ufdName":["USmash.gif","USmashExplosion.png","USmashSearch.png"],
       "Startup": "11/35",
       "Total Frames": "54",
       "Landing Lag": "",
@@ -108,7 +118,7 @@
       "Base Damage": "4.0 / 14.0",
       "Shieldlag": "5/10",
       "Shieldstun": "4/10",
-      "hitbox": "initial/projectile",
+      "Hitbox": "initial/projectile",
       "Advantage": "-39/ |+1|"
     },
     "D-Smash": {
@@ -119,7 +129,7 @@
       "Base Damage": "12.0 / 14.0",
       "Shieldlag": "9/10",
       "Shieldstun": "8/10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28/-14"
     },
     "N-Air": {
@@ -130,7 +140,7 @@
       "Base Damage": "3.0 / 12.0",
       "Shieldlag": "5/9",
       "Shieldstun": "2/5",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-14/-11"
     },
     "F-Air": {
@@ -141,7 +151,7 @@
       "Base Damage": "14.0 / 15.0",
       "Shieldlag": "10/10",
       "Shieldstun": "5/5",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-14/-14"
     },
     "B-Air": {
@@ -152,7 +162,7 @@
       "Base Damage": "16.0 / 14.0\n10.0 / 9.0",
       "Shieldlag": "10/10/\n8/7",
       "Shieldstun": "6/5\n4/4",
-      "hitbox": "Early far/close\nLate far/close",
+      "Hitbox": "Early far/close\nLate far/close",
       "Advantage": "-13/-14/\n-15/-15"
     },
     "U-Air": {
@@ -163,7 +173,7 @@
       "Base Damage": "14.0 / 10.0",
       "Shieldlag": "10/8",
       "Shieldstun": "5/4",
-      "hitbox": "Far/close",
+      "Hitbox": "Far/close",
       "Advantage": "-10/-11"
     },
     "D-Air": {
@@ -174,16 +184,18 @@
       "Base Damage": "4.0 / 3.0 / 10.0",
       "Shieldlag": "5/5/8",
       "Shieldstun": "3/2/4",
-      "hitbox": "first/multi/final",
+      "Hitbox": "first/multi/final",
       "Advantage": "-17/-18/-16"
     },
     "Hand Grenade": {
+      "ufdName":["Grenade.png","GrenadeBurst.gif"],
       "Startup": "",
       "Total Frames": "21",
       "Landing Lag": "",
       "Additional Notes": "Pull Pin animation takes 21 frames before you can throw or shield/dodge. \nGrenades explode on roughly frame 150. Explosive generates on frame 1."
     },
     "Hand Grenade (neutral throw)": {
+      "ufdName":["Grenade.png","GrenadeBurst.gif"],
       "Startup": "8",
       "Total Frames": "27",
       "Landing Lag": "",
@@ -191,29 +203,33 @@
       "Base Damage": "2.0 - 3.1 / 8.9 - 9.9",
       "Shieldlag": "5/8",
       "Shieldstun": "2/4",
-      "hitbox": "collide/explosion"
+      "Hitbox": "collide/explosion"
     },
     "Hand Grenade (smash throw)": {
+      "ufdName":["Grenade.png","GrenadeBurst.gif"],
       "Startup": "10",
       "Total Frames": "31",
       "Landing Lag": "",
       "Additional Notes": "",
-      "Base Damage": "^",
-      "Shieldlag": "^",
-      "Shieldstun": "^",
-      "hitbox": "^"
+      "Base Damage": "2.0 - 3.1 / 8.9 - 9.9",
+      "Shieldlag": "5/8",
+      "Shieldstun": "2/4",
+      "Hitbox": "collide/explosion"
     },
     "Hand Grenade (underhand throw)": {
+      "ufdName":["Grenade.png","GrenadeBurst.gif"],
       "Startup": "9",
       "Total Frames": "25",
       "Landing Lag": "",
       "Additional Notes": "",
-      "Base Damage": "^",
-      "Shieldlag": "^",
-      "Shieldstun": "^",
-      "hitbox": "^"
+      "Base Damage": "2.0 - 3.1 / 8.9 - 9.9",
+      "Shieldlag": "5/8",
+      "Shieldstun": "2/4",
+      "Hitbox": "collide/explosion"
     },
     "Remote Missile": {
+      "movePrefix":"",
+      "ufdName":["Nikita Explosion (Weak).png","Nikita Explosion (Strong).png","Nikita Hurtbox (Weak).png","NikitaSearch.png"],
       "Startup": "41",
       "Total Frames": "",
       "Landing Lag": "",
@@ -221,10 +237,11 @@
       "Base Damage": "7.0 / 14.0",
       "Shieldlag": "7/10",
       "Shieldstun": "3/5",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-19/-14"
     },
     "Cypher": {
+      "ufdName":"Cypher.png",
       "Startup": "",
       "Total Frames": "",
       "Landing Lag": "",
@@ -234,30 +251,35 @@
       "Shieldstun": "3"
     },
     "C4 (Sticky)": {
+      "ufdName":"C4.png",
       "Startup": "9",
       "Total Frames": "24"
     },
     "C4 (Air Sticky)": {
+      "ufdName":"C4.png",
       "Startup": "9",
       "Total Frames": "32"
     },
     "C4 (plant on the ground)": {
+      "ufdName":"C4.png",
       "Startup": "14",
       "Total Frames": "33"
     },
     "C4 (air drop)": {
+      "ufdName":"C4.png",
       "Startup": "16",
       "Total Frames": "32"
     },
     "C4 (detonation)": {
+      "ufdName":"C4 Explosion (Snake for Scale).png",
       "Startup": "26",
       "Total Frames": "32",
       "Landing Lag": "",
-      "Additional Notes": "",
+      "Additional Notes": "Snake in image for scale",
       "Base Damage": "17.0",
       "Shieldlag": "11/11",
       "Shieldstun": "15/6",
-      "hitbox": "sticky/non sticky",
+      "Hitbox": "sticky/non sticky",
       "Advantage": "|+20|/|+11|"
     },
     "Grab": {

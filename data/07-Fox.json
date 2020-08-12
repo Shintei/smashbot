@@ -1,5 +1,16 @@
 {
   "name": "07 - Fox",
+  "uriComponent": "fox",
+  "movePrefix": "Fox",
+  "moveMappings": [
+    { "NeutralB": "Blaster" },
+    { "Laser": "Blaster" },
+    { "SideB": "Fox Illusion" },
+    { "AirSideB": "Fox Illusion (air)" },
+    { "UpB": "Fire Fox" },
+    { "DownB": "Reflector" },
+    { "Shine": "Reflector" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "2",
@@ -9,7 +20,7 @@
       "Base Damage": "1.8",
       "Shieldlag": "8",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12"
     },
     "Jab 2": {
@@ -20,7 +31,7 @@
       "Base Damage": "1.0",
       "Shieldlag": "5",
       "Shieldstun": "2",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "Rapid Jab": {
@@ -40,7 +51,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "14",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-32"
     },
     "F-Tilt": {
@@ -51,7 +62,29 @@
       "Base Damage": "6.0 / 7.0",
       "Shieldlag": "6/7",
       "Shieldstun": "6/7",
-      "hitbox": "no angle/angled",
+      "Hitbox": "no angle/angled",
+      "Advantage": "-11/-10"
+    },
+    "F-TiltUp": {
+      "Startup": "6",
+      "Total Frames": "23",
+      "Landing Lag": "",
+      "Additional Notes": "Deals 1.0 more damage when angled.",
+      "Base Damage": "6.0 / 7.0",
+      "Shieldlag": "6/7",
+      "Shieldstun": "6/7",
+      "Hitbox": "no angle/angled",
+      "Advantage": "-11/-10"
+    },
+    "F-TiltDown": {
+      "Startup": "6",
+      "Total Frames": "23",
+      "Landing Lag": "",
+      "Additional Notes": "Deals 1.0 more damage when angled.",
+      "Base Damage": "6.0 / 7.0",
+      "Shieldlag": "6/7",
+      "Shieldstun": "6/7",
+      "Hitbox": "no angle/angled",
       "Advantage": "-11/-10"
     },
     "U-Tilt": {
@@ -62,7 +95,7 @@
       "Base Damage": "6.0 / 8.0",
       "Shieldlag": "6/7",
       "Shieldstun": "6/8",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-18/-16"
     },
     "D-Tilt": {
@@ -73,7 +106,7 @@
       "Base Damage": "8.0 / 7.0",
       "Shieldlag": "7/7",
       "Shieldstun": "8/7",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-12/-13"
     },
     "Dash Attack": {
@@ -84,10 +117,10 @@
       "Base Damage": "6.0 / 4.0",
       "Shieldlag": "7/6",
       "Shieldstun": "10/7",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-17"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "13",
       "Total Frames": "45",
       "Landing Lag": "",
@@ -95,7 +128,7 @@
       "Base Damage": "14.0",
       "Shieldlag": "10",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-22"
     },
     "U-Smash": {
@@ -106,7 +139,7 @@
       "Base Damage": "16.0 / 11.0",
       "Shieldlag": "10/8",
       "Shieldstun": "11/8",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-36"
     },
     "D-Smash": {
@@ -117,7 +150,7 @@
       "Base Damage": "14.0",
       "Shieldlag": "10",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-36"
     },
     "N-Air": {
@@ -128,7 +161,7 @@
       "Base Damage": "9.0 / 6.0",
       "Shieldlag": "7/6",
       "Shieldstun": "4/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-3/-4"
     },
     "F-Air": {
@@ -139,7 +172,7 @@
       "Base Damage": "1.8 / 1.2 / 1.7\n2.7 / 4.8 / 2.0",
       "Shieldlag": "4/4/4/5/12/\n9",
       "Shieldstun": "2/2/2/2/3/3",
-      "hitbox": "Last one is \nlanding hitbox",
+      "Hitbox": "Last one is \nlanding hitbox",
       "Advantage": "-14"
     },
     "B-Air": {
@@ -150,7 +183,7 @@
       "Base Damage": "13.0",
       "Shieldlag": "9",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-4"
     },
     "U-Air": {
@@ -161,7 +194,7 @@
       "Base Damage": "5.0 / 10.0",
       "Shieldlag": "6/8",
       "Shieldstun": "3/4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-10/-9"
     },
     "D-Air": {
@@ -172,10 +205,11 @@
       "Base Damage": "1.4 / 3.0 / 1.0",
       "Shieldlag": "4/10/8",
       "Shieldstun": "2/2/2",
-      "hitbox": "multi/final/landing",
+      "Hitbox": "multi/final/landing",
       "Advantage": "-14"
     },
-    "Blaster (ground/air)": {
+    "Blaster": {
+      "ufdName":"Blaster.gif",
       "Startup": "11/9",
       "Total Frames": "36/34",
       "Landing Lag": "",
@@ -183,10 +217,11 @@
       "Base Damage": "3.0 / 2.0 / 1.4",
       "Shieldlag": "5/4/4",
       "Shieldstun": "2/2/2",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-18/-19/-19"
     },
-    "Fox Illusion ": {
+    "Fox Illusion": {
+      "ufdName":"FoxIllusion.png",
       "Startup": "25",
       "Total Frames": "55",
       "Landing Lag": "",
@@ -194,10 +229,11 @@
       "Base Damage": "8.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20"
     },
     "Fox Illusion (air)": {
+      "ufdName":"FoxIllusion.png",
       "Startup": "25",
       "Total Frames": "72",
       "Landing Lag": "16",
@@ -205,10 +241,11 @@
       "Base Damage": "5.0",
       "Shieldlag": "6",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-28"
     },
     "Fire Fox": {
+      "ufdName":"FireFox.gif",
       "Startup": "20/22/24/26/28/30/32/43",
       "Total Frames": "91",
       "Landing Lag": "20",
@@ -216,10 +253,11 @@
       "Base Damage": "1.7 / 16.0",
       "Shieldlag": "4/10",
       "Shieldstun": "3/14",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-34"
     },
     "Reflector": {
+      "ufdName":["ReflectorStart.gif","Reflector.gif"],
       "Startup": "3",
       "Total Frames": "36",
       "Landing Lag": "",
@@ -227,7 +265,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-30"
     },
     "Grab": {

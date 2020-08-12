@@ -2,6 +2,12 @@
   "name": "73 - Banjo & Kazooie",
   "uriComponent": "banjo_and_kazooie",
   "movePrefix": "Banjo_Kazooie",
+  "moveMappings": [
+    { "NeutralB": "Egg Firing" },
+    { "SideB": "Wonderwing" },
+    { "UpB": "Shock Spring Jump" },
+    { "DownB": "Rear Egg" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -11,7 +17,7 @@
       "Base Damage": "2.2",
       "Shieldlag": "8",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20"
     },
     "Jab 2": {
@@ -22,7 +28,7 @@
       "Base Damage": "2.2",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "Jab 3": {
@@ -33,7 +39,7 @@
       "Base Damage": "3.8",
       "Shieldlag": "10",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21"
     },
     "Rapid Jab": {
@@ -53,7 +59,7 @@
       "Base Damage": "1.6",
       "Shieldlag": "9",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-31"
     },
     "F-Tilt": {
@@ -64,7 +70,29 @@
       "Base Damage": "9.0 / 7.0",
       "Shieldlag": "8/7",
       "Shieldstun": "9/7",
-      "hitbox": "far/close",
+      "Hitbox": "far/close",
+      "Advantage": "-12/-14"
+    },
+    "F-TiltUp": {
+      "Startup": "7",
+      "Total Frames": "28",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "9.0 / 7.0",
+      "Shieldlag": "8/7",
+      "Shieldstun": "9/7",
+      "Hitbox": "far/close",
+      "Advantage": "-12/-14"
+    },
+    "F-TiltDown": {
+      "Startup": "7",
+      "Total Frames": "28",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "9.0 / 7.0",
+      "Shieldlag": "8/7",
+      "Shieldstun": "9/7",
+      "Hitbox": "far/close",
       "Advantage": "-12/-14"
     },
     "U-Tilt": {
@@ -75,10 +103,10 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-10"
     },
-    "D-Tilt ": {
+    "D-Tilt": {
       "Startup": "12",
       "Total Frames": "37",
       "Landing Lag": "",
@@ -86,7 +114,7 @@
       "Base Damage": "6.0 / 5.0 / 4.0",
       "Shieldlag": "7/6/6",
       "Shieldstun": "6/6/5",
-      "hitbox": "far/close/late",
+      "Hitbox": "far/close/late",
       "Advantage": "-19/-19"
     },
     "Dash Attack": {
@@ -97,10 +125,10 @@
       "Base Damage": "12.0 / 8.0",
       "Shieldlag": "10/7",
       "Shieldstun": "11/8",
-      "hitbox": "early/late",
+      "Hitbox": "early/late",
       "Advantage": "-16"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "19",
       "Total Frames": "52",
       "Landing Lag": "",
@@ -108,7 +136,7 @@
       "Base Damage": "16.0",
       "Shieldlag": "12",
       "Shieldstun": "11",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-22"
     },
     "U-Smash": {
@@ -119,7 +147,7 @@
       "Base Damage": "1.0 / 1.5 / 3.6",
       "Shieldlag": "4/4/10",
       "Shieldstun": "2/-/4",
-      "hitbox": "first/multi/final",
+      "Hitbox": "first/multi/final",
       "Advantage": "-35"
     },
     "D-Smash": {
@@ -130,7 +158,7 @@
       "Base Damage": "15.0",
       "Shieldlag": "10",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-23"
     },
     "N-Air": {
@@ -141,7 +169,7 @@
       "Base Damage": "0.8 / 4.2",
       "Shieldlag": "4/10",
       "Shieldstun": "2/3",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-14/-13"
     },
     "F-Air": {
@@ -152,7 +180,7 @@
       "Base Damage": "15.0 / 12.0",
       "Shieldlag": "13/10",
       "Shieldstun": "5/5",
-      "hitbox": "Early/late ",
+      "Hitbox": "Early/late ",
       "Advantage": "-6/-6"
     },
     "B-Air": {
@@ -163,7 +191,7 @@
       "Base Damage": "1.6 / 4.8",
       "Shieldlag": "4/6",
       "Shieldstun": "2/3",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-16/-15"
     },
     "U-Air": {
@@ -174,7 +202,7 @@
       "Base Damage": "1.6 / 5.8",
       "Shieldlag": "4/6",
       "Shieldstun": "2/3",
-      "hitbox": "first/second",
+      "Hitbox": "first/second",
       "Advantage": "-10/-9"
     },
     "D-Air": {
@@ -185,21 +213,23 @@
       "Base Damage": "10.0 / 2.0",
       "Shieldlag": "8/4",
       "Shieldstun": "4/3",
-      "hitbox": "falling/landing",
+      "Hitbox": "falling/landing",
       "Advantage": "-23"
-    },
-    "Egg Firing": {
+    },    
+    "Egg Firing": {     
+      "ufdName": "EggFiring.png", 
       "Startup": "13",
       "Total Frames": "49",
       "Landing Lag": "",
-      "Additional Notes": "Transitions to Blaster on frame 20.",
+      "Additional Notes": "Transitions to Breegull Blaster on frame 20.",
       "Base Damage": "5.4 / 4.6 / 3.8",
       "Shieldlag": "6/6/5",
       "Shieldstun": "3/3/2",
-      "hitbox": "early/late/latest",
+      "Hitbox": "early/late/latest",
       "Advantage": "-27"
     },
     "Breegull Blaster": {
+      "ufdName": "BreegullBlaster1-6.png",
       "Startup": "4 (+28)",
       "Total Frames": "24",
       "Landing Lag": "",
@@ -207,10 +237,11 @@
       "Base Damage": "2.4 - 0.8",
       "Shieldlag": "5-4",
       "Shieldstun": "2-2",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13 to -14"
     },
     "Wonderwing": {
+      "ufdName": "Wonderwing.gif",
       "Startup": "18",
       "Total Frames": "82",
       "Landing Lag": "",
@@ -218,10 +249,11 @@
       "Base Damage": "22.0 / 16.0",
       "Shieldlag": "16/11",
       "Shieldstun": "10/5",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-54"
     },
     "Shock Spring Jump": {
+      "ufdName": "ShockSpringJump.gif",
       "Startup": "15",
       "Total Frames": "42",
       "Landing Lag": "",
@@ -229,10 +261,11 @@
       "Base Damage": "3.0",
       "Shieldlag": "5",
       "Shieldstun": "2",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20"
     },
     "Rear Egg": {
+      "ufdName": "RearEggExplode.png",
       "Startup": "10",
       "Total Frames": "44",
       "Landing Lag": "",
@@ -240,7 +273,7 @@
       "Base Damage": "0.5 / 8.5",
       "Shieldlag": "-/7",
       "Shieldstun": "-/3",
-      "hitbox": "contact/explosion",
+      "Hitbox": "contact/explosion",
       "Advantage": "-23"
     },
     "Grab": {

@@ -1,5 +1,14 @@
 {
   "name": "70 - Piranha Plant",
+  "uriComponent": "piranha_plant",
+  "movePrefix": "PiranhaPlant",
+  "moveMappings": [
+    { "NeutralB": "Ptooie" },
+    { "SideB": "Poison Breath" },
+    { "SideBCharged": "Poison Breath (full charge)" },
+    { "UpB": "Piranhacopter" },
+    { "DownB": "Long-Stem Strike" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "2",
@@ -9,7 +18,7 @@
       "Base Damage": "2.4",
       "Shieldlag": "10",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-14"
     },
     "Jab 2": {
@@ -20,7 +29,7 @@
       "Base Damage": "2.2",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "Jab 3": {
@@ -31,7 +40,7 @@
       "Base Damage": "4.4",
       "Shieldlag": "10",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "Rapid Jab": {
@@ -51,10 +60,11 @@
       "Base Damage": "3.4",
       "Shieldlag": "15",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-29"
     },
     "F-Tilt": {
+      "ufdName":"FTilt1.gif",
       "Startup": "7",
       "Total Frames": "27",
       "Landing Lag": "",
@@ -62,7 +72,7 @@
       "Base Damage": "5.5",
       "Shieldlag": "8",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-14"
     },
     "F-Tilt 2": {
@@ -73,7 +83,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "9",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-20"
     },
     "U-Tilt": {
@@ -84,10 +94,10 @@
       "Base Damage": "9.0 / 7.0",
       "Shieldlag": "7/7",
       "Shieldstun": "9/7",
-      "hitbox": "head/body",
+      "Hitbox": "head/body",
       "Advantage": "-11/-13"
     },
-    "D-Tilt ": {
+    "D-Tilt": {
       "Startup": "9",
       "Total Frames": "28",
       "Landing Lag": "",
@@ -95,7 +105,7 @@
       "Base Damage": "6.0 / 7.0",
       "Shieldlag": "6/7",
       "Shieldstun": "6/7",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-13/-12"
     },
     "Dash Attack": {
@@ -106,10 +116,10 @@
       "Base Damage": "10.0 / 7.0",
       "Shieldlag": "8/7",
       "Shieldstun": "12/9",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-28"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "16",
       "Total Frames": "51",
       "Landing Lag": "",
@@ -117,7 +127,7 @@
       "Base Damage": "15.0 / 19.0",
       "Shieldlag": "10/13",
       "Shieldstun": "10/13",
-      "hitbox": "Close/far",
+      "Hitbox": "Close/far",
       "Advantage": "-25/-22"
     },
     "U-Smash": {
@@ -128,7 +138,7 @@
       "Base Damage": "3.0 / 12.0",
       "Shieldlag": "5/10",
       "Shieldstun": "3/8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-27"
     },
     "D-Smash": {
@@ -139,7 +149,7 @@
       "Base Damage": "12.0 / 14.0",
       "Shieldlag": "9/10",
       "Shieldstun": "8/10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-25/-19"
     },
     "N-Air": {
@@ -150,7 +160,7 @@
       "Base Damage": "2.0 / 3.0",
       "Shieldlag": "4/9",
       "Shieldstun": "2/2",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-13/-13"
     },
     "F-Air": {
@@ -161,7 +171,7 @@
       "Base Damage": "9.0 / 11.0",
       "Shieldlag": "7/8",
       "Shieldstun": "4/4",
-      "hitbox": "close/far",
+      "Hitbox": "close/far",
       "Advantage": "-9/-9"
     },
     "B-Air": {
@@ -172,7 +182,7 @@
       "Base Damage": "14.5",
       "Shieldlag": "10",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-11"
     },
     "U-Air": {
@@ -183,7 +193,7 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
     "D-Air": {
@@ -194,10 +204,11 @@
       "Base Damage": "11.0 / 9.0",
       "Shieldlag": "8/7",
       "Shieldstun": "4/4",
-      "hitbox": "early/late",
+      "Hitbox": "early/late",
       "Advantage": "-14/-14"
     },
     "Ptooie": {
+      "ufdName":"Ptooie.gif",
       "Startup": "9",
       "Total Frames": "",
       "Landing Lag": "",
@@ -205,19 +216,22 @@
       "Base Damage": "14.0 / 18.0\n15.3",
       "Shieldlag": "12/14/12",
       "Shieldstun": "13/6/5",
-      "hitbox": "initial/blown away/\nafter bounce",
+      "Hitbox": "initial/blown away/\nafter bounce",
       "Advantage": "|+7|/ ?"
     },
     "Poison Breath": {
+      "ufdName":"PoisonBreathMin.gif",
       "Startup": "11 (+10)",
       "Total Frames": "35",
       "Landing Lag": "",
       "Additional Notes": "10 frames to enter charge state, 13 startup from charge. Lasts about ~110 frames at no charge",
       "Base Damage": "",
       "Shieldlag": "0",
-      "Shieldstun": "3"
+      "Shieldstun": "3",
+      "Related Moves":"See Poison Breath (full charge)"
     },
     "Poison Breath (full charge)": {
+      "ufdName":"PoisonBreathMax.gif",
       "Startup": "21",
       "Total Frames": "45",
       "Landing Lag": "",
@@ -227,6 +241,7 @@
       "Shieldstun": "3"
     },
     "Piranhacopter": {
+      "ufdName":"Piranhacopter.gif",
       "Startup": "13/16/22/28/34/\n40/46/52/58/64",
       "Total Frames": "",
       "Landing Lag": "20",
@@ -234,9 +249,10 @@
       "Base Damage": "1.2 / 4.0",
       "Shieldlag": "4/",
       "Shieldstun": "2/",
-      "hitbox": "mutli/final"
+      "Hitbox": "mutli/final"
     },
     "Long-Stem Strike": {
+      "ufdName":"Long-StemStrike.gif",
       "Startup": "2 (+18)",
       "Total Frames": "39/44 \n(on-hit endlag)\n64-115/120\n(total frames)",
       "Landing Lag": "",
@@ -244,7 +260,7 @@
       "Base Damage": "8.4 - 26.0",
       "Shieldlag": "7-17",
       "Shieldstun": "8-22",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-31 to -17\n(-5 more when \ntipped over)"
     },
     "Footstool attack": {

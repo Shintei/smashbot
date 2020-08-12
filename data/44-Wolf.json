@@ -1,5 +1,15 @@
 {
   "name": "44 - Wolf",
+  "uriComponent": "wolf",
+  "movePrefix": "Wolf",
+  "moveMappings": [
+    { "NeutralB": "Blaster" },
+    { "Laser": "Blaster" },
+    { "SideB": "Wolf Flash" },
+    { "Wolf Illusion": "Wolf Flash" },
+    { "UpB": "Fire Wolf" },
+    { "DownB": "Reflector" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "4",
@@ -9,7 +19,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "7",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-14"
     },
     "Jab 2": {
@@ -20,7 +30,7 @@
       "Base Damage": "2.0",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-17"
     },
     "Jab 3": {
@@ -31,10 +41,10 @@
       "Base Damage": "4.0",
       "Shieldlag": "11",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-25"
     },
-    "F-Tilt ": {
+    "F-Tilt": {
       "Startup": "8/9",
       "Total Frames": "34",
       "Landing Lag": "",
@@ -42,7 +52,29 @@
       "Base Damage": "5.0 / 6.0",
       "Shieldlag": "11/6",
       "Shieldstun": "-/6",
-      "hitbox": "",
+      "Hitbox": "",
+      "Advantage": "-19"
+    },
+    "F-TiltUp": {
+      "Startup": "8/9",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "5.0 / 6.0",
+      "Shieldlag": "11/6",
+      "Shieldstun": "-/6",
+      "Hitbox": "",
+      "Advantage": "-19"
+    },
+    "F-TiltDown": {
+      "Startup": "8/9",
+      "Total Frames": "34",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "5.0 / 6.0",
+      "Shieldlag": "11/6",
+      "Shieldstun": "-/6",
+      "Hitbox": "",
       "Advantage": "-19"
     },
     "U-Tilt": {
@@ -53,7 +85,7 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-18"
     },
     "D-Tilt": {
@@ -64,7 +96,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-16"
     },
     "Dash Attack": {
@@ -75,10 +107,10 @@
       "Base Damage": "11.0 / 8.0",
       "Shieldlag": "8/7",
       "Shieldstun": "10/8",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-16"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "20",
       "Total Frames": "41",
       "Landing Lag": "",
@@ -86,7 +118,7 @@
       "Base Damage": "15.0",
       "Shieldlag": "10",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-11"
     },
     "U-Smash": {
@@ -97,7 +129,7 @@
       "Base Damage": "6.0 / 12.0",
       "Shieldlag": "6/9",
       "Shieldstun": "5/8",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-29/-19"
     },
     "D-Smash": {
@@ -108,7 +140,7 @@
       "Base Damage": "14.0 / 16.0\n12.0 / 14.0",
       "Shieldlag": "10/10/9/10",
       "Shieldstun": "10/11/8/10",
-      "hitbox": "First close/far\nSecond close/far",
+      "Hitbox": "First close/far\nSecond close/far",
       "Advantage": "-19/-18/-14/-12"
     },
     "N-Air": {
@@ -119,7 +151,7 @@
       "Base Damage": "12.0 / 8.0",
       "Shieldlag": "9/7",
       "Shieldstun": "5/4",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-4/-5"
     },
     "F-Air": {
@@ -130,7 +162,7 @@
       "Base Damage": "9.0",
       "Shieldlag": "7",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-6"
     },
     "B-Air": {
@@ -141,7 +173,7 @@
       "Base Damage": "15.0 / 11.0",
       "Shieldlag": "10/8",
       "Shieldstun": "5/4",
-      "hitbox": "Far/close",
+      "Hitbox": "Far/close",
       "Advantage": "-10/-11"
     },
     "U-Air": {
@@ -152,7 +184,7 @@
       "Base Damage": "12.0",
       "Shieldlag": "9",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5"
     },
     "D-Air": {
@@ -163,10 +195,11 @@
       "Base Damage": "15.0 / 13.0",
       "Shieldlag": "10/9",
       "Shieldstun": "5/5",
-      "hitbox": "Far/close",
+      "Hitbox": "Far/close",
       "Advantage": "-14/-14"
     },
     "Blaster": {
+      "ufdName":"Blaster.gif",
       "Startup": "15/16",
       "Total Frames": "52",
       "Landing Lag": "",
@@ -174,10 +207,11 @@
       "Base Damage": "7.0 / 6.0",
       "Shieldlag": "10/9",
       "Shieldstun": "-/3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-24"
     },
     "Wolf Flash": {
+      "ufdName":"WolfFlash.gif",
       "Startup": "18",
       "Total Frames": "",
       "Landing Lag": "29",
@@ -185,9 +219,10 @@
       "Base Damage": "15.0 / 3.0",
       "Shieldlag": "18/5",
       "Shieldstun": "18/2",
-      "hitbox": "Sweet/sourspot"
+      "Hitbox": "Sweet/sourspot"
     },
     "Fire Wolf": {
+      "ufdName":"FireWolf.gif",
       "Startup": "18/27/29/31/36",
       "Total Frames": "66",
       "Landing Lag": "36",
@@ -195,10 +230,11 @@
       "Base Damage": "4.0 / 2.5 / 5.0",
       "Shieldlag": "5/5/15",
       "Shieldstun": "5/-/6",
-      "hitbox": "First/Multi/final",
+      "Hitbox": "First/Multi/final",
       "Advantage": "-24"
     },
     "Reflector": {
+      "ufdName":["ReflectorStart.gif","Reflector.gif"],
       "Startup": "6",
       "Total Frames": "30",
       "Landing Lag": "",
@@ -206,7 +242,7 @@
       "Base Damage": "4.0",
       "Shieldlag": "8",
       "Shieldstun": "5",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-19"
     },
     "Grab": {

@@ -1,5 +1,15 @@
 {
   "name": "06 - Kirby",
+  "uriComponent": "kirby",
+  "movePrefix": "Kirby",
+  "moveMappings": [
+    { "NeutralB": "Inhale" },
+    { "SideB": "Hammer Flip (full charge)" },
+    { "AirSideB": "Hammer Flip (air, no charge)" },
+    { "UpB": "Final Cutter" },
+    { "DownB": "Stone" },
+    { "AirDownB": "Stone (air)" }
+  ],
   "moves": {
     "Jab 1": {
       "Startup": "2",
@@ -9,7 +19,7 @@
       "Base Damage": "1.7",
       "Shieldlag": "8",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-9"
     },
     "Jab 2": {
@@ -20,7 +30,7 @@
       "Base Damage": "1.6",
       "Shieldlag": "5",
       "Shieldstun": "3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-9"
     },
     "Rapid Jab": {
@@ -40,7 +50,7 @@
       "Base Damage": "3.0",
       "Shieldlag": "15",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-32"
     },
     "F-Tilt": {
@@ -51,7 +61,29 @@
       "Base Damage": "8.0 / 7.0",
       "Shieldlag": "7/7",
       "Shieldstun": "8/7",
-      "hitbox": "Close/Far",
+      "Hitbox": "Close/Far",
+      "Advantage": "-14/-15"
+    },
+    "F-TiltUp": {
+      "Startup": "5",
+      "Total Frames": "23",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0 / 7.0",
+      "Shieldlag": "7/7",
+      "Shieldstun": "8/7",
+      "Hitbox": "Close/Far",
+      "Advantage": "-14/-15"
+    },
+    "F-TiltDown": {
+      "Startup": "5",
+      "Total Frames": "23",
+      "Landing Lag": "",
+      "Additional Notes": "",
+      "Base Damage": "8.0 / 7.0",
+      "Shieldlag": "7/7",
+      "Shieldstun": "8/7",
+      "Hitbox": "Close/Far",
       "Advantage": "-14/-15"
     },
     "U-Tilt": {
@@ -62,7 +94,7 @@
       "Base Damage": "5.0 / 4.0",
       "Shieldlag": "6/5",
       "Shieldstun": "6/5",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-10"
     },
     "D-Tilt": {
@@ -73,7 +105,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-10"
     },
     "Dash Attack": {
@@ -84,10 +116,10 @@
       "Base Damage": "12.0 / 9.0 / 6.0",
       "Shieldlag": "11/7/6",
       "Shieldstun": "11/9/6",
-      "hitbox": "Early/late/latest",
+      "Hitbox": "Early/late/latest",
       "Advantage": "-31"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "13",
       "Total Frames": "47",
       "Landing Lag": "",
@@ -95,7 +127,29 @@
       "Base Damage": "15.0 / 11.0",
       "Shieldlag": "12/8",
       "Shieldstun": "10/8",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
+      "Advantage": "-24"
+    },
+    "F-SmashUp": {
+      "Startup": "13",
+      "Total Frames": "47",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 4",
+      "Base Damage": "15.0 / 11.0",
+      "Shieldlag": "12/8",
+      "Shieldstun": "10/8",
+      "Hitbox": "Early/late",
+      "Advantage": "-24"
+    },
+    "F-SmashDown": {
+      "Startup": "13",
+      "Total Frames": "47",
+      "Landing Lag": "",
+      "Additional Notes": "Charge hold is frame 4",
+      "Base Damage": "15.0 / 11.0",
+      "Shieldlag": "12/8",
+      "Shieldstun": "10/8",
+      "Hitbox": "Early/late",
       "Advantage": "-24"
     },
     "U-Smash": {
@@ -106,7 +160,7 @@
       "Base Damage": "15.0 / 14.0 / 12.0",
       "Shieldlag": "10/9/9",
       "Shieldstun": "10/9/8",
-      "hitbox": "close/far/late",
+      "Hitbox": "close/far/late",
       "Advantage": "-23/-24"
     },
     "D-Smash": {
@@ -117,7 +171,7 @@
       "Base Damage": "14.0",
       "Shieldlag": "10",
       "Shieldstun": "10",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-33"
     },
     "N-Air": {
@@ -128,7 +182,7 @@
       "Base Damage": "10.0 / 4.0",
       "Shieldlag": "8/5",
       "Shieldstun": "4/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-2/-3"
     },
     "F-Air": {
@@ -139,7 +193,7 @@
       "Base Damage": "4.0 / 4.0 / 6.0",
       "Shieldlag": "5/5/7",
       "Shieldstun": "3/3/3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5/-5/-5"
     },
     "B-Air": {
@@ -150,7 +204,7 @@
       "Base Damage": "13.0 / 8.0",
       "Shieldlag": "11/7",
       "Shieldstun": "5/4",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-5/-6"
     },
     "U-Air": {
@@ -161,7 +215,7 @@
       "Base Damage": "10.0",
       "Shieldlag": "8",
       "Shieldstun": "4",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-3 "
     },
     "D-Air": {
@@ -172,10 +226,11 @@
       "Base Damage": "1.2 / 2.0 / 2.0",
       "Shieldlag": "4/4/4",
       "Shieldstun": "2/3/3",
-      "hitbox": "multi/final/landing",
+      "Hitbox": "multi/final/landing",
       "Advantage": "-12"
     },
     "Inhale": {
+      "ufdName":"Inhale.gif",
       "Startup": "10",
       "Total Frames": "63",
       "Landing Lag": "",
@@ -186,6 +241,7 @@
       "Total Frames": "20/30"
     },
     "Hammer Flip (release)": {
+      "ufdName":"HammerFlipG.gif",
       "Startup": "11 (+15)",
       "Total Frames": "54",
       "Landing Lag": "",
@@ -193,10 +249,11 @@
       "Base Damage": "19.0 - 28.8",
       "Shieldlag": "14-16",
       "Shieldstun": "17-25",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26 to -18"
     },
     "Hammer Flip (full charge)": {
+      "ufdName":"KirbyHammerFlipGMax.gif",
       "Startup": "11",
       "Total Frames": "59",
       "Landing Lag": "",
@@ -204,10 +261,11 @@
       "Base Damage": "35.0",
       "Shieldlag": "18",
       "Shieldstun": "30",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-18"
     },
     "Hammer Flip (air, no charge)": {
+      "ufdName":"HammerFlipA.gif",
       "Startup": "28/42",
       "Total Frames": "71",
       "Landing Lag": "",
@@ -217,6 +275,7 @@
       "Shieldstun": "14/14"
     },
     "Final Cutter": {
+      "ufdName":"FinalCutter.gif",
       "Startup": "23/41",
       "Total Frames": "",
       "Landing Lag": "30",
@@ -224,10 +283,11 @@
       "Base Damage": "5.0 / 2.0 / 5.0",
       "Shieldlag": "6/4/6",
       "Shieldstun": "6/3/3",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-21"
     },
-    "Stone ": {
+    "Stone": {
+      "ufdName":"KirbyStone.png",
       "Startup": "11",
       "Total Frames": "",
       "Landing Lag": "",
@@ -237,6 +297,7 @@
       "Shieldstun": "13"
     },
     "Stone (air)": {
+      "ufdName":"StoneLanding.png",
       "Startup": "29",
       "Total Frames": "",
       "Landing Lag": "",
@@ -244,7 +305,7 @@
       "Base Damage": "18.0",
       "Shieldlag": "11",
       "Shieldstun": "16",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-15"
     },
     "Grab": {

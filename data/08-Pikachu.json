@@ -1,7 +1,19 @@
 {
   "name": "08 - Pikachu",
+  "uriComponent": "pikachu",
+  "movePrefix": "Pikachu",
+  "moveMappings": [
+    { "NeutralB": "Thunder Jolt (projectile/arc)" },
+    { "Thunder Jolt": "Thunder Jolt (projectile/arc)" },
+    { "SideB": "Skull Bash (uncharged) (ground/air)" },
+    { "Skull Bash": "Skull Bash (uncharged) (ground/air)" },
+    { "UpB": "Quick Attack (one/two dashes)" },
+    { "Quick Attack": "Quick Attack (one/two dashes)" },
+    { "DownB": "Thunder (projectile/discharge)" },
+    { "Thunder": "Thunder (projectile/discharge)" }
+  ],
   "moves": {
-    "Jab ": {
+    "Jab": {
       "Startup": "2",
       "Total Frames": "17",
       "Landing Lag": "",
@@ -9,7 +21,7 @@
       "Base Damage": "1.4 / 1.2",
       "Shieldlag": "4/4",
       "Shieldstun": "3/2",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-12/-13"
     },
     "F-Tilt": {
@@ -20,7 +32,7 @@
       "Base Damage": "9.0 / 8.0 / 10.0",
       "Shieldlag": "11/11/12",
       "Shieldstun": "9/8/10",
-      "hitbox": "neutral/down/up",
+      "Hitbox": "neutral/down/up",
       "Advantage": "-14/-15/-13"
     },
     "U-Tilt": {
@@ -31,7 +43,7 @@
       "Base Damage": "5.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-13"
     },
     "D-Tilt": {
@@ -42,7 +54,7 @@
       "Base Damage": "6.0",
       "Shieldlag": "6",
       "Shieldstun": "6",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-5"
     },
     "Dash Attack": {
@@ -53,10 +65,10 @@
       "Base Damage": "11.0 / 6.0",
       "Shieldlag": "13/9",
       "Shieldstun": "17/10",
-      "hitbox": "Early/Late",
+      "Hitbox": "Early/Late",
       "Advantage": "-12"
     },
-    "F-Smash ": {
+    "F-Smash": {
       "Startup": "15",
       "Total Frames": "53",
       "Landing Lag": "",
@@ -64,7 +76,7 @@
       "Base Damage": "15.0 / 18.0 / 12.0",
       "Shieldlag": "15/15/13",
       "Shieldstun": "9/12/8",
-      "hitbox": "Early/late/latest",
+      "Hitbox": "Early/late/latest",
       "Advantage": "-29"
     },
     "U-Smash": {
@@ -75,7 +87,7 @@
       "Base Damage": "14.0 / 13.0 / 11.0",
       "Shieldlag": "10/9/8",
       "Shieldstun": "10/9/8",
-      "hitbox": "Close/far/late",
+      "Hitbox": "Close/far/late",
       "Advantage": "-24"
     },
     "D-Smash": {
@@ -86,7 +98,7 @@
       "Base Damage": "2.0 / 3.0",
       "Shieldlag": "7/7",
       "Shieldstun": "3/3",
-      "hitbox": "multi final",
+      "Hitbox": "multi final",
       "Advantage": "-39"
     },
     "N-Air": {
@@ -97,7 +109,7 @@
       "Base Damage": "1.7 / 3.5",
       "Shieldlag": "7/8",
       "Shieldstun": "2/2",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-7"
     },
     "F-Air": {
@@ -108,7 +120,7 @@
       "Base Damage": "1.3 / 4.8",
       "Shieldlag": "6/13",
       "Shieldstun": "2/3",
-      "hitbox": "multi/final",
+      "Hitbox": "multi/final",
       "Advantage": "-10/-9"
     },
     "B-Air": {
@@ -119,7 +131,7 @@
       "Base Damage": "1.0 / 3.5 / 4.0",
       "Shieldlag": "4/11/5",
       "Shieldstun": "2/2/5",
-      "hitbox": "multi/final/landing",
+      "Hitbox": "multi/final/landing",
       "Advantage": "-12"
     },
     "U-Air": {
@@ -130,7 +142,7 @@
       "Base Damage": "6.0 / 4.0",
       "Shieldlag": "6/5",
       "Shieldstun": "3/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-11/-11"
     },
     "D-Air": {
@@ -141,10 +153,10 @@
       "Base Damage": "13.0 / 12.0 / 4.0",
       "Shieldlag": "14/13/8",
       "Shieldstun": "5/5/5",
-      "hitbox": "Early/late/landing",
+      "Hitbox": "Early/late/landing",
       "Advantage": "-16"
     },
-    "Thunder Jolt": {
+    "Thunder Jolt (projectile/arc)": {
       "Startup": "19",
       "Total Frames": "51",
       "Landing Lag": "",
@@ -152,10 +164,11 @@
       "Base Damage": "6.0 / 4.8",
       "Shieldlag": "9/9",
       "Shieldstun": "3/3",
-      "hitbox": "arc/air version",
+      "Hitbox": "arc/air version",
       "Advantage": "-20"
     },
     "Skull Bash (uncharged) (ground/air)": {
+      "ufdName":"SkullBash.gif",
       "Startup": "18/18",
       "Total Frames": "96/74",
       "Landing Lag": "",
@@ -163,10 +176,11 @@
       "Base Damage": "10.0 - 21.4",
       "Shieldlag": "8 - 13",
       "Shieldstun": "10 - 19",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-11 to -2"
     },
     "Quick Attack (one/two dashes)": {
+      "ufdName":"QuickAttack.gif",
       "Startup": "15/30",
       "Total Frames": "52/66",
       "Landing Lag": "24",
@@ -174,10 +188,11 @@
       "Base Damage": "3.0 / 2.0",
       "Shieldlag": "7/7",
       "Shieldstun": "3/3",
-      "hitbox": "Early/late",
+      "Hitbox": "Early/late",
       "Advantage": "-33"
     },
-    "Thunder (projectile/Discharge)": {
+    "Thunder (projectile/discharge)": {
+      "ufdName":"ThunderHit.gif",
       "Startup": "13/34",
       "Total Frames": "86/74",
       "Landing Lag": "",
@@ -185,7 +200,7 @@
       "Base Damage": "8.0 / 15.0",
       "Shieldlag": "11/15",
       "Shieldstun": "3/14",
-      "hitbox": "",
+      "Hitbox": "",
       "Advantage": "-26"
     },
     "Grab": {
