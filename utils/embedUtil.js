@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
-const Constants = require('.././Constants.js');
+const markdownEscape = require('markdown-escape')
+require('../Constants.js');
 const { STATIC_IMAGE_ADDRESSES, STATIC_STRINGS } = require('../Constants.js');
 
 module.exports = {
@@ -24,10 +25,18 @@ module.exports = {
             embed.setImage(embedRequest.imageUrls[0]);
         }
         embed.fields = fieldArr;
-        //embed.author = { name: "**(${characterName}**", icon_url: STATIC_IMAGE_ADDRESSES.SMASHLOGO };
-        //console.log('embedRequest object is ');
-        //console.log(embedRequest);
           return embed;
+    },
+
+    GetMoveNotFoundEmbed: GetMoveNotFoundEmbed = (embedRequest) => {
+        const timestamp = new Date().getTime();
+        const embed = new Discord.RichEmbed()
+            .setColor(2368512)
+            .setTitle(`${markdownEscape(embedRequest.message)}`)
+            .setTimestamp(timestamp)
+            .setFooter(STATIC_STRINGS.EMBEDFOOTER)
+            .setImage(embedRequest.imageUrl)
+        return embed;
     },
 
     GetFieldsFromMoveDetails: GetFieldsFromMoveDetails = (moveDetails) => {        
@@ -50,4 +59,4 @@ module.exports = {
         return fieldArr;        
     }    
 }
-IgnorableFields = ['ufdName','Name','movePrefix']
+IgnorableFields = ['ufdName','Name','movePrefix','actualAdvantage']

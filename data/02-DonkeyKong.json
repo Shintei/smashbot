@@ -3,7 +3,7 @@
   "uriComponent": "donkey_kong",
   "movePrefix": "DonkeyKong",
   "moveMappings": [
-    { "NeutralB": "Ice Shot" },
+    { "NeutralB": "Giant Punch" },
     { "DonkeyPunch": "Giant Punch" },
     { "NeutralBCharged": "Giant Punch (full charge)" },
     { "DonkeyPunchCharged": "Giant Punch (full charge)" },

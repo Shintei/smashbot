@@ -337,7 +337,8 @@
       "Shieldlag": "5/4/5",
       "Shieldstun": "4/2/4",
       "Hitbox": "first/multi/final",
-      "Advantage": "|+0|"
+      "Advantage": "|+0|",
+      "actualAdvantage": "-18"
     },
     "Witch Time": {
       "ufdName": "WitchTime.gif",

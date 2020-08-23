@@ -5,8 +5,8 @@
   "moveMappings": [
     { "NeutralB": "Palutena's Bow" },
     { "Arrow": "Palutena's Bow" },
-    { "SideB": "Uppderdash Arm" },
-    { "AirSideB": "Uppderdash Arm (air)" },
+    { "SideB": "Upperdash Arm" },
+    { "AirSideB": "Upperdash Arm (air)" },
     { "UpB": "Power of Flight" },
     { "DownB": "Guardian Orbitars" },
     { "Reflector": "Guardian Orbitars" }
@@ -221,7 +221,7 @@
       "Hitbox": "",
       "Advantage": "-37"
     },
-    "Uppderdash Arm (air)": {
+    "Upperdash Arm (air)": {
       "ufdName":["UpperdashArmHitA.gif","UpperdashArmA.gif"],
       "Startup": "21",
       "Total Frames": "104/51",

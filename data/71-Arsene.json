@@ -1,14 +1,14 @@
 {
-    "name": "71 - Joker",
+    "name": "71 - Joker (Arsene)",
     "uriComponent": "joker",
     "movePrefix": "",
     "moveMappings": [
       { "NeutralB": "Gun" },
       { "NeutralBForward": "Gun-Dash Forward" },
-      { "NeutralBBack": "Gun-Dash back" },
+      { "NeutralBBack": "Gun-Dash Back" },
       { "NeutralBJump": "Gun-Jump" },
       { "NeutralBUp": "Gun-Spiral" },
-      { "NeutralBDown": "Gun-Shoot below" },
+      { "NeutralBDown": "Gun-Shoot Below" },
       { "SideB": "Eigaon" },
       { "UpB": "Wings of Rebellion" },
       { "DownB": "Counter" },
@@ -233,7 +233,7 @@
         "Hitbox": "close/med/far/\nfarthest",
         "Advantage": "-13/-13/-14"
       },
-      "Gun-Dash forward": {
+      "Gun-Dash Forward": {
         "ufdName":"JokerGunForwardArsene.gif",
         "Startup": "21/27/33",
         "Total Frames": "45",
@@ -245,7 +245,7 @@
         "Hitbox": "close/med/far/\nfarthest",
         "Advantage": "-8/-8/-9"
       },
-      "Gun-Dash back": {
+      "Gun-Dash Back": {
         "ufdName":"JokerGunBackArsene.gif",
         "Startup": "23/29/35",
         "Total Frames": "49",
@@ -281,7 +281,7 @@
         "Hitbox": "",
         "Advantage": "-14"
       },
-      "Gun-Shoot below": {
+      "Gun-Shoot Below": {
         "ufdName":"JokerGunDownArsene.gif",
         "Startup": "7/14/21/28/35/44",
         "Total Frames": "48",

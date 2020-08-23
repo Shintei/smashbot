@@ -4,7 +4,7 @@
   "movePrefix": "MrGame_Watch",
   "moveMappings": [
     { "NeutralB": "Chef" },
-    { "Bacon": "Gale Strike" },
+    { "Bacon": "Chef" },
     { "SideB": "Judge 1" },
     { "SideB1": "Judge 1" },
     { "1": "Judge 1" },

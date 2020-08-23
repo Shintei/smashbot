@@ -14,8 +14,8 @@
     { "SideB2": "Dragon Lunge (Pin Kick)" },
     { "SideB2Back": "Dragon Lunge (Back kick)" },
     { "SideB2KickBack": "Dragon Lunge (Back kick)" },
-    { "UpB": "Counter Surge (attack)" },
-    { "DownB": "Blizzard" },
+    { "UpB": "Dragon Ascent" },
+    { "DownB": "Counter Surge" },
     { "Counter": "Counter Surge (attack)" },
     { "DownBAttack": "Counter Surge" },
     { "CounterAttack": "Counter Surge (attack)" }

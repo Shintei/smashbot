@@ -8,13 +8,15 @@ const client = new Discord.Client();
 const { token, prefix } = require('./config.json')
 const { classes } = require('./models.json');
 const BotFunctions = require('./BotFunctions.js');
-const ClassFunctions = require('./ClassFunctions.js');
 const Constants = require('./Constants.js');
 const embedUtil = require('./utils/embedUtil');
-const { GetCharacterMoveName, GetCharacterObjectDetails, GetCharacterMoveVisual, GetCharacterData, GetCharacterMove } = require('./BotFunctions.js');
-const { GetNotFoundReactionUrl, GetLaughingReactionUrl } = require('./tenorFunctions');
-const assetsLocation = './assets';
-const characterModelsLocation = './assets/characterModels';
+const dataUtil = require('./utils/dataUtil');
+const { GetParsedArguments, IsAdmin, GetPrettifiedCharacterName } = require('./BotFunctions.js');
+const { GetNotFoundReactionUrl, GetLaughingReactionUrl } = require('./externalAPIs/tenorFunctions');
+const { GetTournaments } = require('./externalAPIs/smashGGFunctions');
+const { GetMoveNotFoundEmbed } = require('./utils/embedUtil');
+const { MoveNotFoundError, FrameAdvantageNotFoundError } = require('./errors/CustomErrors');
+const { STATIC_STRINGS } = require('./Constants.js');
 let firebaseDB = null;
 
 client.once('ready', () => {
@@ -30,55 +32,83 @@ client.on('message', message => {
         if(message.channel.type !== 'text'){ //text for normal channels, dm for private messages and group for groups
             console.log('not my problem');
         }
-        else if(message.content.startsWith(`${prefix}tr`)){
-            const contentArray = message.content.split(' ').filter((val) => {return val != ''});
-            const queryString = contentArray[1];
-            let numResults;
-            if(contentArray.length > 2) {
-                numResults = contentArray[2];
-            }
-            GetReaction(queryString, numResults)
-                .then((response) => {
-                    console.log('result is ');
-                    console.log(response);
-                    console.log('done retrieving reaction');
+        else if(message.content.startsWith(`${prefix}tournies`)){
+            GetTournaments()
+                .then((resp) => {
+                    console.log('successful response got back to index')
+                    console.log(resp)
                 })
                 .catch((err) => {
-                    console.log(`call threw error: ${err}`)
-                })            
+                    console.error(err)
+                })
+        }
+        else if(message.content.startsWith(`${prefix}characterMap`)){
+            if(IsAdmin(message.member.id)){
+                dataUtil.InitializeCharacterData();
+            }
+            else{
+                message.channel.send(message.author, 'Fuck off, you aint my dad');
+            }
+            
+        }
+        else if(message.content.startsWith(`${prefix}punish`)){
+            console.log('hit punish logic');
+            GetParsedArguments(message.content, 3)
+            .then((args) => {
+                GetCharacterPunishes(args[0], args[1], args[2])
+                .then((punishes) => {
+                    message.channel.send(`ok, ${punishes.targetPunishAdvantage}`);
+                    console.log('it worked!');
+                    console.log(punishes);
+                })
+                .catch((err) => {
+                    console.warn(err);
+                    if(err instanceof FrameAdvantageNotFoundError){
+                        message.channel.send(`${GetPrettifiedCharacterName(err.characterName)}'s ${err.characterMove} has no frame advantage listed to compare against.`);
+                    }
+                    else {
+                        throw(err);
+                    }
+                })
+            })
+            .catch(() => {
+                message.channel.send(Constants.STATIC_STRINGS.PUNISHUSAGEEXAMPLE);
+            })
         }
         else if(message.content.startsWith(`${prefix}show`)){
-            console.log('hit this block');
-            const contentArray = message.content.split(' ').filter((val) => {return val != ''});
-            const charNameInput = contentArray[1];
-            const charMoveInput = contentArray[2];
-            console.log(`input value is ${charNameInput}`)
-            console.log(`input move is ${charMoveInput}`)
-            GetCharacterMoveVisualEndpoint(charNameInput, charMoveInput)
+            GetParsedArguments(message.content, 2)
+            .then((args) => {
+                GetCharacterMoveVisualEndpoint(args[0], args[1])
                 .then((response) => {
-                    //console.log(`successful response `);
                     const messageEmbed = GetMoveVisualEmbed(response);
                     message.channel.send(message.author, messageEmbed);
                 })
                 .catch((err) => {
-                    if(err === 'no image found'){
+                    if(err instanceof MoveNotFoundError && err.message === Constants.EXCEPTION_MESSAGES.MOVENOTFOUND){
+                        const charName = err.characterName;
+                        const actualCharacterName = charName.substring(charName.indexOf(' - ') + 3);
+                        const failureMessage = `Sorry fam, I could not find a move matching ${actualCharacterName}'s ${charMoveInput}`;
                         GetNotFoundReactionUrl()
                             .then((reactionUrl) => {
-                                const attachment = new Discord.Attachment(reactionUrl);
-                                message.channel.send(message.author, attachment)
-                                message.channel.send(`Sorry fam, I could not find a hitbox visualization for ${charNameInput}'s ${charMoveInput}`);
+                                const embedRequest = {};
+                                embedRequest.imageUrl = reactionUrl;
+                                embedRequest.message = failureMessage;
+                                const messageEmbed = GetMoveNotFoundEmbed(embedRequest);
+                                message.channel.send(message.author, messageEmbed);
                             })
                             .catch((err) => {
                                 console.log(err);
-                                message.channel.send(`Sorry fam, I could not find a hitbox visualization for ${charNameInput}'s ${charMoveInput}`);
+                                message.channel.send(failureMessage);
                             })
                     }
                     else {
-                        console.log(`call to GetCharacterObjectDetails threw error: ${err}`)
-                        message.channel.send(`show usage: ${prefix}show {characterName} {characterMove}, ex: ${prefix}show Ike Fsmash`)
-                    }
-                    
-                })
+                        throw(err);
+                    }                    
+                });
+            })
+            .catch(() => {
+                message.channel.send(Constants.STATIC_STRINGS.SHOWUSAGEEXAMPLE);
+            })            
         }
         
         else if(message.content.startsWith(`${prefix}start`)){
@@ -93,6 +123,7 @@ client.on('message', message => {
         }
 
         else if(message.content.startsWith(`${prefix}help`)){
+            console.log(`user ${message.author} with member id ${message.member.id} wants help`)
             client.users.get(message.member.id).send('testing private messaging capability');
             message.channel.send('Sent you a message containing help information');
         }

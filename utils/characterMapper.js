@@ -1,4 +1,7 @@
 const characterData = require('.././data');
+const Constants = require('.././Constants.js');
+require('.././BotFunctions.js');
+const fs = require('fs');
 
 CreateCharacterData = (characterInit) => {
     const charData = characterInit;
@@ -9,18 +12,54 @@ CreateCharacterData = (characterInit) => {
     if(moveMappings == null){
         return charData;
     }
+    charData.prettyName = GetPrettifiedCharacterName(charData.name);
+    MapCharacterSpecificMoves(charData, moveMappings);
+    MapGenericAliases(charData);
+    return charData;
+}
+
+MapCharacterSpecificMoves = (charData, charMoveMappings) => {
     let logicalName, key;
-    moveMappings.forEach(
+    for(let move in charData.moves){        
+        if(charData.moves[move].ufdName == null && move in Constants.GENERIC_MOVE_ALIASES_UFD){
+            //console.log('met the condition!')
+            charData.moves[move].ufdName = `${Constants.GENERIC_MOVE_ALIASES_UFD[move]}.gif`
+        }
+    }
+    
+    charMoveMappings.forEach(
         moveMapping => {
             key = Object.keys(moveMapping)[0];
             logicalName = moveMapping[key];
             if(logicalName != null){
                 charData.moves[key] = charData.moves[logicalName];
+                if(charData.moves[key] == null){
+                    console.log(`error for char ${charData.name} with move ${key}, logicalName is ${logicalName}`)
+                    fs.appendFile('charMappingErrors.txt', `error with ${charData.name}'s ${logicalName}\n`, (err => {
+                        if(err){ throw err;}
+                    }))
+                }
+                charData.moves[key].Name = logicalName;                
+            }            
+        }
+    );  
+}
+
+MapGenericAliases = (charData) => {
+    let logicalName, key;
+    Constants.INTERNAL_MOVE_ALIASES.forEach(
+        alias => {            
+            key = Object.keys(alias)[0];
+            logicalName = alias[key];
+            if(charData.moves[logicalName] == null) {
+                return;
+            }
+            if(logicalName != null){
+                charData.moves[key] = charData.moves[logicalName];
                 charData.moves[key].Name = logicalName;
             }            
         }
-    );    
-    return charData;
+    );  
 }
 
 module.exports = {

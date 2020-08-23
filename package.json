@@ -13,7 +13,8 @@
     "eslint": "^5.16.0",
     "firebase": "^5.9.4",
     "fuzzyset": "^1.0.5",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.0",
+    "markdown-escape": "^1.1.0"
   },
   "devDependencies": {
     "lodash": ">=4.17.19",

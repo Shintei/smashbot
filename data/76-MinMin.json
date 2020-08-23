@@ -3,7 +3,7 @@
   "uriComponent": "minmin",
   "movePrefix": "MinMin",
   "moveMappings": [
-    { "N-Air": "Dragon N-air" },     
+    { "N-Air": "Dragon N-Air" },     
     { "F-Tilt": "Left punch (no smash A)" },    
     { "RamramF-Tilt": "Right punch (Ramram)" },    
     { "MegawattF-Tilt": "Right punch (Megawatt)" },    
@@ -12,6 +12,7 @@
     { "RamramF-Smash": "Right punch (Ramram)(Smash)" },    
     { "MegawattF-Smash": "Right punch (Megawatt)(Smash)" },    
     { "DragonF-Smash": "Right punch (Dragon)(Smash)" },    
+    { "Right punch": "Right punch (Ramram)" },
     { "SideB": "Right punch (Ramram)" },
     { "RamramSideB": "Right punch (Ramram)" },
     { "MegawattSideB": "Right punch (Megawatt)" },
@@ -102,7 +103,7 @@
       "Hitbox": "close/medium/far/\nbeam",
       "Advantage": "-32/-29/-30\n-35 (beam)"
     },
-    "Ramram Right punch": {
+    "Right punch (Ramram)": {
       "ufdName":"RamRamJab.gif",
       "Startup": "14/22",
       "Total Frames": "51/47 (air)",
@@ -150,7 +151,7 @@
       "Hitbox": "close/medium/far",
       "Advantage": "-28 to -34"
     },
-    "Right punch (Dragon) ": {
+    "Right punch (Dragon)": {
       "ufdName":"DragonJab.gif",
       "Startup": "14",
       "Total Frames": "58/53 (air)",
@@ -174,7 +175,7 @@
       "Hitbox": "close/medium/far",
       "Advantage": "-32/-29/-30\n-35 (beam)"
     },
-    "U-tilt": {
+    "U-Tilt": {
       "Startup": "5",
       "Total Frames": "41",
       "Landing Lag": "",
@@ -379,7 +380,7 @@
       "Landing Lag": "",
       "Additional Notes": "invulnerable on frame 3-30"
     },
-    "Dir. AD Down": {
+    "Dir. AD (down)": {
       "Startup": "",
       "Total Frames": "71",
       "Landing Lag": "",
@@ -403,7 +404,7 @@
       "Landing Lag": "",
       "Additional Notes": "invulnerable on frame 3-21"
     },
-    "Dir. AD Up": {
+    "Dir. AD (up)": {
       "Startup": "",
       "Total Frames": "107",
       "Landing Lag": "",

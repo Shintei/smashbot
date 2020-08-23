@@ -1,4 +1,4 @@
-const { tenorKey } = require('./config.json');
+const { tenorKey } = require('../config.json');
 const fetch = require("node-fetch");
 let settings = {method: "Get"};
 
